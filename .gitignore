@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+.venv/
+
+# Editable install artifacts
+*.egg-info/
+*.egg-link
+.eggs/
+
+# Test-generated outputs (regenerate by running tests)
+tests/output/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PyInstaller / Build outputs
+build/
+dist/
+*.spec
