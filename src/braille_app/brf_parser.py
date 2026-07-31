@@ -24,8 +24,8 @@ DEFAULT_BRF_CONFIG = {
     # -----------------------------------------------------------------
     # Confirmed Spec: BRF files use standard 40-cell width and 25-line length
     # as common defaults, but these vary based on braille transcriber settings.
-    "expected_line_width": 40,  # Expected characters per line
-    "expected_page_lines": 25,  # Expected lines per page (including header/footer)
+    "expected_line_width": 35,  # Expected characters per line
+    "expected_page_lines": 49,  # Expected lines per page (including header/footer)
 
     # -----------------------------------------------------------------
     # 2. Page Numbering Assumptions
@@ -95,8 +95,9 @@ def braille_number_to_int(braille_num: str) -> int:
 # BRF PARSER CLASS
 # =====================================================================
 class BRFParser:
-    def __init__(self, config: dict = None):
+    def __init__(self, config: dict = None, emit_review_warnings: bool = True):
         self.config = {**DEFAULT_BRF_CONFIG, **(config or {})}
+        self.emit_review_warnings = emit_review_warnings
         
     def parse_file(self, file_path: str) -> dict:
         """
@@ -132,7 +133,7 @@ class BRFParser:
         det_lines = calibration["detected_page_lines"]
 
         border = "=" * 60
-        if det_width != cfg_width:
+        if self.emit_review_warnings and det_width != cfg_width:
             logger.warning(
                 "\n%s\n"
                 "CALIBRATION MISMATCH — LINE WIDTH\n"
@@ -143,12 +144,12 @@ class BRFParser:
                 "%s",
                 border, det_width, cfg_width, border,
             )
-        else:
+        elif self.emit_review_warnings:
             logger.warning(
                 "Calibration OK — line width matches config (%d cells).", det_width
             )
 
-        if det_lines != cfg_lines:
+        if self.emit_review_warnings and det_lines != cfg_lines:
             logger.warning(
                 "\n%s\n"
                 "CALIBRATION MISMATCH — PAGE LENGTH\n"
@@ -159,7 +160,7 @@ class BRFParser:
                 "%s",
                 border, det_lines, cfg_lines, border,
             )
-        else:
+        elif self.emit_review_warnings:
             logger.warning(
                 "Calibration OK — page length matches config (%d lines).", det_lines
             )
@@ -362,8 +363,9 @@ class BRFParser:
         # Use WARNING for needs_review (config-dependent, may be a false alarm).
         for issue in high_confidence:
             logger.error("[Page %d][HIGH] %s", page_number, issue)
-        for issue in needs_review:
-            logger.warning("[Page %d][REVIEW] %s", page_number, issue["message"])
+        if self.emit_review_warnings:
+            for issue in needs_review:
+                logger.warning("[Page %d][REVIEW] %s", page_number, issue["message"])
 
         return {
             "page_index":           page_number,

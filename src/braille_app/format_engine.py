@@ -34,30 +34,39 @@ class FormatEngine:
             pages.pop()
             
         paragraphs = []
+        line_no = 0
         for p_idx, page in enumerate(pages, start=1):
             lines = page.splitlines()
             cleaned_lines = []
             
             for line in lines:
                 stripped = line.strip()
-                if re.match(r'^[ \t]*#?[a-j0-9]+[ \t]*$', line) or re.match(r'^[ \t]*#?[a-j]+[ \t]*$', line):
+                if not stripped:
                     continue
-                cleaned_lines.append(line)
+                # Skip page numbers
+                has_unicode = any(ord(c) in range(0x2800, 0x28FF) for c in line)
+                if has_unicode:
+                    line_uni = line.replace('\u2800', ' ')
+                else:
+                    try:
+                        from braille_app.brf_parser import ascii_to_unicode_braille
+                        line_uni = ascii_to_unicode_braille(line).replace('\u2800', ' ')
+                    except Exception:
+                        line_uni = line
+                stripped_uni = line_uni.strip()
+                if re.match(r'^[⠼⠁⠃⠉⠙⠑⠋⠛⠓⠊⠚\s]+$', stripped_uni):
+                    continue
+                
+                line_no += 1
+                cleaned_lines.append((line, line_no))
                 
             current_p_lines = []
+            current_p_linenos = []
             blank_before = 0
             consecutive_blanks = 0
             page_p_count = 0
             
-            for line in cleaned_lines:
-                if not line.strip():
-                    if current_p_lines:
-                        page_p_count += 1
-                        paragraphs.append(self._build_p_meta(current_p_lines, blank_before, p_idx, page_p_count == 1))
-                        current_p_lines = []
-                    consecutive_blanks += 1
-                    continue
-                
+            for line, l_no in cleaned_lines:
                 # Resilient paragraph block splitting without empty lines:
                 # If a line starts with cell 3, 5, or 7 spacing, or heading prefixes,
                 # we split it to preserve distinct block layouts for validation.
@@ -79,22 +88,24 @@ class FormatEngine:
                         
                 if starts_new and current_p_lines:
                     page_p_count += 1
-                    paragraphs.append(self._build_p_meta(current_p_lines, blank_before, p_idx, page_p_count == 1))
+                    paragraphs.append(self._build_p_meta(current_p_lines, blank_before, p_idx, page_p_count == 1, current_p_linenos[0]))
                     current_p_lines = []
+                    current_p_linenos = []
                     blank_before = 0
                     
                 if not current_p_lines:
                     blank_before = consecutive_blanks
                     consecutive_blanks = 0
                 current_p_lines.append(line)
+                current_p_linenos.append(l_no)
             
             if current_p_lines:
                 page_p_count += 1
-                paragraphs.append(self._build_p_meta(current_p_lines, blank_before, p_idx, page_p_count == 1))
+                paragraphs.append(self._build_p_meta(current_p_lines, blank_before, p_idx, page_p_count == 1, current_p_linenos[0]))
                 
         return paragraphs
 
-    def _build_p_meta(self, lines: List[str], blank_before: int, page_idx: int, is_first_on_page: bool) -> Dict[str, Any]:
+    def _build_p_meta(self, lines: List[str], blank_before: int, page_idx: int, is_first_on_page: bool, start_line: int = 1) -> Dict[str, Any]:
         text = " ".join([l.strip() for l in lines])
         first_line = lines[0]
         first_indent = len(first_line) - len(first_line.lstrip()) + 1
@@ -121,7 +132,8 @@ class FormatEngine:
             "runover_indent": avg_runover,
             "is_centered": is_centered,
             "page_index": page_idx,
-            "is_first_on_page": is_first_on_page
+            "is_first_on_page": is_first_on_page,
+            "start_line": start_line
         }
 
     def check_format(self, expected: Union[str, List[Dict[str, str]]], actual_text: str) -> Dict[str, Any]:
@@ -283,7 +295,7 @@ class FormatEngine:
                             "type": diff_type,
                             "expected": f">= {expected_lines} blank lines",
                             "actual": f"{blank_before} blank lines",
-                            "location": f"Heading 1: '{text[:25]}...'",
+                            "location": f"line {act_p['start_line']}, Heading 1: '{text[:25]}...'",
                             "confidence": confidence
                         })
                 elif b_type == "heading2":
@@ -293,7 +305,7 @@ class FormatEngine:
                             "type": "heading_spacing_error",
                             "expected": f">= {expected_lines} blank line(s)",
                             "actual": f"{blank_before} blank lines",
-                            "location": f"Heading 2: '{text[:25]}...'",
+                            "location": f"line {act_p['start_line']}, Heading 2: '{text[:25]}...'",
                             "confidence": "high_confidence"
                         })
                 elif b_type == "heading3":
@@ -303,7 +315,7 @@ class FormatEngine:
                             "type": "heading_spacing_error",
                             "expected": f">= {expected_lines} blank line(s)",
                             "actual": f"{blank_before} blank lines",
-                            "location": f"Heading 3: '{text[:25]}...'",
+                            "location": f"line {act_p['start_line']}, Heading 3: '{text[:25]}...'",
                             "confidence": "high_confidence"
                         })
                         
@@ -321,7 +333,7 @@ class FormatEngine:
                         "type": diff_type,
                         "expected": f"indent {exp_first} (cell {exp_first}), runover {exp_runover} (cell {exp_runover})",
                         "actual": f"indent {first_indent}, runover {runover_indent}",
-                        "location": f"Paragraph: '{text[:25]}...'",
+                        "location": f"line {act_p['start_line']}, Paragraph: '{text[:25]}...'",
                         "confidence": confidence
                     })
                     
@@ -333,7 +345,7 @@ class FormatEngine:
                         "type": "list_indentation_error",
                         "expected": f"start cell in {valid_starts}, runover cell in {valid_runovers}",
                         "actual": f"indent {first_indent}, runover {runover_indent}",
-                        "location": f"List item: '{text[:25]}...'",
+                        "location": f"line {act_p['start_line']}, List item: '{text[:25]}...'",
                         "confidence": "high_confidence"
                     })
 

@@ -7,7 +7,7 @@ from typing import Dict, Any
 from PySide6.QtWidgets import (
     QApplication, QMainWindow, QWidget, QVBoxLayout, QHBoxLayout, 
     QLabel, QPushButton, QFileDialog, QMessageBox, QProgressBar,
-    QTextEdit, QStackedWidget
+    QTextEdit, QStackedWidget, QComboBox
 )
 from PySide6.QtCore import Qt, QThread, Signal
 from PySide6.QtGui import QFont
@@ -58,11 +58,48 @@ except Exception:
 
 from braille_app.doc_extractor import DocumentExtractor
 from braille_app.brf_parser import BRFParser
+from braille_app.input_reader import read_braille_input
+
+import re as _re
+
+def _legacy_post_process_expected(ascii_brf: str, grade: int) -> str:
+    """
+    Apply UEB post-processing corrections dynamically loaded from ueb_corrections.yaml.
+    Filters by grade and applies Category A and B fixes.
+    """
+    # Keep GUI and command-line validation aligned with liblouis.  Context-free
+    # regex rewrites of valid UEB cells create false positives.
+    return ascii_brf
+
+    manager = UEBCorrectionsManager()
+    rules = manager.get_post_process_rules(grade)
+    
+    for rule in rules:
+        rx_match = rule.get("regex_match")
+        rx_replace = rule.get("regex_replace")
+        if not rx_match or not rx_replace:
+            continue
+            
+        if rx_match == "special_single_quotes":
+            ascii_brf = _re.sub(r"(?<=\S)'(?= |$)", ",0", ascii_brf)
+            ascii_brf = _re.sub(r"(^| )'(?=\S)", r"\1,8", ascii_brf)
+        elif rx_replace == "special_equals_spacing":
+            ascii_brf = _re.sub(r'(?<=\S)"7', r' "7', ascii_brf)
+            ascii_brf = _re.sub(r'"7(?=\S)', r'"7 ', ascii_brf)
+        else:
+            ascii_brf = _re.sub(rx_match, rx_replace, ascii_brf)
+            
+    return ascii_brf
 from braille_app.diff_engine import DiffEngine
 from braille_app.format_engine import FormatEngine
 from braille_app.report_generator import ReportGenerator
 
-def read_braille_input(file_path: str) -> str:
+def _post_process_expected(ascii_brf: str, grade: int) -> str:
+    """Keep the table-produced UEB Grade 1/2 cells unchanged for comparison."""
+    return ascii_brf
+
+
+def _legacy_read_braille_input(file_path: str) -> str:
     _, ext = os.path.splitext(file_path.lower())
     if ext == ".pdf":
         import pdfplumber
@@ -86,6 +123,10 @@ def read_braille_input(file_path: str) -> str:
                 for i in range(max_line + 1):
                     if i in lines_map:
                         sorted_words = sorted(lines_map[i], key=lambda w: w["x0"])
+                        line_text_raw = " ".join(w["text"] for w in sorted_words)
+                        if "english (ueb)" in line_text_raw.lower():
+                            continue  # Skip running header line
+                        
                         first_x0 = sorted_words[0]["x0"]
                         indent_spaces = max(0, int(round((first_x0 - 54.0) / 6.6)))
                         
@@ -133,10 +174,11 @@ class ValidationThread(QThread):
     finished = Signal(str, list) # report_path, list of errors
     error = Signal(str)
     
-    def __init__(self, english_file: str, braille_file: str):
+    def __init__(self, english_file: str, braille_file: str, grade: int):
         super().__init__()
         self.english_file = english_file
         self.braille_file = braille_file
+        self.grade = grade
         
     def run(self):
         try:
@@ -151,7 +193,7 @@ class ValidationThread(QThread):
             
             # 3. Translate print document blocks using liblouis
             expected_blocks = []
-            table_list = ["en-ueb-g2.ctb"]
+            table_list = ["en-ueb-g2.ctb" if self.grade == 2 else "en-ueb-g1.ctb"]
             for page in extracted_data.get("pages", []):
                 for block in page.get("blocks", []):
                     text = block.get("text", "")
@@ -160,6 +202,7 @@ class ValidationThread(QThread):
                     translated_braille = ""
                     if text.strip():
                         translated_braille = louis.translateString(table_list, text)
+                    translated_braille = _post_process_expected(translated_braille, self.grade)
                     
                     expected_blocks.append({
                         "type": b_type,
@@ -167,7 +210,7 @@ class ValidationThread(QThread):
                     })
                     
             # 4. Compare translation
-            diff_engine = DiffEngine()
+            diff_engine = DiffEngine(grade=self.grade)
             actual_paragraphs = []
             for page in brf_results.get("pages", []):
                 page_text = "\n".join(page.get("raw_lines", []))
@@ -193,43 +236,39 @@ class ValidationThread(QThread):
             for d in diff_results.get("diffs", []):
                 if d.get("confidence") in ["high_confidence", "needs_review", "alignment_failure"]:
                     loc = d.get("location", "")
-                    w_num = "unknown"
-                    w_match = re.search(r'word[s]?\s+([\d\-]+)', loc, re.IGNORECASE)
-                    if w_match:
-                        w_num = w_match.group(1)
+                    line_num = "N/A"
+                    line_match = re.search(r'line\s+([\d\-]+)', loc, re.IGNORECASE)
+                    if line_match:
+                        line_num = line_match.group(1)
+                        
+                    w_num = str(d.get("word_number", "N/A"))
+                    if w_num == "N/A":
+                        w_match = re.search(r'word[s]?\s+([\d\-]+)', loc, re.IGNORECASE)
+                        if w_match:
+                            w_num = w_match.group(1)
                     
-                    severity = d.get("severity", 4)
-                    severity_label = SEVERITY_LABELS.get(severity, "Level 4 — Structural Mismatch")
-                    diff_type = d.get('type', 'mismatch')
+                    diff_type = d.get("display_category") or d.get('type', 'mismatch')
+                    
+                    actual_val = d.get("actual", "")
+                    expected_val = d.get("expected", "")
+                    
+                    from braille_app.brf_parser import ASCII_TO_UNICODE_BRAILLE
+                    def to_unicode(txt):
+                        return "".join(' ' if c == ' ' else ASCII_TO_UNICODE_BRAILLE.get(c, c) for c in txt)
+                    actual_val = to_unicode(actual_val)
+                    expected_val = to_unicode(expected_val)
                     
                     errors.append({
-                        "actual": d.get("actual", ""),
-                        "expected": d.get("expected", ""),
-                        "line": "N/A",
+                        "actual": actual_val,
+                        "expected": expected_val,
+                        "line": line_num,
                         "word": w_num,
-                        "details": f"[{severity_label}] [{diff_type}] Location: {loc}"
-                    })
-            
-            # Formatting Errors
-            for f in format_results.get("diffs", []):
-                if f.get("confidence") in ["high_confidence", "needs_review", "alignment_failure"]:
-                    loc = f.get("location", "")
-                    p_num = "unknown"
-                    p_match = re.search(r'(?:block|paragraph)\s+(\d+)', loc, re.IGNORECASE)
-                    if p_match:
-                        p_num = p_match.group(1)
-                    
-                    errors.append({
-                        "actual": f.get("actual", ""),
-                        "expected": f.get("expected", ""),
-                        "line": p_num,
-                        "word": "N/A",
-                        "details": f"Layout mismatch: {f.get('type', 'format_variance')} at {loc}"
+                        "category": diff_type,
                     })
             
             # 6. Generate report
             report_gen = ReportGenerator()
-            html_report = report_gen.generate_report(brf_results, diff_results, format_results)
+            html_report = report_gen.generate_report(brf_results, diff_results, format_results, self.grade)
             
             # Save report
             base_name, _ = os.path.splitext(self.braille_file)
@@ -338,6 +377,28 @@ class MainWindow(QMainWindow):
         brl_layout.addWidget(brl_btn)
         layout.addLayout(brl_layout)
         
+        # 3. Grade Selector
+        grade_layout = QHBoxLayout()
+        grade_label = QLabel("Select UEB Translation Grade:")
+        grade_label.setStyleSheet("color: #9ca3af; font-size: 13px;")
+        
+        self.grade_combo = QComboBox()
+        self.grade_combo.addItems(["Grade 2 (Contracted)", "Grade 1 (Uncontracted)"])
+        self.grade_combo.setStyleSheet("""
+            QComboBox {
+                background-color: #151c2c;
+                color: #e5e7eb;
+                border: 1px solid #1f2937;
+                border-radius: 4px;
+                padding: 6px 12px;
+                min-width: 180px;
+            }
+        """)
+        grade_layout.addWidget(grade_label)
+        grade_layout.addWidget(self.grade_combo)
+        grade_layout.addStretch()
+        layout.addLayout(grade_layout)
+        
         # Progress bar
         self.progress_bar = QProgressBar()
         self.progress_bar.setRange(0, 0) # Indeterminate mode when working
@@ -426,7 +487,10 @@ class MainWindow(QMainWindow):
         self.run_btn.setEnabled(False)
         self.progress_bar.show()
         
-        self.thread = ValidationThread(self.english_path, self.braille_path)
+        # Grade 2 is index 0, Grade 1 is index 1
+        selected_grade = 2 if self.grade_combo.currentIndex() == 0 else 1
+        
+        self.thread = ValidationThread(self.english_path, self.braille_path, selected_grade)
         self.thread.finished.connect(self.on_success)
         self.thread.error.connect(self.on_error)
         self.thread.start()
@@ -455,8 +519,7 @@ class MainWindow(QMainWindow):
                 txt_content += f"Output: {actual_dots}\n"
                 txt_content += f"Expected Output: {expected_dots}\n"
                 txt_content += f"Line Number: {err['line']}, Word Number: {err['word']}\n"
-                if err['details']:
-                    txt_content += f"Details: {err['details']}\n"
+                txt_content += f"Error Type: {err.get('category', 'Structural Mismatch')}\n"
                 txt_content += "-" * 50 + "\n\n"
             
             self.res_text.setPlainText(txt_content)

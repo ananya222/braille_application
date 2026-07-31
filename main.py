@@ -51,11 +51,50 @@ except Exception:
 
 from braille_app.doc_extractor import DocumentExtractor
 from braille_app.brf_parser import BRFParser
+from braille_app.input_reader import read_braille_input
+
+import re as _re
+
+def _legacy_post_process_expected(ascii_brf: str, grade: int) -> str:
+    """
+    Apply UEB post-processing corrections dynamically loaded from ueb_corrections.yaml.
+    Filters by grade and applies Category A and B fixes.
+    """
+    # The selected liblouis UEB table is authoritative. Context-free regex
+    # rewrites of quote/equality cells turned valid Grade 1 text into false diffs.
+    return ascii_brf
+
+    # Protect capital passage terminator from single quote regexes
+    ascii_brf = ascii_brf.replace(",'", "___CAP_TERM___")
+
+    manager = UEBCorrectionsManager()
+    rules = manager.get_post_process_rules(grade)
+    
+    for rule in rules:
+        rx_match = rule.get("regex_match")
+        rx_replace = rule.get("regex_replace")
+        if not rx_match or not rx_replace:
+            continue
+            
+        if rx_match == "special_single_quotes":
+            # Converts boundary apostrophes to correct opening (⠠⠦ / ,8) and closing (⠠⠴ / ,0) single quotes
+            ascii_brf = _re.sub(r"(?<=\S)'(?= |$)", ",0", ascii_brf)
+            ascii_brf = _re.sub(r"(^| )'(?=\S)", r"\1,8", ascii_brf)
+        elif rx_replace == "special_equals_spacing":
+            # Signs of comparison in UEB are normally spaced on both sides.
+            ascii_brf = _re.sub(r'(?<=\S)"7', r' "7', ascii_brf)
+            ascii_brf = _re.sub(r'"7(?=\S)', r'"7 ', ascii_brf)
+        else:
+            ascii_brf = _re.sub(rx_match, rx_replace, ascii_brf)
+            
+    # Restore capital passage terminator
+    ascii_brf = ascii_brf.replace("___CAP_TERM___", ",'")
+    return ascii_brf
 from braille_app.diff_engine import DiffEngine
 from braille_app.format_engine import FormatEngine
 from braille_app.report_generator import ReportGenerator
 
-def read_braille_input(file_path: str) -> str:
+def _legacy_read_braille_input(file_path: str) -> str:
     _, ext = os.path.splitext(file_path.lower())
     if ext == ".pdf":
         import pdfplumber
@@ -79,6 +118,10 @@ def read_braille_input(file_path: str) -> str:
                 for i in range(max_line + 1):
                     if i in lines_map:
                         sorted_words = sorted(lines_map[i], key=lambda w: w["x0"])
+                        line_text_raw = " ".join(w["text"] for w in sorted_words)
+                        if "english (ueb)" in line_text_raw.lower():
+                            continue  # Skip running header line
+                        
                         first_x0 = sorted_words[0]["x0"]
                         indent_spaces = max(0, int(round((first_x0 - 54.0) / 6.6)))
                         
@@ -122,11 +165,29 @@ def read_braille_input(file_path: str) -> str:
                 raw_text = "".join(rev_map.get(c, c) for c in raw_text)
             return raw_text
 
+def _post_process_expected(ascii_brf: str, grade: int) -> str:
+    """Keep the table-produced UEB Grade 1/2 cells unchanged for comparison."""
+    return ascii_brf
+
+
 def main():
     print("=" * 60)
     print("        BRAILLE TRANSLATION & LAYOUT VERIFICATION")
     print("=" * 60)
     
+    grade = 2
+    if "--grade" in sys.argv:
+        try:
+            idx = sys.argv.index("--grade")
+            if idx + 1 < len(sys.argv):
+                grade_val = sys.argv[idx + 1]
+                if grade_val in ["1", "2"]:
+                    grade = int(grade_val)
+                sys.argv.pop(idx + 1)
+                sys.argv.pop(idx)
+        except Exception:
+            pass
+
     if len(sys.argv) >= 3:
         english_file = sys.argv[1]
         braille_file = sys.argv[2]
@@ -167,7 +228,7 @@ def main():
         
     # 3. Translate print document blocks using liblouis to produce the expected Braille string/blocks
     expected_blocks = []
-    table_list = ["en-ueb-g2.ctb"]
+    table_list = ["en-ueb-g2.ctb" if grade == 2 else "en-ueb-g1.ctb"]
     for page in extracted_data.get("pages", []):
         for block in page.get("blocks", []):
             text = block.get("text", "")
@@ -177,6 +238,7 @@ def main():
             if text.strip():
                 try:
                     translated_braille = louis.translateString(table_list, text)
+                    translated_braille = _post_process_expected(translated_braille, grade)
                 except Exception as ex:
                     print(f"Warning: translation failed for '{text[:20]}...': {ex}")
                     translated_braille = text
@@ -188,7 +250,7 @@ def main():
             
     # 4. Compare expected vs actual braille as normalized streams (Translation Diff Engine)
     try:
-        diff_engine = DiffEngine()
+        diff_engine = DiffEngine(grade=grade)
         actual_paragraphs = []
         for page in brf_results.get("pages", []):
             page_text = "\n".join(page.get("raw_lines", []))
@@ -213,7 +275,7 @@ def main():
     # 6. Generate single comprehensive HTML dashboard report
     try:
         report_gen = ReportGenerator()
-        html_report = report_gen.generate_report(brf_results, diff_results, format_results)
+        html_report = report_gen.generate_report(brf_results, diff_results, format_results, grade)
         
         # Save HTML report next to the Braille file
         base_name, _ = os.path.splitext(braille_file)

@@ -408,7 +408,7 @@ class ReportGenerator:
 <div class="container">
     <header>
         <h1>Braille Validation Dashboard</h1>
-        <p>Comprehensive layout compliance & translation error report</p>
+        <p>Comprehensive layout compliance & translation error report (UEB Grade {grade})</p>
     </header>
 
     {banner_html}
@@ -476,7 +476,13 @@ for (var i = 0; i < coll.length; i++) {{
 </html>
 """
 
-    def generate_report(self, brf_results: Dict[str, Any], diff_results: Dict[str, Any], format_results: Dict[str, Any]) -> str:
+    def generate_report(self, brf_results: Dict[str, Any], diff_results: Dict[str, Any], format_results: Dict[str, Any], grade: int = 2) -> str:
+        try:
+            from braille_app.corrections_loader import UEBCorrectionsManager
+        except ImportError:
+            # The correction catalogue is supplementary report content.  A
+            # missing optional YAML dependency must never prevent validation.
+            UEBCorrectionsManager = None
         # 1. Provisional Spacing / Indentation Assumptions Table
         warnings = []
         if "provisional_warning" in format_results:
@@ -631,6 +637,14 @@ for (var i = 0; i < coll.length; i++) {{
                              
                 exp_text = item.get("expected", "")
                 act_text = item.get("actual", "")
+                
+                if source in ("Translation", "Formatting"):
+                    from braille_app.brf_parser import ASCII_TO_UNICODE_BRAILLE
+                    def to_unicode(txt):
+                        return "".join(' ' if c == ' ' else ASCII_TO_UNICODE_BRAILLE.get(c, c) for c in txt)
+                    exp_text = to_unicode(exp_text)
+                    act_text = to_unicode(act_text)
+                    
                 diff_formatted = generate_inline_diff(exp_text, act_text)
                 
                 findings_html += '<tr>'
@@ -640,8 +654,31 @@ for (var i = 0; i < coll.length; i++) {{
                 findings_html += f'<td>{diff_formatted}</td>'
                 findings_html += '</tr>\n'
             findings_html += '</table>\n</div>\n</div>\n'
+            
+        # Category D — Open Questions / Unverified Verification List
+        try:
+            if UEBCorrectionsManager is None:
+                raise ImportError("Optional corrections catalogue is unavailable")
+            manager = UEBCorrectionsManager()
+            cat_d_rules = [r for r in manager.entries if r.get("category") == "D"]
+            if cat_d_rules:
+                findings_html += '<div class="findings-group">\n'
+                findings_html += f'<button class="collapsible active" style="background-color: #1e3a8a; border: 1px solid #3b82f6;">Open Questions — Category D Verification List ({len(cat_d_rules)})</button>\n'
+                findings_html += '<div class="content" style="display: block;">\n<table style="width: 100%;">\n'
+                findings_html += '<tr><th style="width: 25%;">Rule ID</th><th style="width: 15%;">Grade Context</th><th>Context / Pattern Description</th><th>Verification Note</th></tr>\n'
+                for rule in cat_d_rules:
+                    findings_html += '<tr>'
+                    findings_html += f'<td><code style="color: #60a5fa;">{rule.get("id")}</code></td>'
+                    findings_html += f'<td><span class="badge badge-assumed-med">{str(rule.get("grade")).upper()}</span></td>'
+                    findings_html += f'<td>{rule.get("pattern")}</td>'
+                    findings_html += f'<td><span style="color: var(--text-muted);">{rule.get("note")}</span></td>'
+                    findings_html += '</tr>\n'
+                findings_html += '</table>\n</div>\n</div>\n'
+        except Exception as e:
+            findings_html += f'<div style="color: var(--danger); padding: 10px;">Failed to load Category D open questions: {e}</div>'
 
         return self.html_template.format(
+            grade=grade,
             banner_html=banner_html,
             hc_total=hc_total,
             hc_trans=hc_trans,

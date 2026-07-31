@@ -1,0 +1,97 @@
+# ==============================================================================
+# UEB CORRECTIONS DATA STORE
+# Schema Requirements:
+# - id: Unique string identifier
+# - grade: "1", "2", or "both"
+# - category: "A", "B", "C", or "D"
+# - pattern: String describing the target match context
+# - regex_match: Optional regex matching pattern (for category A/B)
+# - regex_replace: Optional regex replacement pattern (for category A/B)
+# - source: Citation string (required for A/B/C; null for D)
+# - verified: Boolean flag (required true for A/B/C; false for D)
+# - note: Descriptive note
+# ==============================================================================
+
+- id: "equals_sign_spacing"
+  grade: "both"
+  category: "B"
+  pattern: "Spacing around comparison sign '=' (ASCII \"7)"
+  regex_match: "(?<=\\S)\"7|\"7(?=\\S)"
+  regex_replace: "special_equals_spacing"
+  source: "ICEB Rules of Unified English Braille (2013), Section 16: Signs of Comparison"
+  verified: true
+  note: "Comparison signs must be spaced on both sides. Signs of operation remain unspaced."
+
+- id: "single_quote_directional"
+  grade: "both"
+  category: "A"
+  pattern: "Correct directional single quotes table gap (apostrophe ASCII ' to opening/closing)"
+  regex_match: "special_single_quotes"
+  regex_replace: "special_single_quotes_replace"
+  source: "ICEB Rules of Unified English Braille (2013), Section 7.6: Quotation Marks"
+  verified: true
+  note: "Converts boundary apostrophes to correct opening (⠠⠦ / ,8) and closing (⠠⠴ / ,0) UEB single quote cells."
+
+- id: "double_quote_mismatch"
+  grade: "2"
+  category: "C"
+  pattern: "Double quote translation variance (,7 vs ~0)"
+  source: "ICEB Rules of Unified English Braille (2013), Section 7: nonspecific quote is ⠦ / ⠴"
+  verified: true
+  note: "Duxbury outputs ~0 (dots 4-5-6, 3-5-6) representing legacy/custom translation, while liblouis expected is ,7."
+
+- id: "braces_terminator_placement"
+  grade: "both"
+  category: "C"
+  pattern: "misplaced capital passage terminator inside braces (XYZ,' vs XYZ_>,,0)"
+  source: "ICEB Rules of Unified English Braille (2013), Section 8: Capitalization Indicators"
+  verified: true
+  note: "Duxbury misplaces capital passage terminator inside braces instead of after the closing brace."
+
+- id: "rupee_sign_gap"
+  grade: "both"
+  category: "D"
+  pattern: "Indian Rupee Symbol U+20B9 (Expected raw unicode vs Duxbury \"9)"
+  source: null
+  verified: false
+  note: "Indian Rupee has no standardized single-cell assignment in UEB. liblouis outputs raw escape code; Duxbury uses custom indicator."
+
+- id: "tilde_symbol_gap"
+  grade: "both"
+  category: "D"
+  pattern: "Tilde Accent Symbol ~ (Expected .* vs Duxbury ;,0)"
+  source: null
+  verified: false
+  note: "No definitive single-cell assignment exists for standalone tilde in general literary UEB. Both cell layouts are unverified."
+
+- id: "multiplication_dot_check"
+  grade: "both"
+  category: "D"
+  pattern: "Multiplication operator cell structure rendering"
+  source: null
+  verified: false
+  note: "Verify font-level dot pattern for dots 5, 2-3-6 on physical embosser."
+
+- id: "plus_dot_check"
+  grade: "both"
+  category: "D"
+  pattern: "Plus operator cell structure rendering"
+  source: null
+  verified: false
+  note: "Verify font-level dot pattern for dots 5, 2-3-5-6 on physical embosser."
+
+- id: "parentheses_dot_check"
+  grade: "both"
+  category: "D"
+  pattern: "Parentheses cell structure rendering"
+  source: null
+  verified: false
+  note: "Verify font-level dot pattern for dots 5, 1-2-6 and dots 5, 3-4-5 on physical embosser."
+
+- id: "brackets_dot_check"
+  grade: "both"
+  category: "D"
+  pattern: "Brackets cell structure rendering"
+  source: null
+  verified: false
+  note: "Verify font-level dot pattern for dots 4-6, 1-2-6 and dots 4-6, 3-4-5 on physical embosser."

@@ -375,7 +375,7 @@
 <div class="container">
     <header>
         <h1>Braille Validation Dashboard</h1>
-        <p>Comprehensive layout compliance & translation error report</p>
+        <p>Comprehensive layout compliance & translation error report (UEB Grade 2)</p>
     </header>
 
     
@@ -469,7 +469,7 @@
 <div class="content" style="display: block;">
 <table>
 <tr><th style="width: 15%;">Source</th><th style="width: 20%;">Type</th><th style="width: 15%;">Location</th><th>Expected vs Actual (Diff)</th></tr>
-<tr><td><span class="label-tag tag-trans">Translation</span></td><td><code style="color: #c084fc;">severe_mismatch</code></td><td>paragraph 1</td><td>Hello my <span class="diff-deleted">good</span> <span class="diff-inserted">bad</span> friend</td></tr>
+<tr><td><span class="label-tag tag-trans">Translation</span></td><td><code style="color: #c084fc;">severe_mismatch</code></td><td>paragraph 1</td><td>⠓⠑⠇⠇⠕ ⠍⠽ <span class="diff-deleted">⠛⠕⠕⠙</span> <span class="diff-inserted">⠃⠁⠙</span> ⠋⠗⠊⠑⠝⠙</td></tr>
 <tr><td><span class="label-tag tag-brf">Structure</span></td><td><code style="color: #c084fc;">brf_error</code></td><td>Page 1</td><td><span class="diff-inserted">Page is completely empty</span></td></tr>
 </table>
 </div>
@@ -479,7 +479,7 @@
 <div class="content" style="display: block;">
 <table>
 <tr><th style="width: 15%;">Source</th><th style="width: 20%;">Type</th><th style="width: 15%;">Location</th><th>Expected vs Actual (Diff)</th></tr>
-<tr><td><span class="label-tag tag-form">Formatting</span></td><td><code style="color: #c084fc;">missing_paragraph_layout</code></td><td>block 1</td><td><span class="diff-deleted">Expected Heading Block Title</span></td></tr>
+<tr><td><span class="label-tag tag-form">Formatting</span></td><td><code style="color: #c084fc;">missing_paragraph_layout</code></td><td>block 1</td><td><span class="diff-deleted">⠑⠭⠏⠑⠉⠞⠑⠙ ⠓⠑⠁⠙⠊⠝⠛ ⠃⠇⠕⠉⠅ ⠞⠊⠞⠇⠑</span></td></tr>
 </table>
 </div>
 </div>
@@ -497,7 +497,21 @@
 <div class="content" style="display: none;">
 <table>
 <tr><th style="width: 15%;">Source</th><th style="width: 20%;">Type</th><th style="width: 15%;">Location</th><th>Expected vs Actual (Diff)</th></tr>
-<tr><td><span class="label-tag tag-form">Formatting</span></td><td><code style="color: #c084fc;">allowed_format_difference</code></td><td>block 2</td><td><span class="diff-deleted">Type: paragraph</span> <span class="diff-inserted">Indent: 3, runover: 1</span></td></tr>
+<tr><td><span class="label-tag tag-form">Formatting</span></td><td><code style="color: #c084fc;">allowed_format_difference</code></td><td>block 2</td><td><span class="diff-deleted">⠞⠽⠏⠑⠱ ⠏⠁⠗⠁⠛⠗⠁⠏⠓</span> <span class="diff-inserted">⠊⠝⠙⠑⠝⠞⠱ ⠒⠠ ⠗⠥⠝⠕⠧⠑⠗⠱ ⠂</span></td></tr>
+</table>
+</div>
+</div>
+<div class="findings-group">
+<button class="collapsible active" style="background-color: #1e3a8a; border: 1px solid #3b82f6;">Open Questions — Category D Verification List (6)</button>
+<div class="content" style="display: block;">
+<table style="width: 100%;">
+<tr><th style="width: 25%;">Rule ID</th><th style="width: 15%;">Grade Context</th><th>Context / Pattern Description</th><th>Verification Note</th></tr>
+<tr><td><code style="color: #60a5fa;">rupee_sign_gap</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Indian Rupee Symbol U+20B9 (Expected raw unicode vs Duxbury "9)</td><td><span style="color: var(--text-muted);">Indian Rupee has no standardized single-cell assignment in UEB. liblouis outputs raw escape code; Duxbury uses custom indicator.</span></td></tr>
+<tr><td><code style="color: #60a5fa;">tilde_symbol_gap</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Tilde Accent Symbol ~ (Expected .* vs Duxbury ;,0)</td><td><span style="color: var(--text-muted);">No definitive single-cell assignment exists for standalone tilde in general literary UEB. Both cell layouts are unverified.</span></td></tr>
+<tr><td><code style="color: #60a5fa;">multiplication_dot_check</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Multiplication operator cell structure rendering</td><td><span style="color: var(--text-muted);">Verify font-level dot pattern for dots 5, 2-3-6 on physical embosser.</span></td></tr>
+<tr><td><code style="color: #60a5fa;">plus_dot_check</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Plus operator cell structure rendering</td><td><span style="color: var(--text-muted);">Verify font-level dot pattern for dots 5, 2-3-5-6 on physical embosser.</span></td></tr>
+<tr><td><code style="color: #60a5fa;">parentheses_dot_check</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Parentheses cell structure rendering</td><td><span style="color: var(--text-muted);">Verify font-level dot pattern for dots 5, 1-2-6 and dots 5, 3-4-5 on physical embosser.</span></td></tr>
+<tr><td><code style="color: #60a5fa;">brackets_dot_check</code></td><td><span class="badge badge-assumed-med">BOTH</span></td><td>Brackets cell structure rendering</td><td><span style="color: var(--text-muted);">Verify font-level dot pattern for dots 4-6, 1-2-6 and dots 4-6, 3-4-5 on physical embosser.</span></td></tr>
 </table>
 </div>
 </div>
