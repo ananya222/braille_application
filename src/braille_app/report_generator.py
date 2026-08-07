@@ -3,6 +3,12 @@ import difflib
 from collections import defaultdict
 from typing import Dict, Any, List
 
+from braille_app.presentation_grouping import (
+    build_presentation_items,
+    presentation_metrics,
+    presentation_page_metrics,
+)
+
 def generate_inline_diff(expected: str, actual: str) -> str:
     if not expected:
         return f'<span class="diff-inserted">{actual}</span>'
@@ -557,9 +563,43 @@ for (var i = 0; i < coll.length; i++) {{
 
         grouped_findings = defaultdict(list)
 
-        # Translation Diffs
-        for diff in diff_results.get("diffs", []):
-            conf = diff.get("confidence")
+        # Translation display is sourced from localized CellIssues. The raw
+        # DiffEngine records remain in diff_results for audit/debugging only.
+        translation_items = diff_results.get("presentation_items")
+        if translation_items is None:
+            translation_items = build_presentation_items(
+                diff_results.get("cell_issues", []), diff_results.get("diffs", [])
+            )
+        translation_metrics = presentation_metrics(translation_items)
+        page_metrics = diff_results.get("presentation_page_counts")
+        if page_metrics is None:
+            page_metrics = presentation_page_metrics(
+                diff_results.get("cell_issues", []), translation_items
+            )
+        page_rows = "".join(
+            "<tr>"
+            f"<td>{page}</td><td>{counts['normal']}</td>"
+            f"<td>{counts['partial']}</td>"
+            f"<td>{counts['structural_children']}</td>"
+            f"<td>{counts['structural_groups']}</td>"
+            f"<td>{counts['total_displayed']}</td>"
+            "</tr>"
+            for page, counts in sorted(page_metrics.items())
+        )
+        banner_html += (
+            "<div class='banner-warning-text'>"
+            f"Displayed issues: {translation_metrics['total_displayed']} "
+            f"(structural review groups: {translation_metrics['structural_groups']}). "
+            f"Internal structural segments: {translation_metrics['structural_children']}."
+            "</div>"
+            "<details><summary>Page presentation counts</summary>"
+            "<table><tr><th>Page</th><th>Normal</th><th>Partial</th>"
+            "<th>Structural children</th><th>Structural groups</th>"
+            "<th>Total displayed</th></tr>"
+            f"{page_rows}</table></details>"
+        )
+        for issue in translation_items:
+            conf = issue.get("confidence", "high_confidence")
             if conf == "high_confidence":
                 hc_trans += 1
             elif conf == "needs_review":
@@ -568,7 +608,39 @@ for (var i = 0; i < coll.length; i++) {{
                 align_total += 1
             elif conf == "ignored":
                 ignored_total += 1
-            grouped_findings[conf].append({"source": "Translation", **diff})
+            is_structural = issue.get("kind") in ("structural_review", "structural_group")
+            is_group = issue.get("kind") == "structural_group"
+            expected = "" if is_structural else "".join(issue.get("expected_cells", []))
+            actual = "" if is_structural else "".join(issue.get("actual_cells", []))
+            if is_group:
+                expected = f"Unresolved segments: {issue.get('child_count', 0)}"
+                actual = ""
+            page = issue.get("page")
+            if page is not None:
+                if is_group:
+                    location = f"page {page}, parent {issue.get('parent_diff_id', 'N/A')}"
+                else:
+                    location = f"page {page}, x {issue.get('x0', ''):.2f}-{issue.get('x1', ''):.2f}"
+            else:
+                location = "structural review"
+            message = issue.get("message", "")
+            if is_group:
+                message = (
+                    f"{message} Child IDs: "
+                    f"{', '.join(map(str, issue.get('child_issue_ids', [])))}."
+                )
+            grouped_findings[conf].append({
+                "source": "Translation",
+                "type": "structural mismatch - needs review" if is_structural else issue.get("kind", "cell_issue"),
+                "location": location,
+                "expected": expected,
+                "actual": actual,
+                "context": issue.get("source_summary", issue.get("context", "")),
+                "message": message or (
+                    "Unable to reliably localize this broader mismatch."
+                    if is_structural else ""
+                ),
+            })
 
         # Formatting Diffs
         for diff in format_results.get("diffs", []):
@@ -646,6 +718,10 @@ for (var i = 0; i < coll.length; i++) {{
                     act_text = to_unicode(act_text)
                     
                 diff_formatted = generate_inline_diff(exp_text, act_text)
+                if item.get("context"):
+                    diff_formatted += f'<div style="color: var(--text-muted); margin-top: 6px;">Context: {item.get("context")}</div>'
+                if item.get("message"):
+                    diff_formatted += f'<div style="color: var(--text-muted); margin-top: 6px;">Message: {item.get("message")}</div>'
                 
                 findings_html += '<tr>'
                 findings_html += f'<td>{source_tag}</td>'

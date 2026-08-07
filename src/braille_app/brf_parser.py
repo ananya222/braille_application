@@ -53,6 +53,10 @@ _NABCC_STR = " a1b'k2l@cif/msp\"e3h9o6r^djg>ntq,*5<-u8v.%[$+x!&;:4\\0z7(_?w]#y)=
 ASCII_TO_UNICODE_BRAILLE = {
     c: chr(0x2800 + i) for i, c in enumerate(_NABCC_STR)
 }
+# Liblouis uses ASCII backtick for the dot-4 cell.
+ASCII_TO_UNICODE_BRAILLE["`"] = "\u2808"
+# Liblouis preserves the vertical-bar ASCII Braille cell in this output path.
+ASCII_TO_UNICODE_BRAILLE["|"] = "\u2833"
 # Map uppercase letters to the same braille patterns as lowercase
 for i, c in enumerate(_NABCC_STR):
     if c.isalpha() and c.islower():

@@ -1,7 +1,6 @@
 import sys
 import os
 import ctypes
-import json
 import logging
 
 # Configure python logging to display warnings to console
@@ -53,43 +52,6 @@ from braille_app.doc_extractor import DocumentExtractor
 from braille_app.brf_parser import BRFParser
 from braille_app.input_reader import read_braille_input
 
-import re as _re
-
-def _legacy_post_process_expected(ascii_brf: str, grade: int) -> str:
-    """
-    Apply UEB post-processing corrections dynamically loaded from ueb_corrections.yaml.
-    Filters by grade and applies Category A and B fixes.
-    """
-    # The selected liblouis UEB table is authoritative. Context-free regex
-    # rewrites of quote/equality cells turned valid Grade 1 text into false diffs.
-    return ascii_brf
-
-    # Protect capital passage terminator from single quote regexes
-    ascii_brf = ascii_brf.replace(",'", "___CAP_TERM___")
-
-    manager = UEBCorrectionsManager()
-    rules = manager.get_post_process_rules(grade)
-    
-    for rule in rules:
-        rx_match = rule.get("regex_match")
-        rx_replace = rule.get("regex_replace")
-        if not rx_match or not rx_replace:
-            continue
-            
-        if rx_match == "special_single_quotes":
-            # Converts boundary apostrophes to correct opening (⠠⠦ / ,8) and closing (⠠⠴ / ,0) single quotes
-            ascii_brf = _re.sub(r"(?<=\S)'(?= |$)", ",0", ascii_brf)
-            ascii_brf = _re.sub(r"(^| )'(?=\S)", r"\1,8", ascii_brf)
-        elif rx_replace == "special_equals_spacing":
-            # Signs of comparison in UEB are normally spaced on both sides.
-            ascii_brf = _re.sub(r'(?<=\S)"7', r' "7', ascii_brf)
-            ascii_brf = _re.sub(r'"7(?=\S)', r'"7 ', ascii_brf)
-        else:
-            ascii_brf = _re.sub(rx_match, rx_replace, ascii_brf)
-            
-    # Restore capital passage terminator
-    ascii_brf = ascii_brf.replace("___CAP_TERM___", ",'")
-    return ascii_brf
 from braille_app.diff_engine import DiffEngine
 from braille_app.format_engine import FormatEngine
 from braille_app.report_generator import ReportGenerator

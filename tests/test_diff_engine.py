@@ -209,6 +209,8 @@ Match paragraph four.
     print("[OK] Capitalization variance correctly classified under high_confidence.\n")
 
 
+
+
 def test_heading_mismatch_as_content_diff():
     print("=" * 60)
     print("TEST 6: HEADING MISMATCH REPORTED AS CONTENT DIFF")

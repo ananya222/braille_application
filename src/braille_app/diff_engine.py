@@ -94,6 +94,23 @@ class DiffEngine:
             combined = expected
         return self._normalize_braille_stream(combined, strip_page_numbers=False, is_actual=False)
 
+    def _source_tokens_for_expected(self, expected):
+        if not isinstance(expected, list):
+            return []
+        source_tokens = []
+        for block in expected:
+            source_text = block.get("source_text")
+            if not source_text:
+                source_tokens.extend([None] * len(self._normalize_expected([block]).split()))
+                continue
+            expected_words = self._normalize_expected([block]).split()
+            raw_tokens = source_text.split()
+            if len(expected_words) == len(raw_tokens):
+                source_tokens.extend(raw_tokens)
+            else:
+                source_tokens.extend([None] * len(expected_words))
+        return source_tokens
+
     def _build_actual_word_to_line_map(self, actual_text: str) -> List[tuple]:
         """
         Build a mapping from flat actual-word index to (line_no, word_in_line),
@@ -301,9 +318,11 @@ class DiffEngine:
         # liblouis emits an ASCII escape for characters for which its literary
         # table has no UEB cell assignment (for example U+20B9).  Duxbury may
         # use a local symbol for the same print character.  This is not a
-        # translation error unless a verified mapping is supplied.
+        # confirmed translation error unless a verified mapping is supplied,
+        # but it must not suppress an entire replacement range: the same
+        # range may contain independently differing ordinary cells.
         if re.search(r"\\X[0-9A-F]{4,}", self._to_ascii_braille(exp_segment), re.I):
-            return "unverified_symbol_mapping", "ignored", 0
+            return "unverified_symbol_mapping", "needs_review", 2
 
         if exp_word_count == act_word_count == 1 and self._is_ambiguous_standalone_punctuation(exp_segment, act_segment):
             return "ambiguous_standalone_punctuation", "ignored", 0
@@ -361,6 +380,10 @@ class DiffEngine:
                         "actual": word,
                         "location": location_for_word(word_index, word_index + 1),
                         "confidence": "high_confidence",
+                        "actual_start_idx": word_index,
+                        "actual_end_idx": word_index + 1,
+                        "expected_start_idx": -1,
+                        "expected_end_idx": -1,
                     })
 
             # A quote pair enclosing words is a quotation, not an apostrophe.
@@ -383,6 +406,10 @@ class DiffEngine:
                                 "actual": word if word_index == closing_index else f"{word} … {closing_word}",
                                 "location": location_for_word(word_index, closing_index + 1),
                                 "confidence": "high_confidence",
+                                "actual_start_idx": word_index,
+                                "actual_end_idx": closing_index + 1,
+                                "expected_start_idx": -1,
+                                "expected_end_idx": -1,
                             })
                         break
 
@@ -528,7 +555,11 @@ class DiffEngine:
                 "expected": exp_segment,
                 "actual": act_segment,
                 "location": _location_label(act_ref_start, act_ref_end),
-                "confidence": confidence
+                "confidence": confidence,
+                "actual_start_idx": w_j1,
+                "actual_end_idx": w_j2,
+                "expected_start_idx": w_i1,
+                "expected_end_idx": w_i2,
             })
 
         if self.grade in (1, 2):
