@@ -1,0 +1,4126 @@
+{
+  "phase": "dense_red",
+  "cases": 42,
+  "passed": 42,
+  "failed": [],
+  "production_sha256": {
+    "src\\braille_app\\validation\\alignment.py": "e5c106c260026ce7dc637e0ab422c2beb77bf6b275d93669817a5ea33b585372",
+    "src\\braille_app\\validation\\alignment_diagnostics.py": "0ae5751090f3a0ff676164ee0453457f3734c368176f3973527efa922cf665d1",
+    "src\\braille_app\\validation\\api.py": "3fad3ed2bb0a9ecf0b9adaf3f0b6a41d9646f9da30bb5d732b744d87fcb6540a",
+    "src\\braille_app\\validation\\pdf_annotation_adapter.py": "f0eccf0f872cf967be487ec7e4e866b23715a41087f81e617de3d2fe5ba1c7d5",
+    "src\\braille_app\\validation\\simple_math_comparison.py": "173c7c040902d68462a25b9d4f6fe29ac6d5d3b977bcfbcc6cfcce564c1468a2",
+    "src\\braille_app\\validation\\validator.py": "644f268635b3043cc582a8f7146844cacd37b15bb905922cde571acd589ab7c0",
+    "src\\braille_app\\validation\\__init__.py": "b636ae43a9243b1d6a1ee8d11c8b39bbb1fbeca1af7561a86f0e96fc15fe1467"
+  },
+  "rows": [
+    {
+      "case": "PLUS/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠬⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 33,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "PLUS/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠤⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 19,
+              "actual_end": 20
+            },
+            "source_text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]].",
+            "actual_braille": [
+              36
+            ],
+            "expected_braille": [
+              44
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 19,
+            "actual_cell_end": 20,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 32,
+          "cell_accuracy": 0.9696969696969697,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "PLUS/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠬⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 33,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "PLUS/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠤⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]].",
+            "actual_braille": [
+              36
+            ],
+            "expected_braille": [
+              44
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 32,
+          "cell_accuracy": 0.9696969696969697,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "PLUS/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠀⠤⠀⠼⠒⠀⠤⠀⠼⠲⠀⠨⠅⠀⠼⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]2 + 3 + 4 = 9[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 18,
+              "expected_end": 19,
+              "actual_start": 19,
+              "actual_end": 20
+            },
+            "source_text": "Alice checks [[*ts*]]2 + 3 + 4 = 9[[*te*]].",
+            "actual_braille": [
+              36
+            ],
+            "expected_braille": [
+              44
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 19,
+            "actual_cell_end": 20,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 20,
+              "expected_end": 21,
+              "actual_start": 24,
+              "actual_end": 25
+            },
+            "source_text": "Alice checks [[*ts*]]2 + 3 + 4 = 9[[*te*]].",
+            "actual_braille": [
+              36
+            ],
+            "expected_braille": [
+              44
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 24,
+            "actual_cell_end": 25,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 30,
+          "cell_accuracy": 0.9375,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 6,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "PLUS/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠼⠆⠖⠀⠤⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]26 + 13 = 39[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 6,
+              "expected_end": 7,
+              "actual_start": 7,
+              "actual_end": 8
+            },
+            "source_text": "[[*ts*]]26 + 13 = 39[[*te*]] was checked.",
+            "actual_braille": [
+              36
+            ],
+            "expected_braille": [
+              44
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 7,
+            "actual_cell_end": 8,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 28,
+          "matching_cells": 27,
+          "cell_accuracy": 0.9642857142857143,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠴⠤⠦⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 32,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠴⠬⠦⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 19,
+              "actual_end": 20
+            },
+            "source_text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 19,
+            "actual_cell_end": 20,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 31,
+          "cell_accuracy": 0.96875,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠴⠀⠤⠀⠼⠦⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 32,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠴⠀⠬⠀⠼⠦⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]20 − 8 = 12[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 31,
+          "cell_accuracy": 0.96875,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠂⠆⠀⠬⠀⠼⠒⠀⠬⠀⠼⠲⠀⠨⠅⠀⠼⠢⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]12 − 3 − 4 = 5[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]12 − 3 − 4 = 5[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 21,
+              "expected_end": 22,
+              "actual_start": 25,
+              "actual_end": 26
+            },
+            "source_text": "Alice checks [[*ts*]]12 − 3 − 4 = 5[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 25,
+            "actual_cell_end": 26,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 31,
+          "cell_accuracy": 0.9393939393939394,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 6,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MINUS/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠼⠆⠴⠀⠬⠀⠼⠦⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]20 − 8 = 12[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 6,
+              "expected_end": 7,
+              "actual_start": 7,
+              "actual_end": 8
+            },
+            "source_text": "[[*ts*]]20 − 8 = 12[[*te*]] was checked.",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 7,
+            "actual_cell_end": 8,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 27,
+          "matching_cells": 26,
+          "cell_accuracy": 0.9629629629629629,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠤⠼⠆⠬⠢⠀⠨⠅⠀⠼⠒⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 31,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠬⠼⠆⠬⠢⠀⠨⠅⠀⠼⠒⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 16,
+              "expected_end": 17,
+              "actual_start": 16,
+              "actual_end": 17
+            },
+            "source_text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 16,
+            "actual_cell_end": 17,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 30,
+          "cell_accuracy": 0.967741935483871,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠤⠼⠆⠀⠬⠀⠼⠢⠀⠨⠅⠀⠼⠒⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 31,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠬⠼⠆⠀⠬⠀⠼⠢⠀⠨⠅⠀⠼⠒⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 16,
+              "expected_end": 17,
+              "actual_start": 16,
+              "actual_end": 17
+            },
+            "source_text": "Alice checks [[*ts*]]−2 + 5 = 3[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 16,
+            "actual_cell_end": 17,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 30,
+          "cell_accuracy": 0.967741935483871,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          16,
+          17
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠬⠼⠆⠀⠬⠀⠼⠂⠀⠨⠅⠀⠬⠼⠂⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−2 + 1 = −1[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 16,
+              "expected_end": 17,
+              "actual_start": 16,
+              "actual_end": 17
+            },
+            "source_text": "Alice checks [[*ts*]]−2 + 1 = −1[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 16,
+            "actual_cell_end": 17,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 25,
+              "expected_end": 26,
+              "actual_start": 28,
+              "actual_end": 29
+            },
+            "source_text": "Alice checks [[*ts*]]−2 + 1 = −1[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 28,
+            "actual_cell_end": 29,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 30,
+          "cell_accuracy": 0.9375,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "actual_ranges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠬⠼⠆⠀⠬⠀⠼⠢⠀⠨⠅⠀⠼⠒⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]−2 + 5 = 3[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 3,
+              "expected_end": 4,
+              "actual_start": 3,
+              "actual_end": 4
+            },
+            "source_text": "[[*ts*]]−2 + 5 = 3[[*te*]] was checked.",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 3,
+            "actual_cell_end": 4,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 26,
+          "matching_cells": 25,
+          "cell_accuracy": 0.9615384615384616,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠲⠈⠡⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 32,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠲⠈⠌⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 19,
+              "actual_end": 20
+            },
+            "source_text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              33
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 19,
+            "actual_cell_end": 20,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 31,
+          "cell_accuracy": 0.96875,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠲⠀⠈⠡⠀⠼⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 32,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠲⠀⠈⠌⠀⠼⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]4 × 3 = 12[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              33
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 31,
+          "cell_accuracy": 0.96875,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠀⠈⠌⠀⠼⠒⠀⠈⠌⠀⠼⠲⠀⠨⠅⠀⠼⠆⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]2 × 3 × 4 = 24[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]2 × 3 × 4 = 24[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              33
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 22,
+              "expected_end": 23,
+              "actual_start": 26,
+              "actual_end": 27
+            },
+            "source_text": "Alice checks [[*ts*]]2 × 3 × 4 = 24[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              33
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 26,
+            "actual_cell_end": 27,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 35,
+          "matching_cells": 33,
+          "cell_accuracy": 0.9428571428571428,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 6,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "MULTIPLY/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠼⠲⠀⠈⠌⠀⠼⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]4 × 3 = 12[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 6,
+              "expected_end": 7,
+              "actual_start": 7,
+              "actual_end": 8
+            },
+            "source_text": "[[*ts*]]4 × 3 = 12[[*te*]] was checked.",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              33
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 7,
+            "actual_cell_end": 8,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 27,
+          "matching_cells": 26,
+          "cell_accuracy": 0.9629629629629629,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠦⠨⠌⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 31,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠦⠨⠅⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 19,
+              "actual_end": 20
+            },
+            "source_text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]].",
+            "actual_braille": [
+              5
+            ],
+            "expected_braille": [
+              12
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 19,
+            "actual_cell_end": 20,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 30,
+          "cell_accuracy": 0.967741935483871,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠦⠀⠨⠌⠀⠼⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 31,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠦⠀⠨⠅⠀⠼⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 19,
+              "expected_end": 20,
+              "actual_start": 20,
+              "actual_end": 21
+            },
+            "source_text": "Alice checks [[*ts*]]8 ÷ 2 = 4[[*te*]].",
+            "actual_braille": [
+              5
+            ],
+            "expected_braille": [
+              12
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 20,
+            "actual_cell_end": 21,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 31,
+          "matching_cells": 30,
+          "cell_accuracy": 0.967741935483871,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          21,
+          22
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      "actual_ranges": [
+        [
+          21,
+          22
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠲⠀⠨⠅⠀⠼⠒⠀⠨⠅⠀⠼⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]24 ÷ 3 ÷ 2 = 4[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 20,
+              "expected_end": 21,
+              "actual_start": 21,
+              "actual_end": 22
+            },
+            "source_text": "Alice checks [[*ts*]]24 ÷ 3 ÷ 2 = 4[[*te*]].",
+            "actual_braille": [
+              5
+            ],
+            "expected_braille": [
+              12
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 21,
+            "actual_cell_end": 22,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 23,
+              "expected_end": 24,
+              "actual_start": 27,
+              "actual_end": 28
+            },
+            "source_text": "Alice checks [[*ts*]]24 ÷ 3 ÷ 2 = 4[[*te*]].",
+            "actual_braille": [
+              5
+            ],
+            "expected_braille": [
+              12
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 27,
+            "actual_cell_end": 28,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 35,
+          "matching_cells": 33,
+          "cell_accuracy": 0.9428571428571428,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 6,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "DIVIDE/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠼⠦⠀⠨⠅⠀⠼⠆⠀⠨⠅⠀⠼⠲⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]8 ÷ 2 = 4[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 6,
+              "expected_end": 7,
+              "actual_start": 7,
+              "actual_end": 8
+            },
+            "source_text": "[[*ts*]]8 ÷ 2 = 4[[*te*]] was checked.",
+            "actual_braille": [
+              5
+            ],
+            "expected_braille": [
+              12
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 7,
+            "actual_cell_end": 8,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 26,
+          "matching_cells": 25,
+          "cell_accuracy": 0.9615384615384616,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/clean/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠭⠬⠽⠀⠨⠅⠀⠵⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]x + y = z[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 28,
+          "matching_cells": 28,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/clean/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          21,
+          22
+        ]
+      ],
+      "actual_ranges": [
+        [
+          21,
+          22
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠭⠬⠽⠀⠨⠌⠀⠵⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]x + y = z[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 21,
+              "expected_end": 22,
+              "actual_start": 21,
+              "actual_end": 22
+            },
+            "source_text": "Alice checks [[*ts*]]x + y = z[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              5
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 21,
+            "actual_cell_end": 22,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 28,
+          "matching_cells": 27,
+          "cell_accuracy": 0.9642857142857143,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 0,
+          "duxbury_normalized_spans": 0,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/noisy/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠭⠀⠬⠀⠽⠀⠨⠅⠀⠵⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]x + y = z[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 28,
+          "matching_cells": 28,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 2,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/noisy/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          23,
+          24
+        ]
+      ],
+      "actual_ranges": [
+        [
+          23,
+          24
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠭⠀⠬⠀⠽⠀⠨⠌⠀⠵⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]x + y = z[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 21,
+              "expected_end": 22,
+              "actual_start": 23,
+              "actual_end": 24
+            },
+            "source_text": "Alice checks [[*ts*]]x + y = z[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              5
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 23,
+            "actual_cell_end": 24,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 28,
+          "matching_cells": 27,
+          "cell_accuracy": 0.9642857142857143,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 2,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/repeated/noisy_wrong",
+      "expected_errors": 2,
+      "actual_errors": 2,
+      "expected_actual_ranges": [
+        [
+          23,
+          24
+        ],
+        [
+          45,
+          46
+        ]
+      ],
+      "actual_ranges": [
+        [
+          23,
+          24
+        ],
+        [
+          45,
+          46
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠭⠀⠬⠀⠽⠀⠨⠌⠀⠵⠀⠸⠱⠲⠀⠠⠁⠛⠀⠸⠩⠀⠭⠀⠬⠀⠽⠀⠨⠌⠀⠵⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]x + y = z[[*te*]]. Again [[*ts*]]x + y = z[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 21,
+              "expected_end": 22,
+              "actual_start": 23,
+              "actual_end": 24
+            },
+            "source_text": "Alice checks [[*ts*]]x + y = z[[*te*]]. Again [[*ts*]]x + y = z[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              5
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 23,
+            "actual_cell_end": 24,
+            "localized_actual_ranges": []
+          },
+          {
+            "issue_id": "VAL-ERR-0002",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 41,
+              "expected_end": 42,
+              "actual_start": 45,
+              "actual_end": 46
+            },
+            "source_text": "Alice checks [[*ts*]]x + y = z[[*te*]]. Again [[*ts*]]x + y = z[[*te*]].",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              5
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 45,
+            "actual_cell_end": 46,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 48,
+          "matching_cells": 46,
+          "cell_accuracy": 0.9583333333333334,
+          "raw_differences": 2,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 4,
+          "duxbury_normalized_spans": 2,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 2,
+          "math_spans_evaluated": 2,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 2,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 2,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "EQUALS/boundary/noisy_wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          10,
+          11
+        ]
+      ],
+      "actual_ranges": [
+        [
+          10,
+          11
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠸⠩⠀⠭⠀⠬⠀⠽⠀⠨⠌⠀⠵⠀⠸⠱⠀⠴⠀⠡⠑⠉⠅⠫⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "[[*ts*]]x + y = z[[*te*]] was checked."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 8,
+              "expected_end": 9,
+              "actual_start": 10,
+              "actual_end": 11
+            },
+            "source_text": "[[*ts*]]x + y = z[[*te*]] was checked.",
+            "actual_braille": [
+              12
+            ],
+            "expected_braille": [
+              5
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 10,
+            "actual_cell_end": 11,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 23,
+          "matching_cells": 22,
+          "cell_accuracy": 0.9565217391304348,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 2,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "CAPITAL/correct/noisy_math",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠬⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 33,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "CAPITAL/missing/noisy_math",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠬⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "UEB_ERROR",
+            "rule_id": "UEB_8",
+            "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+            "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+            "source_page": "89-90 (PDF 117-118)",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 0,
+              "expected_end": 1,
+              "actual_start": 0,
+              "actual_end": 1
+            },
+            "source_text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]].",
+            "actual_braille": [],
+            "expected_braille": [
+              32
+            ],
+            "explanation": "missing capital indicator; anchor is the following letter/contraction; UEB 8.1.1 and 8.3.1-3.",
+            "review_reason": "",
+            "structural_subtype": "missing capital indicator; anchor is the following letter/contraction",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 0,
+            "actual_cell_end": 1,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 32,
+          "cell_accuracy": 0.9696969696969697,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "CAPITAL/wrong/noisy_math",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠰⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠬⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "UEB_ERROR",
+            "rule_id": "UEB_8",
+            "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+            "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+            "source_page": "89-90 (PDF 117-118)",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 0,
+              "expected_end": 1,
+              "actual_start": 0,
+              "actual_end": 1
+            },
+            "source_text": "Alice checks [[*ts*]]26 + 13 = 39[[*te*]].",
+            "actual_braille": [
+              48
+            ],
+            "expected_braille": [
+              32
+            ],
+            "explanation": "wrong capital indicator; UEB 8.1.1 and 8.3.1-3.",
+            "review_reason": "",
+            "structural_subtype": "wrong capital indicator",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 0,
+            "actual_cell_end": 1,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 33,
+          "matching_cells": 32,
+          "cell_accuracy": 0.9696969696969697,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "CAPITAL/unnecessary/noisy_math",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠼⠆⠖⠀⠬⠀⠼⠂⠒⠀⠨⠅⠀⠼⠒⠔⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "alice checks [[*ts*]]26 + 13 = 39[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "UEB_ERROR",
+            "rule_id": "UEB_8",
+            "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+            "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+            "source_page": "89-90 (PDF 117-118)",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 0,
+              "expected_end": 0,
+              "actual_start": 0,
+              "actual_end": 1
+            },
+            "source_text": "alice checks [[*ts*]]26 + 13 = 39[[*te*]].",
+            "actual_braille": [
+              32
+            ],
+            "expected_braille": [],
+            "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+            "review_reason": "",
+            "structural_subtype": "unnecessary capital indicator",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 0,
+            "actual_cell_end": 1,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 32,
+          "matching_cells": 32,
+          "cell_accuracy": 1.0,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 3,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 0,
+          "capitalization_opportunities_evaluated": 0,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/unary_gap/correct",
+      "expected_errors": 0,
+      "actual_errors": 0,
+      "expected_actual_ranges": [],
+      "actual_ranges": [],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠤⠀⠼⠆⠖⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−26[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 24,
+          "matching_cells": 24,
+          "cell_accuracy": 1.0,
+          "raw_differences": 0,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 1,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 1,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 0,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 0,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {},
+        "alignment_diagnostics": []
+      }
+    },
+    {
+      "case": "NEGATIVE/unary_gap/wrong",
+      "expected_errors": 1,
+      "actual_errors": 1,
+      "expected_actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "pass": true,
+      "raw_actual_braille": "⠠⠁⠇⠊⠉⠑⠀⠡⠑⠉⠅⠎⠀⠸⠩⠀⠬⠀⠼⠆⠖⠀⠸⠱⠲",
+      "master": {
+        "pages": [
+          {
+            "print_page_number": 1,
+            "blocks": [
+              {
+                "text": "Alice checks [[*ts*]]−26[[*te*]]."
+              }
+            ]
+          }
+        ]
+      },
+      "result": {
+        "errors": [
+          {
+            "issue_id": "VAL-ERR-0001",
+            "status": "ERROR",
+            "category": "NEMETH_ERROR",
+            "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+            "source_document": "Nemeth_2022.pdf",
+            "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+            "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+            "source_page_number": 1,
+            "braille_page": 1,
+            "actual_page_number": 1,
+            "block_id": 0,
+            "span": {
+              "expected_start": 16,
+              "expected_end": 17,
+              "actual_start": 16,
+              "actual_end": 17
+            },
+            "source_text": "Alice checks [[*ts*]]−26[[*te*]].",
+            "actual_braille": [
+              44
+            ],
+            "expected_braille": [
+              36
+            ],
+            "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+            "review_reason": "",
+            "structural_subtype": "complete simple linear expression",
+            "rule_ids_considered": [
+              "UEB_RULE_001",
+              "UEB_8",
+              "NEMETH_SIMPLE_LINEAR_001",
+              "BANA_SWITCH_003"
+            ],
+            "bbox": null,
+            "actual_cell_start": 16,
+            "actual_cell_end": 17,
+            "localized_actual_ranges": []
+          }
+        ],
+        "reviews": [],
+        "exclusions": [],
+        "statistics": {
+          "pages": 1,
+          "expected_cells": 24,
+          "matching_cells": 23,
+          "cell_accuracy": 0.9583333333333334,
+          "raw_differences": 1,
+          "ignored_layout_differences": 0,
+          "ignored_unmapped_insertions": 0,
+          "ignored_alignment_differences": 0,
+          "alignment_coverage_incomplete": 0,
+          "tolerated_duxbury_cells": 1,
+          "duxbury_normalized_spans": 1,
+          "source_passages_total": 1,
+          "source_passages_aligned": 0,
+          "math_spans_total": 1,
+          "math_spans_evaluated": 1,
+          "capitalization_opportunities_total": 1,
+          "capitalization_opportunities_evaluated": 1,
+          "unresolved_math_spans": 0,
+          "unresolved_source_passages": 1,
+          "unresolved_capitalization_opportunities": 0,
+          "unmatched_switch_markers": 0,
+          "errors": 1,
+          "reviews": 0,
+          "excluded": 0
+        },
+        "pages": {
+          "1": {
+            "errors": 1,
+            "reviews": 0,
+            "excluded": 0
+          }
+        },
+        "alignment_diagnostics": []
+      }
+    }
+  ],
+  "repeated_equals": "One equality per span only; repeated equality tested in two separate spans."
+}

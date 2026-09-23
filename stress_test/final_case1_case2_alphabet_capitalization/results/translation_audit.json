@@ -1,0 +1,312 @@
+{
+  "source": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.docx",
+    "bytes": 38181,
+    "sha256": "8c53cec65b6dfbc21c072db1ceaa448db887974dbc386379ae4c66941c4b72f2",
+    "pages": 50
+  },
+  "duxbury": {
+    "version": "DBT 14.1 (user-supplied project metadata)",
+    "dxb": {
+      "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.dxb",
+      "bytes": 36507,
+      "sha256": "46a48b68a45f89c05cb2761d0c278ce42bf3ef8a029b5262e387e438f90ccad3"
+    },
+    "brf": {
+      "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page (2).brf",
+      "bytes": 15468,
+      "sha256": "48b0c2d3145dfab4d497a5b0b98c5b8633fd84369d5c78a250cf4109b9da2389"
+    },
+    "pdf": {
+      "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.pdf",
+      "bytes": 48824,
+      "sha256": "6cc4aa95843bd7ae29ffb110d14a26b3224b7d4214651a951a5fd44cc593e852"
+    },
+    "brf_pages": 50,
+    "typeform_cells_removed_for_logical_compare": 180,
+    "template_evidence": "DXB contains Uncontracted/g1/nUncontracted markers; no single literal template filename was encoded."
+  },
+  "liblouis": {
+    "version": "3.38.0",
+    "dll_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\bin\\liblouis.dll",
+    "table_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\share\\liblouis\\tables\\en-ueb-g1.ctb",
+    "table_hash_sha256": "446717b55e49ff41aef2c204b58ea1d2872a77a4473a821e766bffd51cee0b4d",
+    "display_table": "unicode.dis",
+    "display_table_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\share\\liblouis\\tables\\unicode.dis",
+    "table_list": "unicode.dis,en-ueb-g1.ctb"
+  },
+  "comparison": {
+    "pages": 50,
+    "expected_cells": 10542,
+    "exact_semantic_cells": 10542,
+    "cell_accuracy": 1.0,
+    "meaningful_disagreements": 0,
+    "raw_alignment_differences": 0
+  },
+  "brf_page_records": [
+    {
+      "page": 1,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 2,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 3,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 4,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 5,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 6,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 7,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 8,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 9,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 10,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 11,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 12,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 13,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 14,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 15,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 16,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 17,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 18,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 19,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 20,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 21,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 22,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 23,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 24,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 25,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 26,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 27,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 28,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 29,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 30,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 31,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 32,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 33,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 34,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 35,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 36,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 37,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 38,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 39,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 40,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 41,
+      "typeform_cells_removed": 2
+    },
+    {
+      "page": 42,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 43,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 44,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 45,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 46,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 47,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 48,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 49,
+      "typeform_cells_removed": 4
+    },
+    {
+      "page": 50,
+      "typeform_cells_removed": 2
+    }
+  ],
+  "clean_validator": {
+    "brf": {
+      "errors": 0,
+      "reviews": 0,
+      "statistics": {
+        "pages": 50,
+        "expected_cells": 10591,
+        "matching_cells": 10591,
+        "cell_accuracy": 1.0,
+        "raw_differences": 5,
+        "ignored_layout_differences": 0,
+        "ignored_unmapped_insertions": 5,
+        "ignored_alignment_differences": 0,
+        "alignment_coverage_incomplete": 0,
+        "tolerated_duxbury_cells": 0,
+        "joined_physical_page_breaks": 0,
+        "duxbury_normalized_spans": 0,
+        "source_passages_total": 275,
+        "source_passages_aligned": 275,
+        "math_spans_total": 0,
+        "math_spans_evaluated": 0,
+        "capitalization_opportunities_total": 350,
+        "capitalization_opportunities_evaluated": 350,
+        "unresolved_math_spans": 0,
+        "unresolved_source_passages": 0,
+        "unresolved_capitalization_opportunities": 0,
+        "unmatched_switch_markers": 0,
+        "errors": 0,
+        "reviews": 0,
+        "excluded": 0
+      }
+    },
+    "pdf": {
+      "errors": 0,
+      "reviews": 0,
+      "statistics": {
+        "pages": 50,
+        "expected_cells": 10591,
+        "matching_cells": 10591,
+        "cell_accuracy": 1.0,
+        "raw_differences": 5,
+        "ignored_layout_differences": 0,
+        "ignored_unmapped_insertions": 5,
+        "ignored_alignment_differences": 0,
+        "alignment_coverage_incomplete": 0,
+        "tolerated_duxbury_cells": 0,
+        "joined_physical_page_breaks": 0,
+        "duxbury_normalized_spans": 0,
+        "source_passages_total": 275,
+        "source_passages_aligned": 275,
+        "math_spans_total": 0,
+        "math_spans_evaluated": 0,
+        "capitalization_opportunities_total": 350,
+        "capitalization_opportunities_evaluated": 350,
+        "unresolved_math_spans": 0,
+        "unresolved_source_passages": 0,
+        "unresolved_capitalization_opportunities": 0,
+        "unmatched_switch_markers": 0,
+        "errors": 0,
+        "reviews": 0,
+        "excluded": 0
+      }
+    }
+  }
+}

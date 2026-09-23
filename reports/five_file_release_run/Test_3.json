@@ -1,0 +1,35 @@
+{
+  "executable": "O:\\braille_0.2\\dist\\BrailleValidator\\BrailleValidator.exe",
+  "frozen": true,
+  "error": null,
+  "statistics": {
+    "pages": 1,
+    "expected_cells": 7658,
+    "matching_cells": 755,
+    "cell_accuracy": 0.09858971010707757,
+    "raw_differences": 33,
+    "ignored_layout_differences": 6,
+    "ignored_unmapped_insertions": 25,
+    "ignored_alignment_differences": 8,
+    "alignment_coverage_incomplete": 1,
+    "tolerated_duxbury_cells": 0,
+    "duxbury_normalized_spans": 0,
+    "errors": 0,
+    "reviews": 0,
+    "excluded": 0
+  },
+  "title": "No confirmed Braille errors detected.",
+  "error_summary": "Confirmed Errors: 0",
+  "visible_labels": [
+    "No confirmed Braille errors detected.",
+    "Confirmed Errors: 0",
+    "Annotated PDF saved to: O:\\braille_0.2\\reports\\five_file_release_run\\runtime\\BrailleValidator\\output\\Synthetic_Test_03_converted_validator_annotated.pdf\nValidation report saved to: O:\\braille_0.2\\reports\\five_file_release_run\\runtime\\BrailleValidator\\output\\Synthetic_Test_03_converted_validator_report.json"
+  ],
+  "annotated_pdf": "O:\\braille_0.2\\reports\\five_file_release_run\\runtime\\BrailleValidator\\output\\Synthetic_Test_03_converted_validator_annotated.pdf",
+  "report": "O:\\braille_0.2\\reports\\five_file_release_run\\runtime\\BrailleValidator\\output\\Synthetic_Test_03_converted_validator_report.json",
+  "diagnostic_report": "O:\\braille_0.2\\reports\\five_file_release_run\\runtime\\BrailleValidator\\output\\Synthetic_Test_03_converted_validator_diagnostic_report.json",
+  "annotation_error": null,
+  "open_annotated_enabled": true,
+  "issue_group_count": 1,
+  "issue_count": 0
+}

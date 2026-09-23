@@ -1,0 +1,8 @@
+difference_id,source_case_id,page,rule_family,citation,liblouis_start,liblouis_end,duxbury_start,duxbury_end,liblouis_cells,duxbury_cells,liblouis_unicode,duxbury_unicode,source_context,opcode,raw_difference_ids,raw_opcode_count
+G001,P3-PUNCT-INTERNAL,3,punctuation,7.1.1-7.6.15,284,285,284,284,;,,⠰,,"Internal punctuation: a.b a,b a/b a-b a+b a=b.",grouped:delete,D001,1
+G002,P3-PUNCT-ADJ,3,punctuation adjacency,7.1.1-7.6.15,400,401,399,399,;,,⠰,,"Punctuation adjacency: Hello,world; test:done! Is this correct?",grouped:delete,D002,1
+G003,P3-PUNCT-ADJ,3,punctuation adjacency,7.1.1-7.6.15,413,414,411,411,;,,⠰,,"Punctuation adjacency: Hello,world; test:done! Is this correct?",grouped:delete,D003,1
+G004,P5-TYPEFORMS,5,typeforms,9.1.1-9.8.2,160,211,160,223, /  /  /  /  / ,^1 / ^1 / .1 / .1 / _1 / _1, /  /  /  /  / ,⠘⠂ / ⠘⠂ / ⠨⠂ / ⠨⠂ / ⠸⠂ / ⠸⠂,"Typeform samples: Bold Braille, Italic Validator, and Underline Education.","grouped:insert,insert,insert,insert,insert,insert","D004,D005,D006,D007,D008,D009",6
+G005,P5-TYPE-NUM-PUNCT,5,typeforms,9.1.1-9.8.2; 6.1.1-6.6.2,263,289,275,309, /  /  / ,^1 / .1 / .1 / _1, /  /  / ,⠘⠂ / ⠨⠂ / ⠨⠂ / ⠸⠂,"Typeform with punctuation and numbers: Bold, Italic 22B, and Underline!","grouped:insert,insert,insert,insert","D010,D011,D012,D013",4
+G006,P5-WHITESPACE,5,whitespace,3.23,416,417,436,436, ,,⠀,,"Whitespace policy labels: two  spaces, a nonbreaking space, a thin space, and a​zero-width space.",grouped:delete,D014,1
+G007,P5-WHITESPACE,5,whitespace,3.23,465,465,484,495,,"@$U""6#BJJ;B",,⠈⠫⠥⠐⠖⠼⠃⠚⠚⠰⠃,"Whitespace policy labels: two  spaces, a nonbreaking space, a thin space, and a​zero-width space.",grouped:insert,D015,1

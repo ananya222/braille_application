@@ -1,0 +1,237 @@
+[
+  {
+    "file": "test_brf_parser.py",
+    "test": "test_parser",
+    "status": "PASS"
+  },
+  {
+    "file": "test_brf_parser.py",
+    "test": "test_pattern_detection_by_type_field",
+    "status": "PASS"
+  },
+  {
+    "file": "test_brf_parser.py",
+    "test": "test_custom_mock_scenarios",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_brf_parser.py\", line 253, in test_custom_mock_scenarios\n    assert \"line-width\" not in pattern_types_s2, \"Pattern detection should NOT have fired for line-width\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Pattern detection should NOT have fired for line-width\n"
+  },
+  {
+    "file": "test_brf_parser.py",
+    "test": "test_boundary_scenario_exactly_30_percent",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_brf_parser.py\", line 302, in test_boundary_scenario_exactly_30_percent\n    assert \"line-width\" not in pattern_types, \"Pattern detection should NOT have fired for exactly 30%\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: Pattern detection should NOT have fired for exactly 30%\n"
+  },
+  {
+    "file": "test_brf_parser.py",
+    "test": "test_cross_file_reuse_isolation",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_brf_parser.py\", line 325, in test_cross_file_reuse_isolation\n    assert len(res_a[\"detected_patterns\"]) == 1, \"File A must trigger line-width pattern\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError: File A must trigger line-width pattern\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_diff_engine_base",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 63, in test_diff_engine_base\n    assert any(d[\"expected\"] == \"Beginning\" and d[\"actual\"] == \"Beg1nning\" for d in high_conf)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_missing_content_in_actual",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 98, in test_missing_content_in_actual\n    assert len(deleted) >= 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_allowlist",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 123, in test_allowlist\n    assert len(ignored) == 1\n           ^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_pattern_detection_thresholds",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 140, in test_pattern_detection_thresholds\n    assert len(results_a[\"patterns\"]) == 1\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_state_isolation",
+    "status": "PASS"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_capitalization_indicator_needs_review",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 206, in test_capitalization_indicator_needs_review\n    assert high_conf[0][\"type\"] == \"capitalization_variance\"\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_heading_mismatch_as_content_diff",
+    "status": "PASS"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_stream_resilience_across_paragraph_boundaries",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_diff_engine.py\", line 292, in test_stream_resilience_across_paragraph_boundaries\n    assert len(heading_diffs) >= 1\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_diff_engine.py",
+    "test": "test_normalization_collapses_whitespace",
+    "status": "PASS"
+  },
+  {
+    "file": "test_doc_extractor.py",
+    "test": "test_extractor",
+    "status": "PASS"
+  },
+  {
+    "file": "test_format_engine.py",
+    "test": "run_test_cases",
+    "status": "FAIL",
+    "error": "Traceback (most recent call last):\n  File \"O:\\braille_0.2\\experiments\\ueb_nemeth\\context_regression_suite.py\", line 36, in main\n    fn()\n  File \"O:\\braille_0.2\\tests\\test_format_engine.py\", line 86, in run_test_cases\n    assert len(review_errors) == 1\n           ^^^^^^^^^^^^^^^^^^^^^^^\nAssertionError\n"
+  },
+  {
+    "file": "test_letter_grouping.py",
+    "test": "main",
+    "status": "PASS"
+  },
+  {
+    "file": "test_nemeth_boundary_spacing.py",
+    "test": "main",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_mixed_translation_uses_verified_switches",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_unbalanced_markers_are_reviewable_errors",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_expected_document_preserves_math_provenance",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_validator_detects_injected_cell_error",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_brf_aliases_are_canonicalized_by_physical_cell",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_rule_results_include_traceability",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_rule14_simple_scripts_are_supported",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_rule14_official_script_examples_have_deterministic_cells",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_rule14_nested_scripts_remain_reviewed",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_unproved_nemeth_calibration_constructs_are_reviewed",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_vendored_nemeth_symbols_are_supported",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_standards_catalog_and_errata_are_traceable",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_rule_registry_dispatches_by_source_context",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_gui_validation_boundary_returns_stable_data",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_gui_adapter_emits_one_unverified_item_per_source_block",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_nontextual_figures_are_explicitly_excluded",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_controlled_rule_family_corruptions_are_detected",
+    "status": "PASS"
+  },
+  {
+    "file": "test_production_pipeline.py",
+    "test": "test_generalization_smoke_uses_generic_construct_paths",
+    "status": "PASS"
+  },
+  {
+    "file": "test_report_generator.py",
+    "test": "run_tests",
+    "status": "PASS"
+  },
+  {
+    "file": "test_translation.py",
+    "test": "run_test",
+    "status": "PASS"
+  },
+  {
+    "file": "test_ueb_context_rules.py",
+    "test": "test_grade_one_reports_unspaced_equals_without_document_specific_rules",
+    "status": "PASS"
+  },
+  {
+    "file": "test_ueb_context_rules.py",
+    "test": "test_grade_one_accepts_standalone_equals_and_apostrophes_inside_words",
+    "status": "PASS"
+  },
+  {
+    "file": "test_ueb_context_rules.py",
+    "test": "test_grade_one_reports_a_single_quote_pair_as_directional_quotes",
+    "status": "PASS"
+  },
+  {
+    "file": "test_ueb_context_rules.py",
+    "test": "test_isolated_ambiguous_punctuation_is_not_a_translation_error",
+    "status": "PASS"
+  },
+  {
+    "file": "test_ueb_context_rules.py",
+    "test": "test_duxbury_brace_terminator_variant_is_not_reported_as_an_error",
+    "status": "PASS"
+  },
+  {
+    "file": "test_validator_regressions.py",
+    "test": "test_matching_ueb_symbol_cells_are_not_reported_as_font_errors",
+    "status": "PASS"
+  },
+  {
+    "file": "test_validator_regressions.py",
+    "test": "test_pdf_reader_uses_measured_cell_pitch_for_spacing_and_indent",
+    "status": "PASS"
+  }
+]

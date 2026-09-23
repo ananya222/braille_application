@@ -1,0 +1,226 @@
+[
+  {
+    "name": "test1_clean",
+    "master": "O:\\braille_0.2\\stress_test\\Test_1\\Synthetic_Test_01.pdf",
+    "actual": "O:\\braille_0.2\\stress_test\\Test_1\\Synthetic_Test_01_converted.pdf",
+    "inputs": {
+      "source_pages": 5,
+      "source_blocks": 115,
+      "source_chars": 9975,
+      "actual_pdf_pages": 15,
+      "actual_stream_chars": 8569,
+      "actual_cells_with_layout": 8555,
+      "expected_cells": 7554,
+      "reported_pages": 5,
+      "reported_differences": 19,
+      "errors": 0,
+      "reviews": 0,
+      "excluded": 0,
+      "cell_accuracy": 1.0
+    },
+    "stages": {
+      "master_extraction": {
+        "seconds": 1.853290900002321,
+        "rss_delta_bytes": 46346240,
+        "peak_rss_bytes": 95612928,
+        "python_alloc_delta_bytes": 19405922,
+        "python_peak_bytes": 19676679
+      },
+      "braille_pdf_extraction": {
+        "seconds": 2.4181012000008195,
+        "rss_delta_bytes": 4620288,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": -2634132,
+        "python_peak_bytes": 26866888
+      },
+      "expected_generation_and_rules": {
+        "seconds": 0.6812788999995973,
+        "rss_delta_bytes": 2306048,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 1397302,
+        "python_peak_bytes": 26866888
+      },
+      "comparison_alignment": {
+        "seconds": 0.25380130000121426,
+        "rss_delta_bytes": 1396736,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 512674,
+        "python_peak_bytes": 26866888
+      },
+      "finding_generation": {
+        "seconds": 0.0026876000010815915,
+        "rss_delta_bytes": 0,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 6606,
+        "python_peak_bytes": 26866888
+      },
+      "provenance_mapping": {
+        "seconds": 0.02863709999655839,
+        "rss_delta_bytes": 16384,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 119172,
+        "python_peak_bytes": 26866888
+      },
+      "annotated_pdf_export": {
+        "seconds": 0.0466952000024321,
+        "rss_delta_bytes": 20480,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 271710,
+        "python_peak_bytes": 26866888
+      },
+      "json_report_serialization": {
+        "seconds": 0.00012720000086119398,
+        "rss_delta_bytes": 4096,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 813,
+        "python_peak_bytes": 26866888
+      }
+    },
+    "peak_working_set_bytes": 115228672,
+    "annotation_seconds": 0.0466952000024321,
+    "annotation_error": null,
+    "end_to_end": {
+      "seconds": 1.2049329999972542,
+      "cprofile_seconds": 3.1840392999984033,
+      "statistics": {
+        "pages": 5,
+        "expected_cells": 7668,
+        "matching_cells": 7668,
+        "cell_accuracy": 1.0,
+        "raw_differences": 19,
+        "ignored_layout_differences": 3,
+        "ignored_unmapped_insertions": 19,
+        "ignored_alignment_differences": 0,
+        "alignment_coverage_incomplete": 0,
+        "tolerated_duxbury_cells": 277,
+        "joined_physical_page_breaks": 0,
+        "duxbury_normalized_spans": 82,
+        "source_passages_total": 115,
+        "source_passages_aligned": 115,
+        "math_spans_total": 93,
+        "math_spans_evaluated": 93,
+        "capitalization_opportunities_total": 111,
+        "capitalization_opportunities_evaluated": 111,
+        "unresolved_math_spans": 0,
+        "unresolved_source_passages": 0,
+        "unresolved_capitalization_opportunities": 0,
+        "unmatched_switch_markers": 0,
+        "errors": 0,
+        "reviews": 0,
+        "excluded": 0
+      }
+    }
+  },
+  {
+    "name": "test1_corrupted",
+    "master": "O:\\braille_0.2\\stress_test\\Test_1\\Synthetic_Test_01.pdf",
+    "actual": "O:\\braille_0.2\\stress_test\\Test_1\\corrupted\\Synthetic_Test_01_corrupted_stress.pdf",
+    "inputs": {
+      "source_pages": 5,
+      "source_blocks": 115,
+      "source_chars": 9975,
+      "actual_pdf_pages": 15,
+      "actual_stream_chars": 8574,
+      "actual_cells_with_layout": 8560,
+      "expected_cells": 7554,
+      "reported_pages": 5,
+      "reported_differences": 86,
+      "errors": 67,
+      "reviews": 0,
+      "excluded": 0,
+      "cell_accuracy": 0.9921752738654147
+    },
+    "stages": {
+      "master_extraction": {
+        "seconds": 1.9220887000010407,
+        "rss_delta_bytes": 23838720,
+        "peak_rss_bytes": 115228672,
+        "python_alloc_delta_bytes": 19171804,
+        "python_peak_bytes": 19443124
+      },
+      "braille_pdf_extraction": {
+        "seconds": 2.4694220000019413,
+        "rss_delta_bytes": 16203776,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": -2542692,
+        "python_peak_bytes": 36154999
+      },
+      "expected_generation_and_rules": {
+        "seconds": 0.4542288999982702,
+        "rss_delta_bytes": 380928,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 923092,
+        "python_peak_bytes": 36154999
+      },
+      "comparison_alignment": {
+        "seconds": 0.2815028999975766,
+        "rss_delta_bytes": 1331200,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 526610,
+        "python_peak_bytes": 36154999
+      },
+      "finding_generation": {
+        "seconds": 0.014227199997549178,
+        "rss_delta_bytes": 0,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 37899,
+        "python_peak_bytes": 36154999
+      },
+      "provenance_mapping": {
+        "seconds": 0.02956370000174502,
+        "rss_delta_bytes": 4096,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 117694,
+        "python_peak_bytes": 36154999
+      },
+      "annotated_pdf_export": {
+        "seconds": 0.05080999999699998,
+        "rss_delta_bytes": 159744,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 609459,
+        "python_peak_bytes": 36154999
+      },
+      "json_report_serialization": {
+        "seconds": 0.0041633000000729226,
+        "rss_delta_bytes": 102400,
+        "peak_rss_bytes": 138792960,
+        "python_alloc_delta_bytes": 132190,
+        "python_peak_bytes": 36154999
+      }
+    },
+    "peak_working_set_bytes": 138792960,
+    "annotation_seconds": 0.05080999999699998,
+    "annotation_error": null,
+    "end_to_end": {
+      "seconds": 1.2471213999997417,
+      "cprofile_seconds": 3.293877200001589,
+      "statistics": {
+        "pages": 5,
+        "expected_cells": 7668,
+        "matching_cells": 7608,
+        "cell_accuracy": 0.9921752738654147,
+        "raw_differences": 86,
+        "ignored_layout_differences": 3,
+        "ignored_unmapped_insertions": 19,
+        "ignored_alignment_differences": 0,
+        "alignment_coverage_incomplete": 0,
+        "tolerated_duxbury_cells": 277,
+        "joined_physical_page_breaks": 0,
+        "duxbury_normalized_spans": 82,
+        "source_passages_total": 115,
+        "source_passages_aligned": 66,
+        "math_spans_total": 93,
+        "math_spans_evaluated": 93,
+        "capitalization_opportunities_total": 111,
+        "capitalization_opportunities_evaluated": 111,
+        "unresolved_math_spans": 0,
+        "unresolved_source_passages": 49,
+        "unresolved_capitalization_opportunities": 0,
+        "unmatched_switch_markers": 0,
+        "errors": 67,
+        "reviews": 0,
+        "excluded": 0
+      }
+    }
+  }
+]

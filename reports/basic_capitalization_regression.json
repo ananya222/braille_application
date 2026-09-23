@@ -1,0 +1,19 @@
+{
+  "chapter1_clean": {
+    "pages": 17,
+    "expected_cells": 34448,
+    "matching_cells": 33175,
+    "raw_differences": 780,
+    "errors": 0,
+    "reviews": 308,
+    "excluded": 4,
+    "opening_switches": 358,
+    "closing_switches": 358,
+    "missing_inner_spaces": 0,
+    "generated_cells_identical_with_capitalization_verifier_disabled": true
+  },
+  "simple_math": {"oracle_cases": 19, "parser_exclusions": 23, "clean_cells": 118, "clean_matching": 118, "corrupted_pdf_errors": 6},
+  "capitalization": {"official_examples": 3, "source_contexts": 7, "corruptions": 33, "source_exclusions": 4, "mode_exclusions": 3, "clean_pdf_errors": 0, "corrupted_pdf_errors": 3, "visually_verified_blue_boxes": 3},
+  "packaged_exe_rebuilt": false,
+  "interactive_gui_retested": false
+}

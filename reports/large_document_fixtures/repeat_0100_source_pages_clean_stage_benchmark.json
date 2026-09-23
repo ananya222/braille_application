@@ -1,0 +1,36 @@
+{
+  "source_pages": 100,
+  "kind": "clean",
+  "source": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0100_source_pages_source.pdf",
+  "actual": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0100_source_pages_clean_braille.pdf",
+  "stages": {
+    "master_extraction": {
+      "seconds": 9.645220499998686,
+      "rss_delta_bytes": 5791744,
+      "peak_working_set_bytes": 49737728
+    },
+    "braille_pdf_extraction": {
+      "seconds": 10.840180399998644,
+      "rss_delta_bytes": 63885312,
+      "peak_working_set_bytes": 116670464
+    },
+    "expected_generation_and_rules": {
+      "seconds": 3.9066810000003898,
+      "rss_delta_bytes": 7528448,
+      "peak_working_set_bytes": 121151488
+    },
+    "comparison_alignment": {
+      "seconds": 1.3253373999978066,
+      "rss_delta_bytes": 16773120,
+      "peak_working_set_bytes": 145981440
+    }
+  },
+  "statistics": {
+    "pages": 100,
+    "expected_cells": 153379,
+    "actual_stream_cells": 161999,
+    "differences": 380,
+    "source_passages": 2300,
+    "math_spans": 1860
+  }
+}

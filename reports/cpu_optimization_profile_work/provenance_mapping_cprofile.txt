@@ -1,0 +1,38 @@
+         1255207 function calls (1255206 primitive calls) in 0.305 seconds
+
+   Ordered by: cumulative time
+   List reduced from 34 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.108    0.054    0.305    0.305 O:\braille_0.2\scripts\cpu_optimization_profile.py:161(<lambda>)
+      300    0.003    0.000    0.113    0.000 O:\braille_0.2\src\braille_app\validation\validator.py:96(_actual_page_cells)
+      300    0.015    0.000    0.058    0.000 {built-in method builtins.any}
+      300    0.017    0.000    0.050    0.000 O:\braille_0.2\src\braille_app\translation\braille_cells.py:97(ascii_to_cells)
+   171400    0.030    0.000    0.043    0.000 O:\braille_0.2\src\braille_app\validation\validator.py:101(<genexpr>)
+   416060    0.034    0.000    0.034    0.000 {built-in method builtins.ord}
+   162000    0.033    0.000    0.033    0.000 O:\braille_0.2\src\braille_app\translation\braille_cells.py:102(<genexpr>)
+        1    0.009    0.009    0.029    0.029 O:\braille_0.2\src\braille_app\validation\pdf_annotation_adapter.py:89(build_provenance_alignment)
+   122780    0.015    0.000    0.015    0.000 O:\braille_0.2\src\braille_app\validation\pdf_annotation_adapter.py:113(<genexpr>)
+   122480    0.013    0.000    0.013    0.000 {method 'setdefault' of 'dict' objects}
+   122781    0.013    0.000    0.013    0.000 {method 'append' of 'list' objects}
+   122780    0.012    0.000    0.012    0.000 {method 'get' of 'dict' objects}
+    11000    0.002    0.000    0.002    0.000 {method 'strip' of 'str' objects}
+      900    0.001    0.000    0.001    0.000 {method 'replace' of 'str' objects}
+      301    0.001    0.000    0.001    0.000 {method 'split' of 'str' objects}
+      300    0.000    0.000    0.000    0.000 {method 'join' of 'str' objects}
+     1501    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        1    0.000    0.000    0.000    0.000 {method 'disable' of '_lsprof.Profiler' objects}
+        3    0.000    0.000    0.000    0.000 {built-in method builtins.max}
+        1    0.000    0.000    0.000    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:311(_acquire_restore)
+        1    0.000    0.000    0.000    0.000 {built-in method _thread.allocate_lock}
+        1    0.000    0.000    0.000    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:302(__exit__)
+        1    0.000    0.000    0.000    0.000 {built-in method time.process_time}
+        3    0.000    0.000    0.000    0.000 {method 'acquire' of '_thread.lock' objects}
+        1    0.000    0.000    0.000    0.000 <string>:2(__init__)
+        1    0.000    0.000    0.000    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:314(_is_owned)
+        1    0.000    0.000    0.000    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:308(_release_save)
+        1    0.000    0.000    0.000    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:299(__enter__)
+        1    0.000    0.000    0.000    0.000 {method 'remove' of 'collections.deque' objects}
+        1    0.000    0.000    0.000    0.000 {method '__exit__' of '_thread.lock' objects}
+
+

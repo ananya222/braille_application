@@ -3,9 +3,22 @@
 import os
 from io import BytesIO
 from statistics import median
+from dataclasses import dataclass
 
 from braille_app.brf_parser import ASCII_TO_UNICODE_BRAILLE
+from braille_app.validation_profiles import resolve_profile
 
+
+# Duxbury's PDF Braille font uses a private printable-code alphabet for some
+# cells.  The corrected DXB payload uses the corresponding NABCC characters.
+# This is a representation normalization for the contracted PDF path, not a
+# linguistic equivalence rule.
+CONTRACTED_PDF_CODE_TO_DXB_CODE = {
+    "{": "[",
+    "}": "]",
+    "|": "\\",
+    "~": ";",
+}
 
 def _group_rows(words):
     """Group by observed baselines; PDF line pitch must never be assumed."""
@@ -52,36 +65,7 @@ def _pdf_page_to_braille_lines_from_chars(characters, font_maps):
     renders different Braille dots.  Reading the embedded font's dot pattern
     lets comparison detect that error whether the glyph is black or coloured.
     """
-    rows = _group_rows(characters)
-    if not rows:
-        return []
-
-    widths = [char["x1"] - char["x0"] for row in rows for char in row if char["x1"] > char["x0"]]
-    if not widths:
-        return []
-    pitch = median(widths)
-    left_edge = min(char["x0"] for row in rows for char in row)
-    lines = []
-
-    def rendered_cell(character):
-        font_name = character.get("fontname", "").split("+")[-1]
-        return font_maps.get(font_name, {}).get(character["text"], character["text"])
-
-    for row in rows:
-        row.sort(key=lambda char: char["x0"])
-        raw_text = "".join(char["text"] for char in row)
-        if "english (ueb)" in raw_text.lower():
-            continue
-
-        parts = [" " * max(0, round((row[0]["x0"] - left_edge) / pitch))]
-        last_end = row[0]["x0"]
-        for char in row:
-            gap = max(0, round((char["x0"] - last_end) / pitch))
-            if gap:
-                parts.append(" " * gap)
-            parts.append(rendered_cell(char))
-            last_end = char["x1"]
-        lines.append("".join(parts))
+    lines, _ = _pdf_page_to_braille_lines_from_chars_with_provenance(characters, font_maps, 1)
     return lines
 
 
@@ -160,30 +144,44 @@ def _embedded_braille_font_maps(pdf, pages):
     from pypdf import PdfReader
 
     reader = PdfReader(pdf.stream.name)
-    mappings = {}
+    font_chars = {}
+    font_files = {}
+
     for page_index, page in enumerate(reader.pages):
         resources = page.get("/Resources", {})
         for font_ref in resources.get("/Font", {}).values():
             font_object = font_ref.get_object()
             base_name = str(font_object.get("/BaseFont", "")).lstrip("/")
-            if "braille" not in base_name.lower() or base_name in mappings:
+            if "braille" not in base_name.lower():
                 continue
+            
+            font_id = base_name
             descriptor = font_object.get("/FontDescriptor")
             if descriptor is None and font_object.get("/DescendantFonts"):
                 descriptor = font_object["/DescendantFonts"][0].get_object().get("/FontDescriptor")
-            if descriptor is None:
-                continue
-            descriptor = descriptor.get_object()
-            font_file = descriptor.get("/FontFile2")
-            if font_file is None:
-                continue
-            characters = {char["text"] for char in pages[page_index].chars if char.get("fontname", "").split("+")[-1] == base_name.split("+")[-1]}
+            if descriptor:
+                descriptor = descriptor.get_object()
+                font_file = descriptor.get("/FontFile2")
+                if font_file:
+                    font_files[font_id] = font_file.get_object().get_data()
+
+            page_chars = {
+                char["text"] for char in pages[page_index].chars 
+                if char.get("fontname", "") == font_id
+            }
+            font_chars.setdefault(font_id, set()).update(page_chars)
+
+    mappings = {}
+    for font_short, characters in font_chars.items():
+        font_data = font_files.get(font_short)
+        if font_data:
             try:
-                mappings[base_name.split("+")[-1]] = _font_dot_map(font_file.get_object().get_data(), characters)
+                mappings[font_short] = _font_dot_map(font_data, characters)
             except Exception:
-                # Keep text extraction as a safe fallback for PDFs without a
-                # usable TrueType braille program.
-                mappings[base_name.split("+")[-1]] = {}
+                mappings[font_short] = {}
+        else:
+            mappings[font_short] = {}
+
     return mappings
 
 
@@ -191,9 +189,241 @@ def read_braille_input(file_path):
     """Read BRF/text or a text-based braille PDF into an ASCII-braille stream."""
     _, extension = os.path.splitext(file_path.lower())
     if extension == ".pdf":
-        import pdfplumber
-        with pdfplumber.open(file_path) as pdf:
-            pages = ["\n".join(_pdf_page_to_braille_lines(page.extract_words())) for page in pdf.pages]
-        return _unicode_braille_to_ascii("\x0c".join(pages))
+        return read_braille_pdf_with_provenance(file_path).content
     with open(file_path, "r", encoding="utf-8", errors="ignore") as source:
         return _unicode_braille_to_ascii(source.read())
+
+
+@dataclass
+class PdfCellProvenance:
+    page: int
+    x0: float
+    x1: float
+    top: float
+    bottom: float
+    source_char: str
+    unicode_cell: str
+    fontname: str
+    color: object
+    canonicalization_reason: str | None = None
+
+
+@dataclass
+class PdfBrailleInput:
+    content: str
+    word_provenance: list
+
+
+def _pdf_page_to_braille_lines_from_chars_with_provenance(
+    characters, font_maps, page_idx, profile=None
+):
+    from statistics import median
+    profile_config = resolve_profile(profile)
+    rows = _group_rows(characters)
+    if not rows:
+        return [], []
+    widths = [
+        (char["x1"] - char["x0"])
+        for row in rows for char in row if char["x1"] > char["x0"]
+    ]
+    if not widths:
+        return [], []
+    pitch = median(widths)
+    left_edge = min(char["x0"] for row in rows for char in row)
+    lines = []
+    line_provenance = []
+
+    def rendered_cell(character):
+        if character["text"].isspace():
+            return "\u2800" if character["text"] == " " else character["text"]
+            
+        font_name = character.get("fontname", "")
+        is_braille_font = "braille" in font_name.lower()
+        mapping = font_maps.get(font_name, {})
+        if is_braille_font:
+            if not mapping:
+                raise ValueError(f"Failed to load embedded Braille font program for {font_name}")
+            if character["text"] not in mapping:
+                raise ValueError(f"Missing glyph mapping for character {repr(character['text'])} in font {font_name}")
+            return mapping[character["text"]]
+        return character["text"]
+
+    for row in rows:
+        row.sort(key=lambda char: char["x0"])
+        raw_text = "".join(char["text"] for char in row)
+        if "english (ueb)" in raw_text.lower():
+            continue
+
+        parts = []
+        prov = []
+        indent_spaces = max(0, round((row[0]["x0"] - left_edge) / pitch))
+        for _ in range(indent_spaces):
+            parts.append(" ")
+            prov.append(None)
+            
+        last_end = row[0]["x0"]
+        for char in row:
+            gap = max(0, round((char["x0"] - last_end) / pitch))
+            for _ in range(gap):
+                parts.append(" ")
+                prov.append(None)
+            cell = rendered_cell(char)
+            canonicalization_reason = None
+            if profile_config.contracted_pdf_normalization and "braille" in char.get("fontname", "").lower():
+                dxb_code = CONTRACTED_PDF_CODE_TO_DXB_CODE.get(
+                    char["text"], char["text"]
+                )
+                dxb_cell = ASCII_TO_UNICODE_BRAILLE.get(dxb_code)
+                if dxb_cell is not None and dxb_cell != cell:
+                    cell = dxb_cell
+                    canonicalization_reason = "contracted_pdf_dxb_code_alphabet"
+            color = char.get("non_stroking_color") or char.get("stroking_color")
+            if (
+                profile_config.mixed_math
+                and char.get("text") == "\u2011"
+                and parts
+                and parts[-1] == "\u2810"
+            ):
+                # The calibrated Math PDF uses a raw non-breaking hyphen for
+                # the cell after the numeric sign.  Store the canonical UEB
+                # minus cell in provenance so the comparison stream and its
+                # drawable ownership remain identical.  Header/prose
+                # hyphens are not preceded by the numeric sign and remain
+                # untouched.
+                cell = "\u2801"
+                canonicalization_reason = "math_pdf_minus_representation"
+            elif profile_config.mixed_math and char.get("text") == "\u2011":
+                # The Math calibration PDFs use a raw non-breaking hyphen in
+                # page headings.  Both Error and Corrected PDFs retain it,
+                # while the corrected DXB/expected Math stream uses the
+                # canonical Braille dash cell.
+                cell = "\u2824"
+                canonicalization_reason = "math_pdf_heading_dash_representation"
+            parts.append(cell)
+            prov.append(PdfCellProvenance(
+                page=page_idx,
+                x0=char["x0"],
+                x1=char["x1"],
+                top=char["top"],
+                bottom=char["bottom"],
+                source_char=char["text"],
+                unicode_cell=cell,
+                fontname=char.get("fontname", ""),
+                color=color,
+                canonicalization_reason=canonicalization_reason,
+            ))
+            last_end = char["x1"]
+        lines.append("".join(parts))
+        line_provenance.append(prov)
+    return lines, line_provenance
+
+
+def _normalize_and_track_provenance(content, prov_map, profile=None):
+    import re
+    from braille_app.diff_engine import DiffEngine
+    
+    # The current stable DiffEngine exposes normalization without a profile
+    # constructor argument.  Keep the historical provenance extraction path
+    # while remaining compatible with the current validator boundary.
+    diff_engine = DiffEngine()
+    actual_normalized = diff_engine._normalize_braille_stream(content, strip_page_numbers=True, is_actual=True)
+    expected_words = actual_normalized.split()
+    
+    start_offset = 0
+    lstrip_len = len(content) - len(content.lstrip())
+    start_offset += lstrip_len
+    
+    stripped_text = content.lstrip()
+    match = re.match(r'^DBT\s+[\d\.]+\s+[A-Za-z]+\s+', stripped_text)
+    if match:
+        start_offset += match.end()
+        
+    pages = content.split('\x0c')
+    page_start_idx = 0
+    
+    word_provenance = []
+    
+    for page in pages:
+        lines = page.replace('\r\n', '\n').split('\n')
+        line_start_idx = page_start_idx
+        
+        for line in lines:
+            stripped = line.strip()
+            if stripped:
+                word_chars = []
+                word_provs = []
+                for c_idx, char in enumerate(line):
+                    orig_idx = line_start_idx + c_idx
+                    if orig_idx < start_offset:
+                        continue
+                    if char == ' ' or char == '\u2800':
+                        if word_chars:
+                            word_provenance.append(word_provs)
+                            word_chars = []
+                            word_provs = []
+                    else:
+                        word_chars.append(char)
+                        p_val = prov_map[orig_idx]
+                        if p_val is not None:
+                            word_provs.append(p_val)
+                if word_chars:
+                    word_provenance.append(word_provs)
+                    
+            line_start_idx += len(line) + 1
+        page_start_idx += len(page) + 1
+        
+    assert len(expected_words) == len(word_provenance), f"Invariant A failed: len(expected_words)={len(expected_words)} != len(word_provenance)={len(word_provenance)}"
+    
+    for k, prov_list in enumerate(word_provenance):
+        reconstructed = "".join(p.unicode_cell for p in prov_list if p is not None)
+        expected_w = expected_words[k]
+        if resolve_profile(profile).contracted_pdf_normalization:
+            norm_reconstructed = reconstructed
+        else:
+            norm_reconstructed = reconstructed.replace('\u2824', '-').replace('\u2011', '-')
+        assert norm_reconstructed == expected_w, f"Invariant B failed at word {k}: expected {repr(expected_w)}, got {repr(norm_reconstructed)}"
+        
+    return word_provenance
+
+
+def read_braille_pdf_with_provenance(file_path, profile=None):
+    """Read a text-based braille PDF and return PdfBrailleInput with cell provenance."""
+    import pdfplumber
+    with pdfplumber.open(file_path) as pdf:
+        has_chars = any(len(page.chars) > 0 for page in pdf.pages)
+        if not has_chars:
+            raise ValueError("Scanned PDF or PDF without vector text characters is not supported.")
+        font_maps = _embedded_braille_font_maps(pdf, pdf.pages)
+        
+        global_text = []
+        global_provenance = []
+        
+        for page_idx, page in enumerate(pdf.pages, start=1):
+            lines, line_prov = _pdf_page_to_braille_lines_from_chars_with_provenance(
+                page.chars, font_maps, page_idx, profile=profile
+            )
+            page_text = "\n".join(lines)
+            page_prov = []
+            for i, line_p in enumerate(line_prov):
+                page_prov.extend(line_p)
+                if i < len(line_prov) - 1:
+                    page_prov.append(None)
+            global_text.append(page_text)
+            global_provenance.append(page_prov)
+            # pdfplumber retains parsed character/layout objects on each Page.
+            # Provenance has been copied into the returned structures, so the
+            # page cache can be released before parsing the next large-PDF page.
+            page.close()
+            
+        content = "\x0c".join(global_text)
+        full_provenance = []
+        for i, page_p in enumerate(global_provenance):
+            full_provenance.extend(page_p)
+            if i < len(global_provenance) - 1:
+                full_provenance.append(None)
+                
+        word_provenance = _normalize_and_track_provenance(
+            content, full_provenance, profile=profile
+        )
+        
+        return PdfBrailleInput(content=content, word_provenance=word_provenance)

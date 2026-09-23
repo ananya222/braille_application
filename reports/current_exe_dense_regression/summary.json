@@ -1,0 +1,63 @@
+{
+  "status": "PASS",
+  "executable": "O:\\braille_0.2\\dist\\BrailleValidator\\BrailleValidator.exe",
+  "affinity_mask": "0x3",
+  "rows": [
+    {
+      "test": 1,
+      "kind": "clean",
+      "expected": 0,
+      "detected": 0,
+      "blue_boxes": 0,
+      "exact_boxes": 0,
+      "wall_seconds": 3.833949300000313,
+      "passed": true,
+      "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_1_clean\\localappdata\\BrailleValidator\\output\\Synthetic_Test_01_converted_validator_annotated.pdf",
+      "report": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_1_clean\\localappdata\\BrailleValidator\\output\\Synthetic_Test_01_converted_validator_report.json",
+      "stdout_tail": "e_incomplete\": 0, \"tolerated_duxbury_cells\": 277, \"joined_physical_page_breaks\": 0, \"duxbury_normalized_spans\": 82, \"source_passages_total\": 115, \"source_passages_aligned\": 115, \"math_spans_total\": 93, \"math_spans_evaluated\": 93, \"capitalization_opportunities_total\": 111, \"capitalization_opportunities_evaluated\": 111, \"unresolved_math_spans\": 0, \"unresolved_source_passages\": 0, \"unresolved_capitalization_opportunities\": 0, \"unmatched_switch_markers\": 0, \"errors\": 0, \"reviews\": 0, \"excluded\": 0}\n",
+      "stderr_tail": ""
+    },
+    {
+      "test": 1,
+      "kind": "dense",
+      "expected": 67,
+      "detected": 67,
+      "blue_boxes": 67,
+      "exact_boxes": 67,
+      "wall_seconds": 2.3366576000007626,
+      "passed": true,
+      "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_1_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_01_corrupted_stress_validator_annotated.pdf",
+      "report": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_1_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_01_corrupted_stress_validator_report.json",
+      "stdout_tail": "_incomplete\": 0, \"tolerated_duxbury_cells\": 277, \"joined_physical_page_breaks\": 0, \"duxbury_normalized_spans\": 82, \"source_passages_total\": 115, \"source_passages_aligned\": 66, \"math_spans_total\": 93, \"math_spans_evaluated\": 93, \"capitalization_opportunities_total\": 111, \"capitalization_opportunities_evaluated\": 111, \"unresolved_math_spans\": 0, \"unresolved_source_passages\": 49, \"unresolved_capitalization_opportunities\": 0, \"unmatched_switch_markers\": 0, \"errors\": 67, \"reviews\": 0, \"excluded\": 0}\n",
+      "stderr_tail": ""
+    },
+    {
+      "test": 2,
+      "kind": "dense",
+      "expected": 68,
+      "detected": 68,
+      "blue_boxes": 68,
+      "exact_boxes": 68,
+      "wall_seconds": 2.302125899999737,
+      "passed": true,
+      "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_2_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_02_corrupted_stress_validator_annotated.pdf",
+      "report": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_2_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_02_corrupted_stress_validator_report.json",
+      "stdout_tail": "_incomplete\": 0, \"tolerated_duxbury_cells\": 282, \"joined_physical_page_breaks\": 0, \"duxbury_normalized_spans\": 84, \"source_passages_total\": 121, \"source_passages_aligned\": 73, \"math_spans_total\": 93, \"math_spans_evaluated\": 93, \"capitalization_opportunities_total\": 106, \"capitalization_opportunities_evaluated\": 106, \"unresolved_math_spans\": 0, \"unresolved_source_passages\": 48, \"unresolved_capitalization_opportunities\": 0, \"unmatched_switch_markers\": 0, \"errors\": 68, \"reviews\": 0, \"excluded\": 0}\n",
+      "stderr_tail": ""
+    },
+    {
+      "test": 4,
+      "kind": "dense",
+      "expected": 50,
+      "detected": 50,
+      "blue_boxes": 50,
+      "exact_boxes": 50,
+      "wall_seconds": 2.20426850000149,
+      "passed": true,
+      "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_4_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_04_corrupted_stress_validator_annotated.pdf",
+      "report": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_4_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_04_corrupted_stress_validator_report.json",
+      "stdout_tail": "complete\": 0, \"tolerated_duxbury_cells\": 378, \"joined_physical_page_breaks\": 0, \"duxbury_normalized_spans\": 102, \"source_passages_total\": 118, \"source_passages_aligned\": 71, \"math_spans_total\": 115, \"math_spans_evaluated\": 115, \"capitalization_opportunities_total\": 154, \"capitalization_opportunities_evaluated\": 154, \"unresolved_math_spans\": 0, \"unresolved_source_passages\": 47, \"unresolved_capitalization_opportunities\": 0, \"unmatched_switch_markers\": 0, \"errors\": 50, \"reviews\": 0, \"excluded\": 0}\n",
+      "stderr_tail": ""
+    }
+  ]
+}

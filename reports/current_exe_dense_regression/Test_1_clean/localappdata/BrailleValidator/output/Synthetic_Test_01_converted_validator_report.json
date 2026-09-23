@@ -1,0 +1,11 @@
+{
+  "master": "O:\\braille_0.2\\stress_test\\Test_1\\Synthetic_Test_01.pdf",
+  "braille_input": "O:\\braille_0.2\\stress_test\\Test_1\\Synthetic_Test_01_converted.pdf",
+  "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_1_clean\\localappdata\\BrailleValidator\\output\\Synthetic_Test_01_converted_validator_annotated.pdf",
+  "summary": {
+    "confirmed_errors": 0,
+    "unverified": 0,
+    "excluded_non_text": 0
+  },
+  "issues": []
+}

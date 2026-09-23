@@ -1,0 +1,23 @@
+{
+  "master": "O:\\braille_0.2\\stress_test\\Test_4\\Synthetic_Test_04.pdf",
+  "braille_input": "O:\\braille_0.2\\stress_test\\Test_4\\corrupted\\Synthetic_Test_04_corrupted_stress.pdf",
+  "normal_annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_4_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_04_corrupted_stress_validator_annotated.pdf",
+  "diagnostic_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_4_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_04_corrupted_stress_validator_diagnostic.pdf",
+  "alignment_diagnostics": [],
+  "alignment_coverage_incomplete": false,
+  "summary": {
+    "confirmed_errors": 50,
+    "review": 0,
+    "excluded": 0,
+    "mapped_review": 0,
+    "unmapped_review": 0,
+    "rejected_over_broad_review": 0
+  },
+  "provenance_alignment": {
+    "validator_cells": 5195,
+    "pdf_cells": 5195,
+    "unmatched_cells": 0,
+    "unexplained_offsets": 0
+  },
+  "reviews": []
+}

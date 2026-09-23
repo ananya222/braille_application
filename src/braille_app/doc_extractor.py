@@ -182,6 +182,7 @@ class PdfExtractor:
                         "print_page_number": idx,
                         "blocks": []
                     })
+                    pdf_page.close()
                     continue
                 
                 # Group words into lines based on their vertical top coordinate (tolerance +/- 3 pixels)
@@ -225,6 +226,11 @@ class PdfExtractor:
                     "print_page_number": idx,
                     "blocks": blocks
                 })
+                # pdfplumber caches parsed layout objects on each Page.  The
+                # extracted blocks above are independent of that cache; drop
+                # it before moving to the next page so large PDFs do not keep
+                # every page's character graph resident until PDF close.
+                pdf_page.close()
                 
         return {"pages": pages}
 

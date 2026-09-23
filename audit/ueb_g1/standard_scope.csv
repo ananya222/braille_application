@@ -1,0 +1,93 @@
+﻿citation,title,classification,reason,dependencies,official_example_available,notes
+2.3.1,Follow print,REQUIRED,"V1 must preserve relevant letters, punctuation and capitals.","4,7,8",YES,Ordinary prose input.
+2.4.1,Indicators and modes,REQUIRED,"Needed to interpret numeric, Grade 1, capitals and typeforms.","5,6,8,9",YES,Validator must not treat indicators as ordinary letters.
+2.4.2,Indicators and modes,REQUIRED,"Needed to interpret numeric, Grade 1, capitals and typeforms.","5,6,8,9",YES,Validator must not treat indicators as ordinary letters.
+2.4.3,Indicators and modes,REQUIRED,"Needed to interpret numeric, Grade 1, capitals and typeforms.","5,6,8,9",YES,Validator must not treat indicators as ordinary letters.
+2.4.4,Indicators and modes,REQUIRED,"Needed to interpret numeric, Grade 1, capitals and typeforms.","5,6,8,9",YES,Validator must not treat indicators as ordinary letters.
+2.4.5,Indicators and modes,REQUIRED,"Needed to interpret numeric, Grade 1, capitals and typeforms.","5,6,8,9",YES,Validator must not treat indicators as ordinary letters.
+2.5.1,Contractions disallowed in Grade 1 mode,REQUIRED,V1 is uncontracted; contracted UEB is out of scope.,"5,6",YES,No Grade 2 acceptance.
+2.5.2,Uncontracted differs from Grade 1 mode,REQUIRED,Defines V1 policy: uncontracted output may omit Grade 1 indicators except where needed.,"5,6",YES,High-risk policy boundary.
+2.5.3,Uncontracted differs from Grade 1 mode,REQUIRED,Defines V1 policy: uncontracted output may omit Grade 1 indicators except where needed.,"5,6",YES,High-risk policy boundary.
+2.5.4,Uncontracted differs from Grade 1 mode,REQUIRED,Defines V1 policy: uncontracted output may omit Grade 1 indicators except where needed.,"5,6",YES,High-risk policy boundary.
+2.5.5,Uncontracted differs from Grade 1 mode,REQUIRED,Defines V1 policy: uncontracted output may omit Grade 1 indicators except where needed.,"5,6",YES,High-risk policy boundary.
+2.6.1,Standing alone,REQUIRED,"Controls quote, question-mark, apostrophe and indicator ambiguity.","7,8",YES,Context-sensitive.
+2.6.2,Standing alone,REQUIRED,"Controls quote, question-mark, apostrophe and indicator ambiguity.","7,8",YES,Context-sensitive.
+2.6.3,Standing alone,REQUIRED,"Controls quote, question-mark, apostrophe and indicator ambiguity.","7,8",YES,Context-sensitive.
+2.6.4,Standing alone,REQUIRED,"Controls quote, question-mark, apostrophe and indicator ambiguity.","7,8",YES,Context-sensitive.
+2.6.5,Standing alone,REQUIRED,"Controls quote, question-mark, apostrophe and indicator ambiguity.","7,8",YES,Context-sensitive.
+3.1,Ampersand,REQUIRED,Common symbol explicitly in V1 list.,"2,7",YES,Direct symbol mapping.
+3.5,Bullet,REQUIRED,Common symbol explicitly requested.,"2,7",YES,Text-level bullet only.
+3.7,"At, copyright, registered, trademark",REQUIRED,Common symbols explicitly requested.,"6,7",YES,Direct symbol mapping.
+3.8,"At, copyright, registered, trademark",REQUIRED,Common symbols explicitly requested.,"6,7",YES,Direct symbol mapping.
+3.10,Currency signs,REQUIRED,Currency is explicitly requested and interacts with numeric mode.,6,YES,"Dollar, pound, euro, yen, cent in V1 corpus."
+3.11,Degree and prime,REQUIRED,Degree is explicitly requested; prime is ordinary symbol-level support.,"6,7",YES,No mathematics semantics.
+3.19,"Number, paragraph/section, percent",REQUIRED,Explicit common-symbol and numeric requirements.,6,YES,Hash is not automatically numeric.
+3.20,"Number, paragraph/section, percent",REQUIRED,Explicit common-symbol and numeric requirements.,6,YES,Hash is not automatically numeric.
+3.21,"Number, paragraph/section, percent",REQUIRED,Explicit common-symbol and numeric requirements.,6,YES,Hash is not automatically numeric.
+3.23,Space,REQUIRED,Ordinary spacing is core validator behavior.,"2,6",YES,NBSP/thin/zero-width probes are separate.
+3.28,Check mark,OPTIONAL/LATER,Rare symbol; not required for core English prose V1.,3,YES,Can be added after core symbols are stable.
+4.1,English alphabet,REQUIRED,All a-z/A-Z are core V1.,"2,5,8",YES,52 corpus rows.
+4.2,Letter modifiers,OPTIONAL/LATER,Non-ASCII/foreign modifiers are not ordinary English-only V1.,"8,9",YES,Keep fail-closed until explicitly included.
+4.3,Ligatured letters,OPTIONAL/LATER,"Foreign/typographic material, not core ASCII English.",4,YES,No V1 requirement.
+4.4,"Eng, schwa, Greek, eszett",OUT_OF_SCOPE,Pronunciation/foreign alphabets are outside English-only V1.,4,YES,Do not silently accept as ordinary English.
+4.5,"Eng, schwa, Greek, eszett",OUT_OF_SCOPE,Pronunciation/foreign alphabets are outside English-only V1.,4,YES,Do not silently accept as ordinary English.
+4.6,"Eng, schwa, Greek, eszett",OUT_OF_SCOPE,Pronunciation/foreign alphabets are outside English-only V1.,4,YES,Do not silently accept as ordinary English.
+5.1,Grade 1 symbol mode,REQUIRED,Needed for explicit Grade 1 semantics and required numeric follow-ups.,"6,7",YES,Generator need differs from validator acceptance.
+5.2,Grade 1 symbol mode,REQUIRED,Needed for explicit Grade 1 semantics and required numeric follow-ups.,"6,7",YES,Generator need differs from validator acceptance.
+5.3,Grade 1 word/passage/terminator,REQUIRED,V1 must recognize these if present; generator may omit them in pure Grade 1 text.,"2.5,5.11",YES,Audit acceptance behavior separately.
+5.4,Grade 1 word/passage/terminator,REQUIRED,V1 must recognize these if present; generator may omit them in pure Grade 1 text.,"2.5,5.11",YES,Audit acceptance behavior separately.
+5.5,Grade 1 word/passage/terminator,REQUIRED,V1 must recognize these if present; generator may omit them in pure Grade 1 text.,"2.5,5.11",YES,Audit acceptance behavior separately.
+5.6,Numeric indicator sets Grade 1 mode,REQUIRED,Core number/letter interaction.,6,YES,High-risk.
+5.7,Grade 1 and capitalization,REQUIRED,Indicator ordering is explicitly requested.,8,YES,High-risk.
+5.8,Grade 1 and capitalization,REQUIRED,Indicator ordering is explicitly requested.,8,YES,High-risk.
+5.9,Choice of indicators,OPTIONAL/LATER,Policy choice; V1 can use canonical minimal forms first.,"5,6",YES,Document accepted variants only when cited.
+5.10,Optional Grade 1 indicator,REQUIRED,Acceptance set must not reject explicitly permitted omission/presence.,"2.5,5.11",YES,Core variant policy.
+5.11,Grade 1 text indicator policy,REQUIRED,Pure uncontracted output should not add indicators gratuitously.,2.5,YES,Core validator expectation.
+6.1,Digits and numeric-mode symbols,REQUIRED,All ordinary numeric forms in requested corpus.,"3,5,6,7",YES,"Digits, dot, comma, fraction line only."
+6.2,Digits and numeric-mode symbols,REQUIRED,All ordinary numeric forms in requested corpus.,"3,5,6,7",YES,"Digits, dot, comma, fraction line only."
+6.3,Numeric termination and letter interactions,REQUIRED,Explicit high-risk scope.,"5,7,8",YES,High-risk.
+6.4,Numeric termination and letter interactions,REQUIRED,Explicit high-risk scope.,"5,7,8",YES,High-risk.
+6.5,Numeric termination and letter interactions,REQUIRED,Explicit high-risk scope.,"5,7,8",YES,High-risk.
+6.6,Numeric spaces,REQUIRED,2024 rule change/priority area.,3.23,YES,Explicit numeric-space probes.
+6.7,"Dates, time, coinage, ordinals",REQUIRED,Explicit minimum corpus requirements.,"3,7",YES,No layout line-breaking.
+6.8,Spaced numeric indicator,OPTIONAL/LATER,"Layout/alignment-specific, not ordinary prose V1.",6,YES,Fail closed for now.
+6.9,Numeric passages and line division,OPTIONAL/LATER,Requires structured layout/line context not supplied by plain text.,6,YES,Not core text-only V1.
+6.10,Numeric passages and line division,OPTIONAL/LATER,Requires structured layout/line context not supplied by plain text.,6,YES,Not core text-only V1.
+7.1,General punctuation,REQUIRED,Core punctuation family.,"2,3",YES,"Comma, semicolon, colon, full stop, !, ?."
+7.2,"Hyphen, dash, long dash",REQUIRED,Explicit minimum corpus requirements.,"2,5,6,8",YES,Print spacing is input-sensitive.
+7.3,"Ellipsis, solidus, question mark",REQUIRED,Explicit minimum corpus requirements.,"2,5",YES,Question mark ambiguity is high-risk.
+7.4,"Ellipsis, solidus, question mark",REQUIRED,Explicit minimum corpus requirements.,"2,5",YES,Question mark ambiguity is high-risk.
+7.5,"Ellipsis, solidus, question mark",REQUIRED,Explicit minimum corpus requirements.,"2,5",YES,Question mark ambiguity is high-risk.
+7.6.1,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.2,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.3,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.4,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.5,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.6,Quotation marks and apostrophe basics,REQUIRED,High-priority 2024 automation area.,2.6,YES,Curly and ASCII probes.
+7.6.7,Quote/apostrophe ambiguity avoidance,REQUIRED,Explicit 2024 high-risk area.,"2.6,5",YES,Standing-alone and Grade 1 ordering.
+7.6.8,Quote/apostrophe ambiguity avoidance,REQUIRED,Explicit 2024 high-risk area.,"2.6,5",YES,Standing-alone and Grade 1 ordering.
+7.6.9,Quote/apostrophe ambiguity avoidance,REQUIRED,Explicit 2024 high-risk area.,"2.6,5",YES,Standing-alone and Grade 1 ordering.
+7.6.10,Quote/apostrophe ambiguity avoidance,REQUIRED,Explicit 2024 high-risk area.,"2.6,5",YES,Standing-alone and Grade 1 ordering.
+7.6.12,Translation-software quote/apostrophe guidance,REQUIRED,Directly governs automated translation limits.,2.6,YES,UNCERTAIN is valid outcome.
+7.6.13,Translation-software quote/apostrophe guidance,REQUIRED,Directly governs automated translation limits.,2.6,YES,UNCERTAIN is valid outcome.
+7.6.14,Translation-software quote/apostrophe guidance,REQUIRED,Directly governs automated translation limits.,2.6,YES,UNCERTAIN is valid outcome.
+7.6.15,Translation-software quote/apostrophe guidance,REQUIRED,Directly governs automated translation limits.,2.6,YES,UNCERTAIN is valid outcome.
+7.7,Multiline brackets,OPTIONAL/LATER,"Requires line/layout structure, not plain text V1.",3,YES,Fail closed.
+8.1,Capital letters and isolated capitals,REQUIRED,Core English prose.,"4,5",YES,All A-Z corpus.
+8.2,Capital letters and isolated capitals,REQUIRED,Core English prose.,"4,5",YES,All A-Z corpus.
+8.3,Capital letters and isolated capitals,REQUIRED,Core English prose.,"4,5",YES,All A-Z corpus.
+8.4,Capitalised word mode,REQUIRED,Explicit high-priority capitalization requirement.,"2.6,5",YES,Engine opcode involved.
+8.5,Capitalised passage and terminator,REQUIRED,Explicit high-priority capitalization requirement.,5,YES,Engine opcode involved.
+8.6,Capitalised passage and terminator,REQUIRED,Explicit high-priority capitalization requirement.,5,YES,Engine opcode involved.
+8.7,Indicator placement and choice,REQUIRED,Ordering/acceptance policy for validator.,"4,5,6",YES,Variants need citation.
+8.8,Indicator placement and choice,REQUIRED,Ordering/acceptance policy for validator.,"4,5,6",YES,Variants need citation.
+8.9,Accented capitals,OPTIONAL/LATER,Non-ASCII accented print is outside core English-only V1.,4,YES,Do not generalize from ASCII.
+9.1,"Italic, bold, underline typeforms",REQUIRED,Requested as likely V1 and supported by Liblouis typeform API.,"2,8",YES,Needs structured typeform input.
+9.2,"Italic, bold, underline typeforms",REQUIRED,Requested as likely V1 and supported by Liblouis typeform API.,"2,8",YES,Needs structured typeform input.
+9.3,"Italic, bold, underline typeforms",REQUIRED,Requested as likely V1 and supported by Liblouis typeform API.,"2,8",YES,Needs structured typeform input.
+9.4,"Italic, bold, underline typeforms",REQUIRED,Requested as likely V1 and supported by Liblouis typeform API.,"2,8",YES,Needs structured typeform input.
+9.5,Transcriber-defined typeforms and small capitals,OPTIONAL/LATER,Requires document-level semantics beyond current text input.,8,YES,Fail closed.
+9.6,Transcriber-defined typeforms and small capitals,OPTIONAL/LATER,Requires document-level semantics beyond current text input.,8,YES,Fail closed.
+9.7,Typeform placement and multiple indicators,REQUIRED,Needed if V1 accepts typeforms.,5,YES,Indicator ordering is not universally prescribed.
+9.8,Typeform placement and multiple indicators,REQUIRED,Needed if V1 accepts typeforms.,5,YES,Indicator ordering is not universally prescribed.
+9.9,Typeform passages across text elements,OPTIONAL/LATER,Requires document structure/layout.,8,YES,Not plain-text V1.

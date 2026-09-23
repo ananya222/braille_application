@@ -1,0 +1,37 @@
+case_id,source_text,page,rule_family,iceb_ueb_2024_citation,purpose
+P1-ALPHA-LOWER,1,Lowercase alphabet: a b c d e f g h i j k l m n o p q r s t u v w x y z,alphabet,4.1.1-4.1.3,lowercase alphabet coverage
+P1-ALPHA-UPPER,1,Uppercase alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z,alphabet,4.1.1-4.1.3,uppercase alphabet coverage
+P1-WORDS,1,Ordinary words: hello braille validator ordinary education computer.,ordinary words,4.1.1-4.1.3,ordinary English word coverage
+P1-CAPS-WORDS,1,Capitalized words: Hello Braille Validator Education.,capitalization,8.1.1-8.3.3,basic word-initial capitalization
+P1-ISOLATED-CAPS,1,Isolated capitals: A B D Z I O.,capitalization,8.1.1-8.3.3,isolated single capitals
+P1-ACRONYMS,1,Acronyms and consecutive capitals: NASA UEB PDF ABC.,capitalization,8.3.1-8.3.3,consecutive capitals and acronyms
+P1-PUNCT-ADJ,1,"Sentence starts and punctuation adjacency: Hello, Braille. Validator! Education?",punctuation adjacency,7.1.1-7.6.15,capital and punctuation adjacency
+P1-PROSE,1,A small ordinary English paragraph keeps the letters easy to compare.,ordinary words,4.1.1-4.1.3,natural prose control
+P2-NUMERIC-FORMS,2,"Digits and forms: 3 22 101 1,234 12.50 50% 3:30 21st 2024.",numeric context,6.1.1-6.6.2,"digits, decimals, dates, times, ordinals"
+P2-LETTER-NEAR-NUM,2,Letters near numbers: 3-D 22b 22B Room 101 Version 2B.,numeric context,5.8.1; 6.5.4,letters immediately near numbers
+P2-G1-CONTEXT,2,Numeric and letter contexts: 1a 1b 1j 1k 1z 1A 1K.,Grade 1 context,5.8.1; 6.5.4,numeric to Grade 1 interactions
+P2-NUMERIC-SPACES,2,Audited numeric-space examples: 1 234 and 12 345 remain source spaces.,numeric spaces,6.1.1-6.6.2,semantic numeric spaces
+P2-NUMERIC-SENTENCE,2,Ordinary sentence: Room 101 opens at 3:30 on the 21st of June.,numeric context,6.1.1-6.6.2,natural numeric prose
+P2-CURRENCY-PERCENT,2,Currency and percent context: $25 costs 50% less than $50.,numeric context,6.1.1-6.6.2; 7.6.1,currency and percent adjacency
+P2-NEAR-NEIGHBORS,2,"Near-neighbor wording: one two three, 1 2 3, and 123 are distinct inputs.",numeric context,6.1.1-6.6.2,word and digit near-neighbors
+P3-PUNCT-ALL,3,"Common punctuation: . , ; : ! ? - ( ) [ ] { } / \ + = * @ # $ % &",punctuation,7.1.1-7.6.15,common punctuation inventory
+P3-QUOTES-ASCII,3,"Quote contexts: 'hello' and ""hello"" sit beside ordinary words.",quotes,7.6.2; 7.6.9,ASCII quote contexts
+P3-QUOTES-NESTED,3,"Nested quotation: She said, “Read ‘Peter Rabbit’ again.”",quotes,7.6.2; 7.6.9,nested single and double quotes
+P3-PUNCT-INTERNAL,3,"Internal punctuation: a.b a,b a/b a-b a+b a=b.",punctuation,7.1.1-7.6.15,punctuation between letters
+P3-APOSTROPHES,3,Apostrophe contexts: don't can't children's teachers' words.,apostrophes,7.6.13; 7.6.15,internal and standing apostrophes
+P3-PUNCT-ADJ,3,"Punctuation adjacency: Hello,world; test:done! Is this correct?",punctuation adjacency,7.1.1-7.6.15,punctuation without surrounding spaces
+P3-PROSE,3,A short paragraph tests punctuation without changing the source words.,ordinary words,4.1.1-4.1.3,punctuation prose control
+P4-SYMBOLS,4,"Common symbols: A & B, me@site.com, © 2024 Example, UEB® and ™.",symbols,3.1.1-3.23; 7.6.1,common symbols beside words
+P4-UNITS,4,"Currency and units: $25 £10 €9 ¥100, 20°C, 5′ 6″, § 7, 50%, • item.",symbols,3.1.1-3.23; 7.6.1,"currency, units, section and bullet"
+P4-STANDING,4,Letters standing alone: a b c d e f g h i j k l m n o p q r s t u v w x y z.,Grade 1 context,5.8.1-5.10,standing-alone letters
+P4-G1-PROBES,4,Grade 1 context probes: 1a 1b 1j 1k 1z; A 1A; punctuation between a.b and a/b.,Grade 1 context,5.8.1; 5.10; 6.5.4,Grade 1 indicator contexts
+P4-CAP-NEAR-NUM,4,Indicators near capitals: A 3 B 22B and a word after a number.,capitalization and numeric,6.5.4; 8.3.1-8.3.3,capital near numeric indicator
+P4-SYMBOL-ADJ,4,"The same symbol can be adjacent to a word, a capital, or a number.",symbols,3.1.1-3.23,symbol adjacency policy
+P4-POLICY,4,"This page is evidence for policy decisions, not a standards oracle by itself.",policy,ICEB UEB 2024,evidence boundary
+P5-MIX,5,"A realistic mix combines Hello Braille, Room 101, 50%, and A.B in one sentence.",hard interaction,4.1.1-4.1.3; 6.1.1-6.6.2; 8.3.1-8.3.3,realistic mixed sentence
+P5-TYPEFORMS,5,"Typeform samples: Bold Braille, Italic Validator, and Underline Education.",typeforms,9.1.1-9.8.2,bold italic underline source runs
+P5-TYPE-NUM-PUNCT,5,"Typeform with punctuation and numbers: Bold, Italic 22B, and Underline!",typeforms,9.1.1-9.8.2; 6.1.1-6.6.2,typeform with punctuation and numbers
+P5-PASSAGE,5,Passage-like wording: The Braille validator checks a complete English sentence.,capitalization passage,8.4.1-8.5.3,passage-like wording
+P5-WHITESPACE,5,"Whitespace policy labels: two  spaces, a nonbreaking space, a thin space, and a​zero-width space.",whitespace,3.23,"ordinary, NBSP, thin and zero-width spaces"
+P5-WHITESPACE-POLICY,5,Unsupported whitespace is retained in this source so the comparison can expose policy differences.,whitespace,3.23,explicit unsupported whitespace policy
+P5-MIX-FINAL,5,Final mixed case: NASA reads ‘Braille’ at 3:30; Room 101 is ready.,hard interaction,7.6.2; 6.1.1-6.6.2; 8.3.1-8.3.3,final mixed control

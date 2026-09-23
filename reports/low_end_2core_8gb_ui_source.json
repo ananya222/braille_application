@@ -1,0 +1,70 @@
+[
+  {
+    "pages": 50,
+    "runtime_seconds": 3.067562700000053,
+    "event_loop_ticks": 27,
+    "max_timer_gap_seconds": 0.1472782000000734,
+    "progress_updates": [
+      "Reading source...",
+      "Reading user Braille...",
+      "Generating expected Braille and applying standards rules...",
+      "Aligning and classifying results...",
+      "Mapping confirmed errors to PDF cells...",
+      "Writing annotated PDF...",
+      "Saving diagnostic artifacts..."
+    ],
+    "status": "RESPONSIVE",
+    "findings": 0
+  },
+  {
+    "pages": 100,
+    "runtime_seconds": 5.582558300000528,
+    "event_loop_ticks": 50,
+    "max_timer_gap_seconds": 0.1410117999994327,
+    "progress_updates": [
+      "Reading source...",
+      "Reading user Braille...",
+      "Generating expected Braille and applying standards rules...",
+      "Aligning and classifying results...",
+      "Mapping confirmed errors to PDF cells...",
+      "Writing annotated PDF...",
+      "Saving diagnostic artifacts..."
+    ],
+    "status": "RESPONSIVE",
+    "findings": 0
+  },
+  {
+    "pages": 250,
+    "runtime_seconds": 12.919041499999366,
+    "event_loop_ticks": 117,
+    "max_timer_gap_seconds": 0.15712910000002012,
+    "progress_updates": [
+      "Reading source...",
+      "Reading user Braille...",
+      "Generating expected Braille and applying standards rules...",
+      "Aligning and classifying results...",
+      "Mapping confirmed errors to PDF cells...",
+      "Writing annotated PDF...",
+      "Saving diagnostic artifacts..."
+    ],
+    "status": "RESPONSIVE",
+    "findings": 0
+  },
+  {
+    "pages": 500,
+    "runtime_seconds": 26.007439500000146,
+    "event_loop_ticks": 233,
+    "max_timer_gap_seconds": 0.26785389999986364,
+    "progress_updates": [
+      "Reading source...",
+      "Reading user Braille...",
+      "Generating expected Braille and applying standards rules...",
+      "Aligning and classifying results...",
+      "Mapping confirmed errors to PDF cells...",
+      "Writing annotated PDF...",
+      "Saving diagnostic artifacts..."
+    ],
+    "status": "RESPONSIVE",
+    "findings": 0
+  }
+]

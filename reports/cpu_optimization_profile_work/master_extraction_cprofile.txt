@@ -1,0 +1,38 @@
+         56382350 function calls (55164744 primitive calls) in 19.285 seconds
+
+   Ordered by: cumulative time
+   List reduced from 538 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.000    0.000   19.332   19.332 O:\braille_0.2\scripts\cpu_optimization_profile.py:133(<lambda>)
+        1    0.000    0.000   19.332   19.332 O:\braille_0.2\src\braille_app\doc_extractor.py:298(extract)
+       69    0.017    0.000   19.128    0.277 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:637(wait)
+      100    0.001    0.000   18.876    0.189 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:535(extract_words)
+      100    0.000    0.000   17.585    0.176 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\container.py:50(chars)
+      100    0.002    0.000   17.311    0.173 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:342(objects)
+      100    0.128    0.001   16.680    0.167 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:441(parse_objects)
+   201980    0.119    0.000    9.724    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:427(iter_layout_objects)
+   201880    1.944    0.000    9.578    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:353(process_object)
+      100    0.001    0.000    7.932    0.079 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:255(layout)
+      100    0.001    0.000    7.910    0.079 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfinterp.py:1322(process_page)
+      100    0.001    0.000    7.907    0.079 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfinterp.py:1337(render_contents)
+      100    0.269    0.003    7.873    0.079 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfinterp.py:1357(execute)
+   130581    0.531    0.000    4.597    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\psparser.py:587(nextobject)
+  3431960    0.841    0.000    4.205    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:356(process_attr)
+3836920/2624840    1.764    0.000    3.365    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\utils\pdfinternals.py:66(resolve_all)
+   325683    0.767    0.000    3.287    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\psparser.py:496(nexttoken)
+     4680    0.007    0.000    2.813    0.001 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfinterp.py:1239(do_TJ)
+     4680    0.013    0.000    2.799    0.001 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfdevice.py:99(render_string)
+     4680    0.229    0.000    2.780    0.001 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\pdfdevice.py:149(render_string_horizontal)
+   201880    0.174    0.000    2.378    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\page.py:144(render_char)
+   201881    0.177    0.000    2.179    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\utils\pdfinternals.py:24(resolve_and_decode)
+   201880    0.344    0.000    2.157    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\converter.py:233(render_char)
+   202781    0.152    0.000    1.932    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\utils\pdfinternals.py:10(decode_text)
+   238590    0.356    0.000    1.871    0.000 {method 'join' of 'str' objects}
+ 16828114    1.593    0.000    1.593    0.000 {built-in method builtins.isinstance}
+  2225186    0.527    0.000    1.444    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\utils\pdfinternals.py:19(<genexpr>)
+   201880    0.436    0.000    1.380    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfminer\layout.py:350(__init__)
+  1414160    0.571    0.000    1.377    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pdfplumber\utils\pdfinternals.py:82(<genexpr>)
+        1    0.001    0.001    1.161    1.161 O:\braille_0.2\src\braille_app\doc_extractor.py:170(extract)
+
+

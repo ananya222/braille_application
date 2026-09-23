@@ -1,0 +1,20 @@
+[
+  {
+    "test": 1,
+    "detected": 67,
+    "exact_raw_targets": 67,
+    "false_positives": 0
+  },
+  {
+    "test": 2,
+    "detected": 68,
+    "exact_raw_targets": 68,
+    "false_positives": 0
+  },
+  {
+    "test": 4,
+    "detected": 50,
+    "exact_raw_targets": 50,
+    "false_positives": 0
+  }
+]

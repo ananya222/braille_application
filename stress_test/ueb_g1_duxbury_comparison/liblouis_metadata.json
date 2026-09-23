@@ -1,0 +1,11 @@
+{
+  "version": "3.38.0",
+  "dll_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\bin\\liblouis.dll",
+  "table_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\share\\liblouis\\tables\\en-ueb-g1.ctb",
+  "table_hash_sha256": "446717b55e49ff41aef2c204b58ea1d2872a77a4473a821e766bffd51cee0b4d",
+  "display_table": "unicode.dis",
+  "display_table_path": "O:\\braille_0.2\\vendor\\liblouis-win64\\share\\liblouis\\tables\\unicode.dis",
+  "table_list": "unicode.dis,en-ueb-g1.ctb",
+  "unicode_dis_sha256": "28e39797dae5404cf3c0bdea3100f6da70eac8bdbd38a186d463462f4ace567c",
+  "source_document_sha256": "165b43b6e699958355a8a35633b605c474819a7dceeabdb7587687d573a881de"
+}

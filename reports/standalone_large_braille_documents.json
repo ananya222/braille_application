@@ -1,0 +1,45 @@
+{
+  "seed": 20260921,
+  "files": [
+    {
+      "path": "O:\\braille_0.2\\stress_test\\large_documents\\performance_braille_050_pages.pdf",
+      "pages": 50,
+      "braille_cells": 50700,
+      "average_cells_per_page": 1014,
+      "file_size_bytes": 134190,
+      "seed": 20260921,
+      "lines_per_page": 26,
+      "cells_per_line": 39
+    },
+    {
+      "path": "O:\\braille_0.2\\stress_test\\large_documents\\performance_braille_100_pages.pdf",
+      "pages": 100,
+      "braille_cells": 101400,
+      "average_cells_per_page": 1014,
+      "file_size_bytes": 245865,
+      "seed": 20260921,
+      "lines_per_page": 26,
+      "cells_per_line": 39
+    },
+    {
+      "path": "O:\\braille_0.2\\stress_test\\large_documents\\performance_braille_250_pages.pdf",
+      "pages": 250,
+      "braille_cells": 253500,
+      "average_cells_per_page": 1014,
+      "file_size_bytes": 580929,
+      "seed": 20260921,
+      "lines_per_page": 26,
+      "cells_per_line": 39
+    },
+    {
+      "path": "O:\\braille_0.2\\stress_test\\large_documents\\performance_braille_500_pages.pdf",
+      "pages": 500,
+      "braille_cells": 507000,
+      "average_cells_per_page": 1014,
+      "file_size_bytes": 1139502,
+      "seed": 20260921,
+      "lines_per_page": 26,
+      "cells_per_line": 39
+    }
+  ]
+}

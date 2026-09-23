@@ -1,0 +1,64 @@
+{
+  "pages": 100,
+  "master_json": "low_end_100_pages_master.json",
+  "master_docx": "low_end_100_pages_master.docx",
+  "clean_pdf": "low_end_100_pages_clean.pdf",
+  "corrupted_pdf": "low_end_100_pages_corrupted.pdf",
+  "mutations": [
+    {
+      "fixture_page": 1,
+      "line_index_zero_based": 2,
+      "cell_index_zero_based": 24,
+      "family": "PLUS",
+      "original_braille": "⠠⠁⠙⠙⠊⠰⠝⠀⠼⠚⠚⠚⠁⠀⠼⠚⠃⠒⠀⠸⠩⠀⠼⠆⠬⠒⠀⠨⠅⠀⠼⠢⠀⠸⠱⠀⠞⠙⠲",
+      "corrupted_braille": "⠠⠁⠙⠙⠊⠰⠝⠀⠼⠚⠚⠚⠁⠀⠼⠚⠃⠒⠀⠸⠩⠀⠼⠆⠈⠒⠀⠨⠅⠀⠼⠢⠀⠸⠱⠀⠞⠙⠲",
+      "source_text": "Addition 0001 02: [[*ts*]]2 + 3 = 5[[*te*]] today.",
+      "expected_category": "NEMETH_ERROR",
+      "expected_finding": "one-cell mutation at the named source location"
+    },
+    {
+      "fixture_page": 26,
+      "line_index_zero_based": 3,
+      "cell_index_zero_based": 27,
+      "family": "MINUS",
+      "original_braille": "⠠⠎⠥⠃⠞⠗⠁⠉⠰⠝⠀⠼⠚⠚⠃⠋⠀⠼⠚⠉⠒⠀⠸⠩⠀⠼⠦⠬⠒⠀⠨⠅⠀⠼⠂⠂⠀⠸⠱⠀⠞⠙⠲",
+      "corrupted_braille": "⠠⠎⠥⠃⠞⠗⠁⠉⠰⠝⠀⠼⠚⠚⠃⠋⠀⠼⠚⠉⠒⠀⠸⠩⠀⠼⠦⠈⠒⠀⠨⠅⠀⠼⠂⠂⠀⠸⠱⠀⠞⠙⠲",
+      "source_text": "Subtraction 0026 03: [[*ts*]]8 + 3 = 11[[*te*]] today.",
+      "expected_category": "NEMETH_ERROR",
+      "expected_finding": "one-cell mutation at the named source location"
+    },
+    {
+      "fixture_page": 51,
+      "line_index_zero_based": 4,
+      "cell_index_zero_based": 31,
+      "family": "MULTIPLY",
+      "original_braille": "⠠⠍⠥⠇⠞⠊⠏⠇⠊⠉⠁⠰⠝⠀⠼⠚⠚⠑⠁⠀⠼⠚⠙⠒⠀⠸⠩⠀⠼⠲⠈⠡⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠀⠞⠙⠲",
+      "corrupted_braille": "⠠⠍⠥⠇⠞⠊⠏⠇⠊⠉⠁⠰⠝⠀⠼⠚⠚⠑⠁⠀⠼⠚⠙⠒⠀⠸⠩⠀⠼⠲⠈⠌⠒⠀⠨⠅⠀⠼⠂⠆⠀⠸⠱⠀⠞⠙⠲",
+      "source_text": "Multiplication 0051 04: [[*ts*]]4 × 3 = 12[[*te*]] today.",
+      "expected_category": "NEMETH_ERROR",
+      "expected_finding": "one-cell mutation at the named source location"
+    },
+    {
+      "fixture_page": 75,
+      "line_index_zero_based": 5,
+      "cell_index_zero_based": 27,
+      "family": "EQUALS",
+      "original_braille": "⠠⠑⠟⠥⠁⠇⠰⠽⠀⠼⠚⠚⠛⠑⠀⠼⠚⠑⠒⠀⠸⠩⠀⠭⠬⠽⠀⠨⠅⠀⠵⠀⠸⠱⠀⠞⠙⠲",
+      "corrupted_braille": "⠠⠑⠟⠥⠁⠇⠰⠽⠀⠼⠚⠚⠛⠑⠀⠼⠚⠑⠒⠀⠸⠩⠀⠭⠬⠽⠀⠨⠌⠀⠵⠀⠸⠱⠀⠞⠙⠲",
+      "source_text": "Equality 0075 05: [[*ts*]]x + y = z[[*te*]] today.",
+      "expected_category": "NEMETH_ERROR",
+      "expected_finding": "one-cell mutation at the named source location"
+    },
+    {
+      "fixture_page": 100,
+      "line_index_zero_based": 0,
+      "cell_index_zero_based": 0,
+      "family": "CAPITALIZATION",
+      "original_braille": "⠠⠎⠁⠍⠏⠇⠑⠀⠼⠚⠁⠚⠚⠀⠼⠚⠚⠒⠀⠑⠏⠎⠊⠇⠕⠝⠀⠁⠇⠏⠓⠁⠀⠛⠁⠍⠍⠁⠀⠙⠑⠇⠞⠁⠲",
+      "corrupted_braille": "⠐⠎⠁⠍⠏⠇⠑⠀⠼⠚⠁⠚⠚⠀⠼⠚⠚⠒⠀⠑⠏⠎⠊⠇⠕⠝⠀⠁⠇⠏⠓⠁⠀⠛⠁⠍⠍⠁⠀⠙⠑⠇⠞⠁⠲",
+      "source_text": "Sample 0100 00: epsilon alpha gamma delta.",
+      "expected_category": "UEB_ERROR",
+      "expected_finding": "one-cell mutation at the named source location"
+    }
+  ]
+}

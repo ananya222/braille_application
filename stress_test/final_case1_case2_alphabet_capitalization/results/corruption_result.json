@@ -1,0 +1,65 @@
+{
+  "profile": "uncontracted_case2_capitalization",
+  "injected": 1000,
+  "detected": 1000,
+  "reviews": 0,
+  "missed": 0,
+  "false_positives": 0,
+  "duplicates": 0,
+  "exact_physical_localization": 1000,
+  "correct_blue_boxes": 1000,
+  "blue_box_audit": {
+    "blue_box_count": 1000,
+    "target_boxes_hit": 1000,
+    "target_boxes_missed": 0,
+    "non_target_blue_boxes": 0,
+    "duplicate_blue_boxes": 0
+  },
+  "validator_statistics": {
+    "pages": 50,
+    "expected_cells": 10591,
+    "matching_cells": 9596,
+    "cell_accuracy": 0.906052308563875,
+    "raw_differences": 1005,
+    "ignored_layout_differences": 0,
+    "ignored_unmapped_insertions": 5,
+    "ignored_alignment_differences": 0,
+    "alignment_coverage_incomplete": 0,
+    "tolerated_duxbury_cells": 0,
+    "joined_physical_page_breaks": 0,
+    "duxbury_normalized_spans": 0,
+    "source_passages_total": 275,
+    "source_passages_aligned": 0,
+    "math_spans_total": 0,
+    "math_spans_evaluated": 0,
+    "capitalization_opportunities_total": 350,
+    "capitalization_opportunities_evaluated": 325,
+    "unresolved_math_spans": 0,
+    "unresolved_source_passages": 275,
+    "unresolved_capitalization_opportunities": 25,
+    "unmatched_switch_markers": 0,
+    "errors": 1000,
+    "reviews": 0,
+    "excluded": 0
+  },
+  "corrupted_pdf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.pdf",
+    "sha256": "88fa1d48f8ffaf98819fd19c26f46270f171684f15b66150a679c4f806b0a97e"
+  },
+  "corrupted_brf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.brf",
+    "sha256": "d03096831fc335100d42f1314fb3708d0a4a0b76917284bf2a1dfbbaac5d7850"
+  },
+  "annotated_pdf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000_annotated.pdf",
+    "sha256": "a3d11df338fd59bf14cc2c8cdfc67cf9925fb5148ffe6646b89b3933cd009eaf"
+  },
+  "runtime_seconds": 1.2649500000002263,
+  "mutation_breakdown": {
+    "substitution": 1000
+  },
+  "subtype_breakdown": {
+    "letter_substitution": 1000
+  },
+  "visual_count": 1000
+}

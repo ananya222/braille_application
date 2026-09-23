@@ -1,0 +1,38 @@
+         8857 function calls in 0.007 seconds
+
+   Ordered by: cumulative time
+   List reduced from 123 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        1    0.000    0.000    0.007    0.007 O:\braille_0.2\scripts\cpu_optimization_profile.py:158(<lambda>)
+        1    0.001    0.001    0.007    0.007 O:\braille_0.2\src\braille_app\validation\api.py:259(adapt_validation_report)
+      380    0.001    0.000    0.003    0.000 O:\braille_0.2\src\braille_app\validation\api.py:81(_block_and_rule)
+     1420    0.000    0.000    0.002    0.000 {built-in method builtins.next}
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1349(_find_and_load)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:1304(_find_and_load_unlocked)
+      220    0.001    0.000    0.001    0.000 O:\braille_0.2\src\braille_app\validation\api.py:67(_block_offset)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap>:911(_load_unlocked)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:993(exec_module)
+        1    0.000    0.000    0.001    0.001 <frozen importlib._bootstrap_external>:1066(get_code)
+      600    0.001    0.000    0.001    0.000 O:\braille_0.2\src\braille_app\validation\api.py:88(<genexpr>)
+      760    0.001    0.000    0.001    0.000 O:\braille_0.2\src\braille_app\validation\api.py:83(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1187(get_data)
+      220    0.000    0.000    0.000    0.000 O:\braille_0.2\src\braille_app\rules\basic_capitalization.py:139(localized_defect)
+        1    0.000    0.000    0.000    0.000 {built-in method _io.open_code}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:1240(_find_spec)
+        3    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:140(_path_stat)
+        3    0.000    0.000    0.000    0.000 {built-in method nt.stat}
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1524(find_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1495(_get_spec)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1597(find_spec)
+     3545    0.000    0.000    0.000    0.000 {built-in method builtins.len}
+        6    0.000    0.000    0.000    0.000 {built-in method builtins.sum}
+      220    0.000    0.000    0.000    0.000 O:\braille_0.2\src\braille_app\validation\api.py:91(<genexpr>)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:159(_path_isfile)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:150(_path_is_mode_type)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:1206(path_stats)
+        1    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap>:416(__enter__)
+        5    0.000    0.000    0.000    0.000 <frozen importlib._bootstrap_external>:96(_path_join)
+        1    0.000    0.000    0.000    0.000 {method 'read' of '_io.BufferedReader' objects}
+
+

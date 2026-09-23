@@ -1,0 +1,45 @@
+Page 1 English letters and ordinary words
+Lowercase alphabet: a b c d e f g h i j k l m n o p q r s t u v w x y z
+Uppercase alphabet: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+Ordinary words: hello braille validator ordinary education computer.
+Capitalized words: Hello Braille Validator Education.
+Isolated capitals: A B D Z I O.
+Acronyms and consecutive capitals: NASA UEB PDF ABC.
+Sentence starts and punctuation adjacency: Hello, Braille. Validator! Education?
+A small ordinary English paragraph keeps the letters easy to compare.
+
+Page 2 numeric context and spaces
+Digits and forms: 3 22 101 1,234 12.50 50% 3:30 21st 2024.
+Letters near numbers: 3-D 22b 22B Room 101 Version 2B.
+Numeric and letter contexts: 1a 1b 1j 1k 1z 1A 1K.
+Audited numeric-space examples: 1 234 and 12 345 remain source spaces.
+Ordinary sentence: Room 101 opens at 3:30 on the 21st of June.
+Currency and percent context: $25 costs 50% less than $50.
+Near-neighbor wording: one two three, 1 2 3, and 123 are distinct inputs.
+
+Page 3 punctuation quotes and apostrophes
+Common punctuation: . , ; : ! ? - ( ) [ ] { } / \ + = * @ # $ % &
+Quote contexts: 'hello' and "hello" sit beside ordinary words.
+Nested quotation: She said, “Read ‘Peter Rabbit’ again.”
+Internal punctuation: a.b a,b a/b a-b a+b a=b.
+Apostrophe contexts: don't can't children's teachers' words.
+Punctuation adjacency: Hello,world; test:done! Is this correct?
+A short paragraph tests punctuation without changing the source words.
+
+Page 4 symbols and Grade 1 contexts
+Common symbols: A & B, me@site.com, © 2024 Example, UEB® and ™.
+Currency and units: $25 £10 €9 ¥100, 20°C, 5′ 6″, § 7, 50%, • item.
+Letters standing alone: a b c d e f g h i j k l m n o p q r s t u v w x y z.
+Grade 1 context probes: 1a 1b 1j 1k 1z; A 1A; punctuation between a.b and a/b.
+Indicators near capitals: A 3 B 22B and a word after a number.
+The same symbol can be adjacent to a word, a capital, or a number.
+This page is evidence for policy decisions, not a standards oracle by itself.
+
+Page 5 hard interactions typeforms and whitespace
+A realistic mix combines Hello Braille, Room 101, 50%, and A.B in one sentence.
+Typeform samples: Bold Braille, Italic Validator, and Underline Education.
+Typeform with punctuation and numbers: Bold, Italic 22B, and Underline!
+Passage-like wording: The Braille validator checks a complete English sentence.
+Whitespace policy labels: two  spaces, a nonbreaking space, a thin space, and a​zero-width space.
+Unsupported whitespace is retained in this source so the comparison can expose policy differences.
+Final mixed case: NASA reads ‘Braille’ at 3:30; Room 101 is ready.

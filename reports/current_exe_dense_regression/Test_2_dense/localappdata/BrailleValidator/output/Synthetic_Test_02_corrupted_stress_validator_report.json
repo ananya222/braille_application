@@ -1,0 +1,1492 @@
+{
+  "master": "O:\\braille_0.2\\stress_test\\Test_2\\Synthetic_Test_02.pdf",
+  "braille_input": "O:\\braille_0.2\\stress_test\\Test_2\\corrupted\\Synthetic_Test_02_corrupted_stress.pdf",
+  "annotated_pdf": "O:\\braille_0.2\\reports\\current_exe_dense_regression\\Test_2_dense\\localappdata\\BrailleValidator\\output\\Synthetic_Test_02_corrupted_stress_validator_annotated.pdf",
+  "summary": {
+    "confirmed_errors": 68,
+    "unverified": 0,
+    "excluded_non_text": 0
+  },
+  "issues": [
+    {
+      "issue_id": "VAL-ERR-0001",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 1,
+      "source_text": "[[*ts*]]13 × 9 = 117[[*te*]], and the reverse check [[*ts*]]117 ÷ 13 = 9[[*te*]] confirms the allocation.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 188,
+      "actual_cell_end": 189
+    },
+    {
+      "issue_id": "VAL-ERR-0002",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 1,
+      "source_text": "[[*ts*]]13 × 9 = 117[[*te*]], and the reverse check [[*ts*]]117 ÷ 13 = 9[[*te*]] confirms the allocation.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 237,
+      "actual_cell_end": 238
+    },
+    {
+      "issue_id": "VAL-ERR-0003",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 1,
+      "source_text": "units, the return removes the last stretch through [[*ts*]]60 − 15 = 45[[*te*]], and three equal sections",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 485,
+      "actual_cell_end": 486
+    },
+    {
+      "issue_id": "VAL-ERR-0004",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 1,
+      "source_text": "would give [[*ts*]]60 ÷ 3 = 20[[*te*]].",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 538,
+      "actual_cell_end": 539
+    },
+    {
+      "issue_id": "VAL-ERR-0005",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 1,
+      "braille_page": 1,
+      "source_text": "The empty containers travel inside protective cases. Each case has six compartments, and every",
+      "actual_braille_cells": [
+        16
+      ],
+      "actual_braille_unicode": "⠐",
+      "expected_braille_cells": [
+        32
+      ],
+      "expected_braille_unicode": "⠠",
+      "review_reason": "",
+      "explanation": "wrong capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "wrong capital indicator",
+      "actual_cell_start": 601,
+      "actual_cell_end": 602
+    },
+    {
+      "issue_id": "VAL-ERR-0007",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 2,
+      "source_text": "[[*ts*]]114 ÷ 6 = 19[[*te*]], while [[*ts*]]117 − 114 = 3[[*te*]] identifies the containers that need a",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 100,
+      "actual_cell_end": 101
+    },
+    {
+      "issue_id": "VAL-ERR-0008",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 1,
+      "braille_page": 2,
+      "source_text": "separate carrier, and [[*ts*]]114 + 3 = 117[[*te*]] reconnects the two counts.",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 187,
+      "actual_cell_end": 188
+    },
+    {
+      "issue_id": "VAL-ERR-0009",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 2,
+      "source_text": "separate carrier, and [[*ts*]]114 + 3 = 117[[*te*]] reconnects the two counts.",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 198,
+      "actual_cell_end": 199
+    },
+    {
+      "issue_id": "VAL-ERR-0010",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 2,
+      "source_text": "[[*ts*]]−45 ÷ 3 = −15[[*te*]].",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 487,
+      "actual_cell_end": 488
+    },
+    {
+      "issue_id": "VAL-ERR-0011",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 2,
+      "source_text": "nonzero real values throughout these field notes. The grouping identities [[*ts*]]r × s = s × r[[*te*]],",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 629,
+      "actual_cell_end": 630
+    },
+    {
+      "issue_id": "VAL-ERR-0013",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 1,
+      "braille_page": 3,
+      "source_text": "I leave room for a later observation without treating the blank as a measurement. The known empty count",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 6,
+      "actual_cell_end": 7
+    },
+    {
+      "issue_id": "VAL-ERR-0014",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 3,
+      "source_text": "is [[*ts*]]0 × 19 = 0[[*te*]], the even division of that count is [[*ts*]]0 ÷ 19 = 0[[*te*]], and the unchanged",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 21,
+      "actual_cell_end": 22
+    },
+    {
+      "issue_id": "VAL-ERR-0015",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 3,
+      "source_text": "is [[*ts*]]0 × 19 = 0[[*te*]], the even division of that count is [[*ts*]]0 ÷ 19 = 0[[*te*]], and the unchanged",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 68,
+      "actual_cell_end": 69
+    },
+    {
+      "issue_id": "VAL-ERR-0016",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 1,
+      "braille_page": 3,
+      "source_text": "starting distance is [[*ts*]]60 = 60[[*te*]].",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 101,
+      "actual_cell_end": 102
+    },
+    {
+      "issue_id": "VAL-ERR-0017",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 1,
+      "braille_page": 3,
+      "source_text": "starting distance is [[*ts*]]60 = 60[[*te*]].",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 118,
+      "actual_cell_end": 119
+    },
+    {
+      "issue_id": "VAL-ERR-0019",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 4,
+      "source_text": "[[*ts*]]16 × 7 = 112[[*te*]], and [[*ts*]]112 ÷ 16 = 7[[*te*]] checks the number available at one station.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 190,
+      "actual_cell_end": 191
+    },
+    {
+      "issue_id": "VAL-ERR-0020",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 2,
+      "braille_page": 4,
+      "source_text": "Nikhil has brought an additional group for repeat observations. The expedition combines",
+      "actual_braille_cells": [],
+      "actual_braille_unicode": "",
+      "expected_braille_cells": [
+        32
+      ],
+      "expected_braille_unicode": "⠠",
+      "review_reason": "",
+      "explanation": "missing capital indicator; anchor is the following letter/contraction; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "missing capital indicator; anchor is the following letter/contraction",
+      "actual_cell_start": 322,
+      "actual_cell_end": 323
+    },
+    {
+      "issue_id": "VAL-ERR-0021",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 4,
+      "source_text": "[[*ts*]]112 + 28 = 140[[*te*]] bottles and then divides the full supply using [[*ts*]]140 ÷ 7 = 20[[*te*]],",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 348,
+      "actual_cell_end": 349
+    },
+    {
+      "issue_id": "VAL-ERR-0022",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 4,
+      "source_text": "while the extra group alone corresponds to [[*ts*]]28 ÷ 7 = 4[[*te*]] stations.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 481,
+      "actual_cell_end": 482
+    },
+    {
+      "issue_id": "VAL-ERR-0023",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 4,
+      "source_text": "[[*ts*]]180 ÷ 5 ÷ 4 = 9[[*te*]]",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 682,
+      "actual_cell_end": 683
+    },
+    {
+      "issue_id": "VAL-ERR-0025",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 5,
+      "source_text": "[[*ts*]]−28 ÷ 7 = −4[[*te*]], then [[*ts*]]−4 + 10 = 6[[*te*]], followed by [[*ts*]]6 − 13 = −7[[*te*]] at a",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 355,
+      "actual_cell_end": 356
+    },
+    {
+      "issue_id": "VAL-ERR-0026",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 5,
+      "source_text": "[[*ts*]]−28 ÷ 7 = −4[[*te*]], then [[*ts*]]−4 + 10 = 6[[*te*]], followed by [[*ts*]]6 − 13 = −7[[*te*]] at a",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 405,
+      "actual_cell_end": 406
+    },
+    {
+      "issue_id": "VAL-ERR-0027",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 5,
+      "source_text": "while the labels preserve origin. The comparison [[*ts*]]20 × 7 = 14 × 10[[*te*]] concerns equal totals, and",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 571,
+      "actual_cell_end": 572
+    },
+    {
+      "issue_id": "VAL-ERR-0028",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 5,
+      "source_text": "the general forms [[*ts*]]r ÷ s = r ÷ s[[*te*]] and [[*ts*]]r + s = s + r[[*te*]] leave the source labels",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 633,
+      "actual_cell_end": 634
+    },
+    {
+      "issue_id": "VAL-ERR-0029",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 5,
+      "source_text": "the general forms [[*ts*]]r ÷ s = r ÷ s[[*te*]] and [[*ts*]]r + s = s + r[[*te*]] leave the source labels",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 666,
+      "actual_cell_end": 667
+    },
+    {
+      "issue_id": "VAL-ERR-0031",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 2,
+      "braille_page": 6,
+      "source_text": "inventing a sample for it. The closing entries are [[*ts*]]0 ÷ 7 = 0[[*te*]], [[*ts*]]112 − 112 = 0[[*te*]], and",
+      "actual_braille_cells": [
+        16
+      ],
+      "actual_braille_unicode": "⠐",
+      "expected_braille_cells": [
+        32
+      ],
+      "expected_braille_unicode": "⠠",
+      "review_reason": "",
+      "explanation": "wrong capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "wrong capital indicator",
+      "actual_cell_start": 94,
+      "actual_cell_end": 95
+    },
+    {
+      "issue_id": "VAL-ERR-0032",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 6,
+      "source_text": "inventing a sample for it. The closing entries are [[*ts*]]0 ÷ 7 = 0[[*te*]], [[*ts*]]112 − 112 = 0[[*te*]], and",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 120,
+      "actual_cell_end": 121
+    },
+    {
+      "issue_id": "VAL-ERR-0033",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 6,
+      "source_text": "inventing a sample for it. The closing entries are [[*ts*]]0 ÷ 7 = 0[[*te*]], [[*ts*]]112 − 112 = 0[[*te*]], and",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 143,
+      "actual_cell_end": 144
+    },
+    {
+      "issue_id": "VAL-ERR-0034",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 2,
+      "braille_page": 6,
+      "source_text": "[[*ts*]]0 + 28 = 28[[*te*]] for the reserve stock.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 175,
+      "actual_cell_end": 176
+    },
+    {
+      "issue_id": "VAL-ERR-0036",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 7,
+      "source_text": "[[*ts*]]11 × 12 = 132[[*te*]], and [[*ts*]]132 ÷ 11 = 12[[*te*]] recovers the duration of one round.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 170,
+      "actual_cell_end": 171
+    },
+    {
+      "issue_id": "VAL-ERR-0037",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 7,
+      "source_text": "[[*ts*]]132 + 18 = 150[[*te*]], while the observation time alone is recovered by",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 325,
+      "actual_cell_end": 326
+    },
+    {
+      "issue_id": "VAL-ERR-0038",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 7,
+      "source_text": "[[*ts*]]150 − 18 = 132[[*te*]], and splitting the complete period into six equal planning blocks gives",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 389,
+      "actual_cell_end": 390
+    },
+    {
+      "issue_id": "VAL-ERR-0039",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 7,
+      "source_text": "[[*ts*]]150 ÷ 6 = 25[[*te*]].",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 477,
+      "actual_cell_end": 478
+    },
+    {
+      "issue_id": "VAL-ERR-0040",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 7,
+      "source_text": "[[*ts*]]168 ÷ 12 = 14[[*te*]]",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 663,
+      "actual_cell_end": 664
+    },
+    {
+      "issue_id": "VAL-ERR-0042",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 8,
+      "source_text": "[[*ts*]]14 × 12 = 168[[*te*]], a shorter route would need [[*ts*]]9 × 12 = 108[[*te*]], and the difference",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 19,
+      "actual_cell_end": 20
+    },
+    {
+      "issue_id": "VAL-ERR-0043",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 8,
+      "source_text": "between the routes is [[*ts*]]168 − 108 = 60[[*te*]].",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 70,
+      "actual_cell_end": 71
+    },
+    {
+      "issue_id": "VAL-ERR-0045",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 8,
+      "source_text": "[[*ts*]]−48 ÷ 4 = −12[[*te*]], then record a recovery through [[*ts*]]−48 + 60 = 12[[*te*]].",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 275,
+      "actual_cell_end": 276
+    },
+    {
+      "issue_id": "VAL-ERR-0046",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 8,
+      "source_text": "[[*ts*]]−48 ÷ 4 = −12[[*te*]], then record a recovery through [[*ts*]]−48 + 60 = 12[[*te*]].",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 315,
+      "actual_cell_end": 316
+    },
+    {
+      "issue_id": "VAL-ERR-0047",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 3,
+      "braille_page": 8,
+      "source_text": "[[*ts*]]r × s ÷ s = r[[*te*]], [[*ts*]]r ÷ 1 = r[[*te*]], and [[*ts*]]r × 1 = r[[*te*]] explain why splitting and",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 481,
+      "actual_cell_end": 482
+    },
+    {
+      "issue_id": "VAL-ERR-0051",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 3,
+      "braille_page": 9,
+      "source_text": "absence under grouping and division.",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 31,
+      "actual_cell_end": 32
+    },
+    {
+      "issue_id": "VAL-ERR-0052",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 3,
+      "braille_page": 9,
+      "source_text": "absence under grouping and division.",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 40,
+      "actual_cell_end": 41
+    },
+    {
+      "issue_id": "VAL-ERR-0054",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 4,
+      "braille_page": 10,
+      "source_text": "Lanterns mark the edge of the evening work area. Tomas checks that each station can be reached without",
+      "actual_braille_cells": [
+        32
+      ],
+      "actual_braille_unicode": "⠠",
+      "expected_braille_cells": [],
+      "expected_braille_unicode": "",
+      "review_reason": "",
+      "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "unnecessary capital indicator",
+      "actual_cell_start": 29,
+      "actual_cell_end": 30
+    },
+    {
+      "issue_id": "VAL-ERR-0055",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 10,
+      "source_text": "[[*ts*]]15 × 8 = 120[[*te*]], and arranging those lanterns in ten equal groups gives",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 161,
+      "actual_cell_end": 162
+    },
+    {
+      "issue_id": "VAL-ERR-0056",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 10,
+      "source_text": "[[*ts*]]120 ÷ 10 = 12[[*te*]].",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 237,
+      "actual_cell_end": 238
+    },
+    {
+      "issue_id": "VAL-ERR-0057",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 10,
+      "source_text": "dividing the work among the volunteers. The plan uses [[*ts*]]120 ÷ 8 = 15[[*te*]] station loads, then",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 386,
+      "actual_cell_end": 387
+    },
+    {
+      "issue_id": "VAL-ERR-0058",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 10,
+      "source_text": "[[*ts*]]15 × 2 = 30[[*te*]] carrier movements for delivery and return, followed by [[*ts*]]30 ÷ 5 = 6[[*te*]]",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 430,
+      "actual_cell_end": 431
+    },
+    {
+      "issue_id": "VAL-ERR-0060",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 11,
+      "source_text": "while a smaller set gives [[*ts*]]17 × 10 = 170[[*te*]] and leaves [[*ts*]]238 − 170 = 68[[*te*]] pages for",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 208,
+      "actual_cell_end": 209
+    },
+    {
+      "issue_id": "VAL-ERR-0061",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 11,
+      "source_text": "signed quantity, not a count of instruments. The summary uses [[*ts*]]−35 ÷ 5 = −7[[*te*]],",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 388,
+      "actual_cell_end": 389
+    },
+    {
+      "issue_id": "VAL-ERR-0062",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 11,
+      "source_text": "[[*ts*]]−7 × 3 = −21[[*te*]], and [[*ts*]]−21 + 16 = −5[[*te*]] to compare the changes across the",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 420,
+      "actual_cell_end": 421
+    },
+    {
+      "issue_id": "VAL-ERR-0063",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 11,
+      "source_text": "[[*ts*]]−7 × 3 = −21[[*te*]], and [[*ts*]]−21 + 16 = −5[[*te*]] to compare the changes across the",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 439,
+      "actual_cell_end": 440
+    },
+    {
+      "issue_id": "VAL-ERR-0064",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 11,
+      "source_text": "[[*ts*]]6 + 7 × 8 = 62[[*te*]] differs in purpose from [[*ts*]]84 ÷ 7 + 6 = 18[[*te*]], while",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 676,
+      "actual_cell_end": 677
+    },
+    {
+      "issue_id": "VAL-ERR-0070",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 12,
+      "source_text": "[[*ts*]]6 × 7 = 84 ÷ 2[[*te*]] gives equal totals by two routes.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 20,
+      "actual_cell_end": 21
+    },
+    {
+      "issue_id": "VAL-ERR-0071",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 12,
+      "source_text": "[[*ts*]]6 × 7 = 84 ÷ 2[[*te*]] gives equal totals by two routes.",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 26,
+      "actual_cell_end": 27
+    },
+    {
+      "issue_id": "VAL-ERR-0072",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 12,
+      "source_text": "[[*ts*]]6 × 7 = 84 ÷ 2[[*te*]] gives equal totals by two routes.",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 33,
+      "actual_cell_end": 34
+    },
+    {
+      "issue_id": "VAL-ERR-0073",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 12,
+      "source_text": "[[*ts*]]−r[[*te*]], [[*ts*]]0 − r = −r[[*te*]], and [[*ts*]]r − s = r − s[[*te*]], each with the same nonzero",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 181,
+      "actual_cell_end": 182
+    },
+    {
+      "issue_id": "VAL-ERR-0074",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 4,
+      "braille_page": 12,
+      "source_text": "[[*ts*]]−r[[*te*]], [[*ts*]]0 − r = −r[[*te*]], and [[*ts*]]r − s = r − s[[*te*]], each with the same nonzero",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 204,
+      "actual_cell_end": 205
+    },
+    {
+      "issue_id": "VAL-ERR-0076",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 13,
+      "source_text": "tightened. The main load contains [[*ts*]]18 × 16 = 288[[*te*]] compartments, the case count is recovered",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 127,
+      "actual_cell_end": 128
+    },
+    {
+      "issue_id": "VAL-ERR-0077",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 13,
+      "source_text": "by [[*ts*]]288 ÷ 16 = 18[[*te*]], and two equal loads would contain [[*ts*]]288 ÷ 2 = 144[[*te*]]",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 188,
+      "actual_cell_end": 189
+    },
+    {
+      "issue_id": "VAL-ERR-0078",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 13,
+      "source_text": "return lists. The complete count becomes [[*ts*]]288 + 32 = 320[[*te*]], a smaller allocation uses",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 393,
+      "actual_cell_end": 394
+    },
+    {
+      "issue_id": "VAL-ERR-0079",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 13,
+      "source_text": "[[*ts*]]320 ÷ 8 = 40[[*te*]], and removing the reserve again gives [[*ts*]]320 − 32 = 288[[*te*]].",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        5
+      ],
+      "expected_braille_unicode": "⠅",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 449,
+      "actual_cell_end": 450
+    },
+    {
+      "issue_id": "VAL-ERR-0080",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 13,
+      "source_text": "[[*ts*]]320 ÷ 8 = 40[[*te*]], and removing the reserve again gives [[*ts*]]320 − 32 = 288[[*te*]].",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 494,
+      "actual_cell_end": 495
+    },
+    {
+      "issue_id": "VAL-ERR-0083",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 14,
+      "source_text": "[[*ts*]]216 ÷ 6 ÷ 3 = 12[[*te*]]",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 15,
+      "actual_cell_end": 16
+    },
+    {
+      "issue_id": "VAL-ERR-0084",
+      "status": "ERROR",
+      "category": "UEB_ERROR",
+      "rule_id": "UEB_8",
+      "source_page": 5,
+      "braille_page": 14,
+      "source_text": "closing the notebook. The remaining corrections are [[*ts*]]−16 × 5 = −80[[*te*]],",
+      "actual_braille_cells": [],
+      "actual_braille_unicode": "",
+      "expected_braille_cells": [
+        32
+      ],
+      "expected_braille_unicode": "⠠",
+      "review_reason": "",
+      "explanation": "missing capital indicator; anchor is the following letter/contraction; UEB 8.1.1 and 8.3.1-3.",
+      "structural_subtype": "missing capital indicator; anchor is the following letter/contraction",
+      "actual_cell_start": 343,
+      "actual_cell_end": 344
+    },
+    {
+      "issue_id": "VAL-ERR-0085",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 14,
+      "source_text": "closing the notebook. The remaining corrections are [[*ts*]]−16 × 5 = −80[[*te*]],",
+      "actual_braille_cells": [
+        12
+      ],
+      "actual_braille_unicode": "⠌",
+      "expected_braille_cells": [
+        33
+      ],
+      "expected_braille_unicode": "⠡",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 374,
+      "actual_cell_end": 375
+    },
+    {
+      "issue_id": "VAL-ERR-0086",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 14,
+      "source_text": "[[*ts*]]−80 ÷ 5 = −16[[*te*]], and [[*ts*]]−16 + 25 = 9[[*te*]].",
+      "actual_braille_cells": [
+        44
+      ],
+      "actual_braille_unicode": "⠬",
+      "expected_braille_cells": [
+        36
+      ],
+      "expected_braille_unicode": "⠤",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 408,
+      "actual_cell_end": 409
+    },
+    {
+      "issue_id": "VAL-ERR-0087",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 14,
+      "source_text": "[[*ts*]]−r = −r[[*te*]], followed by the cancellation identity [[*ts*]]r + s − s = r[[*te*]].",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 643,
+      "actual_cell_end": 644
+    },
+    {
+      "issue_id": "VAL-ERR-0089",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 15,
+      "source_text": "[[*ts*]]0 ÷ 16 = 0[[*te*]], and its contribution to the loaded vehicle is [[*ts*]]288 + 0 = 288[[*te*]].",
+      "actual_braille_cells": [
+        5
+      ],
+      "actual_braille_unicode": "⠅",
+      "expected_braille_cells": [
+        12
+      ],
+      "expected_braille_unicode": "⠌",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 7,
+      "actual_cell_end": 8
+    },
+    {
+      "issue_id": "VAL-ERR-0090",
+      "status": "ERROR",
+      "category": "NEMETH_ERROR",
+      "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+      "source_page": 5,
+      "braille_page": 15,
+      "source_text": "[[*ts*]]0 ÷ 16 = 0[[*te*]], and its contribution to the loaded vehicle is [[*ts*]]288 + 0 = 288[[*te*]].",
+      "actual_braille_cells": [
+        36
+      ],
+      "actual_braille_unicode": "⠤",
+      "expected_braille_cells": [
+        44
+      ],
+      "expected_braille_unicode": "⠬",
+      "review_reason": "",
+      "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+      "structural_subtype": "complete simple linear expression",
+      "actual_cell_start": 67,
+      "actual_cell_end": 68
+    }
+  ]
+}

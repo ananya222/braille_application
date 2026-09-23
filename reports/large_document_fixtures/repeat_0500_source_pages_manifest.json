@@ -1,0 +1,63 @@
+{
+  "source_pages": 500,
+  "source_packet_repeats": 100,
+  "source_packet_pages": 5,
+  "braille_packet_pages": 15,
+  "expected_clean_braille_pages": 1500,
+  "corruption_clusters": [
+    {
+      "cluster": 1,
+      "packet": 0,
+      "source_page": 1,
+      "actual_pdf_page": 1,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    },
+    {
+      "cluster": 2,
+      "packet": 25,
+      "source_page": 126,
+      "actual_pdf_page": 376,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    },
+    {
+      "cluster": 3,
+      "packet": 50,
+      "source_page": 251,
+      "actual_pdf_page": 751,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    },
+    {
+      "cluster": 4,
+      "packet": 75,
+      "source_page": 376,
+      "actual_pdf_page": 1126,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    },
+    {
+      "cluster": 5,
+      "packet": 99,
+      "source_page": 496,
+      "actual_pdf_page": 1486,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    }
+  ],
+  "files": {
+    "source": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0500_source_pages_source.pdf",
+      "sha256": "1cf292424f92c9d6305456ea0a202f6c7c4285a47b7a9582e2d53363b5b2b8c2"
+    },
+    "clean_braille": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0500_source_pages_clean_braille.pdf",
+      "sha256": "d6b7cf95a4b3bf5f529ab5a92ca731c59c4a1e198c4d0fc7229f6122169e05d3"
+    },
+    "sparse_corrupted_braille": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0500_source_pages_sparse_corrupted_braille.pdf",
+      "sha256": "5f33c91fa85cfa0fea870169a24f9a11c3d64159bc40c9e12515dbfd297314db"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "change": "Recognize the observed leading negative-to-plus reconversion without a numeric indicator; retain the actual plus cell for reporting and highlighting.",
+  "scope": "Only a leading unary-minus source slot replaced by plus directly before an unchanged numeric operand. No new complex grammar or general missing-indicator tolerance.",
+  "uploaded_result": {
+    "confirmed_errors": 5,
+    "math_evaluated": 5,
+    "unsupported_expressions": 5,
+    "leading_plus_page": 1,
+    "leading_plus_raw_range": [
+      76,
+      77
+    ],
+    "visual_glyph_verified": true
+  },
+  "regressions": {
+    "new_cases": 29,
+    "math_corruptions": 6,
+    "capitalization_corruptions": 3,
+    "spacing_matrix": 42,
+    "spacing_pdf_matrix": 42,
+    "guards": 68,
+    "repeated_operand_cases": 12
+  },
+  "files": {
+    "src/braille_app/validation/simple_math_comparison.py": "42e98ca566a6a25036700c818ae76debf97b8ff993982768d3a7f0962f0551f7",
+    "scripts/unary_reconversion_acceptance.py": "4b4b86cc11ec9e3098ec15723f061acccabac1cadbdf9beffbfac57b18266d1c",
+    "packaging/test_unary_fix_release.py": "8c2a69ed8b6a8e44f87a6fcd35972ae580de6f6fda9472943e304fdf545252c5"
+  }
+}

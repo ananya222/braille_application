@@ -1,0 +1,22 @@
+[
+  {
+    "pages": 50,
+    "mutations": 5,
+    "stem": "low_end_050_pages"
+  },
+  {
+    "pages": 100,
+    "mutations": 5,
+    "stem": "low_end_100_pages"
+  },
+  {
+    "pages": 250,
+    "mutations": 5,
+    "stem": "low_end_250_pages"
+  },
+  {
+    "pages": 500,
+    "mutations": 5,
+    "stem": "low_end_500_pages"
+  }
+]

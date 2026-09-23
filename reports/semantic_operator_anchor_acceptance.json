@@ -1,0 +1,77 @@
+{
+  "passed": 12,
+  "cases": [
+    {
+      "source": "m + n \u2212 n = m",
+      "spacing": false,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "m + n \u2212 n = m",
+      "spacing": true,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "m + 9 \u2212 9 = m",
+      "spacing": false,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "m + 9 \u2212 9 = m",
+      "spacing": true,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "x \u2212 y + y = x",
+      "spacing": false,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "x \u2212 y + y = x",
+      "spacing": true,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "31 + 8 \u2212 8 = 31",
+      "spacing": false,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "31 + 8 \u2212 8 = 31",
+      "spacing": true,
+      "errors": 2,
+      "pass": true
+    },
+    {
+      "source": "a + b \u2212 b + b \u2212 b = a",
+      "spacing": false,
+      "errors": 4,
+      "pass": true
+    },
+    {
+      "source": "a + b \u2212 b + b \u2212 b = a",
+      "spacing": true,
+      "errors": 4,
+      "pass": true
+    },
+    {
+      "source": "\u22127 + 9 \u2212 9 = \u22127",
+      "spacing": false,
+      "errors": 4,
+      "pass": true
+    },
+    {
+      "source": "\u22127 + 9 \u2212 9 = \u22127",
+      "spacing": true,
+      "errors": 4,
+      "pass": true
+    }
+  ]
+}

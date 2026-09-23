@@ -1,0 +1,49 @@
+{
+  "pass": true,
+  "clean": {
+    "findings": 0,
+    "reviews": 0,
+    "duplicate_ids": 0,
+    "runtime_seconds": 9.22
+  },
+  "substitutions": {
+    "findings": 1000,
+    "reviews": 0,
+    "duplicate_ids": 0,
+    "runtime_seconds": 9.258,
+    "blue_box_count": 1000,
+    "target_boxes_hit": 1000,
+    "target_boxes_missed": 0,
+    "non_target_blue_boxes": 0,
+    "duplicate_blue_boxes": 0
+  },
+  "case1": {
+    "findings": 500,
+    "reviews": 0,
+    "duplicate_ids": 0,
+    "runtime_seconds": 26.502,
+    "exact_boxes": 500,
+    "off_target_boxes": 0,
+    "duplicate_boxes": 0,
+    "oracle": "Frozen Case 1 accepted physical anchor/box records, not current validator output"
+  },
+  "hashes_before": {
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.docx": "8c53cec65b6dfbc21c072db1ceaa448db887974dbc386379ae4c66941c4b72f2",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.pdf": "6cc4aa95843bd7ae29ffb110d14a26b3224b7d4214651a951a5fd44cc593e852",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.pdf": "88fa1d48f8ffaf98819fd19c26f46270f171684f15b66150a679c4f806b0a97e",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\manifests\\mutation_manifest.csv": "a4bccc777d5e3a5aab987eee03601df35d716bf055dd7522457f82aa225bb563",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\case1_source.json": "a3366631984b29459522e2fccb45eaf38ef4e507c4dad5e74217d126ef677df6",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\case1_corrupted.pdf": "e04fc3de8f88b052aeb1c0ba02e4f98fd1e4b24cff0b635f1e4115bb5e655e3f",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\mutation_manifest.csv": "e53c2ead5d127719e56630eae645fce57eb07a9ac2b80464cc2428a89acc5e71"
+  },
+  "hashes_after": {
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.docx": "8c53cec65b6dfbc21c072db1ceaa448db887974dbc386379ae4c66941c4b72f2",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.pdf": "6cc4aa95843bd7ae29ffb110d14a26b3224b7d4214651a951a5fd44cc593e852",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.pdf": "88fa1d48f8ffaf98819fd19c26f46270f171684f15b66150a679c4f806b0a97e",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\manifests\\mutation_manifest.csv": "a4bccc777d5e3a5aab987eee03601df35d716bf055dd7522457f82aa225bb563",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\case1_source.json": "a3366631984b29459522e2fccb45eaf38ef4e507c4dad5e74217d126ef677df6",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\case1_corrupted.pdf": "e04fc3de8f88b052aeb1c0ba02e4f98fd1e4b24cff0b635f1e4115bb5e655e3f",
+    "O:\\braille_0.2\\stress_test\\uncontracted_case1_alphabet_words\\mutation_manifest.csv": "e53c2ead5d127719e56630eae645fce57eb07a9ac2b80464cc2428a89acc5e71"
+  },
+  "old_contracted_nemeth_run": false
+}

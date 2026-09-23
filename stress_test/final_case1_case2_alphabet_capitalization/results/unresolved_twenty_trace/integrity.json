@@ -1,0 +1,22 @@
+{
+  "hashes_before": {
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.docx": "8c53cec65b6dfbc21c072db1ceaa448db887974dbc386379ae4c66941c4b72f2",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted_diverse_final\\final_case1_case2_diverse_1000.pdf": "4492fdce40202a1ab84fce9149c20142daed2dafee2d3b108c58fea9fa1f209b",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\manifests\\diverse_mutation_manifest.csv": "0517fb314d818500983e4f5ee9937b458e019565d0d7c54b79512159d333aab4",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted_diverse_final\\final_case1_case2_diverse_1000.brf": "c40c1a25e5fdb949853bfdd89b212b6cc93d3cc63b1e0eaa7dfe6e63319c61f7",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\alignment.py": "9026f1e30cb1e1e09fad8d743829b71414a8fb23029e407707cf71b24c5de1b7",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\api.py": "a2c17a0eccd9be348fe86496c040517ea37d4cabbd9a8ab8713d1f719bdbc7a3",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\validator.py": "5088329476fced9f6f56b4a70945d6eb5a5b64b19c11ec28fca01d450a00899d"
+  },
+  "hashes_after": {
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\source\\final_case1_case2_clean_50page.docx": "8c53cec65b6dfbc21c072db1ceaa448db887974dbc386379ae4c66941c4b72f2",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted_diverse_final\\final_case1_case2_diverse_1000.pdf": "4492fdce40202a1ab84fce9149c20142daed2dafee2d3b108c58fea9fa1f209b",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\manifests\\diverse_mutation_manifest.csv": "0517fb314d818500983e4f5ee9937b458e019565d0d7c54b79512159d333aab4",
+    "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted_diverse_final\\final_case1_case2_diverse_1000.brf": "c40c1a25e5fdb949853bfdd89b212b6cc93d3cc63b1e0eaa7dfe6e63319c61f7",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\alignment.py": "9026f1e30cb1e1e09fad8d743829b71414a8fb23029e407707cf71b24c5de1b7",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\api.py": "a2c17a0eccd9be348fe86496c040517ea37d4cabbd9a8ab8713d1f719bdbc7a3",
+    "O:\\braille_0.2\\src\\braille_app\\validation\\validator.py": "5088329476fced9f6f56b4a70945d6eb5a5b64b19c11ec28fca01d450a00899d"
+  },
+  "removed_branch": "        elif (i + 1 < rows and j < cols\n              and expected[i] == expected[i + 1] == actual[j]\n              and distance[i][j] == 1 + distance[i + 1][j]):\n            tag, next_i, next_j = \"delete\", i + 1, j\n",
+  "coordinate_convention": "half-open spans; expected page-local; alignment actual document-global; box points top-origin"
+}

@@ -1,0 +1,38 @@
+         7644458 function calls in 2.410 seconds
+
+   Ordered by: cumulative time
+   List reduced from 118 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+        8    0.025    0.003    3.468    0.434 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:637(wait)
+        7    0.096    0.014    2.346    0.335 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\threading.py:323(wait)
+       31    0.290    0.009    0.842    0.027 {method 'acquire' of '_thread.lock' objects}
+        1    0.018    0.018    0.381    0.381 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:16(align_with_operator_anchors)
+        1    0.040    0.040    0.380    0.380 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:253(comparison_view)
+     9880    0.183    0.000    0.301    0.000 O:\braille_0.2\src\braille_app\translation\braille_cells.py:105(unicode_to_cells)
+     1841    0.002    0.000    0.279    0.000 O:\braille_0.2\src\braille_app\validation\alignment.py:59(align_cells)
+     1860    0.039    0.000    0.258    0.000 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:269(candidate)
+      380    0.037    0.000    0.220    0.001 O:\braille_0.2\src\braille_app\validation\validator.py:126(_classify)
+      280    0.001    0.000    0.218    0.001 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\difflib.py:492(get_opcodes)
+      280    0.002    0.000    0.217    0.001 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\difflib.py:421(get_matching_blocks)
+     1860    0.027    0.000    0.216    0.000 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:145(_artifact_cells)
+      619    0.150    0.000    0.214    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\difflib.py:305(find_longest_match)
+        1    0.007    0.007    0.188    0.188 O:\braille_0.2\scripts\cpu_optimization_profile.py:152(<lambda>)
+     2680    0.074    0.000    0.188    0.000 {built-in method builtins.any}
+        1    0.073    0.073    0.181    0.181 O:\braille_0.2\src\braille_app\validation\validator.py:191(validate)
+      700    0.127    0.000    0.165    0.000 O:\braille_0.2\src\braille_app\validation\validator.py:114(_block_for_offset)
+    10040    0.013    0.000    0.152    0.000 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:182(advance)
+   835668    0.135    0.000    0.135    0.000 {built-in method builtins.max}
+    10040    0.039    0.000    0.133    0.000 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:189(advance_at)
+   834000    0.128    0.000    0.128    0.000 {built-in method builtins.min}
+      300    0.002    0.000    0.106    0.000 O:\braille_0.2\src\braille_app\validation\validator.py:96(_actual_page_cells)
+  1023230    0.079    0.000    0.079    0.000 {built-in method builtins.len}
+   996140    0.077    0.000    0.077    0.000 {built-in method builtins.ord}
+   684707    0.076    0.000    0.076    0.000 {method 'append' of 'list' objects}
+    17300    0.034    0.000    0.070    0.000 O:\braille_0.2\src\braille_app\translation\simple_math.py:81(render)
+   707180    0.067    0.000    0.067    0.000 O:\braille_0.2\src\braille_app\validation\validator.py:283(<genexpr>)
+   674291    0.064    0.000    0.064    0.000 {method 'get' of 'dict' objects}
+     3700    0.024    0.000    0.053    0.000 O:\braille_0.2\src\braille_app\translation\simple_math.py:41(parse)
+    17260    0.036    0.000    0.052    0.000 O:\braille_0.2\src\braille_app\validation\simple_math_comparison.py:167(read)
+
+

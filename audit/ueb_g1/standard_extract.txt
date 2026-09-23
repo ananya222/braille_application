@@ -1,0 +1,3214 @@
+Source: O:\braille_0.2\rules\Rules-of-Unified-English-Braille-2024.pdf
+SHA-256: bf742499ee2eb3cbdf4914d97bbf0b2857bd3e91621f04a4990091b64e5a105e
+Pages: 408
+
+--- PDF page 35 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+7 
+Section 2: Terminology and General Rules 
+2.1 Terminology 
+alphabetic:  designating letters of the alphabet, including modified letters, 
+ligatured letters and contractions, which stand for letters 
+alphabetic wordsign:  any one of the wordsigns in which a letter represents 
+a word 
+braille cell:  the physical area which is occupied by a braille character 
+braille character:  any one of the 64 distinct patterns of six dots, including 
+the space, which can be expressed in braille 
+braille sign:  one or more consecutive braille characters comprising a unit, 
+consisting of a root on its own or a root preceded by one or more 
+prefixes (also referred to as braille symbol) 
+braille space:  a blank cell, or the blank margin at the beginning and end of 
+a braille line 
+braille symbol:  used interchangeably with braille sign 
+contracted:  transcribed using contractions (also referred to as grade 2 
+braille) 
+contraction:  a braille sign which represents a word or a group of letters  
+final-letter groupsign:  a two-cell braille sign formed by dots 46 or dots 56 
+followed by the final letter of the group 
+grade 1:  the meaning assigned to a braille sign which would otherwise be 
+read as a contraction or as a numeral (Meanings assigned under 
+special modes such as arrows are not considered grade 1.)  
+grade 1 braille:  used interchangeably with uncontracted 
+grade 2 braille:  used interchangeably with contracted 
+graphic sign:  a braille sign that stands for a single print symbol 
+groupsign:  a contraction which represents a group of letters 
+indicator:  a braille sign that does not directly represent a print symbol but 
+that indicates how subsequent braille sign(s) are to be interpreted  
+initial-letter contraction:  a two-cell braille sign formed by dot 5, dots 45 
+or dots 456 followed by the first letter or groupsign of the word  
+item:    any one of a precisely-defined grouping of braille signs used primarily 
+in technical material to establish the extent of certain indicators, such 
+as indices 
+
+--- PDF page 36 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+8 
+letters-sequence:  an unbroken string of alphabetic signs preceded and 
+followed by non-alphabetic signs, including space 
+lower:  containing neither dot 1 nor dot 4 
+mode:  a condition initiated by an indicator and describing the effect of the 
+indicator on subsequent braille signs 
+modifier:  a diacritical mark (such as an accent) normally used in 
+combination with a letter 
+nesting:  the practice of closing indicators in the reverse order of opening  
+non-alphabetic:  designating any print or braille symbol, including the 
+space, which is not a letter, modified letter, ligatured letter or 
+contraction 
+passage:  three or more symbols-sequences 
+passage indicator:  initiates a mode which persists indefinitely until an 
+explicit terminator is encountered 
+prefix:  any one of the seven braille characters having only right-hand dots 
+(⠈ ⠘ ⠸ ⠐ ⠨ ⠰ ⠠) or the braille character ⠼ 
+print symbol:  a single letter, digit, punctuation mark or other print sign 
+customarily used as an elementary unit of text 
+root:    any one of the 56 braille characters, including the space, which is not 
+a prefix 
+shortform:  a contraction consisting of a word specially abbreviated in braille  
+standing alone:  condition of being unaccompanied by additional letters, 
+symbols or punctuation except as specified in 2.6, the "standing 
+alone" rule; used to determine when a braille sign is read as a 
+contraction 
+strong:  designating contractions (other than alphabetic wordsigns) 
+containing dots in both the top and bottom rows and in both the left 
+and right columns of the braille cell 
+strong character:  designating a braille character containing dots in both the 
+top and bottom rows and in both the left and right columns of the 
+braille cell, which therefore is physically unambiguous 
+symbols-sequence:  an unbroken string of braille signs, whether alphabetic 
+or non-alphabetic, preceded and followed by space (also referred to 
+as symbols-word) 
+terminator:  a braille sign which marks the end of a mode 
+ 
+
+--- PDF page 37 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+9 
+text element:  a section of text normally read as a unit (a single paragraph, 
+a single heading at any level, a single item in a list or outline, a 
+stanza of a poem, or other comparable unit), but not "pages" or 
+"lines" in the physical sense that are created simply as an accident of 
+print formatting 
+uncontracted:  transcribed without contractions (also referred to as grade 1 
+braille) 
+upper:  including dot 1 and/or dot 4 
+visible space:  braille symbol used for a space where a blank cell does not 
+clearly convey the intended meaning.  Examples include spaces to be 
+counted or omitted digits within a numeral. 
+word indicator:  initiates a mode which extends over the next letters-
+sequence in the case of the capitals indicator or over the next 
+symbols-sequence in the case of other indicators 
+wordsign:  a contraction which represents a complete word 
+ 
+2.2 Contractions summary 
+alphabetic wordsigns:   
+but  can  do  every  from  go  have  just 
+knowledge  like  more  not  people  quite  rather 
+so  that  us  very  will  it  you  as 
+strong wordsigns:   
+child  shall  this  which  out  still 
+strong contractions:  may be used as groupsigns and as wordsigns.  
+and  for  of  the  with 
+strong groupsigns:   
+ch  gh  sh  th  wh  ed  er  ou  
+ow  st  ing  ar 
+lower wordsigns:   
+be  enough  were  his  in  was 
+lower groupsigns:   
+ea  be  bb  con  cc  dis  en  ff  
+gg  in 
+initial-letter contractions:  may be used as groupsigns and as wordsigns. 
+•  beginning with dots 45;  
+ upon  these  those  whose  word 
+
+--- PDF page 38 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+10 
+•  beginning with dots 456;  
+ cannot  had  many  spirit  their  world 
+•  beginning with dot 5;  
+ day  ever  father  here  know  lord  mother 
+ name  one  part  question  right  some 
+ time  under  young  there  character  through 
+ where  ought  work 
+final-letter groupsigns: 
+•  beginning with dots 46;  
+ ound  ance  sion  less  ount 
+•  beginning with dots 56;  
+ ence  ong  ful  tion  ness  ment  ity 
+shortforms:   
+about   above   according  across  
+after   afternoon  afterward  again   
+against   also   almost   already 
+altogether  although  always   blind  
+braille   could   declare   declaring  
+deceive   deceiving  either   friend  
+first   good   great   him   
+himself   herself   immediate  little  
+letter   myself   much   must  
+necessary neither   paid   perceive 
+perceiving perhaps   quick   receive  
+receiving  rejoice   rejoicing  said  
+such   today   together  tomorrow  
+tonight   itself   its   your  
+yourself   yourselves  themselves  children   
+should   thyself   ourselves  would  
+because  before   behind   below  
+beneath  beside   between  beyond  
+conceive  conceiving  oneself 
+ 
+2.3  Following print 
+2.3.1 Follow print when transcribing into braille, including accents, 
+punctuation and capitalisation. 
+Note:  This provision does not apply to print ornamentation as 
+provided for in 2.3.2 below, or to parts of the braille text which are 
+added by the transcriber, e.g. preliminary pages, page information 
+lines, or transcriber's notes. 
+
+--- PDF page 39 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+11 
+2.3.2 When transcribing, it is preferable to ignore print ornamentation 
+which is present only to enhance the appearance of the publication 
+and does not impart any useful information.   
+Examples of print ornamentation include: 
+• different typefaces or fonts for headings; 
+• the lowercase of letters with accents in a fully capitalised word; 
+• coloured type used for all example words; 
+• italics used for all variables in a text; 
+• small capitals font used for all Roman numerals. 
+2.3.3 When a facsimile transcription is required, reproduce all aspects of 
+print as fully as possible including ornamentation.   
+Examples of circumstances when a facsimile transcription may be 
+requested are: 
+• when the reader is responsible for editing the text; 
+• when the reader is studying typography; 
+• when the reader is studying original manuscripts. 
+2.3.4 In general, do not correct print errors. 
+ 
+2.4 Indicators and modes 
+2.4.1 The purpose of indicators is to change the meaning of the following 
+braille characters or to change an aspect of the following text (e.g. to 
+indicate capitals or a special typeface). 
+2.4.2 Many braille signs have more than one meaning. 
+Examples: 
+⠋ the letter "f"; in numeric mode – digit "6"; contracted (grade 2) 
+meaning – the alphabetic wordsign "from" 
+⠳ in grade 1 mode – arrow indicator; contracted (grade 2) 
+meanings – the strong groupsign "ou" and the strong wordsign 
+"out" 
+⠦ question mark; opening double quotation mark; contracted 
+(grade 2) meaning – the lower wordsign "his" 
+⠸ vertical solid line segment; line indicator, as in poetry 
+⠐⠙ in numeric mode – numeric space followed by digit "4"; 
+contracted (grade 2) meaning – the initial-letter contraction 
+"day" 
+
+--- PDF page 40 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+12 
+⠨⠎ Greek letter sigma; contracted (grade 2) meaning – the final-
+letter groupsign "less" 
+ 
+2.4.3 The reader determines the meaning of a braille sign in several ways:  
+• by its spacing (e.g. the vertical solid line segment) 
+• by applying the "standing alone" rule (e.g. alphabetic wordsigns) 
+• by its position in relation to other signs (e.g. opening double 
+quotation mark, line indicator, final-letter groupsigns) 
+• by the mode in effect (e.g. digits, arrow indicator) 
+2.4.4 Use an indicator to establish the mode which determines the meaning 
+of the braille signs which follow. 
+Note:  The list below gives the basic indicators and the modes which 
+they set.  It does not include indicators for extended modes (e.g. 
+grade 1 word indicator and grade 1 passage indicator), indicators for 
+variations (e.g. bold arrow indicator), subsidiary indicators (e.g. 
+superposition indicator used in shape mode) or terminators. 
+⠫ sets shape mode:  Guidelines for Technical Material, Part 14, 
+Shape Symbols and Composite Symbols 
+⠳ sets arrow mode:  Guidelines for Technical Material, Part 13, 
+Arrows 
+⠼ sets numeric mode and grade 1 mode:  Section 6, Numeric 
+Mode 
+⠐⠒ opens and sets horizontal line mode:  Section 16, Line Mode, 
+Guide Dots 
+⠰ sets grade 1 mode:  Section 5, Grade 1 Mode 
+2.4.5 Use an indicator to change an aspect of the text which follows.  
+Note:  The list below gives the basic indicators of this type. 
+⠢ subscript indicator:  Guidelines for Technical Material, Part 7, 
+Superscripts and Subscripts 
+⠔  superscript indicator:  Guidelines for Technical Material, Part 7, 
+Superscripts and Subscripts 
+⠈⠆ script symbol indicator:  Section 9, Typeforms 
+⠘⠆ bold symbol indicator:  Section 9, Typeforms 
+⠘⠖ ligature indicator:  Section 4, Letters and Their Modifiers  
+
+--- PDF page 41 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+13 
+⠸⠆ underlined symbol indicator:  Section 9, Typeforms 
+⠨⠆ italic symbol indicator:  Section 9, Typeforms 
+⠠⠠ capitals word indicator:  Section 8, Capitalisation 
+2.4.6 The list below gives other indicators. 
+⠿ cursor indicator:  Guidelines for Technical Material, Part 17, 
+Computer Notation 
+⠷ ⠾ general fraction open and close indicators:  Guidelines for 
+Technical Material, Part 6, Fractions 
+⠣ ⠜ braille grouping opening and closing indicators:  Section 3, 
+General Symbols 
+⠈⠨⠣ ⠈⠨⠜ transcriber's note opening and closing indicators:  
+Section 3, General Symbols 
+⠘⠷ non-UEB word indicator: Section 14, Code Switching 
+⠸ line indicator:  Section 15, Scansion, Stress and Tone 
+⠐ line continuation indicator:  Section 6, Numeric Mode 
+⠐⠐⠿ dot locator for "use":  Section 3,  General Symbols 
+⠨⠿ dot locator for "mention":  Section 3, General Symbols 
+ 
+2.4.7 A mode established by a UEB indicator does not extend through a 
+switch to another braille code. 
+Examples: 
+ SCHWA /Ə/ OR MID-CENTRAL VOWEL 
+⠠⠠⠎⠡⠺⠁ ⠐⠘⠌⠢⠘⠌ ⠠⠠⠠⠕⠗ ⠍⠊⠙⠤⠉⠢⠞⠗⠁⠇ 
+⠧⠪⠑⠇⠠⠄ 
+ He cried in despair, je suis vraiment désolé, and fell to his knees. 
+⠨⠶⠠⠓⠑ ⠉⠗⠊⠫ ⠔ ⠙⠑⠎⠏⠁⠊⠗⠂⠨⠄ ⠐⠷⠄⠒⠸⠚⠑ 
+⠎⠥⠊⠎ ⠧⠗⠁⠊⠍⠑⠝⠞ ⠸⠙⠿⠎⠕⠇⠿⠂⠠⠐⠾ ⠨⠶⠯ 
+⠋⠑⠇⠇ ⠞⠕ ⠦ ⠅⠝⠑⠑⠎⠲⠨⠄ 
+ 
+
+--- PDF page 42 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+14 
+2.5 Grades of braille 
+Uncontracted (grade 1) braille 
+2.5.1 The use of contractions is disallowed by certain rules.  These include: 
+•  Section 4, Letters and Their Modifiers – no contractions following a 
+modifier, no contractions before or after a ligature indicator; 
+•  Section 5, Grade 1 Mode – no contractions within grade 1 mode; 
+•  Section 6, Numeric Mode – no contractions within grade 1 mode 
+when set by a numeric indicator; 
+•  Section 12, Early Forms of English – no contractions in Old English. 
+ In technical material these include:  [See Guidelines for Technical 
+Material.] 
+•  Part 1, General Principles – no contractions in strings of fully 
+capitalised letters; 
+•  Part 14, Shape Symbols and Composite Symbols – no contractions 
+in the description of a transcriber-defined shape; 
+•  Part 16, Chemistry – no contractions in letters representing 
+chemical elements; 
+•  Part 17, Computer Notation – no contractions in a displayed 
+computer program. 
+2.5.2 Uncontracted (grade 1) braille is different from grade 1 mode.  
+2.5.3 Grade 1 mode exists only when introduced by a grade 1 indicator or 
+by a numeric indicator. 
+2.5.4 Uncontracted (grade 1) braille is a transcription option which may be 
+selected for any number of reasons, including: 
+• when the pronunciation or recognition of a word would be hindered 
+(Section 10, Contractions); 
+• in Middle English (Section 12, Early Forms of English); 
+• in foreign words (Section 13, Foreign Language); 
+• in texts for readers who have not learned contracted braille; 
+• when the spelling of a word is featured, as in dictionary entries . 
+Note:  Braille authorities and production agencies may establish 
+policies for the guidance of transcribers in the use of uncontracted 
+(grade 1) braille. 
+2.5.5 Although contractions are not used in grade 1 mode, uncontracted 
+(grade 1) braille may be employed without the use of grade 1 
+indicators. 
+ 
+
+--- PDF page 43 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+15 
+Contracted (grade 2) braille 
+Note:  The use of the contractions in contracted (grade 2) braille is 
+covered in Section 10, Contractions. 
+Note:  UEB contracted braille differs slightly from other forms of 
+English contracted braille.  See Section 1.3, Introduction, for basic 
+signs found in other forms of English braille. 
+Other grades of braille 
+Note:  Other grades of braille have been developed.  One of these is 
+grade 3 braille which contains several hundred contractions and is 
+primarily for personal use.  Another is grade 1½ braille. Employing 
+only 44 one-cell contractions, this was the official code of the United 
+States from 1918 to 1932. 
+2.6 Standing alone 
+"Standing alone" is the condition of being unaccompanied by 
+additional letters, symbols or punctuation except as specified below.  
+Whether a sequence is "standing alone" or not "standing alone" 
+determines the meaning of braille signs when they are read or 
+written. 
+2.6.1 A letter or letters-sequence is considered to be "standing alone" if it is 
+preceded and followed by a space, a hyphen or a dash.  The dash 
+may be of any length, i.e. the dash or the long dash. 
+Examples: 
+x  ⠰⠭    it  ⠭    which  ⠱   was  ⠴    al  ⠰⠁⠇    also  ⠁⠇ 
+e-x-u-d-e  ⠰⠰⠑⠤⠭⠤⠥⠤⠙⠤⠑  do-it-yourself  ⠙⠤⠭⠤⠽⠗⠋ 
+out-and-out  ⠳⠤⠯⠤⠳ 
+5-yrf-678  ⠼⠑⠤⠰⠽⠗⠋⠤⠼⠋⠛⠓ 
+I like x–it works.  ⠠⠊ ⠇ ⠰⠭⠠⠤⠭ ⠐⠺⠎⠲ 
+his child–this one  ⠦ ⠡⠠⠤⠹ ⠐⠕ 
+my friend–Fr John  ⠍⠽ ⠋⠗⠠⠤⠰⠠⠋⠗ ⠠⠚⠕⠓⠝ 
+th--r  ⠞⠓⠤⠤⠰⠗ 
+Mme. M—  ⠠⠍⠍⠑⠲ ⠰⠠⠍⠐⠠⠤ 
+–s  ⠠⠤⠰⠎   —st  ⠐⠠⠤⠎⠞ 
+
+--- PDF page 44 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+16 
+But: 
+YouTube  ⠠⠽⠳⠠⠞⠥⠃⠑ prepaid  ⠨⠂⠏⠗⠑⠨⠄⠏⠁⠊⠙ 
+but...not  ⠃⠥⠞⠲⠲⠲⠝⠕⠞ 
+ 
+2.6.2 A letter or letters-sequence is considered to be "standing alone" when 
+the following common punctuation and indicator symbols intervene 
+between the letter or letters-sequence and the preceding space, 
+hyphen or dash: 
+• opening parenthesis (round bracket), opening square bracket or 
+opening curly bracket (brace bracket); 
+• opening quotation mark of any kind; 
+• nondirectional quotation mark of any kind; 
+• apostrophe [see also rule 2.6.4]; 
+• opening typeform indicator of any kind; 
+• capitals indicator of any kind; 
+• opening transcriber's note indicator; 
+• or any combination of these. 
+Examples: 
+(c  ⠐⠣⠰⠉   [can  ⠨⠣⠉ 
+{af  ⠸⠣⠰⠁⠋   –(after  ⠠⠤⠐⠣⠁⠋ 
+“do  ⠦⠙   ‘your  ⠠⠦⠽⠗ 
+"yr-123  ⠠⠶⠰⠽⠗⠤⠼⠁⠃⠉ 
+'e 'as  ⠄⠰⠑ ⠄⠵   p  ⠨⠆⠰⠏ 
+people  ⠘⠂⠏   enough  ⠸⠂⠢ 
+child-safe  ⠨⠂⠡⠤⠎⠁⠋⠑   N  ⠰⠠⠝ 
+Not Like That  ⠠⠝ ⠠⠇ ⠠⠞   LITTLE CHILD  ⠠⠠⠇⠇ ⠠⠠⠡ 
+–GREAT  ⠠⠤⠠⠠⠛⠗⠞ 
+OUT OF TOWN  ⠠⠠⠠⠳ ⠷ ⠞⠪⠝⠠⠄ 
+[open TN]every  ⠈⠨⠣⠑  [open TN]In  ⠈⠨⠣⠠⠔ 
+–“[Be true.]”  ⠠⠤⠦⠨⠣⠠⠆ ⠞⠗⠥⠑⠲⠨⠜⠴ 
+But: 
+<x, y>  ⠈⠣⠭⠂ ⠽⠈⠜   this/that  ⠹⠊⠎⠸⠌⠹⠁⠞ 
+
+--- PDF page 45 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+17 
+*from  ⠐⠔⠋⠗⠕⠍   &c  ⠈⠯⠉ 
+Apt. #B  ⠠⠁⠏⠞⠲ ⠸⠹⠠⠃   ¶d  ⠘⠏⠙ 
+é  ⠘⠌⠑   ū  ⠈⠤⠥ 
+~s  ⠈⠔⠎   ~st  ⠈⠔⠌ 
+ 
+2.6.3 A letter or letters-sequence is considered to be "standing alone" when 
+the following common punctuation and indicator symbols intervene 
+between the letter or letters-sequence and the following space, 
+hyphen or dash: 
+• comma, semicolon, colon, full stop (period), ellipsis, exclamation 
+mark or question mark; 
+• closing parenthesis (round bracket), closing square bracket or 
+closing curly bracket (brace bracket); 
+• closing quotation mark of any kind; 
+• nondirectional quotation mark of any kind; 
+• apostrophe [see also rule 2.6.4]; 
+• typeform terminator of any kind; 
+• capitals mode terminator; 
+• closing transcriber's note indicator; 
+• line indicator; 
+• or any combination of these. 
+Examples: 
+very, very still; rather good.  ⠧⠂ ⠧ ⠌⠆ ⠗ ⠛⠙⠲ 
+d:  ⠰⠙⠒   this...  ⠹⠲⠲⠲ 
+rejoice!  ⠗⠚⠉⠖   (q, r)  ⠐⠣⠰⠟⠂ ⠰⠗⠐⠜ 
+[quite, rather]  ⠨⠣⠟⠂ ⠗⠨⠜  {k-p}  ⠸⠣⠰⠅⠤⠰⠏⠸⠜ 
+"Which go-between?"  ⠦⠠⠱ ⠛⠤⠆⠞⠦⠴ 
+children.”  ⠡⠝⠲⠴   t' have–  ⠰⠞⠄ ⠓⠠⠤ 
+friends' numbers  ⠋⠗⠎⠄ ⠝⠥⠍⠃⠻⠎ 
+Himself or herself?–Neither! 
+⠨⠶⠠⠓⠍⠋ ⠕⠗ ⠓⠻⠋⠦⠠⠤⠠⠝⠑⠊⠖⠨⠄ 
+ALWAYS BE YOURSELF  ⠠⠠⠠⠁⠇⠺ ⠆ ⠽⠗⠋⠠⠄ 
+[open TN]His choice was D.[close TN] 
+
+--- PDF page 46 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+18 
+⠈⠨⠣⠠⠦ ⠡⠕⠊⠉⠑ ⠴ ⠰⠠⠙⠲⠈⠨⠜ 
+X' Y"  ⠰⠠⠭⠄ ⠰⠠⠽⠠⠶  [nondirectional quotes used to show feet 
+and inches] 
+[An Emily Dickinson poem transcribed in linear format:] 
+The sun kept setting, setting still; 
+No hue of afternoon 
+Upon the village I perceived 
+From house to house 'twas noon 
+⠠⠮ ⠎⠥⠝ ⠅⠑⠏⠞ ⠎⠑⠞⠞⠬⠂ ⠎⠑⠞⠞⠬ ⠌⠆⠸ ⠠⠝⠕ 
+⠓⠥⠑ ⠷ ⠁⠋⠝⠸ ⠠⠘⠥ ⠮ ⠧⠊⠇⠇⠁⠛⠑ ⠠⠊ 
+⠏⠻⠉⠧⠙⠸ ⠠⠋ ⠓⠳⠎⠑ ⠞⠕ ⠓⠳⠎⠑ ⠄⠞⠺⠁⠎ 
+⠝⠕⠕⠝ 
+But: 
+t'night  ⠞⠄⠝⠊⠣⠞   word(s)  ⠘⠺⠐⠣⠎⠐⠜ 
+ab/cd  ⠁⠃⠸⠌⠉⠙    could/should ⠉⠳⠇⠙⠸⠌⠩⠳⠇⠙ 
+section B2  ⠎⠑⠉⠰⠝ ⠠⠃⠰⠔⠼⠃ 
+knowledge.3  ⠐⠅⠇⠫⠛⠑⠲⠰⠔⠼⠉ 
+this.)*  ⠹⠊⠎⠲⠐⠜⠐⠔ 
+<J.Child@children.net> 
+⠈⠣⠠⠚⠲⠠⠡⠊⠇⠙⠈⠁⠡⠊⠇⠙⠗⠢⠲⠝⠑⠞⠈⠜ 
+just_for_good.org  ⠚⠥⠌⠨⠤⠿⠨⠤⠛⠕⠕⠙⠲⠕⠗⠛ 
+l_ _f  ⠇⠨⠤⠨⠤⠋   ch...f  ⠡⠲⠲⠲⠋ 
+a:b :: x:y  ⠁⠰⠒⠃ ⠒⠒ ⠭⠰⠒⠽ 
+X%  ⠠⠭⠨⠴   Braillex®  ⠠⠃⠗⠁⠊⠇⠇⠑⠭⠘⠗  
+Braille4All  ⠠⠃⠗⠁⠊⠇⠇⠑⠼⠙⠠⠁⠇⠇ 
+X′ Y″  ⠠⠭⠶ ⠠⠽⠶⠶  [prime used to show feet and inches] 
+ 
+2.6.4 The following are considered to be "standing alone" if the whole 
+sequence meets the same provisions as a letters-sequence in rules 
+2.6.1 to 2.6.3. 
+
+--- PDF page 47 ---
+Rules of Unified English Braille 2:  Terminology and General Rules 
+Third Edition 2024 
+19 
+(a) A word with an interior apostrophe which meets the specific 
+provisions of Section 10, Contractions, 10.1.2 (alphabetic 
+wordsigns), 10.2.2 (strong wordsigns), 10.9.5 (shortforms) or is on 
+the Shortforms List (Appendix 1). 
+(b) A word with an interior capitals indicator or capitals 
+terminator which meets the specific provisions of rule 10.9.4. 
+(c) A word with an interior indicator or terminator which has 
+been specifically added to the Shortforms List, Appendix 1 in that 
+format. 
+Examples: 
+‘It'll  ⠠⠦⠠⠭⠄⠇⠇   [X'll  ⠨⠣⠰⠠⠭⠄⠇⠇ 
+child's?)  ⠡⠄⠎⠦⠐⠜ 
+“p's and q's”  ⠦⠰⠏⠄⠎ ⠯ ⠰⠟⠄⠎⠴ 
+“That's Mr. Little's!”  ⠦⠠⠞⠄⠎ ⠠⠍⠗⠲ ⠨⠂⠠⠇⠇⠄⠎⠖⠴ 
+(Wouldn't)  ⠐⠣⠠⠺⠙⠝⠄⠞⠐⠜ 
+(greatGREATgrandmother)  ⠐⠣⠛⠗⠞⠠⠠⠛⠗⠞⠠⠄⠛⠗⠯⠐⠍⠐⠜ 
+SimBraille  ⠠⠎⠊⠍⠠⠃⠗⠇ StepChildren  ⠠⠌⠑⠏⠠⠡⠝ 
+FirstBank  ⠠⠋⠌⠠⠃⠁⠝⠅ "DeafBlind"  ⠦⠠⠙⠂⠋⠠⠃⠇⠴ 
+But: 
+Deaf/DeafBlind  ⠠⠙⠂⠋⠸⠌⠠⠙⠂⠋⠠⠃⠇⠔⠙ 
+StepChildren.org  ⠠⠌⠑⠏⠠⠡⠊⠇⠙⠗⠢⠲⠕⠗⠛ 
+2.6.5 A non-alphabetic symbol is considered to be standing alone if the 
+symbol meets the same provisions as a letter or letters-sequence in 
+rules 2.6.1 to 2.6.3. 
+Refer to:  Rule 7.5.3, for the question mark; rules 7.6.8 and 7.6.10, 
+for quotation marks. 
+Examples: 
+[?]  ⠨⠣⠰⠦⠨⠜ 
+Use single quotes ‘ and ’. 
+⠠⠥⠎⠑ ⠎⠬⠇⠑ ⠟⠥⠕⠞⠑⠎ ⠰⠠⠦ ⠯ ⠠⠴⠲ 
+ 
+
+--- PDF page 49 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+21 
+Section 3:  General Symbols and Indicators 
+  space (see 3.23) 
+⠣  opening braille grouping indicator (see 3.4) 
+⠹  first transcriber-defined print symbol (see 3.26) 
+⠫  shape indicator (see 3.22) 
+⠳  arrow indicator (see 3.2) 
+⠳⠕ → simple right pointing arrow (east) (see 3.2) 
+⠳⠩ ↓ simple down pointing arrow (south) (see 3.2) 
+⠳⠪ ← simple left pointing arrow (west) (see 3.2) 
+⠳⠬ ↑ simple up pointing arrow (north) (see 3.2) 
+⠒ ∶ ratio (see 3.17) 
+⠒⠒ ∷ proportion (see 3.17) 
+⠢  subscript indicator (see 3.24) 
+⠶ ′ prime (see 3.11 and 3.15) 
+⠶⠶ ″ double prime (see 3.11 and 3.15) 
+⠔  superscript indicator (see 3.24) 
+⠼⠡ ♮ natural (see 3.18) 
+⠼⠣ ♭ flat (see 3.18) 
+⠼⠩ ♯ sharp (see 3.18) 
+⠼⠹  second transcriber-defined print symbol  
+  (see 3.26) 
+⠜  closing braille grouping indicator (see 3.4) 
+⠈⠁ @ commercial at sign (see 3.7) 
+⠈⠉ ¢ cent sign (see 3.10) 
+⠈⠑ € euro sign (see 3.10) 
+⠈⠋ ₣ French franc sign (see 3.10) 
+⠈⠇ £ pound sign (pound sterling) (see 3.10) 
+⠈⠝ ₦ naira sign (see 3.10) 
+⠈⠎ $ dollar sign (see 3.10) 
+⠈⠽ ¥ yen sign (yuan sign) (see 3.10) 
+⠈⠯ & ampersand (see 3.1) 
+⠈⠣ < less-than sign (see 3.17) 
+⠈⠩ ✓ checkmark, tick (see 3.28) 
+
+--- PDF page 50 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+22 
+⠈⠢ ^ caret (see 3.6) 
+⠈⠔ ~ tilde (swung dash) (see 3.25) 
+⠈⠼⠹  third transcriber-defined print symbol (see 3.26) 
+⠈⠜ > greater-than sign (see 3.17) 
+⠈⠨⠣  opening transcriber's note indicator (see 3.27) 
+⠈⠨⠜  closing transcriber's note indicator (see 3.27) 
+⠈⠠⠹ † dagger (see 3.3) 
+⠈⠠⠻ ‡ double dagger (see 3.3) 
+⠘⠉ © copyright sign (see 3.8) 
+⠘⠚ ° degree sign (see 3.11) 
+⠘⠏ ¶ paragraph sign (see 3.20) 
+⠘⠗ ® registered sign (see 3.8) 
+⠘⠎ § section sign (see 3.20) 
+⠘⠞ ™ trademark sign (see 3.8) 
+⠘⠭ ♀ female sign (Venus) (see 3.16) 
+⠘⠽ ♂ male sign (Mars) (see 3.16) 
+⠘⠼⠹  fourth transcriber-defined print symbol (see 3.26) 
+⠸⠹ # number sign (crosshatch, hash, pound sign)  
+  (see 3.19) 
+⠸⠲ • bullet (see 3.5) 
+⠸⠼⠹  fifth transcriber-defined print symbol (see 3.26) 
+⠐⠂ 〃 ditto mark (see 3.12) 
+⠐⠖ + plus sign (see 3.17) 
+⠐⠶ = equals sign (see 3.17) 
+⠐⠦ × multiplication sign (see 3.17) 
+⠐⠔ * asterisk (star) (see 3.3) 
+⠐⠌ ÷ division sign (see 3.17) 
+⠐⠼⠹  sixth transcriber-defined print symbol (see 3.26) 
+⠐⠤ − minus sign (see 3.17) 
+⠐⠐⠿  dot locator for "use" (see 3.14) 
+⠨⠿  dot locator for "mention" (see 3.13) 
+⠨⠴ % percent sign (see 3.21) 
+⠨⠼⠹  seventh transcriber-defined print symbol  
+  (see 3.26) 
+
+--- PDF page 51 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+23 
+3.1 Ampersand ⠈⠯ 
+3.1.1 Follow print for the use of the ampersand. 
+Examples: 
+Marks & Spencer   ⠠⠍⠜⠅⠎ ⠈⠯ ⠠⠎⠏⠰⠑⠗ 
+AT&T   ⠠⠠⠁⠞⠈⠯⠠⠞   B&B   ⠠⠃⠈⠯⠠⠃ 
+&c (etc)   ⠈⠯⠉ ⠐⠣⠑⠞⠉⠐⠜ 
+ 
+3.2 Arrows ⠳ ⠳⠕ ⠳⠩ ⠳⠪ ⠳⠬ 
+3.2.1 Follow print for the use of arrows.  In non-technical material, list the 
+complete arrow symbol (without any grade 1 indicator) and its 
+meaning on the symbols page or in a transcriber's note. 
+Note:  The grade 1 indicator may be required before the arrow 
+symbol to avoid it being misread. 
+Refer to:  Section 11.6, Technical Material, and Guidelines for 
+Technical Material, Part 13, for further information on arrows. 
+Examples: 
+Road signs of → and ← mark detours. 
+⠠⠗⠕⠁⠙ ⠎⠊⠛⠝⠎ ⠷ ⠰⠳⠕ ⠯ ⠰⠳⠪ ⠍⠜⠅ 
+⠙⠑⠞⠳⠗⠎⠲ 
+Put a ↑ on the map to indicate north. 
+⠠⠏⠥⠞ ⠁ ⠰⠳⠬ ⠕⠝ ⠮ ⠍⠁⠏ ⠞⠕ ⠔⠙⠊⠉⠁⠞⠑ 
+⠝⠕⠗⠹⠲ 
+Arrow used in the following example: 
+⠳⠲⠩ ↵    down arrow with sharp turn right 
+The ENTER key is the one with ↵ on it. 
+⠠⠮ ⠠⠠⠢⠞⠻ ⠅⠑⠽ ⠊⠎ ⠮ ⠐⠕ ⠾ ⠰⠳⠲⠩ ⠕⠝ ⠭⠲ 
+ 
+3.3 Asterisk ⠐⠔ dagger ⠈⠠⠹ and double dagger ⠈⠠⠻ 
+3.3.1 Follow print for the use of the asterisk, dagger and double dagger, 
+regardless of meaning. 
+
+--- PDF page 52 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+24 
+Note:  For example, the dagger may be used as a reference mark, or 
+as the Latin or Christian cross to signify death or a member of the 
+clergy. 
+Note:  Usually the asterisk and sometimes the dagger and double 
+dagger appear raised from the baseline in print.  This is not 
+considered the superscript position. 
+Examples: 
+M*A*S*H   ⠠⠍⠐⠔⠠⠁⠐⠔⠠⠎⠐⠔⠠⠓ 
+Spelling words marked with an * have a silent letter. 
+⠠⠎⠏⠑⠇⠇⠬ ⠘⠺⠎ ⠍⠜⠅⠫ ⠾ ⠁⠝ ⠐⠔ ⠓ ⠁ 
+⠎⠊⠇⠢⠞ ⠇⠗⠲ 
+To access your voicemail, strike *98 on your telephone. 
+⠠⠞⠕ ⠁⠒⠑⠎⠎ ⠽⠗ ⠧⠕⠊⠉⠑⠍⠁⠊⠇⠂ ⠌⠗⠊⠅⠑ 
+⠐⠔⠼⠊⠓ ⠕⠝ ⠽⠗ ⠞⠑⠇⠑⠏⠓⠐⠕⠲ 
+Speed * time = distance. 
+⠠⠎⠏⠑⠫ ⠐⠔ ⠐⠞ ⠐⠶ ⠲⠞⠨⠑⠲ 
+showing *emphasis* in email messages 
+⠩⠪⠬ ⠐⠔⠑⠍⠏⠓⠁⠎⠊⠎⠐⠔ ⠔ ⠑⠍⠁⠊⠇ ⠍⠑⠎⠎⠁⠛⠑⠎ 
+Irene V***  ⠠⠊⠗⠢⠑ ⠠⠧⠐⠔⠐⠔⠐⠔ 
+foul language such as *#*$!* or with omitted letters as in D***  
+⠋⠳⠇ ⠇⠁⠝⠛⠥⠁⠛⠑ ⠎⠡ ⠵ ⠐⠔⠸⠹⠐⠔⠈⠎⠖⠐⠔ ⠕⠗ 
+⠾ ⠕⠍⠊⠞⠞⠫ ⠇⠗⠎ ⠵ ⠔ ⠠⠙⠐⠔⠐⠔⠐⠔ 
+New World Hotel **** 
+⠠⠝⠑⠺ ⠠⠸⠺ ⠠⠓⠕⠞⠑⠇ ⠐⠔⠐⠔⠐⠔⠐⠔ 
+brothers Jed* and Ben** Chan 
+  *born in Hong Kong 
+  **born in Canada 
+⠃⠗⠕⠮⠗⠎ ⠠⠚⠫⠐⠔ ⠯ ⠠⠃⠢⠐⠔⠐⠔ ⠠⠡⠁⠝  
+⠐⠔⠃⠕⠗⠝ ⠔ ⠠⠓⠰⠛ ⠠⠅⠰⠛ 
+⠐⠔⠐⠔⠃⠕⠗⠝ ⠔ ⠠⠉⠁⠝⠁⠙⠁ 
+  
+
+--- PDF page 53 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+25 
+Authors: Roy Brown,† Shirley Jones, Walter Smith,† Douglas White  
+⠠⠁⠥⠹⠕⠗⠎⠒ ⠠⠗⠕⠽ ⠠⠃⠗⠪⠝⠂⠈⠠⠹ ⠠⠩⠊⠗⠇⠑⠽ 
+⠠⠚⠐⠕⠎⠂ ⠠⠺⠁⠇⠞⠻ ⠠⠎⠍⠊⠹⠂⠈⠠⠹ ⠠⠙⠳⠛⠇⠁⠎ 
+⠠⠱⠊⠞⠑ 
+The painter included daisies,* white roses† and ivy‡ in the portrait.  
+    *symbolizing innocence 
+    †symbolizing virtue 
+    ‡symbolizing fidelity 
+⠠⠮ ⠏⠁⠔⠞⠻ ⠔⠉⠇⠥⠙⠫ ⠙⠁⠊⠎⠊⠑⠎⠂⠐⠔ ⠱⠊⠞⠑ 
+⠗⠕⠎⠑⠎⠈⠠⠹ ⠯ ⠊⠧⠽⠈⠠⠻ ⠔ ⠮ ⠏⠕⠗⠞⠗⠁⠊⠞⠲ 
+ ⠐⠔⠎⠽⠍⠃⠕⠇⠊⠵⠬ ⠔⠝⠕⠉⠰⠑ 
+ ⠈⠠⠹⠎⠽⠍⠃⠕⠇⠊⠵⠬ ⠧⠊⠗⠞⠥⠑ 
+ ⠈⠠⠻⠎⠽⠍⠃⠕⠇⠊⠵⠬ ⠋⠊⠙⠑⠇⠰⠽ 
+–dash*–or parentheses (round brackets†) 
+⠠⠤⠙⠁⠩⠐⠔⠠⠤⠕⠗ ⠏⠜⠢⠮⠎⠑⠎ ⠐⠣⠗⠨⠙ 
+⠃⠗⠁⠉⠅⠑⠞⠎⠈⠠⠹⠐⠜ 
+Rev. Robert Lowin† 
+⠠⠗⠑⠧⠲ ⠠⠗⠕⠃⠻⠞ ⠠⠇⠪⠔⠈⠠⠹ 
+ 
+*       *      * 
+⠐⠔ ⠐⠔ ⠐⠔ 
+ 
+3.4 Braille grouping indicators ⠣ ⠜ 
+3.4.1 Use braille grouping indicators when necessary to ensure that the 
+preceding braille symbol or indicator applies to all the symbols 
+enclosed by the braille grouping indicators rather than just to the 
+symbol immediately following. 
+Note:  This includes a modifier which applies to more than one letter 
+and a subscript or superscript indicator which applies to more than 
+one "item". 
+Refer to:  Rule 4.2.5, Letters and Their Modifiers and Section 11.4, 
+Technical Material. 
+
+--- PDF page 54 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+26 
+Examples: 
+spo͞ on   ⠎⠏⠈⠤⠣⠕⠕⠜⠝ 
+masssun   ⠍⠁⠎⠎⠰⠰⠢⠣⠎⠥⠝⠜ 
+ 
+3.5 Bullet ⠸⠲ 
+3.5.1 Follow print for the use of the bullet. 
+Note:  At times, other symbols may be used for a similar purpose. 
+Refer to:  Section 3.22, for shapes; and Section 3.26, for transcriber-
+defined symbols. 
+Example: 
+Nutritional considerations include: 
+•  carbohydrates 
+•  protein 
+•  fat 
+•  cholesterol 
+•  fiber 
+•  sodium 
+⠠⠝⠥⠞⠗⠊⠰⠝⠁⠇ ⠒⠎⠊⠙⠻⠁⠰⠝⠎ ⠔⠉⠇⠥⠙⠑⠒ 
+ ⠸⠲ ⠉⠜⠃⠕⠓⠽⠙⠗⠁⠞⠑⠎ 
+ ⠸⠲ ⠏⠗⠕⠞⠑⠔ 
+ ⠸⠲ ⠋⠁⠞ 
+ ⠸⠲ ⠡⠕⠇⠑⠌⠻⠕⠇ 
+ ⠸⠲ ⠋⠊⠃⠻ 
+ ⠸⠲ ⠎⠕⠙⠊⠥⠍ 
+ 
+3.6 Caret ⠈⠢ 
+3.6.1 Follow print for the use of the caret. 
+Refer to:  Section 4.2, Letters and Their Modifiers, for the circumflex 
+accent above a letter. 
+  
+
+--- PDF page 55 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+27 
+Example: 
+[caret used as an editing mark to show omissions:] 
+My favourite pets are my dog^ my cat ^ my hamster.  My job ^ to feed them.  
+⠈⠶⠠⠍⠽ ⠋⠁⠧⠳⠗⠊⠞⠑ ⠏⠑⠞⠎ ⠜⠑ ⠍⠽ ⠙⠕⠛⠈⠢ 
+⠍⠽ ⠉⠁⠞ ⠈⠢ ⠍⠽ ⠓⠁⠍⠌⠻⠲ ⠠⠍⠽ ⠚⠕⠃ ⠈⠢ 
+⠞⠕ ⠋⠑⠫ ⠮⠍⠲⠈⠄ 
+ 
+3.7 Commercial at sign ⠈⠁ 
+3.7.1 Follow print for the use of the commercial at sign. 
+Examples: 
+FLASH@lightning.net   ⠠⠠⠋⠇⠁⠩⠈⠁⠇⠊⠣⠞⠝⠬⠲⠝⠑⠞ 
+Sell the candies @ 10¢ each. 
+⠠⠎⠑⠇⠇ ⠮ ⠉⠯⠊⠑⠎ ⠈⠁ ⠼⠁⠚⠈⠉ ⠑⠁⠡⠲ 
+ 
+3.8 Copyright ⠘⠉ registered ⠘⠗ and trademark ⠘⠞ signs 
+3.8.1 Follow print for the use of the copyright, registered and trademark 
+signs.  Usually the trademark sign appears raised from the baseline in 
+print.  This is not considered the superscript position. 
+Examples: 
+Copyright © 2009   ⠠⠉⠕⠏⠽⠐⠗ ⠘⠉ ⠼⠃⠚⠚⠊ 
+©2009   ⠘⠉⠼⠃⠚⠚⠊ 
+QuickTax™ from Intuit® Canada Limited 
+⠠⠟⠥⠊⠉⠅⠠⠞⠁⠭⠘⠞ ⠋ ⠠⠔⠞⠥⠊⠞⠘⠗ ⠠⠉⠁⠝⠁⠙⠁ 
+⠠⠇⠊⠍⠊⠞⠫ 
+ 
+3.9 Crosses ⠈⠠⠹ ⠰⠭ ⠰⠠⠭ ⠐⠦ 
+3.9.1 Print uses crosses for a variety of purposes.  Select the appropriate 
+braille symbol based on the purpose of the cross. 
+Note:  Use the letter "x" or "X" only when the cross has no 
+mathematical or scientific meaning; for example: to represent a kiss.  
+
+--- PDF page 56 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+28 
+Refer to:  Section 3.3, for use of the dagger as a Latin or Christian 
+cross (e.g. to signify death or a member of the clergy);  and to 
+Section 3.17 for the multiplication sign which is used to show 
+dimensions, degree of magnification, and crosses between breeds of 
+animals or between varieties of plants. 
+Examples: 
+With love, XXOO   ⠠⠾ ⠇⠕⠧⠑⠂ ⠠⠠⠭⠭⠕⠕ 
+Sealed with a X   ⠠⠎⠂⠇⠫ ⠾ ⠁ ⠰⠠⠭ 
+Illiterate people usually signed their name with an X. 
+⠠⠊⠇⠇⠊⠞⠻⠁⠞⠑ ⠏ ⠥⠎⠥⠁⠇⠇⠽ ⠎⠊⠛⠝⠫ ⠸⠮ ⠐⠝ 
+⠾ ⠁⠝ ⠰⠠⠭⠲ 
+a 4x4 vehicle    ⠁ ⠼⠙⠭⠼⠙ ⠧⠑⠓⠊⠉⠇⠑ 
+a 2×4 board   ⠁ ⠼⠃⠐⠦⠼⠙ ⠃⠕⠜⠙ 
+15×15×20 cm   ⠼⠁⠑⠐⠦⠼⠁⠑⠐⠦⠼⠃⠚ ⠉⠍ 
+The room is 12 ft. × 16 ft. 
+⠠⠮ ⠗⠕⠕⠍ ⠊⠎ ⠼⠁⠃ ⠋⠞⠲ ⠐⠦ ⠼⠁⠋ ⠋⠞⠲ 
+a 10× lens   ⠁ ⠼⠁⠚⠐⠦ ⠇⠢⠎ 
+Labrador × Poodle   ⠠⠇⠁⠃⠗⠁⠙⠕⠗ ⠐⠦ ⠠⠏⠕⠕⠙⠇⠑ 
+ 
+3.10 Currency signs ⠈⠉ ⠈⠑ ⠈⠋ ⠈⠇ ⠈⠝ ⠈⠎ ⠈⠽ 
+3.10.1 Follow print for the use of currency signs. 
+Note:  Some currencies are indicated by a letter or letters (e.g. "DM" 
+for Deutsche Mark, "p" for pence, "R" for Rand). 
+Refer to:  Section 3.26, for transcriber-defined symbols to represent 
+currency signs with no UEB symbols. 
+Examples: 
+10¢   ⠼⠁⠚⠈⠉   99c   ⠼⠊⠊⠰⠉ 
+DM8   ⠠⠠⠙⠍⠼⠓   $6   ⠈⠎⠼⠋ 
+A$40   ⠠⠁⠈⠎⠼⠙⠚   $19.95   ⠈⠎⠼⠁⠊⠲⠊⠑ 
+$23,783,200   ⠈⠎⠼⠃⠉⠂⠛⠓⠉⠂⠃⠚⠚ 
+
+--- PDF page 57 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+29 
+$2bn (2 billion dollars) 
+⠈⠎⠼⠃⠰⠃⠝ ⠐⠣⠼⠃ ⠃⠊⠇⠇⠊⠕⠝ ⠙⠕⠇⠇⠜⠎⠐⠜ 
+US$   ⠠⠠⠥⠎⠈⠎   $X   ⠈⠎⠠⠭ 
+The $ rose.   ⠠⠮ ⠈⠎ ⠗⠕⠎⠑⠲ 
+$hop for $aving$   ⠈⠎⠓⠕⠏ ⠿ ⠈⠎⠁⠧⠬⠈⠎ 
+20$00 (20 escudos) 
+⠼⠃⠚⠈⠎⠼⠚⠚ ⠐⠣⠼⠃⠚ ⠑⠎⠉⠥⠙⠕⠎⠐⠜ 
+€75   ⠈⠑⠼⠛⠑   30,00€   ⠼⠉⠚⠂⠚⠚⠈⠑ 
+€ and £ accepted   ⠈⠑ ⠯ ⠈⠇ ⠁⠒⠑⠏⠞⠫ 
+6€50   ⠼⠋⠈⠑⠼⠑⠚   ₣1   ⠈⠋⠼⠁ 
+1 € = 6.55957₣   ⠼⠁ ⠈⠑ ⠐⠶ ⠼⠋⠲⠑⠑⠊⠑⠛⠈⠋ 
+5F coin   ⠼⠑⠠⠋ ⠉⠕⠔ 
+₦0.20 = 20 kobo   ⠈⠝⠼⠚⠲⠃⠚ ⠐⠶ ⠼⠃⠚ ⠅⠕⠃⠕ 
+£24   ⠈⠇⠼⠃⠙   Ir£   ⠠⠊⠗⠈⠇ 
+£3m (3 million pounds) 
+⠈⠇⠼⠉⠍ ⠐⠣⠼⠉ ⠍⠊⠇⠇⠊⠕⠝ ⠏⠨⠙⠎⠐⠜ 
+the £ rose   ⠮ ⠈⠇ ⠗⠕⠎⠑   £X   ⠈⠇⠠⠭ 
+£7 8s 9d   ⠈⠇⠼⠛ ⠼⠓⠎ ⠼⠊⠰⠙ 
+£7/8/9   ⠈⠇⠼⠛⠸⠌⠼⠓⠸⠌⠼⠊ £7-8-9   ⠈⠇⠼⠛⠤⠼⠓⠤⠼⠊ 
+2p coin   ⠼⠃⠏ ⠉⠕⠔   R25   ⠠⠗⠼⠃⠑ 
+R5,70   ⠠⠗⠼⠑⠂⠛⠚   ¥360   ⠈⠽⠼⠉⠋⠚ 
+ 
+3.11 Degrees ⠘⠚ minutes ⠶ ⠄ and seconds ⠶⠶ ⠠⠶ 
+3.11.1 Follow print for use of the degree sign and the prime signs. 
+Note:  The minute may be shown in print by an apostrophe and the 
+second by a nondirectional double quote.  This usage can be followed 
+in braille. 
+
+--- PDF page 58 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+30 
+Examples: 
+60 °   ⠼⠋⠚ ⠘⠚   21°C   ⠼⠃⠁⠘⠚⠠⠉ 
+70° F   ⠼⠛⠚⠘⠚ ⠰⠠⠋   °C   ⠘⠚⠠⠉ 
+X°   ⠠⠭⠘⠚ 
+250°, 350°, or 450°? 
+⠼⠃⠑⠚⠘⠚⠂ ⠼⠉⠑⠚⠘⠚⠂ ⠕⠗ ⠼⠙⠑⠚⠘⠚⠦ 
+33°51′35.9″S   ⠼⠉⠉⠘⠚⠼⠑⠁⠶⠼⠉⠑⠲⠊⠶⠶⠠⠎ 
+151° 12' 40" E   ⠼⠁⠑⠁⠘⠚ ⠼⠁⠃⠄ ⠼⠙⠚⠠⠶ ⠰⠠⠑ 
+ 
+3.12 Ditto mark ⠐⠂ 
+3.12.1 Follow print for the number used and the approximate placement of 
+the ditto mark, that is, under the item that it refers to on the line 
+above. 
+Examples: 
+living room:  pioneer blue 
+dining room:     〃     〃 
+kitchen:            〃    yellow 
+⠇⠊⠧⠬ ⠗⠕⠕⠍⠒ ⠏⠊⠕⠝⠑⠻ ⠃⠇⠥⠑ 
+⠙⠔⠬ ⠗⠕⠕⠍⠒    ⠐⠂    ⠐⠂ 
+⠅⠊⠞⠡⠢⠒       ⠐⠂   ⠽⠑⠇⠇⠪ 
+Mon 10-12 study 2-4 Eng 
+Tues   〃      〃        〃     〃 
+Wed   〃  Science  〃  Art 
+⠠⠍⠕⠝ ⠼⠁⠚⠤⠼⠁⠃ ⠌⠥⠙⠽ ⠼⠃⠤⠼⠙ ⠠⠢⠛ 
+⠠⠞⠥⠑⠎  ⠐⠂     ⠐⠂   ⠐⠂    ⠐⠂ 
+⠠⠺⠫    ⠐⠂   ⠠⠎⠉⠊⠰⠑ ⠐⠂   ⠠⠜⠞ 
+Anne – village girl 
+Joan – 〃           〃 
+⠠⠁⠝⠝⠑ ⠠⠤ ⠧⠊⠇⠇⠁⠛⠑ ⠛⠊⠗⠇ 
+⠠⠚⠕⠁⠝ ⠠⠤ ⠐⠂      ⠐⠂ 
+ 
+
+--- PDF page 59 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+31 
+3.13 Dot locator for "mention" ⠨⠿ 
+3.13.1 Use a dot locator for "mention" to set apart a braille symbol which is 
+under discussion, as in a symbols list, a transcriber's note or in a 
+publication about braille such as this one.  Place the dot locator for 
+"mention" before the braille symbol and unspaced from it. 
+ When a dot locator for "mention" is used, do not list the dot numbers 
+of the braille symbol. 
+Note:  A braille symbol, e.g. a typeform indicator or a grade 1 
+indicator, preceded by the dot locator for "mention" does not have its 
+normal effect on the following text. 
+Examples: 
+[The dot locator is not shown in the print copy in these examples.] 
+[a symbols list:] 
+⠫⠼⠙ square 
+⠈⠶ script passage indicator 
+⠘⠌ acute accent above following letter 
+⠨⠿⠫⠼⠙ ⠎⠟⠥⠜⠑ 
+⠨⠿⠈⠶ ⠎⠉⠗⠊⠏⠞ ⠏⠁⠎⠎⠁⠛⠑ ⠔⠙⠊⠉⠁⠞⠕⠗ 
+⠨⠿⠘⠌ ⠁⠉⠥⠞⠑ ⠁⠒⠢⠞ ⠁⠃⠧ ⠋⠕⠇⠇⠪⠬ ⠇⠗ 
+[a transcriber's note:] 
+[tn open]In the dictionary example below, ⠈⠤ is a macron above the 
+following letter and ⠈⠬ is a breve above the following letter.[tn 
+close] 
+⠈⠨⠣⠠⠔ ⠮ ⠙⠊⠉⠰⠝⠜⠽ ⠑⠭⠁⠍⠏⠇⠑ ⠆⠇⠂ ⠨⠿⠈⠤ 
+⠊⠎ ⠁ ⠍⠁⠉⠗⠕⠝ ⠁⠃⠧ ⠮ ⠋⠕⠇⠇⠪⠬ ⠇⠗ ⠯ 
+⠨⠿⠈⠬ ⠊⠎ ⠁ ⠃⠗⠑⠧⠑ ⠁⠃⠧ ⠮ ⠋⠕⠇⠇⠪⠬ 
+⠇⠗⠲⠈⠨⠜ 
+[from a manual for braille transcribers:] 
+The capitals passage indicator ⠠⠠⠠ sets capitals mode until it is 
+terminated by ⠠⠄ which is the capitals terminator. 
+⠠⠮ ⠉⠁⠏⠊⠞⠁⠇⠎ ⠏⠁⠎⠎⠁⠛⠑ ⠔⠙⠊⠉⠁⠞⠕⠗ 
+⠨⠿⠠⠠⠠ ⠎⠑⠞⠎ ⠉⠁⠏⠊⠞⠁⠇⠎ ⠍⠕⠙⠑ ⠥⠝⠞⠊⠇ 
+⠭ ⠊⠎ ⠞⠻⠍⠔⠁⠞⠫ ⠃⠽ ⠨⠿⠠⠄ ⠱ ⠊⠎ ⠮ 
+⠉⠁⠏⠊⠞⠁⠇⠎ ⠞⠻⠍⠔⠁⠞⠕⠗⠲ 
+
+--- PDF page 60 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+32 
+3.14 Dot locator for "use" ⠐⠐⠿ 
+3.14.1 Use a dot locator for "use" unspaced before a braille symbol to assure 
+that it will be physically recognizable.   A braille symbol which has 
+only lower dots and which is isolated from other text may otherwise 
+be misread.  A braille symbol preceded by a dot locator for "use" 
+retains its normal effect on text. 
+Examples: 
+[headings of a table about punctuation marks:] 
+, ; ? 
+ 
+ 
+  
+⠐⠐⠿⠂     ⠐⠐⠿⠆     ⠐⠐⠿⠰⠦ 
+⠐⠒⠒⠒⠒⠒⠒  ⠐⠒⠒⠒⠒⠒⠒  ⠐⠒⠒⠒⠒⠒⠒ 
+[a grid of letters:] 
+I   D   E   A 
+T   O   R   N 
+S   T   A   T 
+⠐⠐⠿⠰⠰⠰⠠⠠⠠ 
+⠊ ⠙ ⠑ ⠁ 
+⠞ ⠕ ⠗ ⠝ 
+⠎ ⠞ ⠁ ⠞ 
+⠐⠐⠿⠠⠄⠰⠄ 
+ 
+3.15 Feet ⠶ ⠄ and inches ⠶⠶ ⠠⠶ 
+3.15.1 Follow print for the use of the prime sign. 
+Note:  The foot may be shown in print by an apostrophe and the inch 
+by a nondirectional double quote.  This can be followed in braille.  
+Examples: 
+6′   ⠼⠋⠶   9″   ⠼⠊⠶⠶ 
+5′10″   ⠼⠑⠶⠼⠁⠚⠶⠶   4' 11"   ⠼⠙⠄ ⠼⠁⠁⠠⠶ 
+X″ long   ⠠⠭⠶⠶ ⠇⠰⠛ 
+ 
+
+--- PDF page 61 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+33 
+3.16 Female (Venus) ⠘⠭ and male (Mars) ⠘⠽ signs 
+3.16.1 Follow print for the use of the female (Venus) and male (Mars) signs. 
+Example: 
+[from a genealogy:] 
+Amy Florence SAMPSON ♀ 1881-1956 
+Carlyle Kennedy SAMPSON ♂ 1885-1975 
+⠠⠁⠍⠽ ⠠⠋⠇⠕⠗⠰⠑ ⠠⠠⠎⠁⠍⠏⠎⠕⠝ ⠘⠭ 
+⠼⠁⠓⠓⠁⠤⠼⠁⠊⠑⠋ 
+⠠⠉⠜⠇⠽⠇⠑ ⠠⠅⠢⠝⠫⠽ ⠠⠠⠎⠁⠍⠏⠎⠕⠝ ⠘⠽ 
+⠼⠁⠓⠓⠑⠤⠼⠁⠊⠛⠑ 
+ 
+3.17 Mathematical signs:  plus ⠐⠖ equals ⠐⠶ 
+multiplication ⠐⠦ division ⠐⠌ minus ⠐⠤ ratio ⠒ 
+proportion ⠒⠒ less-than ⠈⠣ and greater-than ⠈⠜ 
+3.17.1 Follow print spacing for use of the plus, equals, multiplication, 
+division, minus, ratio, proportion, less-than and greater-than signs 
+when used in non-technical material. 
+Examples: 
+as easy as 2 + 2 = 4 
+⠵ ⠑⠁⠎⠽ ⠵ ⠼⠃ ⠐⠖ ⠼⠃ ⠐⠶ ⠼⠙ 
+corn − c + b = born 
+⠉⠕⠗⠝ ⠐⠤ ⠰⠉ ⠐⠖ ⠰⠃ ⠐⠶ ⠃⠕⠗⠝ 
+5 is 25% of 20 (5 ÷ 20 × 100) 
+⠼⠑ ⠊⠎ ⠼⠃⠑⠨⠴ ⠷ ⠼⠃⠚ ⠐⠣⠼⠑ ⠐⠌ ⠼⠃⠚ ⠐⠦ 
+⠼⠁⠚⠚⠐⠜ 
+positron < posi(tive) + (elec)tron 
+⠏⠕⠎⠊⠞⠗⠕⠝ ⠈⠣ ⠏⠕⠎⠊⠐⠣⠞⠊⠧⠑⠐⠜ ⠐⠖ 
+⠐⠣⠑⠇⠑⠉⠐⠜⠞⠗⠕⠝ 
++44 1234 567890 (UK phone number) 
+⠐⠖⠼⠙⠙⠐⠁⠃⠉⠙⠐⠑⠋⠛⠓⠊⠚ ⠐⠣⠠⠠⠥⠅ ⠏⠓⠐⠕ 
+⠝⠥⠍⠃⠻⠐⠜ 
+
+--- PDF page 62 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+34 
+a frame with an opening 7″W×5″H 
+⠁ ⠋⠗⠁⠍⠑ ⠾ ⠁⠝ ⠕⠏⠢⠬ ⠼⠛⠶⠶⠠⠺⠐⠦⠼⠑⠶⠶⠠⠓ 
+a map with a scale of 1:500,000 
+⠁ ⠍⠁⠏ ⠾ ⠁ ⠎⠉⠁⠇⠑ ⠷ ⠼⠁⠒⠼⠑⠚⠚⠂⠚⠚⠚ 
+hand : arm :: foot : leg 
+⠓⠯ ⠒ ⠜⠍ ⠒⠒ ⠋⠕⠕⠞ ⠒ ⠇⠑⠛ 
+ 
+3.18 Music accidentals:  natural ⠼⠡ flat ⠼⠣ sharp ⠼⠩ 
+3.18.1 Follow print for the transcription of the natural, flat and sharp signs 
+within UEB text. 
+Examples: 
+B♭ trumpet  ⠠⠃⠼⠣ ⠞⠗⠥⠍⠏⠑⠞ 
+The C♯ pavilion is named for Cecil Sharp. 
+⠠⠮ ⠠⠉⠼⠩ ⠏⠁⠧⠊⠇⠊⠕⠝ ⠊⠎ ⠐⠝⠙ ⠿ ⠠⠉⠑⠉⠊⠇ 
+⠠⠩⠜⠏⠲ 
+The scale of G major includes the note F♯. 
+⠠⠮ ⠎⠉⠁⠇⠑ ⠷ ⠰⠠⠛ ⠍⠁⠚⠕⠗ ⠔⠉⠇⠥⠙⠑⠎ ⠮ 
+⠝⠕⠞⠑ ⠠⠋⠼⠩⠲ 
+A jazz 2-5-1 progression in C minor could be Dm7♭5 - G7♯9 - Cm7. 
+⠠⠁ ⠚⠁⠵⠵ ⠼⠃⠤⠼⠑⠤⠼⠁ ⠏⠗⠕⠛⠗⠑⠎⠨⠝ ⠔ ⠰⠠⠉ 
+⠍⠔⠕⠗ ⠉⠙ ⠆ ⠠⠙⠍⠼⠛⠼⠣⠼⠑ ⠤ ⠠⠛⠼⠛⠼⠩⠼⠊ 
+⠤ ⠠⠉⠍⠼⠛⠲ 
+The ♮ sign on a note cancels the effect of any ♯ or ♭ in the key 
+signature. 
+⠠⠮ ⠼⠡ ⠎⠊⠛⠝ ⠕⠝ ⠁ ⠝⠕⠞⠑ ⠉⠨⠑⠇⠎ ⠮ 
+⠑⠖⠑⠉⠞ ⠷ ⠁⠝⠽ ⠼⠩ ⠕⠗ ⠼⠣ ⠔ ⠮ ⠅⠑⠽ 
+⠎⠊⠛⠝⠁⠞⠥⠗⠑⠲ 
+the dominant chord g-b♮-d 
+⠮ ⠙⠕⠍⠔⠁⠝⠞ ⠡⠕⠗⠙ ⠰⠛⠤⠃⠼⠡⠤⠰⠙ 
+
+--- PDF page 63 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+35 
+... we obtain the somewhat more transparent relation 
+𝑋♭(𝑌) = 〈𝑋, 𝑌〉 
+for all vectors X and Y. 
+⠲⠲⠲ ⠺⠑ ⠕⠃⠞⠁⠔ ⠮ ⠐⠎⠱⠁⠞ ⠍ ⠞⠗⠁⠝⠎⠏⠜⠢⠞ 
+⠗⠑⠇⠁⠰⠝ 
+⠠⠭⠰⠔⠼⠣⠐⠣⠠⠽⠐⠜ ⠐⠶ ⠈⠣⠠⠭⠂ ⠠⠽⠈⠜ 
+⠿ ⠁⠇⠇ ⠧⠑⠉⠞⠕⠗⠎ ⠰⠠⠭ ⠯ ⠰⠠⠽⠲ 
+3.18.2 When the natural, flat and sharp signs are found within musical 
+notation, use the provisions of the New International Manual of 
+Braille Music Notation for their transcription. 
+ 
+3.19 Number sign (crosshatch, hash, pound sign) ⠸⠹ 
+3.19.1 Follow print for use of the number sign. 
+Examples: 
+#4   ⠸⠹⠼⠙   Apt. #D   ⠠⠁⠏⠞⠲ ⠸⠹⠠⠙ 
+20# bag of flour   ⠼⠃⠚⠸⠹ ⠃⠁⠛ ⠷ ⠋⠇⠳⠗ 
+Press the # key on the telephone. 
+⠠⠏⠗⠑⠎⠎ ⠮ ⠸⠹ ⠅⠑⠽ ⠕⠝ ⠮ ⠞⠑⠇⠑⠏⠓⠐⠕⠲ 
+ 
+3.20 Paragraph ⠘⠏ and section ⠘⠎ signs 
+3.20.1 Follow print for use of the paragraph and section signs. 
+Examples: 
+¶3   ⠘⠏⠼⠉       ¶C   ⠘⠏⠠⠉    ¶g   ⠘⠏⠛ 
+Click on the ¶ icon on the toolbar. 
+⠠⠉⠇⠊⠉⠅ ⠕⠝ ⠮ ⠘⠏ ⠊⠉⠕⠝ ⠕⠝ ⠮ ⠞⠕⠕⠇⠃⠜⠲ 
+§5   ⠘⠎⠼⠑   §K   ⠘⠎⠠⠅ 
+§d   ⠘⠎⠙   §§ 5-15   ⠘⠎⠘⠎ ⠼⠑⠤⠼⠁⠑ 
+ 
+
+--- PDF page 64 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+36 
+3.21 Percent sign ⠨⠴ 
+3.21.1 Follow print for use of the percent sign. 
+Examples: 
+5%   ⠼⠑⠨⠴   95 %   ⠼⠊⠑ ⠨⠴ 
+a 50% increase   ⠁ ⠼⠑⠚⠨⠴ ⠔⠉⠗⠂⠎⠑ 
+% of population   ⠨⠴ ⠷ ⠏⠕⠏⠥⠇⠁⠰⠝ 
+ 
+3.22 Shapes ⠫ 
+3.22.1 In non-technical material, list the complete shape symbol (without 
+any grade 1 indicator) and its meaning on the symbols page or in a 
+transcriber's note. 
+Note:  A grade 1 indicator may need to be added before the symbol 
+in the text of the document being transcribed. 
+Refer to:  Section 11.7, Technical Material, and Guidelines for 
+Technical Material, Part 14, for further information on shapes; and 
+Section 3.26 for transcriber-defined symbols. 
+Examples: 
+[a multi-level organisation chart using bullets, squares and circles:] 
+• VP Client Services 
+    □  Director Library 
+o Manager Braille 
+o Manager Audio 
+    □  Director Rehabilitation 
+⠸⠲ ⠠⠠⠧⠏ ⠠⠉⠇⠊⠢⠞ ⠠⠎⠻⠧⠊⠉⠑⠎ 
+  ⠰⠫⠼⠙ ⠠⠙⠊⠗⠑⠉⠞⠕⠗ ⠠⠇⠊⠃⠗⠜⠽ 
+    ⠰⠫⠿ ⠠⠍⠁⠝⠁⠛⠻ ⠠⠃⠗⠇ 
+    ⠰⠫⠿ ⠠⠍⠁⠝⠁⠛⠻ ⠠⠁⠥⠙⠊⠕ 
+  ⠰⠫⠼⠙ ⠠⠙⠊⠗⠑⠉⠞⠕⠗ ⠠⠗⠑⠓⠁⠃⠊⠇⠊⠞⠁⠰⠝ 
+  
+
+--- PDF page 65 ---
+Rules of Unified English Braille 3:  General Symbols and Indicators 
+Third Edition 2024 
+37 
+[A student textbook uses the following icons (as explained in the 
+text) before certain material:  pencil–Write an essay; pointing finger–
+Remember; question mark in a circle–Research.] 
+✏ Recycling at my house. 
+☞ Steps to test acidity. 
+ Recycling in my town. 
+⠈⠫⠏⠑⠝⠉⠊⠇ ⠠⠗⠑⠉⠽⠉⠇⠬ ⠁⠞ ⠍⠽ ⠓⠳⠎⠑⠲ 
+⠈⠫⠏⠕⠊⠝⠞ ⠠⠌⠑⠏⠎ ⠞⠕ ⠞⠑⠌ ⠁⠉⠊⠙⠰⠽⠲ 
+⠰⠫⠿⠪⠦ ⠠⠗⠑⠉⠽⠉⠇⠬ ⠔ ⠍⠽ ⠞⠪⠝⠲ 
+ 
+3.23 Space 
+3.23.1 A space is a blank area separating words, letters, numbers and 
+punctuation.  Whenever there is some amount of space in print, 
+including at the end of a line, there is a space in braille.  If there is 
+doubt as to whether a space is present in print, presume one is 
+present.  The amount of space present is not considered important.  
+Note:  In print, formatting and other techniques can leave varying 
+amounts of space.  In braille, formatting rules may also require 
+varying amounts of space, for example two spaces at the beginning 
+of a paragraph and aligning text in a table. 
+Refer to:  Section 6.6, Numeric Mode, for the special case of a space 
+used as a separator within a number and to rule 11.2.2, Technical 
+Material, for spacing in mathematics. 
+Examples: 
+Using a proportional font and setting the paragraph margins to align 
+at the left and the right, produces varying amounts of white space 
+between words in print.  This variation is ignored in braille.  
+⠠⠥⠎⠬ ⠁ ⠏⠗⠕⠏⠕⠗⠰⠝⠁⠇ ⠋⠕⠝⠞ ⠯ ⠎⠑⠞⠞⠬ ⠮     
+⠏⠜⠁⠛⠗⠁⠏⠓ ⠍⠜⠛⠔⠎ ⠞⠕ ⠁⠇⠊⠛⠝ ⠁⠞ ⠮ 
+⠇⠑⠋⠞ ⠯ ⠮ ⠐⠗⠂ ⠏⠗⠕⠙⠥⠉⠑⠎ ⠧⠜⠽⠬ 
+⠁⠍⠨⠞⠎ ⠷ ⠱⠊⠞⠑ ⠎⠏⠁⠉⠑ ⠆⠞ ⠘⠺⠎ ⠔ 
+⠏⠗⠔⠞⠲ ⠠⠹ ⠧⠜⠊⠁⠰⠝ ⠊⠎ ⠊⠛⠝⠕⠗⠫ ⠔ 
+⠃⠗⠇⠲ 
+
+
+--- PDF page 73 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+45 
+Section 4:  Letters and Their Modifiers 
+4.1 English alphabet 
+⠁ letter a  ⠠⠁ capital letter A 
+⠃ letter b  ⠠⠃ capital letter B 
+⠉ letter c  ⠠⠉ capital letter C 
+⠙ letter d  ⠠⠙ capital letter D 
+⠑ letter e  ⠠⠑ capital letter E 
+⠋ letter f  ⠠⠋ capital letter F 
+⠛ letter g  ⠠⠛ capital letter G 
+⠓ letter h  ⠠⠓ capital letter H 
+⠊ letter i  ⠠⠊ capital letter I 
+⠚ letter j  ⠠⠚ capital letter J 
+⠅ letter k  ⠠⠅ capital letter K 
+⠇ letter l  ⠠⠇ capital letter L 
+⠍ letter m  ⠠⠍ capital letter M 
+⠝ letter n  ⠠⠝ capital letter N 
+⠕ letter o  ⠠⠕ capital letter O 
+⠏ letter p  ⠠⠏ capital letter P 
+⠟ letter q  ⠠⠟ capital letter Q 
+⠗ letter r  ⠠⠗ capital letter R 
+⠎ letter s  ⠠⠎ capital letter S 
+⠞ letter t  ⠠⠞ capital letter T 
+⠥ letter u  ⠠⠥ capital letter U 
+⠧ letter v  ⠠⠧ capital letter V 
+⠺ letter w  ⠠⠺ capital letter W 
+⠭ letter x  ⠠⠭ capital letter X 
+⠽ letter y  ⠠⠽ capital letter Y 
+⠵ letter z  ⠠⠵ capital letter Z 
+ 
+4.1.1 Follow print for the transcription of letters. 
+Refer to:  Section 2.6, Terminology and General Rules, Section 5, 
+Grade 1 Mode, Section 8, Capitalisation and Section 10, Contractions 
+for more information. 
+
+--- PDF page 74 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+46 
+Examples: 
+A boy and his dog were on the path. 
+⠠⠁ ⠃⠕⠽ ⠯ ⠦ ⠙⠕⠛ ⠶ ⠕⠝ ⠮ ⠏⠁⠹⠲ 
+McMurdo Sound    ⠠⠍⠉⠠⠍⠥⠗⠙⠕ ⠠⠎⠨⠙ 
+O'Flaherty   ⠠⠕⠄⠠⠋⠇⠁⠓⠻⠞⠽ 
+the A train and the B train 
+⠮ ⠠⠁ ⠞⠗⠁⠔ ⠯ ⠮ ⠰⠠⠃ ⠞⠗⠁⠔ 
+IBM or Microsoft   ⠠⠠⠊⠃⠍ ⠕⠗ ⠠⠍⠊⠉⠗⠕⠎⠷⠞ 
+SPOT!  GO HOME!   ⠠⠠⠠⠎⠏⠕⠞⠖ ⠛ ⠓⠕⠍⠑⠖⠠⠄ 
+your CD player but my CDs 
+⠽⠗ ⠰⠠⠠⠉⠙ ⠏⠇⠁⠽⠻ ⠃ ⠍⠽ ⠠⠠⠉⠙⠠⠄⠎ 
+ilLOGical   ⠊⠇⠠⠠⠇⠕⠛⠠⠄⠊⠉⠁⠇ 
+OFr (Old French)   ⠠⠕⠠⠋⠗ ⠐⠣⠠⠕⠇⠙ ⠠⠋⠗⠢⠡⠐⠜ 
+ 
+4.2 Modifiers 
+⠈⠡ ̸ solidus (forward slash) overlay on following letter 
+⠈⠒ ̶ horizontal stroke overlay on following letter 
+⠈⠬ ̆ breve above following letter 
+⠈⠤ ̄ macron above following letter 
+⠘⠯ ̧ cedilla below following letter 
+⠘⠡ ̀ grave accent above following letter 
+⠘⠩ ̂ circumflex above following letter 
+⠘⠫ ̊ ring (circle) above following letter 
+⠘⠻ ̃ tilde above following letter 
+⠘⠒ ̈ diaeresis (umlaut) above following letter 
+⠘⠌ ́ acute accent above following letter 
+⠘⠬ ̌ caron (hacek, wedge) above following letter 
+⠘⠸⠂  first transcriber-defined modifier on following letter 
+⠘⠸⠆  second transcriber-defined modifier on following letter 
+⠘⠸⠤  third transcriber-defined modifier on following letter 
+ 
+
+--- PDF page 75 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+47 
+⠠⠈⠡ ̸ solidus (forward slash) overlay on following capital letter 
+⠠⠈⠒ ̶ horizontal stroke overlay on following capital letter 
+⠠⠈⠬ ̆ breve above following capital letter 
+⠠⠈⠤ ̄ macron above following capital letter 
+⠠⠘⠯ ̧ cedilla below following capital letter 
+⠠⠘⠡ ̀ grave accent above following capital letter 
+⠠⠘⠩ ̂ circumflex above following capital letter 
+⠠⠘⠫ ̊ ring (circle) above following capital letter 
+⠠⠘⠻ ̃ tilde above following capital letter 
+⠠⠘⠒ ̈ diaeresis (umlaut) above following capital letter 
+⠠⠘⠌ ́ acute accent above following capital letter 
+⠠⠘⠬ ̌ caron (hacek, wedge) above following capital letter 
+⠠⠘⠸⠂  first transcriber-defined modifier on following capital 
+letter 
+⠠⠘⠸⠆  second transcriber-defined modifier on following capital  
+  letter 
+⠠⠘⠸⠤  third transcriber-defined modifier on following capital 
+letter 
+ 
+4.2.1 Place a modifier before the letter it modifies in braille, irrespective of 
+whether it appears above, below or overlaying the letter(s) in print.  
+Whenever a transcriber-defined modifier is used, give the print 
+symbol it represents in a transcriber's note or on a symbols page. 
+Examples: 
+crème brûlée   ⠉⠗⠘⠡⠑⠍⠑ ⠃⠗⠘⠩⠥⠇⠘⠌⠑⠑ 
+café (Fr.)   ⠉⠁⠋⠘⠌⠑ ⠐⠣⠰⠠⠋⠗⠲⠐⠜ 
+caffè (It.)   ⠉⠁⠖⠘⠡⠑ ⠐⠣⠠⠭⠲⠐⠜ 
+un bel dì   ⠥⠝ ⠃⠑⠇ ⠙⠘⠡⠊ 
+Im Frühling   ⠠⠊⠍ ⠠⠋⠗⠘⠒⠥⠓⠇⠬ 
+curação   ⠉⠥⠗⠁⠘⠯⠉⠘⠻⠁⠕ 
+skål!   ⠎⠅⠘⠫⠁⠇⠖ 
+maître d'hôtel   ⠍⠁⠘⠩⠊⠞⠗⠑ ⠙⠄⠓⠘⠩⠕⠞⠑⠇ 
+
+--- PDF page 76 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+48 
+Étienne   ⠠⠘⠌⠑⠞⠊⠢⠝⠑   háček   ⠓⠘⠌⠁⠘⠬⠉⠑⠅ 
+Bjørnstjerne Bjørnson 
+⠠⠃⠚⠈⠡⠕⠗⠝⠌⠚⠻⠝⠑ ⠠⠃⠚⠈⠡⠕⠗⠝⠎⠕⠝ 
+Białka River   ⠠⠃⠊⠁⠈⠡⠇⠅⠁ ⠠⠗⠊⠧⠻ 
+Öresund Bridge   ⠠⠘⠒⠕⠗⠑⠎⠥⠝⠙ ⠠⠃⠗⠊⠙⠛⠑ 
+Shāh Jahān built the Tāj Mahal. 
+⠠⠩⠈⠤⠁⠓ ⠠⠚⠁⠓⠈⠤⠁⠝ ⠃⠥⠊⠇⠞ ⠮ ⠠⠞⠈⠤⠁⠚ 
+⠠⠍⠁⠓⠁⠇⠲ 
+Săpânța, Romania 
+⠠⠎⠈⠬⠁⠏⠘⠩⠁⠝⠘⠸⠂⠞⠁⠂ ⠠⠗⠕⠍⠁⠝⠊⠁  
+[In this example, ⠘⠸⠂ represents a comma under the following 
+letter.] 
+Ħaġar Qim in Malta 
+⠠⠈⠒⠓⠁⠘⠸⠆⠛⠜ ⠠⠟⠊⠍ ⠔ ⠠⠍⠁⠇⠞⠁  
+[In this example, ⠘⠸⠆ represents a dot above the following 
+letter.] 
+ 
+4.2.2 If an indicator is required immediately before a modified letter, place 
+the indicator before the modifier. 
+Examples: 
+Ždiar, Slovakia   ⠘⠂⠠⠘⠬⠵⠙⠊⠜⠂ ⠘⠂⠠⠎⠇⠕⠧⠁⠅⠊⠁ 
+Lake Ägerisee, Switzerland 
+⠠⠇⠁⠅⠑ ⠠⠘⠒⠁⠛⠻⠊⠎⠑⠑⠂ ⠠⠎⠺⠊⠞⠵⠻⠇⠯ 
+À LA CARTE MENU   ⠠⠠⠠⠘⠡⠁ ⠇⠁ ⠉⠜⠞⠑ ⠍⠢⠥⠠⠄ 
+ 
+4.2.3 Modifiers on letters do not terminate capitalised word mode. 
+Example: 
+AOÛT   ⠠⠠⠁⠕⠘⠩⠥⠞ 
+ 
+4.2.4 A modified letter may not form part of a contraction. 
+
+--- PDF page 77 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+49 
+Examples: 
+blessèd   ⠃⠨⠎⠘⠡⠑⠙ 
+Général de Gaulle   ⠠⠛⠘⠌⠑⠝⠘⠌⠑⠗⠁⠇ ⠙⠑ ⠠⠛⠁⠥⠇⠇⠑ 
+Prométhée enchaîné 
+⠠⠏⠗⠕⠍⠘⠌⠑⠹⠘⠌⠑⠑ ⠢⠡⠁⠘⠩⠊⠝⠘⠌⠑ 
+beau idéal   ⠃⠂⠥ ⠊⠙⠘⠌⠑⠁⠇ 
+théâtre   ⠹⠘⠌⠑⠘⠩⠁⠞⠗⠑ 
+Löwenthal   ⠠⠇⠘⠒⠕⠺⠢⠹⠁⠇   señor   ⠎⠑⠘⠻⠝⠕⠗ 
+Märchen   ⠠⠍⠘⠒⠁⠗⠡⠢   Händel   ⠠⠓⠘⠒⠁⠝⠙⠑⠇ 
+Note:  In words such as théâtre where the contraction for the is not 
+used, the contraction for th can be used. 
+4.2.5 If a single modifier applies to more than one letter, enclose the 
+modified letters in braille grouping indicators.  Grade 1 indicators are 
+not required for the braille grouping indicators since the modifier can 
+not be followed by a contraction. 
+Example: 
+o͞ o as in tool   ⠈⠤⠣⠕⠕⠜ ⠵ ⠔ ⠞⠕⠕⠇ 
+4.2.6 Where a modifier is shown in print without an associated letter, as in 
+a dictionary entry or in instructional material, follow print. 
+Refer to:  Sections 3.6 and 3.25, General Symbols and Indicators, for 
+the caret and the tilde (swung dash); and Section 7.1, punctuation, 
+for the solidus (forward slash) when these are separate characters 
+rather than modifiers. 
+Example: 
+the acute (´) and grave (`) accents 
+⠮ ⠁⠉⠥⠞⠑ ⠐⠣⠘⠌⠐⠜ ⠯ ⠛⠗⠁⠧⠑ ⠐⠣⠘⠡⠐⠜ 
+⠁⠒⠢⠞⠎ 
+ 
+4.2.7 Use the modifiers listed above only in foreign language words and 
+phrases in English context intended primarily for leisure reading, in 
+English words or in anglicised words and phrases. 
+
+--- PDF page 78 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+50 
+ Where a significant knowledge of a foreign language is presupposed 
+or is being taught, use signs from the indigenous foreign language  
+braille code. 
+Refer to:  Section 13, Foreign Language, for more guidance. 
+4.2.8 Use the modifiers in this section for linguistic accents and diacritics 
+only and not for modifiers in mathematics or for symbols in computer 
+programming even if their appearance is visually similar in print. 
+Refer to:  Guidelines for Technical Material. 
+ 
+4.3 Ligatured letters 
+⠘⠖ ligature indicator 
+⠠⠘⠖ ligature indicator where only following letter is capitalised 
+ 
+4.3.1 Place the ligature indicator between two letters which are joined to 
+each other in print.  Various methods are used in print to join letters, 
+including but not limited to cross bars between the letters, tie bars or 
+slurs over or under the letters, and letters joined together and printed 
+as one symbol.  Describe the method used in a transcriber's note or 
+on the symbols page. 
+Examples: 
+Cœur de Lion   ⠠⠉⠕⠘⠖⠑⠥⠗ ⠙⠑ ⠠⠇⠊⠕⠝ [oe is printed as 
+a ligatured letter] 
+help t͡ he man fi͡ end t͡ he ro͡ ed 
+⠓⠑⠇⠏ ⠞⠘⠖⠓⠑ ⠍⠁⠝ ⠋⠊⠘⠖⠑⠝⠙ ⠞⠘⠖⠓⠑ 
+⠗⠕⠘⠖⠑⠙ [an experimental alphabet, print uses slurs over the 
+ligatured letters] 
+ 
+4.3.2 The ligature indicator is considered a modifier.  It does not terminate 
+capitalised word mode and a letter joined to another by a ligature 
+may not form part of a contraction. 
+Example: 
+ŒDIPUS   ⠠⠠⠕⠘⠖⠑⠙⠊⠏⠥⠎ 
+ 
+
+--- PDF page 79 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+51 
+4.3.3 An indicator before the first letter joined to another by a ligature 
+applies only to the first letter.  When an indicator is required for the 
+second letter, place the indicator before the ligature indicator. 
+Examples: 
+Ætna   ⠠⠁⠠⠘⠖⠑⠞⠝⠁ [ae is printed as a ligatured letter] 
+th as in the   ⠨⠂⠞⠘⠖⠓ ⠵ ⠔ ⠮ [th is joined with a cross bar] 
+Thĕssalōnĭan   ⠠⠞⠘⠖⠓⠈⠬⠑⠎⠎⠁⠇⠈⠤⠕⠝⠈⠬⠊⠁⠝ [Th is 
+joined with a cross bar] 
+ 
+4.3.4 When a modifier is required for a letter joined to another by a 
+ligature, place the modifier immediately before the letter to which it 
+applies.  When a single modifier applies to both letters, use braille 
+grouping indicators. 
+Examples: 
+āe or aē?   ⠈⠤⠁⠘⠖⠑ ⠕⠗ ⠁⠘⠖⠈⠤⠑⠦ [each ae is joined 
+with a cross bar] 
+Hwǣr   ⠠⠓⠺⠈⠤⠣⠁⠘⠖⠑⠜⠗ [Old English, ae is printed as a 
+ligatured letter] 
+ 
+4.3.5 Do not use the ligature indicator for the ae and oe diphthongs unless 
+the letters are joined as ligatures in print. 
+Examples: 
+aegis   ⠁⠑⠛⠊⠎   amoeba   ⠁⠍⠕⠑⠃⠁ 
+ 
+4.3.6 Use the ligature indicator only when the ligature has meaning and not 
+when it is merely an aspect of the print font being used. 
+Example: 
+In some fonts the letters appear joined. 
+⠠⠔ ⠐⠎ ⠋⠕⠝⠞⠎ ⠮ ⠇⠗⠎ ⠁⠏⠏⠑⠜ ⠚⠕⠔⠫⠲ [printed 
+in Freestyle Script font] 
+ 
+
+--- PDF page 80 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+52 
+4.4 Eng and schwa 
+⠘⠝ ŋ eng  ⠠⠘⠝ Ŋ capital eng 
+⠸⠢ ə schwa  ⠠⠸⠢ Ə capital schwa 
+ 
+4.4.1 Follow print for the transcription of these pronunciation symbols.  
+Example: 
+meningococcus (mə niŋʹ gō käkʹ əs) 
+⠍⠢⠬⠕⠉⠕⠒⠥⠎ ⠐⠣⠍⠸⠢ ⠝⠊⠘⠝⠘⠨⠆ ⠛⠈⠤⠕ 
+⠅⠘⠒⠁⠅⠘⠨⠃ ⠸⠢⠎⠐⠜ 
+ 
+4.4.2 The eng and schwa are also symbols in the International Phonetic 
+Alphabet.  When the symbols appear in phonetic material, use IPA 
+Braille to transcribe the phonetic text. 
+ 
+4.5 Greek letters 
+⠨⠁ α Greek alpha 
+⠨⠃ β Greek beta 
+⠨⠛ γ Greek gamma 
+⠨⠙ δ Greek delta 
+⠨⠑ ε Greek epsilon 
+⠨⠵ ζ Greek zeta 
+⠨⠱ η Greek eta 
+⠨⠹ θ Greek theta 
+⠨⠊ ι Greek iota 
+⠨⠅ κ Greek kappa 
+⠨⠇ λ Greek lambda 
+⠨⠍ μ Greek mu 
+⠨⠝ ν Greek nu 
+⠨⠭ ξ Greek xi 
+⠨⠕ ο Greek omicron 
+⠨⠏ π Greek pi 
+⠨⠗ ρ Greek rho 
+
+--- PDF page 81 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+53 
+⠨⠎ ς or σ Greek sigma 
+⠨⠞ τ Greek tau 
+⠨⠥ υ Greek upsilon 
+⠨⠋ φ Greek phi 
+⠨⠯ χ Greek chi 
+⠨⠽ ψ Greek psi 
+⠨⠺ ω Greek omega 
+ 
+⠠⠨⠁ Α capital Greek alpha 
+⠠⠨⠃ Β capital Greek beta 
+⠠⠨⠛ Γ capital Greek gamma 
+⠠⠨⠙ Δ capital Greek delta 
+⠠⠨⠑ Ε capital Greek epsilon 
+⠠⠨⠵ Ζ capital Greek zeta 
+⠠⠨⠱ Η capital Greek eta 
+⠠⠨⠹ Θ capital Greek theta 
+⠠⠨⠊ Ι capital Greek iota 
+⠠⠨⠅ Κ capital Greek kappa 
+⠠⠨⠇ Λ capital Greek lambda 
+⠠⠨⠍ Μ capital Greek mu 
+⠠⠨⠝ Ν capital Greek nu 
+⠠⠨⠭ Ξ capital Greek xi 
+⠠⠨⠕ Ο capital Greek omicron 
+⠠⠨⠏ Π capital Greek pi 
+⠠⠨⠗ Ρ capital Greek rho 
+⠠⠨⠎ Σ capital Greek sigma 
+⠠⠨⠞ Τ capital Greek tau 
+⠠⠨⠥ Υ capital Greek upsilon 
+⠠⠨⠋ Φ capital Greek phi 
+⠠⠨⠯ Χ capital Greek chi 
+⠠⠨⠽ Ψ capital Greek psi 
+⠠⠨⠺ Ω capital Greek omega 
+ 
+
+--- PDF page 82 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+54 
+4.5.1 Follow print for the transcription of Greek letters.  Use the Greek 
+letters listed above in English contexts or English technical materials.  
+Examples: 
+Use π in the equation.   ⠠⠥⠎⠑ ⠨⠏ ⠔ ⠮ ⠑⠟⠥⠁⠰⠝⠲ 
+For Σ read sum.   ⠠⠿ ⠠⠨⠎ ⠗⠂⠙ ⠎⠥⠍⠲ 
+μμ stands for micromicron. 
+⠨⠍⠨⠍ ⠌⠯⠎ ⠿ ⠍⠊⠉⠗⠕⠍⠊⠉⠗⠕⠝⠲ 
+She is a member of ΦΒΚ. 
+⠠⠩⠑ ⠊⠎ ⠁ ⠍⠑⠍⠃⠻ ⠷ ⠠⠠⠨⠋⠨⠃⠨⠅⠲ 
+the Α and the Ω   ⠮ ⠠⠨⠁ ⠯ ⠮ ⠠⠨⠺ 
+THE Α AND THE Ω   ⠠⠠⠠⠮ ⠨⠁ ⠯ ⠮ ⠨⠺⠠⠄ 
+4.5.2 Use signs from the Greek foreign language braille code for passages 
+where a significant knowledge of Greek is presupposed or where the 
+Greek language is being taught. 
+Refer to:  Section 13, Foreign Language, for more guidance. 
+ 
+4.6 German letter sharp s (eszett) 
+⠨⠮ ß German letter sharp s (eszett) 
+⠠⠨⠮ ẞ capital German letter sharp s (eszett) 
+ 
+4.6.1 Follow print for the transcription of the German letter sharp s in an 
+English context. 
+Example: 
+I support the SG Sonnenhof Großaspach football team. 
+⠠⠊ ⠎⠥⠏⠏⠕⠗⠞ ⠮ ⠠⠠⠎⠛ ⠠⠎⠕⠝⠝⠢⠓⠷ 
+⠠⠛⠗⠕⠨⠮⠁⠎⠏⠁⠡ ⠋⠕⠕⠞⠃⠁⠇⠇ ⠞⠂⠍⠲ 
+4.6.2 Follow the rules of capitalisation.  The capitals word or passage 
+indicators are used where a capitalised word or passage includes the 
+capital German letter sharp s. 
+Refer to:  Section 8, Capitalisation. 
+
+--- PDF page 83 ---
+Rules of Unified English Braille 4.  Letters and Their Modifiers 
+Third Edition 2024 
+55 
+Examples: 
+The print capital form ẞ is used in capitalised words. 
+⠠⠮ ⠏⠗⠔⠞ ⠉⠁⠏⠊⠞⠁⠇ ⠿⠍ ⠠⠨⠮ ⠊⠎ ⠥⠎⠫ ⠔ 
+⠉⠁⠏⠊⠞⠁⠇⠊⠎⠫ ⠘⠺⠎⠲ 
+FRIEDRICHSTRAẞE   ⠠⠠⠋⠗⠊⠫⠗⠊⠡⠌⠗⠁⠨⠮⠑ 
+4.6.3 Use the sign from the German language braille code for passages 
+where a significant knowledge of German is presupposed or where 
+the German language is being taught. 
+Refer to:  Section 13, Foreign Language for more guidance. 
+ 
+
+--- PDF page 85 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+57 
+Section 5:  Grade 1 Mode 
+⠰  grade 1 symbol indicator 
+⠰⠰ grade 1 word indicator 
+⠰⠰⠰ grade 1 passage indicator 
+⠰⠄ grade 1 terminator 
+ 
+5.1 Mode indicators 
+Note:  A braille symbol may have both a grade 1 meaning and a 
+contraction (grade 2) meaning.  Some symbols may also have a 
+numeric meaning. 
+5.1.1 A grade 1 indicator is used to set grade 1 mode when the grade 1 
+meaning of a symbol could be misread as a contraction meaning or a 
+numeric meaning. 
+5.1.2 The extent of grade 1 mode is determined by the grade 1 indicator in 
+use. 
+ 
+5.2 Grade 1 symbol indicator ⠰ 
+5.2.1 The grade 1 symbol indicator sets grade 1 mode for the next symbol. 
+Note:  A grade 1 symbol indicator is not required before the letters a, 
+i and o, because they do not have a contraction meaning when they 
+stand alone. 
+Examples: 
+the vowels are: a, e, i, o and u 
+⠮ ⠧⠪⠑⠇⠎ ⠜⠑⠒ ⠁⠂ ⠰⠑⠂ ⠊⠂ ⠕ ⠯ ⠰⠥ 
+Mrs X and Mr O   ⠠⠍⠗⠎ ⠰⠠⠭ ⠯ ⠠⠍⠗ ⠠⠕ 
+J. S. Bach   ⠰⠠⠚⠲ ⠰⠠⠎⠲ ⠠⠃⠁⠡ 
+22b     22B     22p   ⠼⠃⠃⠰⠃   ⠼⠃⠃⠠⠃   ⠼⠃⠃⠏ 
+adagio e cantabile   ⠁⠙⠁⠛⠊⠕ ⠰⠑ ⠉⠁⠝⠞⠁⠃⠊⠇⠑ 
+Add either ? or ! to each sentence. 
+⠠⠁⠙⠙ ⠑⠊ ⠰⠦ ⠕⠗ ⠖ ⠞⠕ ⠑⠁⠡ ⠎⠢⠞⠰⠑⠲ 
+[question mark and exclamation mark] 
+
+--- PDF page 86 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+58 
+In Smith56 we find … 
+⠠⠔ ⠠⠎⠍⠊⠹⠰⠔⠼⠑⠋ ⠺⠑ ⠋⠔⠙ ⠲⠲⠲ 
+jim@take2.com   ⠚⠊⠍⠈⠁⠞⠁⠅⠑⠼⠃⠲⠰⠉⠕⠍ 
+ 
+5.3 Grade 1 word indicator ⠰⠰ 
+5.3.1 The grade 1 word indicator sets grade 1 mode for the next symbols-
+sequence or the remainder of the current symbols-sequence. 
+5.3.2 The effect of a grade 1 word indicator is terminated by a space or a 
+grade 1 terminator. 
+Refer to:  Section 5.5, for the Grade 1 Terminator. 
+Examples: 
+I spell it u-n-t-i-d-y. 
+⠠⠊ ⠎⠏⠑⠇⠇ ⠭ ⠰⠰⠥⠤⠝⠤⠞⠤⠊⠤⠙⠤⠽⠲ 
+replace I with 
+R
+E  
+⠗⠑⠏⠇⠁⠉⠑ ⠠⠊ ⠾ ⠰⠰⠷⠠⠑⠨⠌⠠⠗⠾ 
+ 
+5.4 Grade 1 passage indicator ⠰⠰⠰ 
+5.4.1 The grade 1 passage indicator sets grade 1 mode for the next 
+passage. 
+5.4.2 A grade 1 passage is terminated by the grade 1 terminator. 
+Examples: 
+He spelt H-o C-h-i M-i-n-h City. 
+⠠⠓⠑ ⠎⠏⠑⠇⠞ ⠰⠰⠰⠠⠓⠤⠕ ⠠⠉⠤⠓⠤⠊  
+⠠⠍⠤⠊⠤⠝⠤⠓⠰⠄ ⠠⠉⠰⠽⠲ 
+Factorise: y = x2−4; y = x2−2x; y = x−x2. 
+⠠⠋⠁⠉⠞⠕⠗⠊⠎⠑⠒ ⠰⠰⠰⠽ ⠐⠶ ⠭⠔⠼⠃⠐⠤⠼⠙⠆  
+⠽ ⠐⠶ ⠭⠔⠼⠃⠐⠤⠼⠃⠭⠆ ⠽ ⠐⠶ ⠭⠐⠤⠭⠔⠼⠃⠲⠰⠄ 
+ 
+5.4.3 To preserve the natural line-by-line arrangement of the text, e.g. in a 
+computer program or a set of equations in mathematics, place the 
+
+--- PDF page 87 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+59 
+grade 1 passage indicator on a separate line above the grade 1 text 
+and the grade 1 terminator on a separate line below the text.  When 
+this method is used, precede each indicator by the dot locator for 
+"use" ⠐⠐⠿. 
+Refer to:  Section 3.14, General Symbols and Indicators, for the dot 
+locator for "use". 
+ 
+5.5 Grade 1 terminator ⠰⠄ 
+5.5.1 The grade 1 terminator usually follows immediately after the last 
+affected symbols-sequence of a grade 1 passage. 
+5.5.2 Use the grade 1 terminator when it is necessary to terminate grade 1 
+mode before the end of a symbols-sequence. 
+Example: 
+p-p-p-p-p-p-p-perishing 
+⠰⠰⠏⠤⠏⠤⠏⠤⠏⠤⠏⠤⠏⠤⠏⠤⠰⠄⠏⠻⠊⠩⠬ 
+ 
+5.6 Numeric indicator ⠼ 
+5.6.1 Grade 1 mode is also set by the numeric indicator. 
+Examples: 
+1st   ⠼⠁⠎⠞ 
+shopping4you   ⠩⠕⠏⠏⠬⠼⠙⠽⠕⠥ 
+4starhotel@webnet.com 
+⠼⠙⠎⠞⠁⠗⠓⠕⠞⠑⠇⠈⠁⠺⠑⠃⠝⠑⠞⠲⠉⠕⠍ 
+ 
+5.6.2 When grade 1 mode is set by the numeric indicator it is terminated 
+by a space, hyphen, dash or grade 1 terminator. 
+Refer to:  Section 6.5, Numeric Mode. 
+Examples: 
+I'll go 3rd–you go 4th. 
+⠠⠊⠄⠇⠇ ⠛ ⠼⠉⠗⠙⠠⠤⠽ ⠛ ⠼⠙⠞⠓⠲ 
+
+--- PDF page 88 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+60 
+3-D   ⠼⠉⠤⠰⠠⠙ 
+3-dimensional   ⠼⠉⠤⠙⠊⠍⠢⠨⠝⠁⠇ 
+5-CD set   ⠼⠑⠤⠰⠠⠠⠉⠙ ⠎⠑⠞ 
+c:\personal\2009finances 
+⠉⠒⠸⠡⠏⠻⠎⠕⠝⠁⠇⠸⠡⠼⠃⠚⠚⠊⠰⠄⠋⠔⠨⠑⠎ 
+ 
+5.7 Grade 1 mode avoids confusion with contractions 
+5.7.1 Grade 1 mode is required to prevent a letter from being misread as 
+an alphabetic wordsign. 
+Refer to:  Section 10.1, Contractions. 
+Examples: 
+b–e   ⠰⠃⠠⠤⠰⠑   b-1   ⠰⠃⠤⠼⠁ 
+B-team   ⠰⠠⠃⠤⠞⠂⠍ 
+ev-er-y-which-way   ⠑⠧⠤⠻⠤⠰⠽⠤⠱⠤⠺⠁⠽ 
+ending in –s or –es   ⠢⠙⠬ ⠔ ⠠⠤⠰⠎ ⠕⠗ ⠠⠤⠑⠎ 
+V–VII   ⠰⠠⠧⠠⠤⠠⠠⠧⠊⠊  viii-x   ⠧⠊⠊⠊⠤⠰⠭ 
+What have you d–   ⠠⠱⠁⠞ ⠓ ⠽ ⠰⠙⠠⠤ 
+What have you d…   ⠠⠱⠁⠞ ⠓ ⠽ ⠰⠙⠲⠲⠲ 
+p. 7   ⠰⠏⠲ ⠼⠛   p.7   ⠏⠲⠼⠛ 
+p7   ⠏⠼⠛ 
+the letters "a" to "g"   ⠮ ⠇⠗⠎ ⠦⠁⠴ ⠞⠕ ⠦⠰⠛⠴ 
+Sections (h) and (i). 
+⠠⠎⠑⠉⠰⠝⠎ ⠐⠣⠰⠓⠐⠜ ⠯ ⠐⠣⠊⠐⠜⠲ 
+Did 'e 'n' Ma get to 't? 
+⠠⠙⠊⠙ ⠄⠰⠑ ⠄⠰⠝⠄ ⠠⠍⠁ ⠛⠑⠞ ⠞⠕ ⠄⠰⠞⠦ 
+c/o maître d'   ⠉⠸⠌⠕ ⠍⠁⠘⠩⠊⠞⠗⠑ ⠰⠙⠄ 
+the people's right   ⠮ ⠏⠄⠎ ⠐⠗ 
+p's and q's.   ⠰⠏⠄⠎ ⠯ ⠰⠟⠄⠎⠲ 
+
+--- PDF page 89 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+61 
+letter d   ⠇⠗ ⠨⠆⠰⠙ 
+"X marks the spot."   ⠨⠶⠦⠰⠠⠭ ⠍⠜⠅⠎ ⠮ ⠎⠏⠕⠞⠲⠴⠨⠄ 
+Dr J. F. Smith, M.D. 
+⠠⠙⠗ ⠰⠠⠚⠲ ⠰⠠⠋⠲ ⠠⠎⠍⠊⠹⠂ ⠠⠍⠲⠠⠙⠲ 
+s-p-e-l-l-i-n-g   ⠰⠰⠎⠤⠏⠤⠑⠤⠇⠤⠇⠤⠊⠤⠝⠤⠛ 
+ 
+5.7.2 Grade 1 mode is required to prevent a letters-sequence from being 
+misread as a shortform or as containing a shortform. 
+Refer to:  Rules 10.9.7 to 10.9.9, Contractions. 
+Examples: 
+CD-ROM   ⠰⠠⠠⠉⠙⠤⠠⠠⠗⠕⠍ 
+"Hm!" he mused.   ⠦⠰⠠⠓⠍⠖⠴ ⠓⠑ ⠍⠥⠎⠫⠲ 
+Could you buy a CD/DVD?   ⠠⠉⠙ ⠽ ⠃⠥⠽ ⠁ 
+⠠⠠⠉⠙⠸⠌⠠⠠⠙⠧⠙⠦ 
+My friends are Fr Ted and Sr Ann. 
+⠠⠍⠽ ⠋⠗⠎ ⠜⠑ ⠰⠠⠋⠗ ⠠⠞⠫ ⠯ ⠠⠎⠗ ⠠⠁⠝⠝⠲ 
+the Imm family   ⠮ ⠰⠠⠊⠍⠍ ⠋⠁⠍⠊⠇⠽ 
+al dente   ⠰⠁⠇ ⠙⠢⠞⠑ 
+Use the ALT key.   ⠠⠥⠎⠑ ⠮ ⠰⠠⠠⠁⠇⠞ ⠅⠑⠽⠲ 
+NEC (National Executive Committee) 
+⠰⠠⠠⠝⠑⠉ ⠐⠣⠠⠝⠁⠰⠝⠁⠇ ⠠⠑⠭⠑⠉⠥⠞⠊⠧⠑ 
+⠠⠉⠕⠍⠍⠊⠞⠞⠑⠑⠐⠜ 
+ozbrl (Australian listserve) 
+⠰⠰⠕⠵⠃⠗⠇ ⠐⠣⠠⠁⠥⠌⠗⠁⠇⠊⠁⠝ ⠇⠊⠌⠎⠻⠧⠑⠐⠜ 
+ 
+5.8 Grade 1 indicators and capitalisation 
+5.8.1 A grade 1 indicator precedes a capitalisation indicator. 
+
+--- PDF page 90 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+62 
+Example: 
+T-SHIRTS FOR SALE   ⠰⠠⠠⠠⠞⠤⠩⠊⠗⠞⠎ ⠿ ⠎⠁⠇⠑⠠⠄ 
+5.9 Choice of indicators 
+Note:  An extended grade 1 mode, i.e. grade 1 word or grade 1 
+passage mode, may be used for non-literary expressions.  This is 
+especially useful in mathematics and computer programming texts.  
+However, keeping in mind the general principle that the resulting 
+braille should be as easy to read as possible, it is often appropriate to 
+use contracted braille with a grade 1 indicator for just those symbols 
+that can be misread as contractions. It is recommended that 
+contracted braille is used for email addresses, filenames and web 
+addresses. 
+5.9.1 As words are most easily recognised when presented in their familiar 
+contracted form, minimise the number of switches between grades, 
+the number of indicators required and the number of cells used.  
+Examples: 
+un-e-mo-tion-al   ⠰⠰⠥⠝⠤⠑⠤⠍⠕⠤⠞⠊⠕⠝⠤⠁⠇ 
+[rather than]   ⠥⠝⠤⠰⠑⠤⠍⠕⠤⠞⠊⠕⠝⠤⠰⠁⠇ 
+c-h-e-e-s-e  ⠰⠰⠉⠤⠓⠤⠑⠤⠑⠤⠎⠤⠑ 
+br-r-r-r   ⠰⠰⠃⠗⠤⠗⠤⠗⠤⠗ 
+d-don’t   ⠰⠙⠤⠙⠕⠝⠄⠞ 
+d-d-d-don’t   ⠰⠰⠙⠤⠙⠤⠙⠤⠙⠕⠝⠄⠞ 
+about-f-f-f-face   ⠁⠃⠤⠰⠰⠋⠤⠋⠤⠋⠤⠋⠁⠉⠑ 
+d-d-d-dictionary   ⠰⠙-⠰⠙-⠰⠙-⠙⠊⠉⠰⠝⠜⠽  
+[rather than]   ⠰⠰⠙-⠙-⠙-⠰⠄⠙⠊⠉⠰⠝⠜⠽ 
+p-p-please   ⠰⠏⠤⠰⠏⠤⠏⠇⠂⠎⠑ 
+[rather than]   ⠰⠰⠏⠤⠏⠤⠏⠇⠑⠁⠎⠑ 
+s-s-s-s-super-st-stition 
+⠰⠰⠎⠤⠎⠤⠎⠤⠎⠤⠰⠄⠎⠥⠏⠻⠤⠎⠞⠤⠌⠊⠰⠝ 
+ 
+5.9.2 Reduce the indicators within equations. When reading mathematical 
+expressions, passage indicators are less intrusive than interior 
+indicators. 
+
+--- PDF page 91 ---
+Rules of Unified English Braille 5:  Grade 1 Mode 
+Third Edition 2024 
+63 
+Refer to:  Guidelines for Technical Material, Part 1.7. 
+ 
+Example: 
+xyx b
+a
+=
+   ⠰⠰⠰⠭⠔⠷⠁⠨⠌⠃⠾⠽ ⠐⠶ ⠭⠰⠄   
+[or] ⠰⠰⠭⠔⠷⠁⠨⠌⠃⠾⠽ ⠐⠶ ⠰⠭    
+[rather than] ⠭⠰⠔⠰⠷⠁⠨⠌⠃⠰⠾⠽ ⠐⠶ ⠰⠭ 
+ 
+5.10 Optional use of the grade 1 indicator 
+5.10.1 When an expression in grade 1 mode would be equivalent to the 
+same text in grade 2 mode because no contractions would occur, a 
+grade 1 indicator may be used although it is not required. 
+Example: 
+The engine stuttered rm-m-m-m-m then rm-mm-mm-mm then 
+settled into r-mmmmmmm. 
+⠠⠮ ⠢⠛⠔⠑ ⠌⠥⠞⠞⠻⠫ ⠰⠰⠗⠍⠤⠍⠤⠍⠤⠍⠤⠍  
+⠮⠝ ⠰⠰⠗⠍⠤⠍⠍⠤⠍⠍⠤⠍⠍ ⠮⠝ ⠎⠑⠞⠞⠇⠫ ⠔⠞⠕ 
+⠰⠰⠗⠤⠍⠍⠍⠍⠍⠍⠍⠲ 
+ 
+5.11 Use of grade 1 indicators in grade 1 text 
+5.11.1 In a work entirely in grade 1 braille (that is, using no contractions), 
+grade 1 indicators are not used except as required for other reasons, 
+e.g. for the lowercase letters a-j immediately following digits, and a 
+question mark in an unusual position. 
+Examples: 
+C is for candy.   ⠠⠉ ⠊⠎ ⠋⠕⠗ ⠉⠁⠝⠙⠽⠲ 
+Question 3c   ⠠⠟⠥⠑⠎⠞⠊⠕⠝ ⠼⠉⠰⠉ 
+  
+
+--- PDF page 93 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+65 
+Section 6: Numeric Mode 
+⠼⠁  digit one 
+⠼⠃  digit two 
+⠼⠉  digit three 
+⠼⠙  digit four 
+⠼⠑  digit five 
+⠼⠋  digit six 
+⠼⠛  digit seven 
+⠼⠓  digit eight 
+⠼⠊  digit nine 
+⠼⠚  digit zero 
+⠼⠂  comma (decimal sign) 
+⠼⠲  full stop (period, decimal sign) 
+⠁ to ⠚  digit (in numeric mode only) 
+⠐⠁ to ⠐⠚ numeric space plus digit (in numeric mode only) 
+⠬  visible space 
+⠼  spaced numeric indicator (before space) 
+⠼⠼  numeric passage indicator (before space) 
+⠼⠄  numeric passage terminator 
+⠐  line continuation indicator (at end of line) 
+⠐⠐  line continuation indicator with space (at end of  
+  line) 
+⠌  simple numeric fraction line (in numeric mode  
+  only) 
+ 
+6.1 Numeric indicators ⠼⠁ ⠼⠃ ⠼⠉ ⠼⠙ ⠼⠑ ⠼⠋ ⠼⠛ 
+⠼⠓ ⠼⠊ ⠼⠚ ⠼⠂ ⠼⠲ 
+Note:  These twelve symbols are the ten digits and the two symbols 
+which are used as decimal signs.  They are also numeric indicators.  
+6.1.1 Numeric indicators set numeric mode for the remainder of the 
+symbols-sequence. 
+ 
+
+--- PDF page 94 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+66 
+6.2 Numeric mode symbols 
+6.2.1 The following symbols may occur in numeric mode: 
+• the ten digits; 
+• full stop (period); 
+• comma; 
+• the ten numeric space-digit symbols; 
+• visible space; 
+• simple numeric fraction line; 
+• the two line continuation indicators. 
+Refer to:  Guidelines for Technical Material, Section 1.8, for the use of 
+the visible space; and to Section 11.3, Technical Material, for the 
+definition of a simple fraction and the use of general fraction 
+indicators. 
+Examples: 
+62   ⠼⠋⠃   1959   ⠼⠁⠊⠑⠊ 
+3,500   ⠼⠉⠂⠑⠚⠚   8.93   ⠼⠓⠲⠊⠉ 
+.7   ⠼⠲⠛   0.7   ⠼⠚⠲⠛ 
+8,93   ⠼⠓⠂⠊⠉   ,7   ⠼⠂⠛ 
+0,7   ⠼⠚⠂⠛   par. 4.2.2   ⠏⠜⠲ ⠼⠙⠲⠃⠲⠃ 
+4 500 000   ⠼⠙⠐⠑⠚⠚⠐⠚⠚⠚ [spaces in print] 
+The temperature of the universe was 
+100,000,000,000,000,000,000,000,000,000,000°C. 
+⠠⠮ ⠞⠑⠍⠏⠻⠁⠞⠥⠗⠑ ⠷ ⠮ ⠥⠝⠊⠧⠻⠎⠑ ⠴ 
+⠼⠁⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠐ 
+⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠘⠚⠠⠉⠲ 
+[or when print uses spaces:] 
+The temperature of the universe was 
+100 000 000 000 000 000 000 000 000 000 000°C. 
+⠠⠮ ⠞⠑⠍⠏⠻⠁⠞⠥⠗⠑ ⠷ ⠮ ⠥⠝⠊⠧⠻⠎⠑ ⠴ 
+⠼⠁⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠐ 
+⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠘⠚⠠⠉⠲ 
+pi = 3.⎵⎵159   ⠏⠊ ⠐⠶ ⠼⠉⠲⠬⠬⠁⠑⠊ 
+⅜   ⠼⠉⠌⠓   5⅜   ⠼⠑⠼⠉⠌⠓ 
+
+--- PDF page 95 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+67 
+6.3 Termination of numeric mode 
+6.3.1 A space or any symbol not listed in 6.2.1 terminates numeric mode.  
+Examples: 
+7:30 a.m.   ⠼⠛⠒⠼⠉⠚ ⠁⠲⠍⠲ 
+10:12:2009   ⠼⠁⠚⠒⠼⠁⠃⠒⠼⠃⠚⠚⠊ 
+9-10   ⠼⠊⠤⠼⠁⠚ 
+1914–18   ⠼⠁⠊⠁⠙⠠⠤⠼⠁⠓ 
+2.5-5   ⠼⠃⠲⠑⠤⠼⠑ 
+8-cab fleet   ⠼⠓⠤⠉⠁⠃ ⠋⠇⠑⠑⠞ 
+The score was 4–3   ⠠⠮ ⠎⠉⠕⠗⠑ ⠴ ⠼⠙⠠⠤⠼⠉ 
+7−5 = 2   ⠼⠛⠐⠤⠼⠑ ⠐⠶ ⠼⠃ 
+2-½   ⠼⠃⠤⠼⠁⠌⠃ 
+¼-½ tsp   ⠼⠁⠌⠙⠤⠼⠁⠌⠃ ⠞⠎⠏ 
+6¼—6½   ⠼⠋⠼⠁⠌⠙⠠⠤⠼⠋⠼⠁⠌⠃ 
+1/4 cup   ⠼⠁⠸⠌⠼⠙ ⠉⠥⠏ 
+model 09/52   ⠍⠕⠙⠑⠇ ⠼⠚⠊⠸⠌⠼⠑⠃ 
+on call 24/7   ⠕⠝ ⠉⠁⠇⠇ ⠼⠃⠙⠸⠌⠼⠛ 
+7(2)   ⠼⠛⠐⠣⠼⠃⠐⠜ 
+7(b)   ⠼⠛⠐⠣⠃⠐⠜ 
+4—7   ⠼⠙⠠⠤⠼⠛ 
+4..7   ⠼⠙⠲⠲⠛ 
+4567   ⠼⠙⠸⠂⠼⠑⠋⠸⠄⠼⠛ 
+ 
+6.4 Placement of numeric prefix with full stop (period) 
+6.4.1 When a full stop (period) is followed by a number, it precedes the 
+numeric prefix ⠼ unless it is clear that it is a decimal point. 
+
+--- PDF page 96 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+68 
+Examples: 
+Piano Sonata No.16 in C major is K.545. 
+⠠⠏⠊⠁⠝⠕ ⠠⠎⠕⠝⠁⠞⠁ ⠠⠝⠕⠲⠼⠁⠋ ⠔ ⠰⠠⠉ 
+⠍⠁⠚⠕⠗ ⠊⠎ ⠠⠅⠲⠼⠑⠙⠑⠲ 
+⅜ = .375   ⠼⠉⠌⠓ ⠐⠶ ⠼⠲⠉⠛⠑ 
+ 
+6.5 Numeric  indicators set grade 1 mode 
+6.5.1 A numeric indicator also sets grade 1 mode. Grade 1 mode, when set 
+by a numeric indicator, is terminated by a space, hyphen, dash or 
+grade 1 terminator. 
+6.5.2 While grade 1 mode is in effect, a grade 1 indicator is not required 
+unless a lowercase letter a–j follows a digit, full stop/period or 
+comma. 
+Examples: 
+32   ⠼⠉⠃       3b   ⠼⠉⠰⠃ 
+3B   ⠼⠉⠠⠃   3m   ⠼⠉⠍ 
+4.2   ⠼⠙⠲⠃   4.b   ⠼⠙⠲⠰⠃ 
+4.B   ⠼⠙⠲⠠⠃   4.m   ⠼⠙⠲⠍ 
+report3.doc   ⠗⠑⠏⠕⠗⠞⠼⠉⠲⠰⠙⠕⠉ 
+report3.xls   ⠗⠑⠏⠕⠗⠞⠼⠉⠲⠭⠇⠎ 
+… in the Second World War2 1939–1945.3 
+⠲⠲⠲ ⠔ ⠮ ⠠⠎⠑⠉⠕⠝⠙ ⠠⠸⠺ ⠠⠺⠜⠰⠔⠼⠃ 
+⠼⠁⠊⠉⠊⠠⠤⠼⠁⠊⠙⠑⠲⠔⠼⠉ 
+ 
+6.5.3 While grade 1 mode is in effect, contractions may not follow a 
+number. 
+Examples: 
+houses4lease   ⠓⠳⠎⠑⠎⠼⠙⠇⠑⠁⠎⠑ 
+He came 4th in the race. 
+⠠⠓⠑ ⠉⠁⠍⠑ ⠼⠙⠞⠓ ⠔ ⠮ ⠗⠁⠉⠑⠲ 
+
+--- PDF page 97 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+69 
+6.5.4 Grade 1 mode is terminated by a hyphen or dash, thus allowing  
+contractions to be used again. Therefore, a letter or letters that could 
+read as a contraction will need the grade 1 indicator. 
+Examples: 
+If you go 1st—will I go 2nd? 
+⠠⠊⠋ ⠽ ⠛ ⠼⠁⠎⠞⠠⠤⠺ ⠠⠊ ⠛ ⠼⠃⠝⠙⠦ 
+I have a 6-CD boxed set. 
+⠠⠊ ⠓ ⠁ ⠼⠋⠤⠰⠠⠠⠉⠙ ⠃⠕⠭⠫ ⠎⠑⠞⠲ 
+There are 3 beds in this 4-bed ward. 
+⠠⠐⠮ ⠜⠑ ⠼⠉ ⠃⠫⠎ ⠔ ⠹ ⠼⠙⠤⠃⠫ ⠺⠜⠙⠲ 
+in 1970—about March   ⠔ ⠼⠁⠊⠛⠚⠠⠤⠁⠃ ⠠⠍⠜⠡ 
+3-dimensional   ⠼⠉⠤⠙⠊⠍⠢⠨⠝⠁⠇ 
+3-D   ⠼⠉⠤⠰⠠⠙ 
+The 6-can pack—under seat 6-c. 
+⠠⠮ ⠼⠋⠤⠉ ⠏⠁⠉⠅⠠⠤⠐⠥ ⠎⠂⠞ ⠼⠋⠤⠰⠉⠲ 
+only 4—more please   ⠕⠝⠇⠽ ⠼⠙⠠⠤⠍ ⠏⠇⠂⠎⠑ 
+4-m   ⠼⠙⠤⠰⠍ 
+20-yr period   ⠼⠃⠚⠤⠰⠽⠗ ⠏⠻⠊⠕⠙ 
+20yr period   ⠼⠃⠚⠽⠗ ⠏⠻⠊⠕⠙ 
+ 
+6.6 The numeric space ⠐⠁ ⠐⠃ ⠐⠉ ⠐⠙ ⠐⠑ ⠐⠋ ⠐⠛ 
+⠐⠓ ⠐⠊ ⠐⠚ 
+Note:  The ten symbols ⠐⠁ to ⠐⠚ have the meaning "space and 
+following digit" within a number.  Spaces should be represented in 
+this way when they are clearly numeric spaces.  For example a single 
+telephone number would be considered as one number, even though 
+it includes country, city, and exchange codes as parts. If it is not 
+clear that a space is a separator in a single number it should be 
+treated as an ordinary space. 
+
+--- PDF page 98 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+70 
+6.6.1 When spaces are used as separators within a single number use the 
+ten symbols ⠐⠁ to ⠐⠚ to represent the space and its following 
+digit. 
+Examples: 
+population: 3 245 000   ⠏⠕⠏⠥⠇⠁⠰⠝⠒ ⠼⠉⠐⠃⠙⠑⠐⠚⠚⠚ 
+ISBN: 978 1 55468 513 4 
+⠠⠠⠊⠎⠃⠝⠒ ⠼⠊⠛⠓⠐⠁⠐⠑⠑⠙⠋⠓⠐⠑⠁⠉⠐⠙ 
+phone: (61) 3 1234 5678 
+⠏⠓⠐⠕⠒ ⠐⠣⠼⠋⠁⠐⠜ ⠼⠉⠐⠁⠃⠉⠙⠐⠑⠋⠛⠓ 
+date:  1947 08 31   ⠙⠁⠞⠑⠒ ⠼⠁⠊⠙⠛⠐⠚⠓⠐⠉⠁ 
+time:  16 00   ⠐⠞⠒ ⠼⠁⠋⠐⠚⠚ 
+ 
+6.7 Treatment of dates, time, coinage, etc. 
+6.7.1 When transcribing dates, time, coinage, ordinal numbers, postal 
+codes or telephone numbers:  follow print punctuation and order of 
+symbols. 
+Refer to:  Guidelines for Technical Material, Part 2, for more 
+examples. 
+Examples: 
+7/11/59   ⠼⠛⠸⠌⠼⠁⠁⠸⠌⠼⠑⠊ 
+7.11.59   ⠼⠛⠲⠁⠁⠲⠑⠊ 
+1960's   ⠼⠁⠊⠋⠚⠄⠎ 
+'70s and '80s   ⠄⠼⠛⠚⠎ ⠯ ⠄⠼⠓⠚⠎ 
+10:30 a.m.   ⠼⠁⠚⠒⠼⠉⠚ ⠁⠲⠍⠲ 
+10.30 am   ⠼⠁⠚⠲⠉⠚ ⠁⠍ 
+$8.75   ⠈⠎⠼⠓⠲⠛⠑ 
+£8.75   ⠈⠇⠼⠓⠲⠛⠑ 
+R8,75   ⠠⠗⠼⠓⠂⠛⠑ 
+$1,500.00   ⠈⠎⠼⠁⠂⠑⠚⠚⠲⠚⠚ 
+
+--- PDF page 99 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+71 
+€1.500,00   ⠈⠑⠼⠁⠲⠑⠚⠚⠂⠚⠚ 
+2nd   ⠼⠃⠝⠙ 
+2d   ⠼⠃⠰⠙ 
+1er   ⠼⠁⠰⠑⠗ [premier] 
+M4G 3E8   ⠠⠍⠼⠙⠠⠛ ⠼⠉⠠⠑⠼⠓ 
+W1N 9LF   ⠠⠺⠼⠁⠠⠝ ⠼⠊⠠⠠⠇⠋ 
+N12 7BT   ⠠⠝⠼⠁⠃ ⠼⠛⠠⠠⠃⠞ 
+(416) 486-2500   ⠐⠣⠼⠙⠁⠋⠐⠜ ⠼⠙⠓⠋⠤⠼⠃⠑⠚⠚ 
+For a taxi call 13-cabs. 
+⠠⠿ ⠁ ⠞⠁⠭⠊ ⠉⠁⠇⠇ ⠼⠁⠉⠤⠉⠁⠃⠎⠲ 
+telephone 1300-vision   ⠞⠑⠇⠑⠏⠓⠐⠕ ⠼⠁⠉⠚⠚⠤⠧⠊⠨⠝ 
+1-800-SLEEP88   ⠼⠁⠤⠼⠓⠚⠚-⠠⠠⠎⠇⠑⠑⠏⠼⠓⠓ 
+ISBN 0-14-300414-X 
+⠠⠠⠊⠎⠃⠝ ⠼⠚⠤⠼⠁⠙⠤⠼⠉⠚⠚⠙⠁⠙⠤⠰⠠⠭ 
+ 
+6.8 Spaced numeric indicator ⠼ 
+6.8.1 The spaced numeric indicator allows one or more spaces to intervene 
+between the numeric prefix and the root that would normally follow 
+immediately to form a digit or a decimal point or comma. 
+Example: 
+$ 4.50   ⠈⠎⠼ ⠙⠲⠑⠚ 
+ 10.00      ⠼⠁⠚⠲⠚⠚ 
+   .50      ⠼  ⠲⠑⠚ 
+------   ⠐⠒⠒⠒⠒⠒⠒⠒ 
+$15.00   ⠈⠎⠼⠁⠑⠲⠚⠚ 
+ 
+
+--- PDF page 100 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+72 
+6.9 Numeric passage indicator ⠼⠼ and numeric 
+terminator ⠼⠄ 
+6.9.1 The numeric passage indicator sets numeric mode and grade 1 mode 
+for all text until the terminator is reached. 
+6.9.2 The numeric terminator follows immediately after the last affected 
+symbols-sequence, except as in 6.9.4 below. 
+6.9.3 Numeric indicators are not used in a numeric passage and any 
+lowercase letter a-j is preceded by a grade 1 indicator. 
+6.9.4 To preserve the general format of the enclosed text the numeric 
+passage indicator may be placed by itself on a line above and the 
+terminator on a line below the text. 
+Note:  A numeric passage may be useful in cases such as a long 
+worked example in mathematics, a series of arithmetic exercises, or a 
+table with mostly numeric content. 
+Refer to:  Guidelines for Technical Material, Part 4, for spatial 
+arithmetic examples illustrating the use of both the spaced numeric 
+indicator and the numeric passage indicator. 
+ 
+6.10 Division of a number between lines 
+6.10.1 Avoid division of a number between lines unless considerable space is 
+saved.  If division is necessary use the appropriate line continuation 
+indicator and observe the following rules. 
+6.10.2 When it is necessary to break a long number across lines, place the 
+break in a logical place—at a numeric space, or after a comma which 
+is being used as a separator—not between two digits. 
+6.10.3 When the division occurs after a separating comma, or between two 
+digits in a number which comprises a large string of digits with no 
+separators, use the one-cell line continuation indicator ⠐ at the end 
+of the line. 
+6.10.4 When the division takes place at a numeric space, use the two -cell 
+line continuation indicator ⠐⠐ at the end of the line. 
+6.10.5 Since the line continuation indicators do not terminate numeric mode 
+a numeric indicator is not required in the next line. 
+
+--- PDF page 101 ---
+Rules of Unified English Braille 6:  Numeric Mode 
+Third Edition 2024 
+73 
+Examples: 
+The temperature of the universe was 
+100,000,000,000,000,000,000,000,000,000,000°C. 
+⠠⠮ ⠞⠑⠍⠏⠻⠁⠞⠥⠗⠑ ⠷ ⠮ ⠥⠝⠊⠧⠻⠎⠑ ⠴ 
+⠼⠁⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠐ 
+⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠂⠚⠚⠚⠘⠚⠠⠉⠲ 
+ [or when print uses spaces:] 
+The temperature of the universe was 
+100 000 000 000 000 000 000 000 000 000 000°C. 
+⠠⠮ ⠞⠑⠍⠏⠻⠁⠞⠥⠗⠑ ⠷ ⠮ ⠥⠝⠊⠧⠻⠎⠑ ⠴ 
+⠼⠁⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠐ 
+⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠐⠚⠚⠚⠘⠚⠠⠉⠲ 
+  
+
+--- PDF page 104 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+76 
+⠐⠠⠤ — long dash (see 7.2) 
+⠨⠤ _ low line (underscore) (see 7.2) 
+⠠⠐⠣  multi-line opening parenthesis (round bracket) 
+  (see 7.7) 
+⠠⠐⠜  multi-line closing parenthesis (round bracket) 
+  (see 7.7) 
+⠠⠨⠣  multi-line opening square bracket (see 7.7) 
+⠠⠨⠜  multi-line closing square bracket (see 7.7) 
+⠠⠸⠣  multi-line opening curly bracket (see 7.7) 
+⠠⠸⠜  multi-line closing curly bracket (see 7.7) 
+ 
+7.1 General 
+7.1.1 Follow print for the use of punctuation except for the specific 
+provisions in the Punctuation rules which follow. 
+Examples: 
+U.S.A.   ⠠⠥⠲⠠⠎⠲⠠⠁⠲   W..c.ster   ⠠⠺⠲⠲⠉⠲⠌⠻ 
+What ...?   ⠠⠱⠁⠞ ⠲⠲⠲⠦   Why?   ⠠⠱⠽⠦ 
+2.5%   ⠼⠃⠲⠑⠨⠴   2,5%   ⠼⠃⠂⠑⠨⠴ 
+Yes, please.  ⠠⠽⠑⠎⠂ ⠏⠇⠂⠎⠑⠲ 
+No, never!  ⠠⠝⠕⠂ ⠝⠐⠑⠖ 
+Shopping list:  red, green and yellow peppers; onions; sweet 
+potatoes (or yams). 
+⠠⠩⠕⠏⠏⠬ ⠇⠊⠌⠒ ⠗⠫⠂ ⠛⠗⠑⠢ ⠯ ⠽⠑⠇⠇⠪ 
+⠏⠑⠏⠏⠻⠎⠆ ⠕⠝⠊⠕⠝⠎⠆ ⠎⠺⠑⠑⠞ ⠏⠕⠞⠁⠞⠕⠑⠎ 
+⠐⠣⠕⠗ ⠽⠁⠍⠎⠐⠜⠲ 
+4:30   ⠼⠙⠒⠼⠉⠚   STOP!!   ⠠⠠⠌⠕⠏⠖⠖ 
+(See above.)   ⠐⠣⠠⠎⠑⠑ ⠁⠃⠧⠲⠐⠜ 
+noun(s)   ⠝⠳⠝⠐⠣⠎⠐⠜ 
+in b) and f)   ⠔ ⠰⠃⠐⠜ ⠯ ⠰⠋⠐⠜ 
+Balance:  ($52.68)   ⠠⠃⠁⠇⠨⠑⠒ ⠐⠣⠈⠎⠼⠑⠃⠲⠋⠓⠐⠜ 
+  
+
+--- PDF page 105 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+77 
+Plaintiff stated, "[m]y causes is [sic] just." 
+⠠⠏⠇⠁⠔⠞⠊⠋⠋ ⠌⠁⠞⠫⠂ ⠦⠨⠣⠍⠨⠜⠽ ⠉⠁⠥⠎⠑⠎ ⠊⠎ 
+⠨⠣⠨⠂⠎⠊⠉⠨⠜ ⠚⠲⠴ 
+Jan Swan <swanj@iafrica.com> 
+⠠⠚⠁⠝ ⠠⠎⠺⠁⠝ ⠈⠣⠎⠺⠁⠝⠚⠈⠁⠊⠁⠋⠗⠊⠉⠁⠲⠉⠕⠍⠈⠜ 
+primary colours {red, blue, yellow} 
+⠏⠗⠊⠍⠜⠽ ⠉⠕⠇⠳⠗⠎ ⠸⠣⠗⠫⠂ ⠃⠇⠥⠑⠂ ⠽⠑⠇⠇⠪⠸⠜ 
+he/she  ⠓⠑⠸⠌⠩⠑   b/fast   ⠃⠸⠌⠋⠁⠌ 
+9/11   ⠼⠊⠸⠌⠼⠁⠁   Jan/Feb   ⠠⠚⠁⠝⠸⠌⠠⠋⠑⠃ 
+his Gaza Strip / West Bank tour 
+⠦ ⠠⠛⠁⠵⠁ ⠠⠌⠗⠊⠏ ⠸⠌ ⠠⠺⠑⠌ ⠠⠃⠁⠝⠅ ⠞⠳⠗ 
+c:\desktop   ⠉⠒⠸⠡⠙⠑⠎⠅⠞⠕⠏ 
+self-control   ⠎⠑⠇⠋⠤⠒⠞⠗⠕⠇ 
+tied 1-1   ⠞⠊⠫ ⠼⠁⠤⠼⠁ 
+forty-one or -two   ⠿⠞⠽⠤⠐⠕ ⠕⠗ ⠤⠞⠺⠕ 
+320-foot wingspan   ⠼⠉⠃⠚⠤⠋⠕⠕⠞ ⠺⠬⠎⠏⠁⠝ 
+five- or six-pointed star   ⠋⠊⠧⠑⠤ ⠕⠗ ⠎⠊⠭⠤⠏⠕⠔⠞⠫ ⠌⠜ 
+add -s   ⠁⠙⠙ ⠤⠰⠎   add –s   ⠁⠙⠙ ⠠⠤⠰⠎ 
+Mr J----   ⠠⠍⠗ ⠰⠠⠚⠤⠤⠤⠤   Mr J–   ⠠⠍⠗ ⠰⠠⠚⠠⠤ 
+"Ask Ms. —, she will know." 
+⠦⠠⠁⠎⠅ ⠠⠍⠎⠲ ⠠⠤⠂ ⠩⠑ ⠺ ⠐⠅⠲⠴ 
+ 
+7.1.2 Only one blank cell follows punctuation in braille even when print 
+uses more space, e.g. at the end of a sentence. 
+7.1.3 Place a grade 1 symbol indicator before a punctuation mark which 
+appears in a position where it would be read as a contraction. 
+Refer to:  Rules 7.6.7 to 7.6.10 to avoid ambiguity for quotation 
+marks. 
+
+--- PDF page 106 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+78 
+Examples: 
+Replace . with ? where appropriate. 
+⠠⠗⠑⠏⠇⠁⠉⠑ ⠲ ⠾ ⠰⠦ ⠐⠱ ⠁⠏⠏⠗⠕⠏⠗⠊⠁⠞⠑⠲ 
+[full stop (period) with question mark] 
+lang:uk   ⠇⠁⠝⠛⠰⠒⠥⠅   a:o   ⠁⠰⠒⠕ 
+.doc   ⠰⠲⠙⠕⠉ 
+Ai!!ams  ⠠⠁⠊⠰⠖⠖⠁⠍⠎  [Khoi-San name for Windhoek in 
+Namibia – "!" represents a letter] 
+ 
+7.1.4 A string of lower punctuation marks may be surrounded by space.  
+Examples: 
+—"  ⠠⠤⠴   ...?"  ⠲⠲⠲⠦⠴ 
+"...  ⠦⠲⠲⠲   ":"  ⠦⠒⠴ 
+ 
+7.2 Dash ⠠⠤ low line (underscore) ⠨⠤ long dash ⠐⠠⠤ 
+and hyphen ⠤ 
+7.2.1 Follow print spacing of the dash.  However, when the spacing in print 
+is indeterminate or inconsistent, space the dash from adjacent words, 
+unless it is clear that the dash indicates omission of part of a word.  
+Examples: 
+He sees it  —  feels it.  ⠠⠓⠑ ⠎⠑⠑⠎ ⠭ ⠠⠤ ⠋⠑⠑⠇⠎ ⠭⠲  
+[print has several spaces around the dash] 
+He will go when —  ⠠⠓⠑ ⠺ ⠛ ⠱⠢ ⠠⠤ 
+He will go when—   ⠠⠓⠑ ⠺ ⠛ ⠱⠢⠠⠤ 
+He will go wh—  ⠠⠓⠑ ⠺ ⠛ ⠺⠓⠠⠤ 
+We want— we need — more br— 
+⠠⠺⠑ ⠺⠁⠝⠞ ⠠⠤ ⠺⠑ ⠝⠑⠫ ⠠⠤ ⠍ ⠃⠗⠠⠤  
+[print shows the first dash unspaced from the word "want"].  
+7.2.2 When an unspaced dash indicates an omission, do not separate it 
+from the remainder of the symbols-sequence.  In all other cases, a 
+dash may be separated from what precedes or follows it at the 
+beginning or end of a braille line. 
+
+--- PDF page 107 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+79 
+7.2.3 Regardless of the length of the character in print, use one low line 
+(underscore) ⠨⠤ in braille for each print dash below the line of type 
+which indicates a blank to be filled in. 
+Refer to:  Section 9, Typeforms, for information about underlining. 
+Examples: 
+Are you in favor?  ____ yes, ____ no. 
+⠠⠜⠑ ⠽ ⠔ ⠋⠁⠧⠕⠗⠦ ⠨⠤ ⠽⠑⠎⠂ ⠨⠤ ⠝⠕⠲ [print 
+has four underscores] 
+We saw _______ and _______ grazing in the field. 
+⠠⠺⠑ ⠎⠁⠺ ⠨⠤ ⠯ ⠨⠤ ⠛⠗⠁⠵⠬ ⠔ ⠮ ⠋⠊⠑⠇⠙⠲ 
+[print has seven underscores] 
+Add the missing letters:  s_n  and d_ _ght_r. 
+⠠⠁⠙⠙ ⠮ ⠍⠊⠎⠎⠬ ⠇⠗⠎⠒ ⠎⠨⠤⠝ ⠯  
+⠙⠨⠤⠨⠤⠣⠞⠨⠤⠗⠲ [print has two spaces after the colon, 
+two spaces before and, and one space between the two 
+underscores in d__] 
+moons of Mars  _____  _____   ⠍⠕⠕⠝⠎ ⠷ ⠠⠍⠜⠎ ⠨⠤ ⠨⠤ 
+[print has five underscores] 
+ 
+7.2.4 Use a long dash ⠐⠠⠤ in braille only when print uses both a short 
+and long dash. 
+Example: 
+Mr D—— visits P—— regularly — you know that. 
+⠠⠍⠗ ⠰⠠⠙⠐⠠⠤ ⠧⠊⠎⠊⠞⠎ ⠰⠠⠏⠐⠠⠤ ⠗⠑⠛⠥⠇⠜⠇⠽ 
+⠠⠤ ⠽ ⠐⠅ ⠞⠲ 
+ 
+Hyphen(s) used as dash 
+7.2.5 Represent a spaced hyphen in print with a spaced hyphen in braille.  
+Example: 
+I'll be ready by 3:00 - well - maybe 3:10. 
+⠠⠊⠄⠇⠇ ⠆ ⠗⠂⠙⠽ ⠃⠽ 
+⠼⠉⠒⠼⠚⠚ ⠤ ⠺⠑⠇⠇ ⠤ ⠍⠁⠽⠃⠑ ⠼⠉⠒⠼⠁⠚⠲ 
+
+--- PDF page 108 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+80 
+7.2.6 When print uses two adjacent hyphens as a substitute for a dash 
+(e.g. in typing or email), it is permissible to use a dash in braille.  Use 
+two hyphens when it is clear that two hyphens are intended, e.g. to 
+represent two missing letters in a word.  When in doubt, use two 
+hyphens. 
+Examples: 
+an expression--such as this--set apart 
+⠁⠝ ⠑⠭⠏⠗⠑⠎⠨⠝⠠⠤⠎⠡ ⠵ ⠹⠠⠤⠎⠑⠞ ⠁⠐⠏  
+[Two hyphens are used in print.] 
+rec--ve  ⠗⠑⠉⠤⠤⠧⠑ 
+B--  ⠰⠠⠃⠤⠤ [print uses hyphens] 
+ 
+7.3 Ellipsis ⠲⠲⠲ 
+7.3.1 Follow print for the number of dots used in the ellipsis.  When 
+spacing in print is indeterminate or inconsistent, space the ellipsis 
+from adjacent words, unless it is clear that it indicates the omission of 
+part of a word. 
+Examples: 
+I... I don't think ...." 
+⠠⠊ ⠲⠲⠲ ⠠⠊ ⠙⠕⠝⠄⠞ ⠹⠔⠅ ⠲⠲⠲⠲⠴ [the first ellipsis 
+is unspaced in print] 
+I don't th...."  ⠠⠊ ⠙⠕⠝⠄⠞ ⠞⠓⠲⠲⠲⠲⠴ 
+ 
+7.4 Solidus (forward slash) ⠸⠌ 
+7.4.1 When division at a linebreak is necessary following the solidus 
+(forward slash), do not insert a hyphen. 
+Example: 
+There were several schoolchildren/teachers/parents present.  
+⠠⠐⠮ ⠶ ⠎⠐⠑⠁⠇ ⠎⠡⠕⠕⠇⠡⠊⠇⠙⠗⠢⠸⠌ 
+⠞⠂⠡⠻⠎⠸⠌⠏⠜⠢⠞⠎ ⠏⠗⠑⠎⠢⠞⠲ 
+ 
+
+--- PDF page 109 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+81 
+7.5 Question mark ⠦ 
+7.5.1 In the majority of cases, a question mark does not require a grade 1 
+symbol indicator;  however, be mindful of the situations covered in 
+Rules 7.5.2 to 7.5.4 below. 
+Examples: 
+What???  ⠠⠱⠁⠞⠦⠦⠦   "What?!"  ⠦⠠⠱⠁⠞⠦⠖⠴ 
+...?"  ⠲⠲⠲⠦⠴ 
+persons?/people?   ⠏⠻⠎⠕⠝⠎⠦⠸⠌⠏⠑⠕⠏⠇⠑⠦ 
+ 
+7.5.2 Place a grade 1 symbol indicator before a question mark which 
+appears in a position where it would be read as the wordsign "his" or 
+where it would be read as an opening double quotation mark. 
+7.5.3 Place a grade 1 symbol indicator before a question mark which is 
+"standing alone". 
+Example: 
+[?]  ⠨⠣⠰⠦⠨⠜ 
+ 
+7.5.4 Place a grade 1 symbol indicator before a question mark which 
+follows a space, hyphen or dash.  Any of the punctuation and 
+indicator symbols listed in 2.6.2 of Section 2, Terminology and 
+General Rules, may intervene between the space, hyphen or dash 
+and the question mark. 
+Examples: 
+?-1750  ⠰⠦⠤⠼⠁⠛⠑⠚ 
+(?—1750)  ⠐⠣⠰⠦⠠⠤⠼⠁⠛⠑⠚⠐⠜ 
+10:30-?  ⠼⠁⠚⠒⠼⠉⠚⠤⠰⠦ 
+Replace each ? with a letter: ?e??u 
+⠠⠗⠑⠏⠇⠁⠉⠑ ⠑⠁⠡ ⠰⠦ ⠾ ⠁ ⠇⠗⠒ ⠰⠦⠑⠦⠦⠥ 
+ 
+
+--- PDF page 110 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+82 
+7.6 Quotation marks, apostrophe 
+Note:  Print quotation marks and apostrophes may be curly, slanted 
+or straight.  In most cases, the specific form of the print quotation 
+mark or of the apostrophe has no significance. 
+Refer to:  Sections 3.11 and 3.15, for the use of the apostrophe and 
+the nondirectional quotes used as prime signs. 
+Refer to:  Sections 13.5 and 13.6, for the use of quotation marks in 
+foreign language material. 
+ 
+Double quotation marks ⠦ ⠴ 
+7.6.1 Use one-cell quotation marks ⠦ and ⠴ for double quotation marks in 
+the print text. 
+Refer to:  Rules 7.6.7-7.6.9, for situations that are ambiguous. 
+Examples: 
+“Why is that?” he asked. 
+⠦⠠⠱⠽ ⠊⠎ ⠞⠦⠴ ⠓⠑ ⠁⠎⠅⠫⠲ 
+the play "Hamlet" 
+⠮ ⠏⠇⠁⠽ ⠦⠠⠓⠁⠍⠇⠑⠞⠴ 
+“yes”es and “no”s 
+⠦⠽⠑⠎⠴⠑⠎ ⠯ ⠦⠝⠕⠴⠎ 
+ 
+Single quotation marks ⠠⠦ ⠠⠴ 
+7.6.2 Use single quotation marks ⠠⠦ and ⠠⠴ for single quotation marks 
+in the print text. 
+Refer to:  Rule 7.6.10, for situations that are ambiguous. 
+Examples: 
+‘Why is that?’ he asked. 
+⠠⠦⠠⠱⠽ ⠊⠎ ⠞⠦⠠⠴ ⠓⠑ ⠁⠎⠅⠫⠲ 
+the play 'Hamlet' 
+⠮ ⠏⠇⠁⠽ ⠠⠦⠠⠓⠁⠍⠇⠑⠞⠠⠴ 
+
+--- PDF page 111 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+83 
+mother-‘in-law’ 
+⠐⠍⠤⠠⠦⠔⠤⠇⠁⠺⠠⠴ 
+note silent letters in n-i-‘g-h’-t 
+⠝⠕⠞⠑ ⠎⠊⠇⠢⠞ ⠇⠗⠎ ⠔ ⠰⠰⠝⠤⠊⠤⠠⠦⠛⠤⠓⠠⠴⠤⠞ 
+ 
+Outer and inner quotation marks 
+7.6.3 Follow print for outer and inner quotation marks. 
+Examples: 
+‘Sing “Happy Birthday”,’ he said. 
+⠠⠦⠠⠎⠬ ⠦⠠⠓⠁⠏⠏⠽ ⠠⠃⠊⠗⠹⠐⠙⠴⠂⠠⠴ ⠓⠑ ⠎⠙⠲ 
+She said, “Read ‘Peter Rabbit’ again.” 
+⠠⠩⠑ ⠎⠙⠂ ⠦⠠⠗⠂⠙ ⠠⠦⠠⠏⠑⠞⠻ ⠠⠗⠁⠆⠊⠞⠠⠴ 
+⠁⠛⠲⠴ 
+‘Very tasty,’ he said. “If you like garlic,” he thought. 
+⠠⠦⠠⠧ ⠞⠁⠌⠽⠂⠠⠴ ⠓⠑ ⠎⠙⠲ ⠦⠠⠊⠋ ⠽ ⠇ 
+⠛⠜⠇⠊⠉⠂⠴ ⠓⠑ ⠹⠐⠳⠲ 
+7.6.4 It is permissible for the assignment of the double and single 
+quotation marks throughout a print text to be exchanged.  Explain 
+this change in a transcriber's note. 
+Example: 
+'Sing "Happy Birthday",' he said. [single quotes for outer quotes and 
+double quotes for inner quotes in print] 
+⠦⠠⠎⠬ ⠠⠦⠠⠓⠁⠏⠏⠽ ⠠⠃⠊⠗⠹⠐⠙⠠⠴⠂⠴ ⠓⠑ ⠎⠙⠲ 
+ 
+Nondirectional quotation marks ⠠⠶ ⠄ 
+7.6.5 Use braille nondirectional double or single quotation marks, ⠠⠶ or 
+⠄, for print quotation marks without any slant or curl to convey 
+"opening" or "closing" only in the following relatively rare cases:  
+•  when such symbols are distinguished from directional symbols (as 
+in a discourse on typography); 
+
+--- PDF page 112 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+84 
+•  when the symbols are clearly intended (as in an ASCII listing or a 
+programming language); 
+•  when there is no way to infer directionality from context.  
+Otherwise follow the provisions of 7.6.1 through 7.6.4 above. 
+Refer to:  Rule 7.6.10, for situations that are ambiguous. 
+Examples: 
+‘https://www.example.com/query?item='bobs-internal-folder'.’ 
+⠠⠦⠓⠞⠞⠏⠎⠒⠸⠌⠸⠌⠺⠺⠺⠲⠑⠭⠁⠍⠏⠇⠑⠲⠉⠕⠍⠸⠌⠐ 
+⠟⠥⠻⠽⠦⠊⠞⠑⠍⠐⠶⠄⠃⠕⠃⠎⠤⠔⠞⠻⠝⠁⠇⠤⠐ 
+⠋⠕⠇⠙⠻⠄⠲⠠⠴ 
+“Is she correct in saying our regex pattern would be ‘"?+[a-zA-Z]"?’?” 
+⠦⠠⠊⠎ ⠩⠑ ⠉⠕⠗⠗⠑⠉⠞ ⠔ ⠎⠁⠽⠬ ⠳⠗ ⠗⠑⠛⠑⠭ 
+⠏⠁⠞⠞⠻⠝ ⠺⠙ ⠆ ⠠⠦⠠⠶⠰⠦⠐⠖⠨⠣⠁⠤⠵⠠⠐ 
+⠁⠤⠰⠠⠵⠨⠜⠠⠶⠦⠠⠴⠦⠴ 
+But: 
+"Bah," said Scrooge.  "Humbug!" 
+⠦⠠⠃⠁⠓⠂⠴ ⠎⠙ ⠠⠎⠉⠗⠕⠕⠛⠑⠲ ⠦⠠⠓⠥⠍⠃⠥⠛⠖⠴ 
+ 
+Apostrophe ⠄ 
+7.6.6 Use ⠄ for the apostrophe. 
+Note:  Print most often uses the same sign for the apostrophe as for 
+the right single quote or for the nondirectional single quote.  In braille 
+it is preferred that the apostrophe be distinguished from the quotes.  
+Examples: 
+don’t   ⠙⠕⠝⠄⠞ Jones’   ⠠⠚⠐⠕⠎⠄ 
+It's done.   ⠠⠭⠄⠎ ⠙⠐⠕⠲ the '90s   ⠮ ⠄⠼⠊⠚⠎ 
+rock ’n’ roll   ⠗⠕⠉⠅ ⠄⠰⠝⠄ ⠗⠕⠇⠇ 
+“’Tis late.”   ⠦⠄⠠⠞⠊⠎ ⠇⠁⠞⠑⠲⠴ 
+
+--- PDF page 113 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+85 
+Avoiding ambiguity 
+Note:  When the form of the quotation mark must be changed to 
+avoid ambiguity, as in 7.6.7 and 7.6.8 below, the change is made 
+only in the specific situation as required and not throughout the 
+whole text. 
+7.6.7 To be read as a quote, the opening double quotation mark ⠦ must 
+appear at the beginning of the word as defined in 2.6.2.  When the 
+opening double quotation mark appears in a position other than at 
+the beginning of the word, it will be read as a question mark.  To 
+avoid ambiguity in such a situation, use the two-cell opening double 
+quotation mark ⠘⠦ instead.  Use the two-cell closing double 
+quotation mark ⠘⠴ for the corresponding closing double quote, if 
+there is such a corresponding quote and it is practical to identify it. 
+Examples: 
+Franc“e”s or Franc“i”s 
+⠠⠋⠗⠁⠝⠉⠘⠦⠑⠘⠴⠎ ⠕⠗ ⠠⠋⠗⠁⠝⠉⠘⠦⠊⠘⠴⠎ 
+\“Remember those backslashes\” [snippet from a computer program] 
+⠸⠡⠘⠦⠠⠗⠑⠍⠑⠍⠃⠑⠗ ⠞⠓⠕⠎⠑ 
+⠃⠁⠉⠅⠎⠇⠁⠎⠓⠑⠎⠸⠡⠘⠴ 
+7.6.8 In the rare instance when a double quotation mark is "standing 
+alone" (as defined in 2.6), it will be read as a wordsign:  the opening 
+double quotation mark ⠦ will be read as "his" and the closing double 
+quotation mark ⠴ will be read as "was".  Avoid ambiguity by using 
+the two-cell double quotation marks ⠘⠦ and ⠘⠴ for the double 
+quote which is "standing alone" and for the corresponding opening or 
+closing double quote, if there is such a corresponding quote and it is 
+practical to identify it. 
+Examples: 
+(“ ... that is the question.”) 
+⠐⠣⠘⠦ ⠲⠲⠲ ⠞ ⠊⠎ ⠮ ⠐⠟⠲⠘⠴⠐⠜ 
+(“To be or not ... ”) 
+⠐⠣⠘⠦⠠⠞⠕ ⠆ ⠕⠗ ⠝ ⠲⠲⠲ ⠘⠴⠐⠜ 
+  
+
+--- PDF page 114 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+86 
+Young writers may forget the ” at the end of a quote. 
+⠠⠐⠽ ⠺⠗⠊⠞⠻⠎ ⠍⠁⠽ ⠿⠛⠑⠞ ⠮ ⠘⠴ ⠁⠞ ⠮ ⠢⠙ 
+⠷ ⠁ ⠟⠥⠕⠞⠑⠲ 
+7.6.9 When an opening double quotation mark ⠦ is immediately preceded 
+by a grade 1 indicator, it will be read as a question mark.  Avoid 
+ambiguity by placing the opening double quotation mark before 
+rather than after the grade 1 indicator. 
+Example: 
+Spell "W-a-l-k" so the dog stays calm. 
+⠠⠎⠏⠑⠇⠇ ⠦⠰⠰⠠⠺⠤⠁⠤⠇⠤⠅⠴ ⠎ ⠮ ⠙⠕⠛ ⠌⠁⠽⠎ 
+⠉⠁⠇⠍⠲ 
+7.6.10 In the rare instance when the following quotation marks are 
+"standing alone" (as defined in 2.6), they will be read as wordsigns:  
+the opening single quote ⠠⠦ will be read as "His", the closing single 
+quote ⠠⠴ will be read as "Was" and the nondirectional double quote 
+⠠⠶ will be read as "Were".  To avoid ambiguity, use a grade 1 
+indicator. 
+Examples: 
+(‘ ... that is the question.’) 
+⠐⠣⠰⠠⠦ ⠲⠲⠲ ⠞ ⠊⠎ ⠮ ⠐⠟⠲⠠⠴⠐⠜ 
+(‘To be or not ... ’) 
+⠐⠣⠠⠦⠠⠞⠕ ⠆ ⠕⠗ ⠝ ⠲⠲⠲ ⠰⠠⠴⠐⠜ 
+Young writers may forget the ’ at the end of a quote. 
+⠠⠐⠽ ⠺⠗⠊⠞⠻⠎ ⠍⠁⠽ ⠿⠛⠑⠞ ⠮ ⠰⠠⠴ ⠁⠞ ⠮ ⠢⠙ 
+⠷ ⠁ ⠟⠥⠕⠞⠑⠲ 
+Use the " to enclose your string literals. 
+⠠⠥⠎⠑ ⠮ ⠰⠠⠶ ⠞⠕ ⠢⠉⠇⠕⠎⠑ ⠽⠗ ⠌⠗⠬ 
+⠇⠊⠞⠻⠁⠇⠎⠲ 
+Double angle quotation marks ⠸⠦ ⠸⠴ 
+7.6.11 Follow print for the use of double angle quotation marks. 
+
+--- PDF page 115 ---
+Rules of Unified English Braille 7:  Punctuation 
+Third Edition 2024 
+87 
+Examples: 
+«... in accordance with ...» 
+⠸⠦⠲⠲⠲ ⠔ ⠁⠒⠕⠗⠙⠨⠑ ⠾ ⠲⠲⠲⠸⠴ 
+"Where are you from?" 
+«jIyajbe’» (I don't understand.) [Print uses double angle quotation 
+marks to indicate Klingon.] 
+⠦⠠⠐⠱ ⠜⠑ ⠽ ⠋⠦⠴ 
+⠸⠦⠚⠠⠊⠽⠁⠚⠃⠑⠄⠸⠴ ⠐⠣⠠⠊ ⠙⠕⠝⠄⠞ ⠐⠥⠌⠯⠲⠐⠜ 
+ 
+Translation software 
+7.6.12 It is recommended that translation software give users the option of 
+assigning which print quotes, double or single, are represented by the 
+one-cell braille quotes ⠦ and ⠴ and likewise which are represented 
+by the dot-6 two-cell braille quotes ⠠⠦ and ⠠⠴. 
+7.6.13 It is recognized that print may not adequately distinguish between a 
+single quote and an apostrophe and consequently, without the 
+intervention of a professional transcriber, the translation of these 
+marks cannot be wholly automated with complete accuracy.  If no 
+better option is available, it is permissible to make the distinction 
+based on the provisions of 7.6.14 and 7.6.15 below. 
+7.6.14 It is recommended that, for purposes of translation software, a 
+dictionary be developed listing the common words beginning or 
+ending with an apostrophe, e.g. 'tis, nothin'.  This dictionary can be 
+checked by the software and the sign for the apostrophe used when 
+a match is found. 
+7.6.15 The distinction between a single quote and an apostrophe may be 
+made by translation software according to the presence or absence of 
+letter(s) on either side of the mark as follows: 
+•  If the mark occurs mid-word between letters (i.e. it does not meet 
+the condition of "standing alone" on the left or the right as defined 
+in 2.6), then treat it as an apostrophe.  This applies whether the 
+letters are lowercase or uppercase. 
+•  If the mark occurs at the beginning of a word (i.e. it meets the 
+condition of "standing alone" on the left but not on the right, as 
+defined in 2.6.2), then treat it as an opening single quote. 
+•  In all other contexts, treat the mark as a closing single quote.  
+
+--- PDF page 117 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+89 
+Section 8:  Capitalisation 
+⠠⠁ to ⠠⠵ capital letters A to Z 
+⠠⠨⠁ to ⠠⠨⠺ capital Greek letters Α [Alpha] to Ω [Omega] 
+,.!  capital German letter ẞ [sharp s (eszett)] 
+⠠⠠  capitals word indicator 
+⠠⠠⠠  capitals passage indicator 
+⠠⠄  capitals terminator 
+Refer to:  Section 4, Letters and Their Modifiers, for the complete list 
+of capitalised letters in the English and Greek alphabets and the 
+capital German letter sharp s (eszett). 
+ 
+8.1 Use of capitals 
+8.1.1 Follow print for the use of capital letters. 
+Note:  The transcriber may reasonably reduce the use of capital 
+letters in braille when they are used in print as a visual embellishment 
+– such as for words written in capital letters at the beginning of 
+paragraphs or chapters. 
+Refer to:  Section 9.6, of Typeforms, for how to transcribe small 
+capital letters when used in print as a distinctive typeform.  
+ 
+8.2 Extent of capitals mode 
+8.2.1 The extent of capitals mode is determined by the capitals indicator in 
+use. 
+ 
+8.3 Defining a capital letter 
+8.3.1 A capital letter is a two-cell symbol which consists of the prefix ⠠ 
+(dot six) and the lowercase form of the letter. 
+Examples: 
+O   ⠠⠕   V   ⠰⠠⠧ 
+20B   ⠼⠃⠚⠠⠃   B.C.   ⠠⠃⠲⠠⠉⠲ 
+Hush. Keep Quiet!   ⠠⠓⠥⠩⠲ ⠠⠅⠑⠑⠏ ⠠⠟⠥⠊⠑⠞⠖ 
+
+--- PDF page 118 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+90 
+C. O. Linkletter   ⠰⠠⠉⠲ ⠠⠕⠲ ⠠⠇⠔⠅⠇⠑⠞⠞⠻ 
+M MacPherson and O O'Hara 
+⠰⠠⠍ ⠠⠍⠁⠉⠠⠏⠓⠻⠎⠕⠝ ⠯ ⠠⠕ ⠠⠕⠄⠠⠓⠜⠁ 
+'Twas Dr. Hamilton-Hall. 
+⠄⠠⠞⠺⠁⠎ ⠠⠙⠗⠲ ⠠⠓⠁⠍⠊⠇⠞⠕⠝⠤⠠⠓⠁⠇⠇⠲ 
+B-E-L-I-E-V-E   ⠰⠰⠠⠃⠤⠠⠑⠤⠠⠇⠤⠠⠊⠤⠠⠑⠤⠠⠧⠤⠠⠑ 
+ 
+8.3.2 Place the prefix dot 6 before a contraction when only its first letter is 
+capitalised. 
+Examples: 
+Father Edmond Anderson   ⠠⠐⠋ ⠠⠫⠍⠕⠝⠙ ⠠⠯⠻⠎⠕⠝ 
+Today, Mr Will Just visited us. 
+⠠⠞⠙⠂ ⠠⠍⠗ ⠠⠺ ⠠⠚ ⠧⠊⠎⠊⠞⠫ ⠥⠲ 
+His name is Thomas.   ⠠⠦ ⠐⠝ ⠊⠎ ⠠⠹⠕⠍⠁⠎⠲ 
+ 
+8.3.3 Only a modifier or a ligature indicator can be positioned between a 
+letter and its capitals prefix. 
+Refer to:  Sections 4.2 and 4.3, of Letters and Their Modifiers, for the 
+list of symbols considered to be modifiers to letters. 
+Examples: 
+Étude   ⠠⠘⠌⠑⠞⠥⠙⠑ 
+Voyage À Nice   ⠠⠧⠕⠽⠁⠛⠑ ⠠⠘⠡⠁ ⠠⠝⠊⠉⠑ 
+ 
+8.4 Capitalised word indicator ⠠⠠ 
+8.4.1 The capitalised word indicator sets capitals mode for the next letters-
+sequence or the remainder of the current letters-sequence. 
+8.4.2 The effect of a capitalised word indicator is terminated by a space, a 
+single capital letter, a nonalphabetic symbol, or a capitals terminator, 
+but not by a modifier or a ligature indicator. 
+Examples: 
+PARLIAMENT   ⠠⠠⠏⠜⠇⠊⠁⠰⠞ 
+
+--- PDF page 119 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+91 
+FRANÇOIS   ⠠⠠⠋⠗⠁⠝⠘⠯⠉⠕⠊⠎ 
+ΠΒΦ   ⠠⠠⠨⠏⠨⠃⠨⠋ 
+DipTP   ⠠⠙⠊⠏⠠⠠⠞⠏ 
+NEW YORK   ⠠⠠⠝⠑⠺ ⠠⠠⠽⠕⠗⠅ 
+TVOntario   ⠠⠠⠞⠧⠠⠕⠝⠞⠜⠊⠕ 
+"GO quickly and TAKE CARE!" 
+⠦⠠⠠⠛ ⠟⠅⠇⠽ ⠯ ⠠⠠⠞⠁⠅⠑ ⠠⠠⠉⠜⠑⠖⠴ 
+ANGLO-SAXON   ⠠⠠⠁⠝⠛⠇⠕⠤⠠⠠⠎⠁⠭⠕⠝ 
+McGRAW-HILL   ⠠⠍⠉⠠⠠⠛⠗⠁⠺⠤⠠⠠⠓⠊⠇⠇ 
+MERRY-GO-ROUND   ⠠⠠⠍⠻⠗⠽⠤⠠⠠⠛⠤⠠⠠⠗⠨⠙ 
+UPPERCASE-lowercase   ⠠⠠⠥⠏⠏⠻⠉⠁⠎⠑⠤⠇⠪⠻⠉⠁⠎⠑ 
+LITTLE-RED-RIDING-HOOD-type tales 
+⠠⠠⠇⠇⠤⠠⠠⠗⠫⠤⠠⠠⠗⠊⠙⠬⠤⠠⠠⠓⠕⠕⠙⠤⠞⠽⠏⠑ 
+⠞⠁⠇⠑⠎ 
+The d'ARTAGNAN Romances 
+⠠⠮ ⠙⠄⠠⠠⠜⠞⠁⠛⠝⠁⠝ ⠠⠗⠕⠍⠨⠑⠎ 
+O'SULLIVAN   ⠠⠕⠄⠠⠠⠎⠥⠇⠇⠊⠧⠁⠝ 
+DON'T   ⠠⠠⠙⠕⠝⠄⠠⠞ 
+THAT'S   ⠠⠠⠞⠄⠠⠎ 
+SHE'LL   ⠠⠠⠩⠑⠄⠠⠠⠇⠇ 
+JACK'S FO'C'S'LE 
+⠠⠠⠚⠁⠉⠅⠄⠠⠎ ⠠⠠⠋⠕⠄⠠⠉⠄⠠⠎⠄⠠⠠⠇⠑ 
+WELCOME TO McDONALD'S 
+⠠⠠⠺⠑⠇⠉⠕⠍⠑ ⠠⠠⠞⠕ ⠠⠍⠉⠠⠠⠙⠕⠝⠁⠇⠙⠄⠠⠎ 
+OK'd   ⠠⠠⠕⠅⠄⠙ 
+RSVP or R.S.V.P.   ⠠⠠⠗⠎⠧⠏ ⠕⠗ ⠠⠗⠲⠠⠎⠲⠠⠧⠲⠠⠏⠲ 
+HOTELS.COM   ⠠⠠⠓⠕⠞⠑⠇⠎⠲⠠⠠⠉⠕⠍ 
+  
+
+--- PDF page 120 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+92 
+The N.A.S.D.A.Q. News 
+⠠⠮ ⠠⠝⠲⠠⠁⠲⠠⠎⠲⠠⠙⠲⠠⠁⠲⠠⠟⠲ ⠠⠝⠑⠺⠎ 
+BA(Oxon)   ⠠⠠⠃⠁⠐⠣⠠⠕⠭⠕⠝⠐⠜ 
+(R)AC   ⠐⠣⠠⠗⠐⠜⠠⠠⠁⠉ 
+WIND(ward)   ⠠⠠⠺⠔⠙⠐⠣⠺⠜⠙⠐⠜ 
+I/O   ⠠⠊⠸⠌⠠⠕ 
+B&B   ⠠⠃⠈⠯⠠⠃ 
+AT&T   ⠠⠠⠁⠞⠈⠯⠠⠞ 
+McDONALD@xyz.com   ⠠⠍⠉⠠⠠⠙⠕⠝⠁⠇⠙⠈⠁⠭⠽⠵⠲⠉⠕⠍ 
+SWIFT & CO.   ⠠⠠⠎⠺⠊⠋⠞ ⠈⠯ ⠠⠠⠉⠕⠲ 
+FREEform   ⠠⠠⠋⠗⠑⠑⠘⠂⠿⠍ 
+EXAMINE   ⠠⠑⠨⠆⠠⠠⠭⠁⠍⠔⠑ 
+ 
+8.4.3 A fully-capitalised hyphenated compound word is correctly capitalised 
+if it is divided at the hyphen, at the end of the braille line. 
+Note:  This means that the new braille line will begin with the 
+capitalised word indicator (which is already required) following the 
+hyphen. 
+Example: 
+ANGLO-SAXON   ⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐ ⠠⠠⠁⠝⠛⠇⠕⠤ 
+⠠⠠⠎⠁⠭⠕⠝ 
+ 
+8.4.4 A hyphen inserted during transcription to indicate word division at the 
+end of a braille line does not terminate capitals word mode. 
+Example: 
+INTERNATIONAL   ⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐⠐ ⠠⠠⠔⠞⠻⠤ 
+⠝⠁⠰⠝⠁⠇ 
+ 
+
+--- PDF page 121 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+93 
+8.5 Capitalised passage indicator ⠠⠠⠠ 
+8.5.1 The capitalised passage indicator sets capitals mode for the next 
+passage. 
+8.5.2 A passage is three or more symbols-sequences and it may include 
+non-alphabetic symbols. 
+8.5.3 A capitalised passage is terminated by the capitals terminator 
+immediately following the last affected symbols-sequence. 
+Examples: 
+CAUTION: WET PAINT!  ⠠⠠⠠⠉⠁⠥⠰⠝⠒ ⠺⠑⠞ ⠏⠁⠔⠞⠖⠠⠄ 
+Please KEEP OFF THE GRASS in this area. 
+⠠⠏⠇⠂⠎⠑ ⠠⠠⠠⠅⠑⠑⠏ ⠷⠋ ⠮ ⠛⠗⠁⠎⠎⠠⠄ ⠔ ⠹ 
+⠜⠑⠁⠲ 
+THE BBC AFRICA NEWS 
+⠠⠠⠠⠮ ⠃⠃⠉ ⠁⠋⠗⠊⠉⠁ ⠝⠑⠺⠎⠠⠄ 
+PROUD TO BE A ΦΒΚ 
+⠠⠠⠠⠏⠗⠳⠙ ⠞⠕ ⠆ ⠁ ⠨⠋⠨⠃⠨⠅⠠⠄ 
+FOR SALE: 1975 FIREBIRD 
+⠠⠠⠠⠿ ⠎⠁⠇⠑⠒ ⠼⠁⠊⠛⠑ ⠋⠊⠗⠑⠃⠊⠗⠙⠠⠄ 
+A SELF-MADE MAN 
+⠠⠠⠠⠁ ⠎⠑⠇⠋⠤⠍⠁⠙⠑ ⠍⠁⠝⠠⠄ 
+BUY FAHRENHEIT 9/11 ON E-BAY 
+⠠⠠⠠⠃⠥⠽ ⠨⠂⠋⠁⠓⠗⠢⠓⠑⠊⠞ ⠨⠂⠼⠊⠸⠌⠼⠁⠁ ⠕⠝ 
+⠰⠑⠤⠃⠁⠽⠠⠄ 
+A.A. (ALAN ALEXANDER) MILNE 
+⠠⠠⠠⠁⠲⠁⠲ ⠐⠣⠁⠇⠁⠝ ⠁⠇⠑⠭⠯⠻⠐⠜ ⠍⠊⠇⠝⠑⠠⠄ 
+ 
+8.5.4 A capitalised letter or letters-sequence placed adjacent to the 
+beginning or end of a capitalised passage is not necessarily 
+considered to be part of the passage, especially if it is separated from 
+the passage by a space or punctuation. 
+
+--- PDF page 122 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+94 
+Examples: 
+"... at 11:00 AM"—MARKHAM ECONOMIST AND SUN 
+⠦⠲⠲⠲ ⠁⠞ ⠼⠁⠁⠒⠼⠚⠚ ⠠⠠⠁⠍⠴⠠⠤⠠⠠⠠⠍⠜⠅⠓⠁⠍ 
+⠑⠉⠕⠝⠕⠍⠊⠌ ⠯ ⠎⠥⠝⠠⠄ 
+STOP RUNNING NOW!  It's dangerous. 
+⠠⠠⠠⠌⠕⠏ ⠗⠥⠝⠝⠬ ⠝⠪⠖⠠⠄ ⠠⠭⠄⠎ ⠙⠁⠝⠛⠻⠳⠎⠲ 
+ … (See Attachment A).  A CSP (Carriage Service Provider) has 
+obligations to … 
+⠲⠲⠲ ⠐⠣⠠⠎⠑⠑ ⠠⠁⠞⠞⠁⠡⠰⠞ ⠠⠁⠐⠜⠲ ⠠⠁ 
+⠠⠠⠉⠎⠏ ⠐⠣⠠⠉⠜⠗⠊⠁⠛⠑ ⠠⠎⠻⠧⠊⠉⠑ 
+⠠⠏⠗⠕⠧⠊⠙⠻⠐⠜ ⠓⠁⠎ ⠕⠃⠇⠊⠛⠁⠰⠝⠎ ⠞⠕ ⠲⠲⠲ 
+Go to point A.  BUT NOT YET! 
+⠠⠛ ⠞⠕ ⠏⠕⠔⠞ ⠠⠁⠲ ⠠⠠⠠⠃ ⠝ ⠽⠑⠞⠖⠠⠄ 
+He worked for the ABC.  A BBC journalist reported ... 
+⠠⠓⠑ ⠐⠺⠫ ⠿ ⠮ ⠠⠠⠁⠃⠉⠲ ⠠⠁ ⠠⠠⠃⠃⠉ 
+⠚⠳⠗⠝⠁⠇⠊⠌ ⠗⠑⠏⠕⠗⠞⠫ ⠲⠲⠲ 
+ 
+8.5.5 When transcribing a capitalised passage which extends over more 
+than one text element (e.g. a series of paragraphs, or a numbered or 
+bulleted list of points), each text element is preceded by the 
+capitalised passage indicator and the capitals mode is terminated only 
+at the end of the final text element. 
+Example: 
+"HE'S GETTING AWAY!  HE'S OVER THERE, UNDER THE PORCH."  
+"I SEE HIM.  I'LL CUT HIM OFF FROM THE OTHER SIDE." 
+"JUMP!" 
+"I CAUGHT HIM.  I CAUGHT MY PUPPY!" 
+  
+
+--- PDF page 123 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+95 
+  ⠦⠠⠠⠠⠓⠑⠄⠎ ⠛⠑⠞⠞⠬ ⠁⠺⠁⠽⠖ ⠓⠑⠄⠎ ⠕⠧⠻ 
+⠐⠮⠂ ⠐⠥ ⠮ ⠏⠕⠗⠡⠲⠴ 
+  ⠦⠠⠠⠠⠊ ⠎⠑⠑ ⠓⠍⠲ ⠊⠄⠇⠇ ⠉⠥⠞ ⠓⠍ ⠷⠋ ⠋ 
+⠮ ⠕⠮⠗ ⠎⠊⠙⠑⠲⠴ 
+  ⠦⠠⠠⠠⠚⠥⠍⠏⠖⠴ 
+  ⠦⠠⠠⠠⠊ ⠉⠁⠥⠣⠞ ⠓⠍⠲ ⠊ ⠉⠁⠥⠣⠞ ⠍⠽ 
+⠏⠥⠏⠏⠽⠖⠴⠠⠄ 
+ 
+8.5.6 When transcribing a capitalised passage which extends over more 
+than one text element and where the text elements do not constitute 
+a continuous passage (e.g.: a series of headings), each text element 
+is capitalised separately. 
+Example: 
+ON HEALTH AND MEDICINE 
+ 
+INDIGENOUS TEAS DELAY AGING 
+(READER'S DIGEST:   August 1998) 
+ 
+Indigenous teas have been linked in recent studies to improved 
+health and ... 
+      ⠠⠠⠠⠕⠝ ⠓⠂⠇⠹ ⠯ ⠍⠫⠊⠉⠔⠑⠠⠄ 
+ 
+    ⠠⠠⠠⠔⠙⠊⠛⠢⠳⠎ ⠞⠂⠎ ⠙⠑⠇⠁⠽ ⠁⠛⠬⠠⠄ 
+    ⠐⠣⠠⠠⠗⠂⠙⠻⠄⠠⠎ ⠠⠠⠙⠊⠛⠑⠌⠒ 
+    ⠠⠁⠥⠛⠥⠌ ⠼⠁⠊⠊⠓⠐⠜ 
+  ⠠⠔⠙⠊⠛⠢⠳⠎ ⠞⠂⠎ ⠓ ⠃⠑⠢ ⠇⠔⠅⠫ ⠔ ⠗⠑⠉⠢⠞ 
+⠌⠥⠙⠊⠑⠎ ⠞⠕ ⠊⠍⠏⠗⠕⠧⠫ ⠓⠂⠇⠹ ⠯ ⠲⠲⠲ 
+ 
+8.5.7 A single heading is capitalised as a unit even if it extends over more 
+than one braille line. 
+
+--- PDF page 124 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+96 
+Example: 
+LIST OF SURVEY RECIPIENTS ORGANISED BY COUNTRY  
+⠠⠠⠠⠇⠊⠌ ⠷ ⠎⠥⠗⠧⠑⠽ ⠗⠑⠉⠊⠏⠊⠢⠞⠎ 
+⠕⠗⠛⠁⠝⠊⠎⠫ ⠃⠽ ⠉⠨⠞⠗⠽⠠⠄ 
+ 
+8.6 Capitals terminator ⠠⠄ 
+8.6.1 The capitals terminator is placed after the final capitalised letter 
+either within or following the symbols-sequence. 
+8.6.2 The capitals terminator may precede or follow punctuation and other 
+terminators but it is best that indicators and paired characters such 
+as parentheses, square brackets and quotes be nested.  That is, close 
+punctuation and indicators in reverse order of opening. 
+Examples: 
+He shouted "I WILL NOT!" 
+⠠⠓⠑ ⠩⠳⠞⠫ ⠦⠠⠠⠠⠊ ⠺ ⠝⠖⠠⠄⠴ 
+ROMEO AND JULIET 
+⠨⠶⠠⠠⠠⠗⠕⠍⠑⠕ ⠯ ⠚⠥⠇⠊⠑⠞⠠⠄⠨⠄ 
+IT'S A HOAX!  (APRIL FOOL!) 
+⠠⠠⠠⠭⠄⠎ ⠁ ⠓⠕⠁⠭⠖ ⠐⠣⠁⠏⠗⠊⠇ ⠋⠕⠕⠇⠖⠐⠜⠠⠄ 
+ 
+8.6.3 If it is necessary to terminate the capitals mode before the end of a 
+symbols-sequence, place the capitals terminator after the last 
+affected letter of either capitals word mode or capitals passage mode.  
+Examples: 
+ABCs   ⠠⠠⠁⠃⠉⠠⠄⠎ 
+WASPs   ⠠⠠⠺⠁⠎⠏⠠⠄⠎ 
+WALKing   ⠠⠠⠺⠁⠇⠅⠠⠄⠬ 
+unSELFish  ⠥⠝⠠⠠⠎⠑⠇⠋⠠⠄⠊⠩ 
+XXIInd   ⠠⠠⠭⠭⠊⠊⠠⠄⠝⠙ 
+VIIb   ⠠⠠⠧⠊⠊⠠⠄⠃ 
+
+--- PDF page 125 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+97 
+INITIALS OF WRITER/initials of secretary 
+⠠⠠⠠⠔⠊⠞⠊⠁⠇⠎ ⠷ ⠺⠗⠊⠞⠻⠠⠄⠸⠌⠔⠊⠞⠊⠁⠇⠎ ⠷ 
+⠎⠑⠉⠗⠑⠞⠜⠽ 
+The two CEOs met in our CEO's office. 
+⠠⠮ ⠞⠺⠕ ⠠⠠⠉⠑⠕⠠⠄⠎ ⠍⠑⠞ ⠔ ⠳⠗ ⠠⠠⠉⠑⠕⠄⠎ 
+⠷⠋⠊⠉⠑⠲ 
+8.7 Placement of indicators 
+8.7.1 The dot 6 prefix, the capitalised word indicator or the capitalised 
+passage indicator is placed immediately before the first capitalised 
+letter or modifier to that letter, such as a cedilla, grave accent or 
+circumflex.  Only a modifier or ligature indicator may come between 
+the capitals indicator and the letter. 
+Refer to:  Sections 4.2 and 4.3, of Letters and Their Modifiers, for the 
+list of symbols considered to be modifiers to letters. 
+Examples: 
+"So?"   ⠦⠠⠎⠦⠴  (July)   ⠐⠣⠠⠚⠥⠇⠽⠐⠜ 
+B-U-S   ⠰⠰⠠⠃⠤⠠⠥⠤⠠⠎  [Σ]   ⠨⠣⠠⠨⠎⠨⠜ 
+Voyage À Nice   ⠨⠶⠠⠧⠕⠽⠁⠛⠑ ⠠⠘⠡⠁ ⠠⠝⠊⠉⠑⠨⠄ 
+'TIS   ⠄⠠⠠⠞⠊⠎    CD   ⠰⠠⠠⠉⠙ 
+"SHHHH!"   ⠦⠠⠠⠩⠓⠓⠓⠖⠴ 
+Hippity-HOP  ⠠⠓⠊⠏⠏⠰⠽⠤⠠⠠⠓⠕⠏ 
+RESOLVED   ⠘⠂⠠⠠⠗⠑⠎⠕⠇⠧⠫ 
+ÉTUDE   ⠠⠠⠘⠌⠑⠞⠥⠙⠑ 
+Unified English Braille (UEB) 
+⠠⠥⠝⠊⠋⠊⠫ ⠠⠢⠛⠇⠊⠩ ⠠⠃⠗⠇ ⠐⠣⠠⠠⠥⠑⠃⠐⠜ 
+AC SMITH   ⠰⠠⠠⠁⠉ ⠠⠠⠎⠍⠊⠹ 
+V-NECK SWEATERS FOR SALE! 
+⠰⠠⠠⠠⠧⠤⠝⠑⠉⠅ ⠎⠺⠂⠞⠻⠎ ⠿ ⠎⠁⠇⠑⠖⠠⠄ 
+ 
+
+--- PDF page 126 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+98 
+8.8 Choice of capitalised indicators 
+Note:  While the default treatment for a sequence of capital letters is 
+capitals word mode, there are situations where the transcriber has a 
+choice between using either individual capital letters or capitals word 
+mode.  If both choices will render an unambiguous transcription, 
+interpret the following rules as guidelines. 
+8.8.1 Choose the method which retains the usual braille form. 
+ 
+Examples: 
+XI XIth   ⠠⠠⠭⠊ ⠠⠠⠭⠊⠠⠄⠹ 
+XXXI XXXIst   ⠠⠠⠭⠭⠭⠊ ⠠⠠⠭⠭⠭⠊⠠⠄⠌ 
+OK OKd   ⠠⠠⠕⠅ ⠠⠠⠕⠅⠠⠄⠙ 
+CD CDs     ⠰⠠⠠⠉⠙ ⠠⠠⠉⠙⠠⠄⠎ 
+RV:  Recreational Vehicle–Let's go RVing. 
+⠠⠠⠗⠧⠒ ⠠⠗⠑⠉⠗⠂⠰⠝⠁⠇ ⠠⠧⠑⠓⠊⠉⠇⠑⠠⠤⠠⠇⠑⠞⠄⠎ 
+⠛ ⠠⠠⠗⠧⠠⠄⠬⠲ 
+www.BLASTSoundMachine.com 
+⠺⠺⠺⠲⠠⠠⠃⠇⠁⠌⠠⠎⠨⠙⠠⠍⠁⠡⠔⠑⠲⠉⠕⠍ 
+www.BLASTsoundmachine.com 
+⠺⠺⠺⠲⠠⠠⠃⠇⠁⠌⠠⠄⠎⠨⠙⠍⠁⠡⠔⠑⠲⠉⠕⠍ 
+ 
+8.8.2 Choose the method which best conveys the meaning. In particular, 
+choose a method that avoids the need for capital indicators or 
+terminators within natural subunits of an expression. 
+Note:  In the examples below such subunits are the chemical element 
+Br in KBr, the abbreviation Sc in BSc or the word Ontario in 
+TVOntario. 
+Examples: 
+KBr (potassium bromide) 
+⠠⠅⠠⠃⠗ ⠐⠣⠏⠕⠞⠁⠎⠎⠊⠥⠍ ⠃⠗⠕⠍⠊⠙⠑⠐⠜ 
+  
+
+--- PDF page 127 ---
+Rules of Unified English Braille 8:  Capitalisation 
+Third Edition 2024 
+99 
+BSc (Bachelor of Science) 
+⠠⠃⠠⠎⠉ ⠐⠣⠠⠃⠁⠡⠑⠇⠕⠗ ⠷ ⠠⠎⠉⠊⠰⠑⠐⠜ 
+TVOntario   ⠠⠠⠞⠧⠠⠕⠝⠞⠜⠊⠕ 
+preSENT   ⠏⠗⠑⠠⠠⠎⠢⠞ 
+PRESent   ⠠⠠⠏⠗⠑⠎⠠⠄⠢⠞ 
+WoooooooOOOOOOOOooooooo (a ghostly sound) 
+⠠⠺⠕⠕⠕⠕⠕⠕⠕⠠⠠⠕⠕⠕⠕⠕⠕⠕⠕⠠⠄⠕⠕⠕⠕⠕⠕⠕ 
+⠐⠣⠁ ⠣⠕⠌⠇⠽ ⠎⠨⠙⠐⠜ 
+MHz   ⠠⠍⠠⠓⠵ 
+ATandT   ⠠⠁⠠⠞⠯⠠⠞ 
+ 
+8.8.3 Choose the method which gives consistency throughout a single title.  
+Examples: 
+H2O   O   H   OH   KCl   CH2OH   HOCH2 
+⠠⠓⠰⠢⠼⠃⠠⠕   ⠠⠕   ⠰⠠⠓   ⠠⠕⠠⠓   
+⠠⠅⠠⠉⠇   ⠠⠉⠠⠓⠰⠢⠼⠃⠠⠕⠠⠓   
+⠠⠓⠠⠕⠠⠉⠠⠓⠰⠢⠼⠃ [chemical formulae from a single title] 
+ 
+8.9 Accented letters in fully capitalised words 
+8.9.1 When in print an accented letter in a fully capitalised word is shown 
+in lowercase, the lowercase representation may be ignored in braille, 
+except when facsimile transcription is required.  Such practice should 
+be explained in a transcriber's note. 
+Examples: 
+PREMIèRE   ⠠⠠⠏⠗⠑⠍⠊⠘⠡⠑⠗⠑ 
+ESPAñOLA   ⠠⠠⠑⠎⠏⠁⠘⠻⠝⠕⠇⠁ 
+[The accented letters are lowercase in the printed examples.] 
+  
+
+--- PDF page 130 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+102 
+9.1 Deciding when to use typeform indicators 
+Refer to:  Section 9.7, for guidance on the placement of typeform 
+indicators and terminators in relation to opening and closing 
+punctuation. 
+9.1.1 Despite wide use of different typeforms in print, it is not always 
+necessary to indicate them when transcribing into braille.  For 
+example, print will commonly use a distinctive typeface for headings. 
+This usage is generally ignored in braille where formatting will 
+distinguish the headings from the rest of text.  Also the print practice 
+of italicising all variables in technical material is ignored. 
+9.1.2 Typeform indicators are considered necessary in braille when the 
+print change in typeform is significant because it indicates emphasis 
+or shows distinction, e.g. foreign words in English text, titles within 
+text, subject headings on paragraphs, silent thought, computer input 
+distinguished from computer output, or the class of a variable in 
+mathematics. 
+9.1.3 When it cannot be determined whether or not a change of typeform 
+is significant, indicate the change. 
+Examples: 
+31l   ⠼⠉⠁⠇   
+[The lowercase letter l is in a different font only to distinguish it 
+from the numeral 1.] 
+Go to http://www.iceb.org to learn about UEB rules and examples. 
+⠠⠛ ⠞⠕ ⠓⠞⠞⠏⠒⠸⠌⠸⠌⠺⠺⠺⠲⠊⠉⠑⠃⠲⠕⠗⠛ ⠞⠕ 
+⠇⠑⠜⠝ ⠁⠃ ⠸⠶⠠⠠⠥⠑⠃ ⠗⠥⠇⠑⠎ ⠯ 
+⠑⠭⠁⠍⠏⠇⠑⠎⠸⠄⠲  
+[This example shows two underlined hyperlinks.  The first is 
+considered a print enhancement which need not be shown in 
+braille.  The second marks embedded text and unless shown as 
+such the braille reader is unaware of the presence of the link.] 
+Let the vector field v at P be equal to v(P).  Then we can form the 
+scalar product v(P).ds. 
+⠠⠇⠑⠞ ⠮ ⠧⠑⠉⠞⠕⠗ ⠋⠊⠑⠇⠙ ⠘⠆⠰⠧ ⠁⠞ ⠰⠠⠏ ⠆ 
+⠑⠟⠥⠁⠇ ⠞⠕ ⠘⠆⠧⠐⠣⠠⠏⠐⠜⠲ ⠠⠮⠝ ⠺⠑ ⠉ ⠿⠍ 
+ ⠮ ⠎⠉⠁⠇⠜ ⠏⠗⠕⠙⠥⠉⠞ ⠘⠆⠧⠐⠣⠠⠏⠐⠜⠲⠙⠘⠆⠎⠲ 
+
+--- PDF page 131 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+103 
+ [The three letter P's are italicised, but all single capital letters in 
+this text are italicised so it is not considered significant.] 
+CHAPTER 6 
+ON TUESDAY, a meeting of portfolio managers was held .... 
+         ⠠⠠⠡⠁⠏⠞⠻ ⠼⠋ 
+    ⠠⠕⠝ ⠠⠞⠥⠑⠎⠐⠙⠂ ⠁ ⠍⠑⠑⠞⠬ ⠷ 
+⠏⠕⠗⠞⠋⠕⠇⠊⠕ ⠍⠁⠝⠁⠛⠻⠎ ⠴ ⠓⠑⠇⠙ ⠲⠲⠲⠲ 
+[The change in typeform for the heading is ignored.  The 
+typeform change at the beginning of the paragraph is an 
+embellishment used at the beginning of each chapter in the book 
+and is ignored for this transcription.] 
+ 
+9.2 Typeform symbol indicators ⠨⠆ ⠘⠆ ⠸⠆ ⠈⠆ ⠈⠼⠆ 
+9.2.1 A typeform symbol indicator sets the designated typeform for the 
+next letter or symbol. 
+Examples: 
+the set of real numbers,  
+⠮ ⠎⠑⠞ ⠷ ⠗⠂⠇ ⠝⠥⠍⠃⠻⠎⠂ ⠈⠆⠰⠠⠗ 
+pneumonia   ⠨⠆⠏⠝⠑⠥⠍⠕⠝⠊⠁ 
+8 chickens!   ⠨⠆⠼⠓ ⠡⠊⠉⠅⠢⠎⠖ 
+story   stories   ⠌⠕⠗⠸⠆⠽   ⠌⠕⠗⠸⠆⠊⠑⠎ 
+24 should be 34   ⠼⠃⠙ ⠩⠙ ⠆ ⠸⠆⠼⠉⠙ 
+bright blue ball   ⠘⠆⠃⠐⠗ ⠘⠆⠃⠇⠥⠑ ⠘⠆⠃⠁⠇⠇ 
+27.9   ⠼⠃⠛⠸⠆⠲⠼⠊ 
+Stop! May I help?   ⠠⠌⠕⠏⠘⠆⠖ ⠠⠍⠁⠽ ⠠⠊ ⠓⠑⠇⠏⠘⠆⠦ 
+83%   ⠼⠓⠉⠸⠆⠨⠴ 
+It will cost $45 not €45. 
+⠠⠭ ⠺ ⠉⠕⠌ ⠘⠆⠈⠎⠼⠙⠑ ⠝ ⠘⠆⠈⠑⠼⠙⠑⠲ 
+For help, click the ? icon. 
+⠠⠿ ⠓⠑⠇⠏⠂ ⠉⠇⠊⠉⠅ ⠮ ⠘⠆⠰⠦ ⠊⠉⠕⠝⠲ 
+
+--- PDF page 132 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+104 
+change y to i   ⠡⠁⠝⠛⠑ ⠨⠆⠰⠽ ⠞⠕ ⠨⠆⠊ 
+55 not 56   ⠼⠑⠘⠆⠼⠑ ⠝ ⠼⠑⠘⠆⠼⠋ 
+ 
+9.2.2 When a typeform symbol indicator precedes a contraction, only the 
+first letter is affected. 
+Examples: 
+I have enough knowledge. 
+⠸⠆⠠⠊ ⠸⠆⠓ ⠸⠆⠢ ⠸⠆⠅⠲ 
+("Beyond belief!")   ⠐⠣⠦⠨⠆⠠⠆⠽ ⠨⠆⠆⠇⠊⠑⠋⠖⠴⠐⠜ 
+Which bowl is broken? 
+⠘⠆⠠⠱⠊⠘⠆⠡ ⠃⠘⠆⠪⠇ ⠊⠎ ⠃⠗⠕⠅⠘⠆⠢⠦ 
+M is for Mother   ⠰⠠⠍ ⠊⠎ ⠿ ⠨⠆⠠⠐⠍ 
+ 
+9.2.3 If any letter of a contraction other than the first is to be preceded by 
+a typeform symbol indicator, the contraction is not used.  
+Examples: 
+mother  mother  mother  mother 
+⠍⠕⠮⠘⠆⠗  ⠍⠕⠘⠆⠮⠗  ⠍⠕⠹⠘⠆⠻  ⠍⠕⠞⠘⠆⠓⠻ 
+[Notice that in a word such as mother, where the contraction for 
+mother is not used, the contractions for the, th or er may be 
+used.] 
+ 
+9.3 Typeform word indicators ⠨⠂ ⠘⠂ ⠸⠂ ⠈⠂ ⠈⠼⠂ 
+9.3.1 A typeform word indicator sets the designated typeform for the next 
+symbols-sequence or the remainder of the current symbols-sequence. 
+9.3.2 The effect of the typeform word indicator is terminated by space (but 
+not by a numeric space or by space at the end of a braille line in a 
+divided symbols-sequence). 
+Refer to:  Section 9.4, for more information and examples. 
+Examples: 
+Who is for the people?   ⠠⠱⠕ ⠊⠎ ⠸⠂⠿ ⠮ ⠏⠦ 
+
+--- PDF page 133 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+105 
+She was right.   ⠠⠩⠑ ⠘⠂⠴ ⠐⠗⠲ 
+R.S.V.P.   ⠨⠂⠠⠗⠲⠠⠎⠲⠠⠧⠲⠠⠏⠲ 
+l'oeil-de-boeuf (Fr.: bull's eye) 
+⠨⠂⠇⠄⠕⠑⠊⠇⠤⠙⠑⠤⠃⠕⠑⠥⠋ ⠐⠣⠰⠠⠋⠗⠲⠒ ⠃⠥⠇⠇⠄⠎ 
+⠑⠽⠑⠐⠜ 
+[or divided at the end of the braille line]  ⠨⠂⠇⠄⠕⠑⠊⠇⠤ 
+⠙⠑⠤⠃⠕⠑⠥⠋ 
+one two–three   ⠨⠂⠐⠕ ⠨⠂⠞⠺⠕⠠⠤⠹⠗⠑⠑ 
+1,500,000   1 500 000 
+⠸⠂⠼⠁⠂⠑⠚⠚⠂⠚⠚⠚   ⠸⠂⠼⠁⠐⠑⠚⠚⠐⠚⠚⠚ 
+1939-1945   ⠨⠂⠼⠁⠊⠉⠊⠤⠼⠁⠊⠙⠑ 
+[or divided at the end of the braille line]          ⠨⠂⠼⠁⠊⠉⠊⠤ 
+⠼⠁⠊⠙⠑ 
+on the paper was written  
+⠕⠝ ⠮ ⠏⠁⠏⠻ ⠴ ⠺⠗⠊⠞⠞⠢ ⠈⠂⠼⠑⠑⠑⠐⠁⠊⠓⠃ 
+briefly   ⠃⠗⠊⠑⠋⠨⠂⠇⠽ 
+daytime   ⠐⠙⠸⠂⠐⠞ 
+13.86666...   ⠼⠁⠉⠲⠓⠘⠂⠼⠋⠋⠋⠋⠲⠲⠲ 
+Go to http://www.wikipedia.org  for general information. 
+⠠⠛ ⠞⠕ ⠨⠂⠓⠞⠞⠏⠒⠸⠌⠸⠌⠺⠺⠺⠲⠺⠊⠅⠊⠏⠫⠊⠁⠲⠕⠗⠛ 
+⠿ ⠛⠢⠻⠁⠇ ⠔⠿⠍⠁⠰⠝⠲ 
+the ionogenic (ion-forming) form 
+⠮ ⠨⠂⠊⠕⠝⠕⠛⠢⠊⠉ ⠐⠣⠊⠕⠝⠤⠿⠍⠬⠐⠜ ⠨⠂⠿⠍ 
+  
+
+
+--- PDF page 134 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+106 
+... referred to as sea waves or (from the Japanese) tsunami. 
+⠲⠲⠲ ⠗⠑⠋⠻⠗⠫ ⠞⠕ ⠵ ⠘⠂⠎⠑⠁ ⠘⠂⠺⠁⠧⠑⠎ ⠕⠗ 
+⠐⠣⠋ ⠮ ⠠⠚⠁⠏⠁⠝⠑⠎⠑⠐⠜ ⠘⠂⠨⠂⠞⠎⠥⠝⠁⠍⠊⠲ 
+HarperCollinsPublishers 
+⠠⠓⠜⠏⠻⠠⠉⠕⠇⠇⠔⠎⠨⠂⠠⠏⠥⠃⠇⠊⠩⠻⠎ 
+N(S) is called the empty set or null set. 
+⠘⠂⠠⠝⠐⠣⠨⠆⠠⠎⠐⠜ ⠊⠎ ⠉⠁⠇⠇⠫ ⠮ ⠘⠂⠑⠍⠏⠞⠽ 
+⠘⠂⠎⠑⠞ ⠕⠗ ⠘⠂⠝⠥⠇⠇ ⠘⠂⠎⠑⠞⠲ 
+ 
+9.4 Typeform passage indicators and terminators 
+⠨⠶ ⠨⠄   ⠘⠶ ⠘⠄   ⠸⠶ ⠸⠄   ⠈⠶ ⠈⠄   
+⠈⠼⠶ ⠈⠼⠄ 
+9.4.1 A typeform passage indicator sets the designated typeform for the 
+next passage. 
+9.4.2 A passage is three or more symbols-sequences. 
+9.4.3 A passage is terminated by the designated typeform terminator 
+following the last affected symbol. 
+9.4.4 A typeform word indicator may also be terminated within a symbols-
+sequence by the designated typeform terminator. 
+Refer to:  Sections 9.7, 9.8 and 9.9. 
+Examples: 
+Today's lunchbox note says  
+⠠⠞⠙⠄⠎ ⠇⠥⠝⠡⠃⠕⠭ ⠝⠕⠞⠑ ⠎⠁⠽⠎ ⠈⠶⠠⠽ ⠉ ⠙ 
+⠭⠖⠈⠄ 
+Charles Dickens wrote Oliver Twist, Great Expectations and A Tale of 
+Two Cities. 
+⠠⠡⠜⠇⠑⠎ ⠠⠙⠊⠉⠅⠢⠎ ⠺⠗⠕⠞⠑ ⠨⠶⠠⠕⠇⠊⠧⠻ 
+⠠⠞⠺⠊⠌⠂ ⠠⠛⠗⠞ ⠠⠑⠭⠏⠑⠉⠞⠁⠰⠝⠎⠨⠄ ⠯ 
+⠨⠶⠠⠁ ⠠⠞⠁⠇⠑ ⠷ ⠠⠞⠺⠕ ⠠⠉⠊⠞⠊⠑⠎⠲⠨⠄ 
+  
+
+
+--- PDF page 135 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+107 
+Maybe as an adverb is one word:  Maybe it will rain tomorrow.  May 
+be as a verb phrase is two words:  He may be home soon. 
+⠘⠂⠠⠍⠁⠽⠃⠑ ⠵ ⠁⠝ ⠁⠙⠧⠻⠃ ⠊⠎ ⠐⠕ ⠘⠺⠒ 
+⠨⠶⠠⠍⠁⠽⠃⠑ ⠭ ⠺ ⠗⠁⠔ ⠞⠍⠲⠨⠄ ⠘⠂⠠⠍⠁⠽ 
+⠘⠂⠆ ⠵ ⠁ ⠧⠻⠃ ⠏⠓⠗⠁⠎⠑ ⠊⠎ ⠞⠺⠕ ⠘⠺⠎⠒ 
+⠨⠶⠠⠓⠑ ⠍⠁⠽ ⠆ ⠓⠕⠍⠑ ⠎⠕⠕⠝⠲⠨⠄ 
+Click the Up One Level button. 
+⠠⠉⠇⠊⠉⠅ ⠮ ⠘⠶⠠⠥⠏ ⠠⠐⠕ ⠠⠇⠑⠧⠑⠇⠘⠄ 
+⠃⠥⠞⠞⠕⠝⠲ 
+When using the typewriter, words were underlined but, when using a 
+word processor, the italic font is preferred. 
+⠠⠱⠢ ⠥⠎⠬ ⠮ ⠞⠽⠏⠑⠺⠗⠊⠞⠻⠂ ⠸⠶⠘⠺⠎ ⠶ 
+⠐⠥⠇⠔⠫⠸⠄ ⠃⠂ ⠱⠢ ⠥⠎⠬ ⠁ ⠘⠺ 
+⠏⠗⠕⠉⠑⠎⠎⠕⠗⠂ ⠨⠶⠮ ⠊⠞⠁⠇⠊⠉ ⠋⠕⠝⠞ ⠊⠎ 
+⠏⠗⠑⠋⠻⠗⠫⠲⠨⠄ 
+In C:\My Documents\letter to dad 041023.doc, the underlined part is 
+the filename. 
+⠠⠔ ⠠⠉⠒⠸⠡⠠⠍⠽ ⠠⠙⠕⠉⠥⠰⠞⠎⠸⠡⠸⠶⠇⠑⠞⠞⠻⠐⠐ 
+⠞⠕ ⠙⠁⠙ ⠼⠚⠙⠁⠚⠃⠉⠸⠄⠲⠙⠕⠉⠂ ⠮ ⠐⠥⠇⠔⠫ 
+⠐⠏ ⠊⠎ ⠮ ⠋⠊⠇⠑⠐⠝⠲ 
+textbook   ⠘⠂⠞⠑⠭⠞⠘⠄⠃⠕⠕⠅ 
+and/or   ⠸⠂⠯⠸⠄⠸⠌⠕⠗ 
+syllable emphasis 
+⠸⠂⠎⠽⠇⠸⠄⠇⠁⠃⠇⠑ ⠸⠂⠑⠍⠸⠄⠏⠓⠁⠎⠊⠎ 
+Radar is from radio detecting and ranging. 
+⠨⠂⠠⠗⠁⠙⠜ ⠊⠎ ⠋ ⠨⠂⠗⠁⠨⠄⠙⠊⠕ ⠨⠆⠙⠑⠞⠑⠉⠞⠬ 
+⠨⠆⠯ ⠨⠆⠗⠁⠝⠛⠬⠲ 
+HarperFlamingoCanada 
+⠠⠓⠜⠏⠻⠨⠂⠠⠋⠇⠁⠍⠬⠕⠨⠄⠠⠉⠁⠝⠁⠙⠁ 
+the Globe's business section 
+⠮ ⠨⠂⠠⠛⠇⠕⠃⠑⠨⠄⠄⠎ ⠃⠥⠎⠊⠰⠎ ⠎⠑⠉⠰⠝ 
+
+--- PDF page 136 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+108 
+9.5 Transcriber-defined typeform indicators ⠈⠼⠆ ⠈⠼⠂ 
+⠈⠼⠶ ⠈⠼⠄ 
+9.5.1 Use transcriber-defined typeform indicators for significant print 
+typeform changes other than italics, boldface, underlining or script.  
+This includes but is not limited to:  different-sized type;  coloured 
+type;  crossed-out type;  sans serif font;  and double, dotted, 
+coloured or wavy underlining.  List the transcriber-defined typeform 
+indicator on the special symbols page or in a transcriber's note giving 
+the print typeform it represents. 
+Refer to:  Section 9.6, for discussion and examples of small capitals. 
+Examples: 
+In response to the prompt Insert the CD-ROM in drive E:, 
+you put the compact disk in drive E, and press Enter. 
+⠠⠔ ⠗⠑⠎⠏⠕⠝⠎⠑ ⠞⠕ ⠮ ⠏⠗⠕⠍⠏⠞ ⠈⠼⠶⠠⠔⠎⠻⠞ 
+⠮ ⠰⠠⠠⠉⠙⠤⠠⠠⠗⠕⠍ ⠔ ⠙⠗⠊⠧⠑ ⠰⠠⠑⠒⠈⠼⠄⠂ 
+⠽ ⠏⠥⠞ ⠮ ⠉⠕⠍⠏⠁⠉⠞ ⠙⠊⠎⠅ ⠔ ⠙⠗⠊⠧⠑ 
+⠰⠠⠑⠂ ⠯ ⠏⠗⠑⠎⠎ ⠠⠢⠞⠻⠲  
+[In this case the first transcriber-defined typeform is used to 
+indicate a change to a Courier New font.] 
+Your monday is mutch much busier than my is mine. 
+⠠⠽⠗ ⠘⠼⠆⠍⠕⠝⠐⠙ ⠊⠎ ⠸⠼⠂⠍⠥⠞⠡ ⠐⠼⠂⠍⠡ 
+⠃⠥⠎⠊⠻ ⠹⠁⠝ ⠸⠼⠂⠍⠽ ⠸⠼⠂⠊⠎ ⠐⠼⠂⠍⠔⠑⠲ 
+[In this case the second transcriber-defined typeform indicates 
+double underlining, the third indicates crossed-out text and the 
+fourth indicates dotted underlining.] 
+ 
+9.6 Small capitals 
+Note:  Small capitals are letters formed as capitals but generally 
+having the same height as lowercase letters such as a, c and e.  Print 
+most commonly uses small capitals in two ways as described below.  
+9.6.1 Although within a document all abbreviations and/or Roman numerals 
+may be in small capitals, in braille these are best transcribed as 
+capitals. 
+Refer to:  Section 8, Capitalisation. 
+
+--- PDF page 137 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+109 
+Examples: 
+King Henry VIII   ⠠⠅⠬ ⠠⠓⠢⠗⠽ ⠠⠠⠧⠊⠊⠊ 
+PT109   ⠠⠠⠏⠞⠼⠁⠚⠊ 
+ 
+9.6.2 Print sometimes uses small capitals for emphasis or distinction.  
+These can usually be recognized by the use of regular size capitals for 
+the letters of the small capitals text which are capitalised.  When the 
+change in typeform is significant, use a transcriber-defined typeform 
+indicator in braille. 
+Example: 
+The newspaper headline was EARTHQUAKE KILLS THOUSANDS. 
+⠠⠮ ⠝⠑⠺⠎⠏⠁⠏⠻ ⠓⠂⠙⠇⠔⠑ ⠴ ⠨⠼⠶⠠⠑⠜⠹⠟⠥⠁⠅⠑   
+⠠⠅⠊⠇⠇⠎ ⠠⠹⠳⠎⠯⠎⠲⠨⠼⠄  
+[In this case the fifth transcriber-defined typeform indicates 
+small capitals.] 
+ 
+9.7 Placement of typeform symbols with punctuation 
+Note:  In determining the placement of typeform indicators and 
+terminators in relation to opening and closing punctuation, interpret 
+the following rules as guidelines. 
+9.7.1 It is preferred that typeform indicators and terminators and any 
+paired characters such as parentheses, square brackets and quotes 
+be nested;  that is, close punctuation and indicators in reverse order 
+of opening. 
+Examples: 
+plays (such as Romeo and Juliet) 
+⠏⠇⠁⠽⠎ ⠐⠣⠎⠡ ⠵ ⠨⠶⠠⠗⠕⠍⠑⠕ ⠯ 
+⠠⠚⠥⠇⠊⠑⠞⠨⠄⠐⠜ 
+"Venite exultemus Domino!" his father sang. 
+⠦⠘⠶⠠⠧⠑⠝⠊⠞⠑ ⠑⠭⠥⠇⠞⠑⠍⠥⠎ ⠠⠙⠕⠍⠊⠝⠕⠖⠘⠄⠴ 
+⠦ ⠐⠋ ⠎⠁⠝⠛⠲ 
+ 
+
+--- PDF page 138 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+110 
+9.7.2 When it is clear in the print copy that punctuation is not included in a 
+specific typeform and when a typeform terminator is required for 
+other reasons, place the typeform terminator at the point where the 
+typeform changes.  When there is doubt, except for the hyphen, dash 
+and ellipsis, consider the punctuation as being included in the 
+typeform. 
+Examples: 
+Hänsel und Gretel, a fairy tale 
+⠨⠶⠠⠓⠘⠒⠁⠝⠎⠑⠇ ⠥⠝⠙ ⠠⠛⠗⠑⠞⠑⠇⠂⠨⠄ ⠁ 
+⠋⠁⠊⠗⠽ ⠞⠁⠇⠑ 
+out-of-the-way   ⠳⠤⠨⠂⠷⠤⠮⠨⠄⠤⠺⠁⠽ 
+Brevity is the soul of wit.—Shakespeare 
+⠨⠶⠠⠃⠗⠑⠧⠰⠽ ⠊⠎ ⠮ ⠎⠳⠇ ⠷ 
+⠺⠊⠞⠲⠨⠄⠠⠤⠠⠩⠁⠅⠑⠎⠏⠑⠜⠑ 
+Remember Do unto others ... 
+⠠⠗⠑⠍⠑⠍⠃⠻ ⠨⠶⠠⠙ ⠥⠝⠞⠕ ⠕⠮⠗⠎⠨⠄ ⠲⠲⠲ 
+ 
+9.7.3 For better readability, ignore a change in typeform for closing 
+punctuation when a typeform word indicator is used.  Similarly, 
+ignore a change in typeform for incidental punctuation within a 
+passage.  However, do not ignore the change when it is important for 
+an understanding of the text, such as when typeforms are being 
+studied. 
+Examples: 
+Did you read Hamlet?   ⠠⠙⠊⠙ ⠽ ⠗⠂⠙ ⠸⠂⠠⠓⠁⠍⠇⠑⠞⠦ 
+[The question mark is not underlined in print.] 
+"Help!  I'm falling." 
+⠦⠨⠂⠠⠓⠑⠇⠏⠖ ⠠⠊⠄⠍ ⠨⠂⠋⠁⠇⠇⠬⠲⠴  
+[The quotes are not in italics in print.] 
+The reading list included:  Jane Eyre, Measure for Measure, All 
+Quiet on the Western Front, The New York Sunday Times, 
+Evangeline, and from Winnipeg, The Beaver. 
+  
+
+--- PDF page 139 ---
+Rules of Unified English Braille 9:  Typeforms 
+Third Edition 2024 
+111 
+⠠⠮ ⠗⠂⠙⠬ ⠇⠊⠌ ⠔⠉⠇⠥⠙⠫⠒ ⠘⠶⠠⠚⠁⠝⠑ 
+⠠⠑⠽⠗⠑⠂ ⠠⠍⠂⠎⠥⠗⠑ ⠿ ⠠⠍⠂⠎⠥⠗⠑⠂ ⠠⠁⠇⠇ 
+⠠⠟⠥⠊⠑⠞ ⠕⠝ ⠮ ⠠⠺⠑⠌⠻⠝ ⠠⠋⠗⠕⠝⠞⠘⠄⠂ 
+⠸⠶⠠⠮ ⠠⠝⠑⠺ ⠠⠽⠕⠗⠅ ⠠⠎⠥⠝⠐⠙ ⠠⠐⠞⠎⠸⠄⠂ 
+⠘⠂⠠⠑⠧⠁⠝⠛⠑⠇⠔⠑⠂ ⠯ ⠋ ⠠⠺⠔⠝⠊⠏⠑⠛⠂ 
+⠸⠂⠠⠮ ⠸⠂⠠⠃⠂⠧⠻⠲  
+[All punctuation is in the regular typeface in print.] 
+Foreign words (such as buon giorno) are italicized. 
+⠠⠿⠑⠊⠛⠝ ⠘⠺⠎ ⠐⠣⠎⠡ ⠵ ⠨⠂⠃⠥⠕⠝ 
+⠨⠂⠛⠊⠕⠗⠝⠕⠨⠄⠐⠜ ⠜⠑ ⠊⠞⠁⠇⠊⠉⠊⠵⠫⠲ 
+[Typeforms are being studied.] 
+ 
+9.8 Multiple typeform indicators for the same text 
+9.8.1 The order for typeform indicators in braille is not prescribed.  
+Therefore, when braille requires the use of two (or more) different 
+typeform indicators for the same text, the indicators and terminators 
+are best nested – meaning that the first typeform to be opened is the 
+last typeform to be closed. 
+Examples: 
+The object of the following sentence is underlined:  Lucy Maud 
+Montgomery wrote Anne of Green Gables. 
+⠠⠮ ⠕⠃⠚⠑⠉⠞ ⠷ ⠮ ⠋⠕⠇⠇⠪⠬ ⠎⠢⠞⠰⠑ ⠊⠎ 
+⠐⠥⠇⠔⠫⠒ ⠠⠇⠥⠉⠽ ⠠⠍⠁⠥⠙ ⠠⠍⠕⠝⠞⠛⠕⠍⠻⠽ 
+⠺⠗⠕⠞⠑ ⠨⠶⠸⠶⠠⠁⠝⠝⠑ ⠷ ⠠⠛⠗⠑⠢ 
+⠠⠛⠁⠃⠇⠑⠎⠲⠸⠄⠨⠄ 
+the bank's dictum:  Pecunia Felicitatibus Honoratur.  Money 
+welcomed gladly. 
+⠮ ⠃⠁⠝⠅⠄⠎ ⠙⠊⠉⠞⠥⠍⠒ ⠨⠶⠘⠶⠠⠏⠑⠉⠥⠝⠊⠁   
+⠠⠋⠑⠇⠊⠉⠊⠞⠁⠞⠊⠃⠥⠎ ⠠⠓⠕⠝⠕⠗⠁⠞⠥⠗⠲⠘⠄ 
+⠠⠍⠐⠕⠽ ⠺⠑⠇⠉⠕⠍⠫ ⠛⠇⠁⠙⠇⠽⠲⠨⠄ 
+ 
+

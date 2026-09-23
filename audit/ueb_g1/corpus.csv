@@ -1,0 +1,138 @@
+﻿id,family,citation,source,source_codepoints,expected_braille,expected_dot_notation,accepted_braille,accepted_dot_notation,evidence_tier,official_example_available,notes,gap_classification,typeform_spec,back_test,n_a_grade
+alphabet_lower_a,Alphabet,4.1,a,U+0061,⠁,1,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_b,Alphabet,4.1,b,U+0062,⠃,12,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_c,Alphabet,4.1,c,U+0063,⠉,14,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_d,Alphabet,4.1,d,U+0064,⠙,145,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_e,Alphabet,4.1,e,U+0065,⠑,15,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_f,Alphabet,4.1,f,U+0066,⠋,124,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_g,Alphabet,4.1,g,U+0067,⠛,1245,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_h,Alphabet,4.1,h,U+0068,⠓,125,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_i,Alphabet,4.1,i,U+0069,⠊,24,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_j,Alphabet,4.1,j,U+006A,⠚,245,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_k,Alphabet,4.1,k,U+006B,⠅,13,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_l,Alphabet,4.1,l,U+006C,⠇,123,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_m,Alphabet,4.1,m,U+006D,⠍,134,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_n,Alphabet,4.1,n,U+006E,⠝,1345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_o,Alphabet,4.1,o,U+006F,⠕,135,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_p,Alphabet,4.1,p,U+0070,⠏,1234,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_q,Alphabet,4.1,q,U+0071,⠟,12345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_r,Alphabet,4.1,r,U+0072,⠗,1235,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_s,Alphabet,4.1,s,U+0073,⠎,234,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_t,Alphabet,4.1,t,U+0074,⠞,2345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_u,Alphabet,4.1,u,U+0075,⠥,136,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_v,Alphabet,4.1,v,U+0076,⠧,1236,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_w,Alphabet,4.1,w,U+0077,⠺,2456,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_x,Alphabet,4.1,x,U+0078,⠭,1346,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_y,Alphabet,4.1,y,U+0079,⠽,13456,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_lower_z,Alphabet,4.1,z,U+007A,⠵,1356,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_a,Alphabet,4.1,A,U+0041,⠠⠁,6 1,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_b,Alphabet,4.1,B,U+0042,⠠⠃,6 12,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_c,Alphabet,4.1,C,U+0043,⠠⠉,6 14,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_d,Alphabet,4.1,D,U+0044,⠠⠙,6 145,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_e,Alphabet,4.1,E,U+0045,⠠⠑,6 15,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_f,Alphabet,4.1,F,U+0046,⠠⠋,6 124,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_g,Alphabet,4.1,G,U+0047,⠠⠛,6 1245,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_h,Alphabet,4.1,H,U+0048,⠠⠓,6 125,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_i,Alphabet,4.1,I,U+0049,⠠⠊,6 24,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_j,Alphabet,4.1,J,U+004A,⠠⠚,6 245,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_k,Alphabet,4.1,K,U+004B,⠠⠅,6 13,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_l,Alphabet,4.1,L,U+004C,⠠⠇,6 123,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_m,Alphabet,4.1,M,U+004D,⠠⠍,6 134,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_n,Alphabet,4.1,N,U+004E,⠠⠝,6 1345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_o,Alphabet,4.1,O,U+004F,⠠⠕,6 135,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_p,Alphabet,4.1,P,U+0050,⠠⠏,6 1234,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_q,Alphabet,4.1,Q,U+0051,⠠⠟,6 12345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_r,Alphabet,4.1,R,U+0052,⠠⠗,6 1235,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_s,Alphabet,4.1,S,U+0053,⠠⠎,6 234,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_t,Alphabet,4.1,T,U+0054,⠠⠞,6 2345,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_u,Alphabet,4.1,U,U+0055,⠠⠥,6 136,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_v,Alphabet,4.1,V,U+0056,⠠⠧,6 1236,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_w,Alphabet,4.1,W,U+0057,⠠⠺,6 2456,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_x,Alphabet,4.1,X,U+0058,⠠⠭,6 1346,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_y,Alphabet,4.1,Y,U+0059,⠠⠽,6 13456,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+alphabet_upper_z,Alphabet,4.1,Z,U+005A,⠠⠵,6 1356,,,OFFICIAL,YES,Direct alphabet table entry.,,,YES,NO
+word_hello,Alphabet,"4.1, 2.5.5",hello,U+0068 U+0065 U+006C U+006C U+006F,⠓⠑⠇⠇⠕,125 15 123 123 135,,,DERIVED,YES,,,,YES,NO
+word_braille_validator,Alphabet,"4.1, 2.5.5",Braille Validator,U+0042 U+0072 U+0061 U+0069 U+006C U+006C U+0065 U+0020 U+0056 U+0061 U+006C U+0069 U+0064 U+0061 U+0074 U+006F U+0072,⠠⠃⠗⠁⠊⠇⠇⠑⠀⠠⠧⠁⠇⠊⠙⠁⠞⠕⠗,6 12 1235 1 24 123 123 15 0 6 1236 1 123 24 145 1 2345 135 1235,,,DERIVED,YES,,,,YES,NO
+word_ordinary,Alphabet,"4.1, 2.5.5",ordinary words,U+006F U+0072 U+0064 U+0069 U+006E U+0061 U+0072 U+0079 U+0020 U+0077 U+006F U+0072 U+0064 U+0073,⠕⠗⠙⠊⠝⠁⠗⠽⠀⠺⠕⠗⠙⠎,135 1235 145 24 1345 1 1235 13456 0 2456 135 1235 145 234,,,DERIVED,YES,,,,YES,NO
+cap_isolated,Capitalization,8.3.1,A,U+0041,⠠⠁,6 1,,,OFFICIAL,YES,Also covered by the alphabet list.,,,YES,NO
+cap_word,Capitalization,"8.1, 8.3.1",Hello,U+0048 U+0065 U+006C U+006C U+006F,⠠⠓⠑⠇⠇⠕,6 125 15 123 123 135,,,DERIVED,YES,,,,YES,NO
+cap_all_word,Capitalization,"8.4, 8.8",ALL,U+0041 U+004C U+004C,⠠⠠⠁⠇⠇,6 6 1 123 123,⠠⠁⠠⠇⠠⠇,6 1 6 123 6 123,DERIVED,YES,Capitalised word mode is the canonical form.,PERMITTED_VARIANT_NOT_MODELLED,,YES,NO
+cap_multiple_words,Capitalization,8.4,AB CD,U+0041 U+0042 U+0020 U+0043 U+0044,⠠⠠⠁⠃⠀⠠⠠⠉⠙,6 6 1 12 0 6 6 14 145,,,DERIVED,YES,,,,YES,NO
+cap_number_then_word,Capitalization,"6.5.2, 8.4",123 CARD,U+0031 U+0032 U+0033 U+0020 U+0043 U+0041 U+0052 U+0044,⠼⠁⠃⠉⠀⠠⠠⠉⠁⠗⠙,3456 1 12 14 0 6 6 14 1 1235 145,,,DERIVED,YES,,,,YES,NO
+cap_number_then_capital,Capitalization,"6.3, 8.3.1",123Card,U+0031 U+0032 U+0033 U+0043 U+0061 U+0072 U+0064,⠼⠁⠃⠉⠠⠉⠁⠗⠙,3456 1 12 14 6 14 1 1235 145,,,DERIVED,YES,,,,YES,NO
+cap_passage,Capitalization,8.5-8.6,CAUTION: WET PAINT!,U+0043 U+0041 U+0055 U+0054 U+0049 U+004F U+004E U+003A U+0020 U+0057 U+0045 U+0054 U+0020 U+0050 U+0041 U+0049 U+004E U+0054 U+0021,⠠⠠⠠⠉⠁⠥⠞⠊⠕⠝⠒⠀⠺⠑⠞⠀⠏⠁⠊⠝⠞⠖⠠⠄,6 6 6 14 1 136 2345 24 135 1345 25 0 2456 15 2345 0 1234 1 24 1345 2345 235 6 3,,,OFFICIAL,YES,Official passage example family; print source has three symbols-sequences.,LIBLOUIS_OUTDATED_RULE,,YES,NO
+cap_punctuation,Capitalization,"8.4, 8.7","Hello, WORLD!",U+0048 U+0065 U+006C U+006C U+006F U+002C U+0020 U+0057 U+004F U+0052 U+004C U+0044 U+0021,⠠⠓⠑⠇⠇⠕⠂⠀⠠⠠⠺⠕⠗⠇⠙⠖,6 125 15 123 123 135 2 0 6 6 2456 135 1235 123 145 235,,,DERIVED,YES,,,,YES,NO
+num_zero,Numeric,6.1,0,U+0030,⠼⠚,3456 245,,,OFFICIAL,YES,,,,YES,NO
+num_multi,Numeric,6.1-6.2,1234567890,U+0031 U+0032 U+0033 U+0034 U+0035 U+0036 U+0037 U+0038 U+0039 U+0030,⠼⠁⠃⠉⠙⠑⠋⠛⠓⠊⠚,3456 1 12 14 145 15 124 1245 125 24 245,,,OFFICIAL,YES,,,,YES,NO
+num_decimal,Numeric,6.2,3.14,U+0033 U+002E U+0031 U+0034,⠼⠉⠲⠁⠙,3456 14 256 1 145,,,OFFICIAL,YES,,,,YES,NO
+num_thousands_comma,Numeric,6.2,"1,234",U+0031 U+002C U+0032 U+0033 U+0034,⠼⠁⠂⠃⠉⠙,3456 1 2 12 14 145,,,OFFICIAL,YES,,,,YES,NO
+num_thousands_space,Numeric,"6.6, 3.23",1 234,U+0031 U+0020 U+0032 U+0033 U+0034,⠼⠁⠀⠼⠃⠉⠙,3456 1 0 3456 12 14 145,,,DERIVED,YES,"V1 plain-text policy: without explicit numeric-grouping semantics, treat the blank as an ordinary space. This is PASS-PROVISIONAL, not proof that every printed `1 234` is ordinary spacing.",SOURCE_EXTRACTION_RISK,,YES,NO
+num_clear_numeric_space,Numeric,"6.6, 6.6.1",3 245 000,U+0033 U+0020 U+0032 U+0034 U+0035 U+0020 U+0030 U+0030 U+0030,⠼⠉⠐⠃⠙⠐⠚⠚⠚,3456 14 5 12 145 5 245 245 245,,,DERIVED,YES,"The source is explicitly treated as one grouped number for this probe, following the official population example; the plain-text Liblouis call has no semantic numeric-grouping input.",TABLE_GAP,,YES,NO
+num_thousands_nbsp,Numeric,6.6,1 234,U+0031 U+00A0 U+0032 U+0033 U+0034,⠼⠁⠐⠃⠉⠙,3456 1 5 12 14 145,,,OFFICIAL,YES,"NBSP is used as an explicit numeric-space probe; expected is number sign, 1, numeric-space+2, 3, 4.",TABLE_GAP,,YES,NO
+num_time,Numeric,"6.3, 6.7",7:30,U+0037 U+003A U+0033 U+0030,⠼⠛⠒⠼⠉⠚,3456 1245 25 3456 14 245,,,OFFICIAL,YES,,,,YES,NO
+num_date,Numeric,6.7,12/31/2024,U+0031 U+0032 U+002F U+0033 U+0031 U+002F U+0032 U+0030 U+0032 U+0034,⠼⠁⠃⠸⠌⠼⠉⠁⠸⠌⠼⠃⠚⠃⠙,3456 1 12 456 34 3456 14 1 456 34 3456 12 245 12 145,,,OFFICIAL,YES,,,,YES,NO
+num_currency,Numeric,"3.10, 6.7",$19.95,U+0024 U+0031 U+0039 U+002E U+0039 U+0035,⠈⠎⠼⠁⠊⠲⠊⠑,4 234 3456 1 24 256 24 15,,,OFFICIAL,YES,,,,YES,NO
+num_ordinal,Numeric,6.5-6.7,1st,U+0031 U+0073 U+0074,⠼⠁⠎⠞,3456 1 234 2345,,,OFFICIAL,YES,,,,YES,NO
+num_lower_a_j,Numeric,6.5.2,3b,U+0033 U+0062,⠼⠉⠰⠃,3456 14 56 12,,,OFFICIAL,YES,,,,YES,NO
+num_lower_k_z,Numeric,6.5.2,3m,U+0033 U+006D,⠼⠉⠍,3456 14 134,,,OFFICIAL,YES,,,,YES,NO
+num_decimal_lower,Numeric,6.5.2,4.2b,U+0034 U+002E U+0032 U+0062,⠼⠙⠲⠃⠰⠃,3456 145 256 12 56 12,,,OFFICIAL,YES,,,,YES,NO
+num_period_before_number,Numeric,6.4.1,.7,U+002E U+0037,⠼⠲⠛,3456 256 1245,,,OFFICIAL,YES,Official rule 6.4.1 example family: a period before a number takes the numeric prefix before the period.,,,YES,NO
+punct_basic,Punctuation,7.1,"comma, semicolon; colon:",U+0063 U+006F U+006D U+006D U+0061 U+002C U+0020 U+0073 U+0065 U+006D U+0069 U+0063 U+006F U+006C U+006F U+006E U+003B U+0020 U+0063 U+006F U+006C U+006F U+006E U+003A,⠉⠕⠍⠍⠁⠂⠀⠎⠑⠍⠊⠉⠕⠇⠕⠝⠆⠀⠉⠕⠇⠕⠝⠒,14 135 134 134 1 2 0 234 15 134 24 14 135 123 135 1345 23 0 14 135 123 135 1345 25,,,DERIVED,YES,,,,YES,NO
+punct_sentence,Punctuation,7.1,Full stop. Exclamation! Question?,U+0046 U+0075 U+006C U+006C U+0020 U+0073 U+0074 U+006F U+0070 U+002E U+0020 U+0045 U+0078 U+0063 U+006C U+0061 U+006D U+0061 U+0074 U+0069 U+006F U+006E U+0021 U+0020 U+0051 U+0075 U+0065 U+0073 U+0074 U+0069 U+006F U+006E U+003F,⠠⠋⠥⠇⠇⠀⠎⠞⠕⠏⠲⠀⠠⠑⠭⠉⠇⠁⠍⠁⠞⠊⠕⠝⠖⠀⠠⠟⠥⠑⠎⠞⠊⠕⠝⠦,6 124 136 123 123 0 234 2345 135 1234 256 0 6 15 1346 14 123 1 134 1 2345 24 135 1345 235 0 6 12345 136 15 234 2345 24 135 1345 236,,,DERIVED,YES,,,,YES,NO
+punct_ellipsis,Punctuation,7.3,...,U+002E U+002E U+002E,⠲⠲⠲,256 256 256,,,OFFICIAL,YES,,,,YES,NO
+punct_solidus,Punctuation,7.4,a/b,U+0061 U+002F U+0062,⠁⠸⠌⠃,1 456 34 12,,,OFFICIAL,YES,,,,YES,NO
+punct_question_standing_alone,Punctuation,7.5.3,?,U+003F,⠰⠦,56 236,,,OFFICIAL,YES,Standalone question mark requires Grade 1 symbol indicator.,TABLE_GAP,,YES,NO
+punct_abbreviation_period,Punctuation,"7.1.1, 7.1.3, 10.6.2",a.b,U+0061 U+002E U+0062,⠁⠲⠃,1 256 12,,,DERIVED,YES,No grade 1 indicator is required: the period is not a beginning-of-word dis groupsign position.,,,YES,NO
+punct_comma_between_letters,Punctuation,"7.1.3, 10.6.5, 5.11.1","a,b",U+0061 U+002C U+0062,⠁⠰⠂⠃,1 56 2 12,,,DERIVED,YES,"The comma cell may also be a lower groupsign between letters, so grade 1 is required before the punctuation.",,,YES,NO
+punct_question_ordinary,Punctuation,7.5.1,what?,U+0077 U+0068 U+0061 U+0074 U+003F,⠺⠓⠁⠞⠦,2456 125 1 2345 236,,,OFFICIAL,YES,Ordinary question-mark position: rule 7.5.1 says no grade 1 symbol indicator is normally required.,,,YES,NO
+quote_curly_double,Quotes/apostrophes,7.6.1,“hello”,U+201C U+0068 U+0065 U+006C U+006C U+006F U+201D,⠦⠓⠑⠇⠇⠕⠴,236 125 15 123 123 135 356,,,OFFICIAL,YES,,,,YES,NO
+quote_curly_single,Quotes/apostrophes,7.6.2,‘hello’,U+2018 U+0068 U+0065 U+006C U+006C U+006F U+2019,⠠⠦⠓⠑⠇⠇⠕⠠⠴,6 236 125 15 123 123 135 6 356,,,OFFICIAL,YES,,,,YES,NO
+quote_ascii_double,Quotes/apostrophes,"7.6.1, 7.6.5","""hello""",U+0022 U+0068 U+0065 U+006C U+006C U+006F U+0022,⠦⠓⠑⠇⠇⠕⠴,236 125 15 123 123 135 356,,,DERIVED,YES,Directional quote is inferred from ordinary prose context.,LIBLOUIS_OUTDATED_RULE,,YES,NO
+quote_ascii_single_pair,Quotes/apostrophes,"7.6.2, 7.6.15",'hello',U+0027 U+0068 U+0065 U+006C U+006C U+006F U+0027,⠠⠦⠓⠑⠇⠇⠕⠠⠴,6 236 125 15 123 123 135 6 356,,,DERIVED,YES,Ordinary prose context calls for directional single quotes.,LIBLOUIS_OUTDATED_RULE,,YES,NO
+apostrophe_mid_ascii,Quotes/apostrophes,"7.6.6, 7.6.15",can't,U+0063 U+0061 U+006E U+0027 U+0074,⠉⠁⠝⠄⠞,14 1 1345 3 2345,,,OFFICIAL,YES,,,,YES,NO
+apostrophe_possessive_ascii,Quotes/apostrophes,7.6.6,Jones',U+004A U+006F U+006E U+0065 U+0073 U+0027,⠠⠚⠕⠝⠑⠎⠄,6 245 135 1345 15 234 3,,,OFFICIAL,YES,,,,YES,NO
+apostrophe_leading_tis,Quotes/apostrophes,7.6.14-7.6.15,'tis,U+0027 U+0074 U+0069 U+0073,⠄⠞⠊⠎,3 2345 24 234,,,DERIVED,YES,Common leading-apostrophe dictionary word.,,,YES,NO
+apostrophe_mid_curly,Quotes/apostrophes,"7.6.6, 7.6.15",can’t,U+0063 U+0061 U+006E U+2019 U+0074,⠉⠁⠝⠄⠞,14 1 1345 3 2345,,,OFFICIAL,YES,,,,YES,NO
+apostrophe_possessive_curly,Quotes/apostrophes,7.6.6,Jones’,U+004A U+006F U+006E U+0065 U+0073 U+2019,⠠⠚⠕⠝⠑⠎⠄,6 245 135 1345 15 234 3,,,OFFICIAL,YES,Curly print apostrophe still maps to apostrophe in UEB.,TABLE_GAP,,YES,NO
+quote_nested,Quotes/apostrophes,7.6.3,"“She said, ‘yes’.”",U+201C U+0053 U+0068 U+0065 U+0020 U+0073 U+0061 U+0069 U+0064 U+002C U+0020 U+2018 U+0079 U+0065 U+0073 U+2019 U+002E U+201D,⠦⠠⠎⠓⠑⠀⠎⠁⠊⠙⠂⠀⠠⠦⠽⠑⠎⠠⠴⠴,236 6 234 125 15 0 234 1 24 145 2 0 6 236 13456 15 234 6 356 356,,,OFFICIAL,YES,,,,YES,NO
+quote_next_punctuation,Quotes/apostrophes,7.6.1,"""Hi!""",U+0022 U+0048 U+0069 U+0021 U+0022,⠦⠠⠓⠊⠖⠴,236 6 125 24 235 356,,,DERIVED,YES,,,,YES,NO
+quote_internal_two_cell,Quotes/apostrophes,7.6.7,Franc“e”s,U+0046 U+0072 U+0061 U+006E U+0063 U+201C U+0065 U+201D U+0073,⠠⠋⠗⠁⠝⠉⠘⠦⠑⠘⠴⠎,6 124 1235 1 1345 14 45 236 15 45 356 234,,,OFFICIAL,YES,Official 7.6.7 example family: internal opening/closing double quotes require two-cell forms.,TABLE_GAP,,YES,NO
+quote_standing_alone_double,Quotes/apostrophes,"2.6.2, 2.6.3, 7.6.8",(“...”),U+0028 U+201C U+002E U+002E U+002E U+201D U+0029,⠐⠣⠘⠦⠲⠲⠲⠘⠴⠐⠜,5 126 45 236 256 256 256 45 356 5 345,,,DERIVED,YES,Standing-alone double quotation marks require the two-cell forms to avoid wordsign ambiguity.,TABLE_GAP,,YES,NO
+quote_g1_order,Quotes/apostrophes,7.6.9,"Spell ""W-a-l-k"".",U+0053 U+0070 U+0065 U+006C U+006C U+0020 U+0022 U+0057 U+002D U+0061 U+002D U+006C U+002D U+006B U+0022 U+002E,⠠⠎⠏⠑⠇⠇⠀⠦⠰⠰⠠⠺⠤⠁⠤⠇⠤⠅⠴⠲,6 234 1234 15 123 123 0 236 56 56 6 2456 36 1 36 123 36 13 356 256,,,DERIVED,YES,The 2024 rule requires the opening double quote before the Grade 1 word indicator; the rest is rendered uncontracted for this probe.,TABLE_GAP,,YES,NO
+quote_standing_alone_single,Quotes/apostrophes,7.6.10,‘ ’,U+2018 U+0020 U+2019,⠰⠠⠦⠀⠰⠠⠴,56 6 236 0 56 6 356,,,DERIVED,YES,Standing-alone single quotation marks need Grade 1 disambiguation; this is a focused symbol-level probe.,TABLE_GAP,,YES,NO
+dash_hyphenated,Hyphen/dash,7.2,well-known,U+0077 U+0065 U+006C U+006C U+002D U+006B U+006E U+006F U+0077 U+006E,⠺⠑⠇⠇⠤⠅⠝⠕⠺⠝,2456 15 123 123 36 13 1345 135 2456 1345,,,DERIVED,YES,,,,YES,NO
+dash_en,Hyphen/dash,7.2,word – word,U+0077 U+006F U+0072 U+0064 U+0020 U+2013 U+0020 U+0077 U+006F U+0072 U+0064,⠺⠕⠗⠙⠀⠠⠤⠀⠺⠕⠗⠙,2456 135 1235 145 0 6 36 0 2456 135 1235 145,,,OFFICIAL,YES,,,,YES,NO
+dash_em,Hyphen/dash,7.2,word — word,U+0077 U+006F U+0072 U+0064 U+0020 U+2014 U+0020 U+0077 U+006F U+0072 U+0064,⠺⠕⠗⠙⠀⠠⠤⠀⠺⠕⠗⠙,2456 135 1235 145 0 6 36 0 2456 135 1235 145,,,OFFICIAL,YES,,,,YES,NO
+dash_print_double_hyphen,Hyphen/dash,7.2.6,word -- word,U+0077 U+006F U+0072 U+0064 U+0020 U+002D U+002D U+0020 U+0077 U+006F U+0072 U+0064,⠺⠕⠗⠙⠀⠤⠤⠀⠺⠕⠗⠙,2456 135 1235 145 0 36 36 0 2456 135 1235 145,⠺⠕⠗⠙⠀⠠⠤⠀⠺⠕⠗⠙,2456 135 1235 145 0 6 36 0 2456 135 1235 145,DERIVED,YES,Two adjacent print hyphens may remain two hyphens or be rendered as a dash.,PERMITTED_VARIANT_NOT_MODELLED,,YES,NO
+brackets_round,Brackets,"2.6, 7.1",(hello),U+0028 U+0068 U+0065 U+006C U+006C U+006F U+0029,⠐⠣⠓⠑⠇⠇⠕⠐⠜,5 126 125 15 123 123 135 5 345,,,DERIVED,YES,,,,YES,NO
+brackets_square,Brackets,"2.6, 7.1",[hello],U+005B U+0068 U+0065 U+006C U+006C U+006F U+005D,⠨⠣⠓⠑⠇⠇⠕⠨⠜,46 126 125 15 123 123 135 46 345,,,DERIVED,YES,,,,YES,NO
+brackets_curly,Brackets,"2.6, 7.1",{hello},U+007B U+0068 U+0065 U+006C U+006C U+006F U+007D,⠸⠣⠓⠑⠇⠇⠕⠸⠜,456 126 125 15 123 123 135 456 345,,,DERIVED,YES,,,,YES,NO
+symbols_amp_at,Symbols,"3.1, 3.7",& @,U+0026 U+0020 U+0040,⠈⠯⠀⠈⠁,4 12346 0 4 1,,,OFFICIAL,YES,,,,YES,NO
+symbols_percent_hash,Symbols,"3.19, 3.21",% #,U+0025 U+0020 U+0023,⠨⠴⠀⠸⠹,46 356 0 456 1456,,,OFFICIAL,YES,,,,YES,NO
+symbols_copyright_trademark,Symbols,3.8,© ® ™,U+00A9 U+0020 U+00AE U+0020 U+2122,⠘⠉⠀⠘⠗⠀⠘⠞,45 14 0 45 1235 0 45 2345,,,OFFICIAL,YES,,,,YES,NO
+symbols_currency,Symbols,3.10,$ £ € ¥ ¢,U+0024 U+0020 U+00A3 U+0020 U+20AC U+0020 U+00A5 U+0020 U+00A2,⠈⠎⠀⠈⠇⠀⠈⠑⠀⠈⠽⠀⠈⠉,4 234 0 4 123 0 4 15 0 4 13456 0 4 14,,,OFFICIAL,YES,,,,YES,NO
+symbols_degree_section,Symbols,"3.11, 3.20",° § ¶,U+00B0 U+0020 U+00A7 U+0020 U+00B6,⠘⠚⠀⠘⠎⠀⠘⠏,45 245 0 45 234 0 45 1234,,,OFFICIAL,YES,,,,YES,NO
+symbols_degree_prime,Symbols,"3.11, 3.15",6′ 9″,U+0036 U+2032 U+0020 U+0039 U+2033,⠼⠋⠶⠀⠼⠊⠶⠶,3456 124 2356 0 3456 24 2356 2356,,,OFFICIAL,YES,Prime/minute/second signs follow print; included to close the prime half of the Section 3.11 scope row.,,,YES,NO
+symbols_bullet,Symbols,3.5,•,U+2022,⠸⠲,456 256,,,OFFICIAL,YES,,,,YES,NO
+symbols_number_sign,Symbols,3.19,#4,U+0023 U+0034,⠸⠹⠼⠙,456 1456 3456 145,,,OFFICIAL,YES,,,,YES,NO
+symbols_currency_amount,Symbols,"3.10, 6.7",£7.50,U+00A3 U+0037 U+002E U+0035 U+0030,⠈⠇⠼⠛⠲⠑⠚,4 123 3456 1245 256 15 245,,,DERIVED,YES,,,,YES,NO
+grade1_plain_no_indicator,Grade-1,"2.5.5, 5.11",be,U+0062 U+0065,⠃⠑,12 15,,,OFFICIAL,YES,Uncontracted text does not require a Grade 1 indicator everywhere.,,,YES,NO
+grade1_numeric_letters,Grade-1,"5.6, 6.5.2",22b,U+0032 U+0032 U+0062,⠼⠃⠃⠰⠃,3456 12 12 56 12,,,OFFICIAL,YES,,,,YES,NO
+grade1_numeric_capital,Grade-1,"5.6, 6.5.2",22B,U+0032 U+0032 U+0042,⠼⠃⠃⠠⠃,3456 12 12 6 12,,,OFFICIAL,YES,,,,YES,NO
+grade1_numeric_hyphen_cap,Grade-1,"5.6.2, 6.5.4",3-D,U+0033 U+002D U+0044,⠼⠉⠤⠰⠠⠙,3456 14 36 56 6 145,,,OFFICIAL,YES,,,,YES,NO
+grade1_indicator_order,Grade-1,5.8.1,3-D,U+0033 U+002D U+0044,⠼⠉⠤⠰⠠⠙,3456 14 36 56 6 145,,,DERIVED,YES,The Grade 1 indicator precedes the capitals indicator after a numeric-mode terminator.,,,YES,NO
+spacing_normal,Spacing,3.23,a b,U+0061 U+0020 U+0062,⠁⠀⠃,1 0 12,,,OFFICIAL,YES,,,,YES,NO
+spacing_multiple,Spacing,3.23,a  b,U+0061 U+0020 U+0020 U+0062,⠁⠀⠃,1 0 12,,,DERIVED,YES,"UEB 3.23.1 says the amount of ordinary print space is not important and variation is ignored; this is a normalization-layer case, not a numeric-space case.",NORMALIZATION_PROBLEM,,YES,NO
+spacing_nbsp,Spacing,3.23,a b,U+0061 U+00A0 U+0062,⠁⠀⠃,1 0 12,,,DERIVED,YES,V1 source-normalization policy: NBSP outside numeric context is mapped to an ordinary space before translation. Raw Liblouis output is not accepted without that normalization.,NORMALIZATION_PROBLEM,,YES,NO
+spacing_thin_zero_width,Spacing,3.23,a b​a,U+0061 U+2009 U+0062 U+200B U+0061,⠁⠀⠃⠀⠁,1 0 12 0 1,,,CONSTRUCTED,YES,V1 source-normalization policy: U+2009 is ordinary spacing and U+200B is removed as an extraction separator in this plain-text probe; the resulting ordinary spaces are PASS-PROVISIONAL.,SOURCE_EXTRACTION_RISK,,YES,NO
+typeform_italic,Typeforms,9.2-9.4,italic,U+0069 U+0074 U+0061 U+006C U+0069 U+0063,⠨⠂⠊⠞⠁⠇⠊⠉,46 2 24 2345 1 123 24 14,,,DERIVED,YES,,,"{""italic"":[0,1,2,3,4,5]}",YES,NO
+typeform_bold,Typeforms,9.2-9.4,bold,U+0062 U+006F U+006C U+0064,⠘⠂⠃⠕⠇⠙,45 2 12 135 123 145,,,DERIVED,YES,,,"{""bold"":[0,1,2,3]}",YES,NO
+typeform_underline,Typeforms,9.2-9.4,under,U+0075 U+006E U+0064 U+0065 U+0072,⠸⠂⠥⠝⠙⠑⠗,456 2 136 1345 145 15 1235,,,DERIVED,YES,,,"{""underline"":[0,1,2,3,4]}",YES,NO
+typeform_number_symbol,Typeforms,9.2.1,8,U+0038,⠨⠆⠼⠓,46 23 3456 125,,,OFFICIAL,YES,Official rule 9.2.1 example family: a typeform symbol indicator before a number.,,"{""italic"":[0]}",YES,NO
+typeform_number,Typeforms,9.3.1,123,U+0031 U+0032 U+0033,⠨⠂⠼⠁⠃⠉,46 2 3456 1 12 14,,,DERIVED,YES,Rule 9.3.1 permits a typeform word indicator to set the typeform for the following numeric symbols-sequence.,,"{""italic"":[0,1,2]}",YES,NO
+typeform_passage,Typeforms,9.4,one two three,U+006F U+006E U+0065 U+0020 U+0074 U+0077 U+006F U+0020 U+0074 U+0068 U+0072 U+0065 U+0065,⠨⠶⠕⠝⠑⠀⠞⠺⠕⠀⠞⠓⠗⠑⠑⠨⠄,46 2356 135 1345 15 0 2345 2456 135 0 2345 125 1235 15 15 46 3,,,DERIVED,YES,Three typeformed symbols-sequences exercise passage opening and termination.,,"{""italic"":[0,1,2,3,4,5,6,7,8,9,10,11,12]}",YES,NO
+typeform_word_punctuation,Typeforms,9.7.2,word!,U+0077 U+006F U+0072 U+0064 U+0021,⠨⠂⠺⠕⠗⠙⠨⠄⠖,46 2 2456 135 1235 145 46 3 235,,,DERIVED,YES,"Punctuation is outside the supplied word typeform, so the terminator precedes it.",,"{""italic"":[0,1,2,3]}",YES,NO
+typeform_multiple,Typeforms,9.8.1,word,U+0077 U+006F U+0072 U+0064,⠘⠂⠨⠂⠺⠕⠗⠙,45 2 46 2 2456 135 1235 145,,,DERIVED,YES,"Two simultaneous typeforms; Liblouis chooses an order, while UEB does not prescribe one.",,"{""italic"":[0,1,2,3],""bold"":[0,1,2,3]}",YES,NO
+na_grade_contracted_sentence,N/A-GRADE,"4.1, 2.5",A boy and his dog were on the path.,U+0041 U+0020 U+0062 U+006F U+0079 U+0020 U+0061 U+006E U+0064 U+0020 U+0068 U+0069 U+0073 U+0020 U+0064 U+006F U+0067 U+0020 U+0077 U+0065 U+0072 U+0065 U+0020 U+006F U+006E U+0020 U+0074 U+0068 U+0065 U+0020 U+0070 U+0061 U+0074 U+0068 U+002E,,,,,N/A-GRADE,YES,Rulebook example is contracted; deliberately not compared with en-ueb-g1.,,,YES,YES
+na_grade_contracted_quotes,N/A-GRADE,7.6,“Why is that?” he asked.,U+201C U+0057 U+0068 U+0079 U+0020 U+0069 U+0073 U+0020 U+0074 U+0068 U+0061 U+0074 U+003F U+201D U+0020 U+0068 U+0065 U+0020 U+0061 U+0073 U+006B U+0065 U+0064 U+002E,,,,,N/A-GRADE,YES,Rulebook example is contracted; deliberately not compared with en-ueb-g1.,,,YES,YES
+na_grade_contracted_numeric,N/A-GRADE,6.7,"The temperature was 100,000°C.",U+0054 U+0068 U+0065 U+0020 U+0074 U+0065 U+006D U+0070 U+0065 U+0072 U+0061 U+0074 U+0075 U+0072 U+0065 U+0020 U+0077 U+0061 U+0073 U+0020 U+0031 U+0030 U+0030 U+002C U+0030 U+0030 U+0030 U+00B0 U+0043 U+002E,,,,,N/A-GRADE,YES,Rulebook example is contracted; deliberately not compared with en-ueb-g1.,,,YES,YES

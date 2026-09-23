@@ -1,0 +1,78 @@
+﻿citation,title,executed_test,test_ids,evidence_tier,positive_case,negative_or_mutation_case,interaction_or_boundary_case,coverage,notes
+2.3.1,Follow print,YES,word_braille_validator; punct_basic; cap_punctuation,DERIVED,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.4.1,Indicators and modes,YES,cap_isolated; grade1_numeric_hyphen_cap; typeform_number_symbol,OFFICIAL,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule; executed evidence includes an unresolved difference or source-policy case
+2.4.2,Indicators and modes,YES,num_zero; punct_basic; quote_curly_double,OFFICIAL; DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.4.3,Indicators and modes,YES,num_zero; cap_all_word; typeform_passage,OFFICIAL; DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.4.4,Indicators and modes,YES,grade1_plain_no_indicator; grade1_numeric_letters; cap_all_word,OFFICIAL; DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.4.5,Indicators and modes,YES,typeform_number_symbol; cap_all_word,OFFICIAL; DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.5.1,Contractions disallowed in Grade 1 mode,YES,word_ordinary; grade1_plain_no_indicator,DERIVED; OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.5.2,Uncontracted differs from Grade 1 mode,YES,word_ordinary; grade1_plain_no_indicator,DERIVED; OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.5.3,Uncontracted differs from Grade 1 mode,YES,num_zero; grade1_numeric_letters,OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.5.4,Uncontracted differs from Grade 1 mode,YES,word_ordinary,DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.5.5,Uncontracted differs from Grade 1 mode,YES,word_hello; word_braille_validator; word_ordinary; grade1_plain_no_indicator,DERIVED; OFFICIAL,YES,NO,NO,COVERED,
+2.6.1,Standing alone,YES,cap_word; grade1_plain_no_indicator,DERIVED; OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.6.2,Standing alone,YES,quote_standing_alone_double; brackets_round; quote_ascii_single_pair,DERIVED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+2.6.3,Standing alone,YES,quote_standing_alone_double; punct_abbreviation_period; quote_nested; apostrophe_possessive_ascii,DERIVED; OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+2.6.4,Standing alone,YES,apostrophe_mid_ascii; apostrophe_possessive_ascii,OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+2.6.5,Standing alone,YES,punct_question_standing_alone; quote_standing_alone_double,OFFICIAL; DERIVED,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule; executed evidence includes an unresolved difference or source-policy case
+3.1,Ampersand,YES,symbols_amp_at,OFFICIAL,YES,NO,NO,COVERED,
+3.5,Bullet,YES,symbols_bullet,OFFICIAL,YES,NO,NO,COVERED,
+3.7,"At, copyright, registered, trademark",YES,symbols_amp_at,OFFICIAL,YES,NO,NO,COVERED,
+3.8,"At, copyright, registered, trademark",YES,symbols_copyright_trademark,OFFICIAL,YES,NO,NO,COVERED,
+3.10,Currency signs,YES,num_currency; symbols_currency; symbols_currency_amount,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+3.11,Degree and prime,YES,symbols_degree_section; symbols_degree_prime,OFFICIAL,YES,NO,NO,COVERED,
+3.19,"Number, paragraph/section, percent",YES,symbols_percent_hash; symbols_number_sign,OFFICIAL,YES,NO,NO,COVERED,
+3.20,"Number, paragraph/section, percent",YES,symbols_degree_section,OFFICIAL,YES,NO,NO,COVERED,
+3.21,"Number, paragraph/section, percent",YES,symbols_percent_hash,OFFICIAL,YES,NO,NO,COVERED,
+3.23,Space,YES,num_thousands_space; spacing_normal; spacing_multiple; spacing_nbsp; spacing_thin_zero_width,DERIVED; OFFICIAL; CONSTRUCTED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+4.1,English alphabet,YES,alphabet_lower_a; alphabet_lower_b; alphabet_lower_c; alphabet_lower_d; alphabet_lower_e; alphabet_lower_f; alphabet_lower_g; alphabet_lower_h; alphabet_lower_i; alphabet_lower_j; alphabet_lower_k; alphabet_lower_l; alphabet_lower_m; alphabet_lower_n; alphabet_lower_o; alphabet_lower_p; alphabet_lower_q; alphabet_lower_r; alphabet_lower_s; alphabet_lower_t; alphabet_lower_u; alphabet_lower_v; alphabet_lower_w; alphabet_lower_x; alphabet_lower_y; alphabet_lower_z; alphabet_upper_a; alphabet_upper_b; alphabet_upper_c; alphabet_upper_d; alphabet_upper_e; alphabet_upper_f; alphabet_upper_g; alphabet_upper_h; alphabet_upper_i; alphabet_upper_j; alphabet_upper_k; alphabet_upper_l; alphabet_upper_m; alphabet_upper_n; alphabet_upper_o; alphabet_upper_p; alphabet_upper_q; alphabet_upper_r; alphabet_upper_s; alphabet_upper_t; alphabet_upper_u; alphabet_upper_v; alphabet_upper_w; alphabet_upper_x; alphabet_upper_y; alphabet_upper_z; word_hello; word_braille_validator; word_ordinary,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+5.1,Grade 1 symbol mode,YES,punct_question_standing_alone,OFFICIAL,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule
+5.2,Grade 1 symbol mode,YES,punct_question_standing_alone; grade1_numeric_letters,OFFICIAL,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule
+5.3,Grade 1 word/passage/terminator,NO,,,NO,NO,NO,UNTESTED,requires explicit indicator/translator-option evidence not generated by plain-text en-ueb-g1
+5.4,Grade 1 word/passage/terminator,NO,,,NO,NO,NO,UNTESTED,requires explicit indicator/translator-option evidence not generated by plain-text en-ueb-g1
+5.5,Grade 1 word/passage/terminator,NO,,,NO,NO,NO,UNTESTED,requires explicit indicator/translator-option evidence not generated by plain-text en-ueb-g1
+5.6,Numeric indicator sets Grade 1 mode,YES,grade1_numeric_letters; grade1_numeric_capital; grade1_numeric_hyphen_cap; num_zero,OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+5.7,Grade 1 and capitalization,YES,grade1_numeric_hyphen_cap,OFFICIAL,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule; executed evidence includes an unresolved difference or source-policy case
+5.8,Grade 1 and capitalization,YES,grade1_indicator_order,DERIVED,YES,YES,NO,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+5.10,Optional Grade 1 indicator,YES,grade1_plain_no_indicator,OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+5.11,Grade 1 text indicator policy,YES,punct_comma_between_letters; grade1_plain_no_indicator; punct_question_standing_alone; num_lower_a_j,DERIVED; OFFICIAL,YES,YES,YES,COVERED,
+6.1,Digits and numeric-mode symbols,YES,num_zero; num_multi,OFFICIAL,YES,NO,NO,COVERED,
+6.2,Digits and numeric-mode symbols,YES,num_decimal; num_thousands_comma,OFFICIAL,YES,NO,NO,COVERED,
+6.3,Numeric termination and letter interactions,YES,cap_number_then_capital; num_time; num_decimal_lower,DERIVED; OFFICIAL,YES,NO,NO,COVERED,
+6.4,Numeric termination and letter interactions,YES,num_period_before_number,OFFICIAL,YES,NO,NO,COVERED,
+6.5,Numeric termination and letter interactions,YES,cap_number_then_word; num_lower_a_j; num_lower_k_z; num_decimal_lower; grade1_numeric_letters; grade1_numeric_capital; grade1_numeric_hyphen_cap; num_ordinal,DERIVED; OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+6.6,Numeric spaces,YES,num_thousands_space; num_clear_numeric_space; num_thousands_nbsp,DERIVED; OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+6.7,"Dates, time, coinage, ordinals",YES,num_time; num_date; num_currency; symbols_currency_amount; num_ordinal,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+7.1,General punctuation,YES,punct_basic; punct_sentence; punct_abbreviation_period; punct_comma_between_letters; brackets_round; brackets_square; brackets_curly,DERIVED,YES,YES,YES,COVERED,
+7.2,"Hyphen, dash, long dash",YES,dash_hyphenated; dash_en; dash_em; dash_print_double_hyphen,DERIVED; OFFICIAL,YES,YES,YES,COVERED,
+7.3,"Ellipsis, solidus, question mark",YES,punct_ellipsis,OFFICIAL,YES,NO,NO,COVERED,
+7.4,"Ellipsis, solidus, question mark",YES,punct_solidus,OFFICIAL,YES,NO,NO,COVERED,
+7.5,"Ellipsis, solidus, question mark",YES,punct_question_standing_alone; punct_question_ordinary,OFFICIAL,YES,YES,YES,COVERED,
+7.6.1,Quotation marks and apostrophe basics,YES,quote_curly_double; quote_ascii_double; quote_next_punctuation,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+7.6.2,Quotation marks and apostrophe basics,YES,quote_curly_single; quote_ascii_single_pair,OFFICIAL; DERIVED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.3,Quotation marks and apostrophe basics,YES,quote_nested,OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.4,Quotation marks and apostrophe basics,NO,,,NO,NO,NO,UNTESTED,requires explicit indicator/translator-option evidence not generated by plain-text en-ueb-g1
+7.6.5,Quotation marks and apostrophe basics,YES,quote_ascii_double,DERIVED,YES,NO,NO,COVERED,
+7.6.6,Quotation marks and apostrophe basics,YES,apostrophe_mid_ascii; apostrophe_possessive_ascii; apostrophe_mid_curly; apostrophe_possessive_curly,OFFICIAL,YES,NO,NO,COVERED,
+7.6.7,Quote/apostrophe ambiguity avoidance,YES,quote_internal_two_cell,OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.8,Quote/apostrophe ambiguity avoidance,YES,quote_standing_alone_double,DERIVED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.9,Quote/apostrophe ambiguity avoidance,YES,quote_g1_order,DERIVED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.10,Quote/apostrophe ambiguity avoidance,YES,quote_standing_alone_single,DERIVED,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+7.6.12,Translation-software quote/apostrophe guidance,NO,,,NO,NO,NO,UNTESTED,requires explicit indicator/translator-option evidence not generated by plain-text en-ueb-g1
+7.6.13,Translation-software quote/apostrophe guidance,YES,quote_ascii_single_pair; quote_nested,DERIVED; OFFICIAL,YES,YES,YES,PARTIAL,related rule-family evidence only; no test citation names this subrule; executed evidence includes an unresolved difference or source-policy case
+7.6.14,Translation-software quote/apostrophe guidance,YES,apostrophe_leading_tis,DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+7.6.15,Translation-software quote/apostrophe guidance,YES,quote_ascii_single_pair; apostrophe_mid_ascii; apostrophe_mid_curly; apostrophe_leading_tis,DERIVED; OFFICIAL,YES,YES,YES,PARTIAL,executed evidence includes an unresolved difference or source-policy case
+8.1,Capital letters and isolated capitals,YES,cap_word; cap_isolated,DERIVED; OFFICIAL,YES,NO,NO,COVERED,
+8.2,Capital letters and isolated capitals,YES,cap_word; cap_multiple_words,DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+8.3,Capital letters and isolated capitals,YES,cap_isolated; cap_word; cap_number_then_capital; alphabet_upper_a,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+8.4,Capitalised word mode,YES,cap_all_word; cap_multiple_words; cap_number_then_word; cap_punctuation,DERIVED,YES,YES,YES,COVERED,
+8.5,Capitalised passage and terminator,YES,cap_passage,OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+8.6,Capitalised passage and terminator,YES,cap_passage,OFFICIAL,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+8.7,Indicator placement and choice,YES,cap_punctuation; cap_number_then_capital,DERIVED,YES,YES,YES,COVERED,
+8.8,Indicator placement and choice,YES,cap_all_word; cap_word,DERIVED,YES,NO,NO,COVERED,
+9.1,"Italic, bold, underline typeforms",YES,typeform_italic; typeform_bold; typeform_underline,DERIVED,YES,NO,NO,PARTIAL,related rule-family evidence only; no test citation names this subrule
+9.2,"Italic, bold, underline typeforms",YES,typeform_number_symbol; typeform_italic,OFFICIAL; DERIVED,YES,NO,NO,COVERED,
+9.3,"Italic, bold, underline typeforms",YES,typeform_number,DERIVED,YES,NO,NO,COVERED,
+9.4,"Italic, bold, underline typeforms",YES,typeform_passage,DERIVED,YES,NO,NO,COVERED,
+9.7,Typeform placement and multiple indicators,YES,typeform_word_punctuation,DERIVED,YES,NO,NO,COVERED,
+9.8,Typeform placement and multiple indicators,YES,typeform_multiple,DERIVED,YES,NO,NO,COVERED,

@@ -1,0 +1,424 @@
+{
+  "status": "PASS",
+  "cases": 42,
+  "passed": 42,
+  "executable_sha256": "115ec43f545b0614b8cf0d8e98d1b40cf271de33917227a179e6c2ff6f0cec29",
+  "rows": [
+    {
+      "case": "PLUS/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "PLUS/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    {
+      "case": "PLUS/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "PLUS/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "case": "PLUS/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ]
+      ]
+    },
+    {
+      "case": "PLUS/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "case": "MINUS/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "MINUS/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    {
+      "case": "MINUS/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "MINUS/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "case": "MINUS/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          25,
+          26
+        ]
+      ]
+    },
+    {
+      "case": "MINUS/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "case": "NEGATIVE/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "NEGATIVE/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    {
+      "case": "NEGATIVE/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "NEGATIVE/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          16,
+          17
+        ]
+      ]
+    },
+    {
+      "case": "NEGATIVE/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          16,
+          17
+        ],
+        [
+          28,
+          29
+        ]
+      ]
+    },
+    {
+      "case": "NEGATIVE/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          3,
+          4
+        ]
+      ]
+    },
+    {
+      "case": "MULTIPLY/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "MULTIPLY/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    {
+      "case": "MULTIPLY/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "MULTIPLY/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "case": "MULTIPLY/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ]
+      ]
+    },
+    {
+      "case": "MULTIPLY/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "case": "DIVIDE/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "DIVIDE/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          19,
+          20
+        ]
+      ]
+    },
+    {
+      "case": "DIVIDE/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "DIVIDE/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          20,
+          21
+        ]
+      ]
+    },
+    {
+      "case": "DIVIDE/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          21,
+          22
+        ],
+        [
+          27,
+          28
+        ]
+      ]
+    },
+    {
+      "case": "DIVIDE/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          7,
+          8
+        ]
+      ]
+    },
+    {
+      "case": "EQUALS/clean/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "EQUALS/clean/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          21,
+          22
+        ]
+      ]
+    },
+    {
+      "case": "EQUALS/noisy/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "EQUALS/noisy/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          23,
+          24
+        ]
+      ]
+    },
+    {
+      "case": "EQUALS/repeated/noisy_wrong",
+      "pass": true,
+      "errors": 2,
+      "raw_ranges": [
+        [
+          23,
+          24
+        ],
+        [
+          45,
+          46
+        ]
+      ]
+    },
+    {
+      "case": "EQUALS/boundary/noisy_wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          10,
+          11
+        ]
+      ]
+    },
+    {
+      "case": "CAPITAL/correct/noisy_math",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "CAPITAL/missing/noisy_math",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "CAPITAL/wrong/noisy_math",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "CAPITAL/unnecessary/noisy_math",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          0,
+          1
+        ]
+      ]
+    },
+    {
+      "case": "NEGATIVE/unary_gap/correct",
+      "pass": true,
+      "errors": 0,
+      "raw_ranges": []
+    },
+    {
+      "case": "NEGATIVE/unary_gap/wrong",
+      "pass": true,
+      "errors": 1,
+      "raw_ranges": [
+        [
+          16,
+          17
+        ]
+      ]
+    }
+  ]
+}

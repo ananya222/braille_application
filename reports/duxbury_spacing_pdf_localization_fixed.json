@@ -1,0 +1,1634 @@
+{
+  "phase": "localization_fixed",
+  "cases": 42,
+  "passed": 42,
+  "failed": [],
+  "rows": [
+    {
+      "case": "PLUS/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "9216b8bae31918e2eecba1fc0adc93be49f60dbefb5866d675869435b0881386",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_01.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "PLUS/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "d58fc1b15a90263a0d66a3a51c76c05d29ecce064520f90536f9956409db7cce",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_02.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "PLUS/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "80db3f29445dbd30902601dc632d73cd52ca55a495c47818bb242d2c03dd6da5",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_03.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "PLUS/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "d4051e4fd5558c22343c9fd6ca444d2f019f25b2b695ca02848fbc6b7911b16d",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_04.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "PLUS/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ],
+        [
+          24,
+          25
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            270.47656960000006,
+            49.36718719999999,
+            282.53125760000006,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            327.4687584,
+            49.36718719999999,
+            339.5234464,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            270.47656960000006,
+            49.36718719999999,
+            282.53125760000006,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            327.4687584,
+            49.36718719999999,
+            339.5234464,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "cd7de49e308e13e32d23b3279be21b496fa5ab88f4bddd8664a656c896ea87bd",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_05.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "PLUS/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "8fa71b3a16bdaf112a9c45552748eef8e9768be17e241e7c3346a3ada4ca25c3",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_06.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "8c898809f9c75c78272e703f261b1cbeea56535334215b1c908c5430ae8be2fe",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_07.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "dff0a86d90eb95940f87e5dd24cc7f0c9abbdd483096f854dafaf4e217b9dbcd",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_08.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "a34ab58046dcbc12a1dd2517fc0da2c656560d52fccd39352d4186fc8ca5283d",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_09.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "ae38a34d6e9472eb352eaaecb2e808a8855a51e08092a031583610b244612c7b",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_10.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          25,
+          26
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            339.5234464,
+            49.36718719999999,
+            351.5781344,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            339.5234464,
+            49.36718719999999,
+            351.5781344,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "8b5af168b46edc8f4d3a2608a3ef30a56a03d0cd8507771f62f070a0780a000f",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_11.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MINUS/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "b270627c3e73defb1c280dcadeeaeb7d6ba57aaa5a84d31439bf8d74b8b2223e",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_12.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "2be801000b8540cb15b945d8ff9c9dfdfee8f44530759e3b7c1ff2e0c8d9a3c8",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_13.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "19d2268e47d9dbd46d3b46c7b2afcda92cd3e590a26dcdd0b082cbcc269357a3",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_14.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "f3a5947d5aa5aad7b8680ac174f48c89d69a242d0746d7a65353bb14bd4b35c7",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_15.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "52c3101ca1d3f5a0d0823635d9c986c35f6aa9a8e938c2527eb20cb0caaeb257",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_16.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          16,
+          17
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ],
+        [
+          28,
+          29
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            374.0468848,
+            49.36718719999999,
+            386.1015728,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            374.0468848,
+            49.36718719999999,
+            386.1015728,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "d09f5e5cd2075e01e9a8f551850d53a5b89a35ab897a112674085d4a066f81f3",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_17.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "actual_ranges": [
+        [
+          3,
+          4
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            82.5234384,
+            49.36718719999999,
+            94.5781264,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            82.5234384,
+            49.36718719999999,
+            94.5781264,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "85b6e85f399c4d09d959a3003199ac727c4e4e35b29728b2b1b9d3a84e4723c2",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_18.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "5232f7f39fd7eed06c27faef0aaa978debb9759cb7cc371a4a0fbf10557f9a1f",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_19.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "dfa97a18a36e5e89997866dfbcfd15140314d8da196f76449c55adc94ec2d441",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_20.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "aabc2c690304220292414d15eedf08c48d1a9217cffbcf8c5728443ce1f42700",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_21.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "638ecb2f15f54e28f65396694a35e282fe84ee64a9335a317279bf644951f7e9",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_22.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ],
+        [
+          26,
+          27
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            351.5781344,
+            49.36718719999999,
+            363.6328224,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            351.5781344,
+            49.36718719999999,
+            363.6328224,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "c6fa092a9bb69de2dcc22d9cc3aac74d50aeb1451ca2cc1a8fea14c73a82b606",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_23.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "MULTIPLY/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "d74383b2ea84e36655b0995836b7855d99f67c49db8011755ee7d7cac7b1e297",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_24.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "47eb03ea8e7b6e41f0531ad043af4ee182e7b3a794dd7d5176ad89942e9b59b4",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_25.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "actual_ranges": [
+        [
+          19,
+          20
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            272.1171952,
+            49.36718719999999,
+            284.1718832,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "61873f76d17b5eb27ecce432b88eb04559f4eb334cbe41dcd091e5736c96b34e",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_26.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "ff1d11b736abe87f86d43398f57aa7ae2c658996ebb67b958ffd036f31cac82e",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_27.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "actual_ranges": [
+        [
+          20,
+          21
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            282.5312576,
+            49.36718719999999,
+            294.5859456,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "a0c4ff882cb06d1995143cf8676786ffecfebd28fd1e1a04d9127d56cb16680e",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_28.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          21,
+          22
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      "actual_ranges": [
+        [
+          21,
+          22
+        ],
+        [
+          27,
+          28
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            294.58594560000006,
+            49.36718719999999,
+            306.64063360000006,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            363.6328224,
+            49.36718719999999,
+            375.6875104,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            294.58594560000006,
+            49.36718719999999,
+            306.64063360000006,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            363.6328224,
+            49.36718719999999,
+            375.6875104,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "a3fe84960af988f3bd8247acc4fbaa78bda3238d5ee29ff90076aa3add0a54e9",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_29.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "DIVIDE/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "actual_ranges": [
+        [
+          7,
+          8
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            129.1015648,
+            49.36718719999999,
+            141.1562528,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "9fc67121e053923f525e0d9174fec7203f0c6efa289a1acf0d7c79117e92d3d5",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_30.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/clean/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "7e9b1ad635ee413da61c92118866af22256ee8a14dc67b9dbeb08dcb8de9cfb9",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_31.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/clean/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          21,
+          22
+        ]
+      ],
+      "actual_ranges": [
+        [
+          21,
+          22
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            294.58594560000006,
+            49.36718719999999,
+            306.64063360000006,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            294.58594560000006,
+            49.36718719999999,
+            306.64063360000006,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "380c6b39488b6764df770128448a9685f6d1cd8cc022c77427225ac3a143e737",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_32.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/noisy/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "b707ab5253c8d3b8163f21440e92f77b80d6ef683dde2e925406292b8fa3042f",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_33.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/noisy/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          23,
+          24
+        ]
+      ],
+      "actual_ranges": [
+        [
+          23,
+          24
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            315.41407040000007,
+            49.36718719999999,
+            327.46875840000007,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            315.41407040000007,
+            49.36718719999999,
+            327.46875840000007,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "77eb784df37363050ca7a011b60d78914ad4caf320d3c57106f5df2448d40678",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_34.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/repeated/noisy_wrong",
+      "pass": true,
+      "expected_errors": 2,
+      "errors": 2,
+      "expected_ranges": [
+        [
+          23,
+          24
+        ],
+        [
+          45,
+          46
+        ]
+      ],
+      "actual_ranges": [
+        [
+          23,
+          24
+        ],
+        [
+          45,
+          46
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            315.41407040000007,
+            49.36718719999999,
+            327.46875840000007,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            567.4922015999999,
+            49.36718719999999,
+            579.5468896,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            315.41407040000007,
+            49.36718719999999,
+            327.46875840000007,
+            65.36718719999999
+          ]
+        ],
+        [
+          [
+            1,
+            567.4922015999999,
+            49.36718719999999,
+            579.5468896,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "85beb40a12240e77725d6b79b289f4ca4a431ab1035d5d795671a5b469483086",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_35.pdf",
+      "visual_count": 2,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "EQUALS/boundary/noisy_wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          10,
+          11
+        ]
+      ],
+      "actual_ranges": [
+        [
+          10,
+          11
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            161.98437760000002,
+            49.36718719999999,
+            174.03906560000001,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            161.98437760000002,
+            49.36718719999999,
+            174.03906560000001,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "b60f69eb71e68635b34bc9976012857ab4c70d03499b26d99cea74567dff63e2",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_36.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "CAPITAL/correct/noisy_math",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "80db3f29445dbd30902601dc632d73cd52ca55a495c47818bb242d2c03dd6da5",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_37.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "CAPITAL/missing/noisy_math",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "55b50dcb6d85f5e52d8c399cf711c70e8c303e905cb86996ae70ee4dcd15950c",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_38.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "CAPITAL/wrong/noisy_math",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "70ceb672dba396cf613142404258e23951cd702ae791109a1ec0561532a468a0",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_39.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "CAPITAL/unnecessary/noisy_math",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "actual_ranges": [
+        [
+          0,
+          1
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            48.0,
+            49.36718719999999,
+            60.054688,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "80db3f29445dbd30902601dc632d73cd52ca55a495c47818bb242d2c03dd6da5",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_40.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/unary_gap/correct",
+      "pass": true,
+      "expected_errors": 0,
+      "errors": 0,
+      "expected_ranges": [],
+      "actual_ranges": [],
+      "expected_boxes": [],
+      "actual_boxes": [],
+      "sha256": "1c213becfabda580c8594ec67d856e55ced467b762a3ec4b302df80fe69b47fc",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_41.pdf",
+      "visual_count": 0,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    },
+    {
+      "case": "NEGATIVE/unary_gap/wrong",
+      "pass": true,
+      "expected_errors": 1,
+      "errors": 1,
+      "expected_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "actual_ranges": [
+        [
+          16,
+          17
+        ]
+      ],
+      "expected_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "actual_boxes": [
+        [
+          [
+            1,
+            235.95313120000003,
+            49.36718719999999,
+            248.00781920000003,
+            65.36718719999999
+          ]
+        ]
+      ],
+      "sha256": "8d854e0ed8100f78005bb8f2d4ba3cb0f73e06ca9466e2e9cbbfaf35055d5685",
+      "input_pdf": "O:\\braille_0.2\\data\\duxbury_spacing_tests\\case_42.pdf",
+      "visual_count": 1,
+      "provenance_unmatched": 0,
+      "provenance_offsets": 0
+    }
+  ]
+}

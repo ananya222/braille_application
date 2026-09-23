@@ -1,0 +1,39 @@
+{
+  "source_pages": 10,
+  "source_packet_repeats": 2,
+  "source_packet_pages": 5,
+  "braille_packet_pages": 15,
+  "expected_clean_braille_pages": 30,
+  "corruption_clusters": [
+    {
+      "cluster": 1,
+      "packet": 0,
+      "source_page": 1,
+      "actual_pdf_page": 1,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    },
+    {
+      "cluster": 2,
+      "packet": 1,
+      "source_page": 6,
+      "actual_pdf_page": 16,
+      "source_corruption_manifest": "stress_test/Test_1/corrupted/Synthetic_Test_01_corruption_manifest.json",
+      "note": "page 1 of the known 59-error stress page substituted into an otherwise clean repeated packet"
+    }
+  ],
+  "files": {
+    "source": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0010_source_pages_source.pdf",
+      "sha256": "1cfd67451240769d2e5c2aa0e61b2696e41674ec1cde88956d0350090320f164"
+    },
+    "clean_braille": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0010_source_pages_clean_braille.pdf",
+      "sha256": "7d8018fb3f474cedb9c0eb37da08bc49039f091ad5bd6d97167082362f9b9761"
+    },
+    "sparse_corrupted_braille": {
+      "path": "O:\\braille_0.2\\reports\\large_document_fixtures\\repeat_0010_source_pages_sparse_corrupted_braille.pdf",
+      "sha256": "577db5c890866e1819c85ef4807f1da7c5cd1343594a3e56864f7a0026d49a13"
+    }
+  }
+}

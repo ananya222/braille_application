@@ -1,0 +1,348 @@
+{
+  "status": "PASS",
+  "cases": 68,
+  "rows": [
+    {
+      "case": "PLUS/swap/1/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "PLUS/swap/2/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "PLUS/swap/3/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "PLUS/swap/4/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "PLUS/swap/1/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "PLUS/swap/2/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "PLUS/swap/3/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "PLUS/swap/4/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MINUS/swap/0/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MINUS/swap/2/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MINUS/swap/3/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MINUS/swap/4/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MINUS/swap/0/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MINUS/swap/2/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MINUS/swap/3/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MINUS/swap/4/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "NEGATIVE/swap/0/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "NEGATIVE/swap/2/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "NEGATIVE/swap/3/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "NEGATIVE/swap/4/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "NEGATIVE/swap/0/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "NEGATIVE/swap/2/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "NEGATIVE/swap/3/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "NEGATIVE/swap/4/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MULTIPLY/swap/0/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MULTIPLY/swap/1/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MULTIPLY/swap/3/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MULTIPLY/swap/4/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "MULTIPLY/swap/0/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MULTIPLY/swap/1/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MULTIPLY/swap/3/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MULTIPLY/swap/4/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "DIVIDE/swap/0/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "DIVIDE/swap/1/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "DIVIDE/swap/2/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "DIVIDE/swap/4/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "DIVIDE/swap/0/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "DIVIDE/swap/1/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "DIVIDE/swap/2/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "DIVIDE/swap/4/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "EQUALS/swap/0/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "EQUALS/swap/1/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "EQUALS/swap/2/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "EQUALS/swap/3/noise=False",
+      "errors": 1,
+      "normalized_spans": 0
+    },
+    {
+      "case": "EQUALS/swap/0/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "EQUALS/swap/1/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "EQUALS/swap/2/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "EQUALS/swap/3/noise=True",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "MULTIPLY/wrong_prefix/noisy",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "DIVIDE/wrong_prefix/noisy",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "EQUALS/wrong_prefix/noisy",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "CAPITAL/following_paragraph/correct",
+      "errors": 0,
+      "normalized_spans": 1
+    },
+    {
+      "case": "CAPITAL/following_paragraph/missing",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "CAPITAL/following_paragraph/wrong",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "CAPITAL/following_paragraph/unnecessary",
+      "errors": 1,
+      "normalized_spans": 1
+    },
+    {
+      "case": "GUARD/two_blanks",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/blank_inside_number",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/changed_operand",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/missing_equals_blank",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/doubled_equals_blank",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/extra_numeric_without_gap",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/missing_switch_blank",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/extra_terminator",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "long_supported_chain",
+      "errors": 0,
+      "normalized_spans": 1
+    },
+    {
+      "case": "GUARD/unsupported_source/2.5 + 1 = 3.5",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/unsupported_source/x = y = z",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "GUARD/unsupported_source/2 / 3",
+      "errors": 0,
+      "normalized_spans": 0
+    },
+    {
+      "case": "prose_preserved",
+      "errors": 0,
+      "normalized_spans": 1
+    }
+  ],
+  "all_42_test_pdf_hashes_unchanged": true,
+  "mapping_checks": "Every projected equal opcode equals its raw actual slice; canonical cells match their raw-index map."
+}

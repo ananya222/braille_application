@@ -1,0 +1,299 @@
+{
+  "clean": {
+    "statistics": {
+      "pages": 17,
+      "expected_cells": 34464,
+      "matching_cells": 33191,
+      "cell_accuracy": 0.9630629062209842,
+      "raw_differences": 771,
+      "ignored_layout_differences": 13,
+      "ignored_unmapped_insertions": 122,
+      "ignored_alignment_differences": 0,
+      "alignment_coverage_incomplete": 0,
+      "tolerated_duxbury_cells": 10,
+      "joined_physical_page_breaks": 0,
+      "duxbury_normalized_spans": 5,
+      "source_passages_total": 481,
+      "source_passages_aligned": 306,
+      "math_spans_total": 358,
+      "math_spans_evaluated": 195,
+      "capitalization_opportunities_total": 87,
+      "capitalization_opportunities_evaluated": 87,
+      "unresolved_math_spans": 163,
+      "unresolved_source_passages": 175,
+      "unresolved_capitalization_opportunities": 0,
+      "unmatched_switch_markers": 0,
+      "errors": 0,
+      "reviews": 308,
+      "excluded": 4
+    },
+    "errors": []
+  },
+  "corrupted": {
+    "statistics": {
+      "pages": 17,
+      "expected_cells": 34464,
+      "matching_cells": 33185,
+      "cell_accuracy": 0.9628888115134633,
+      "raw_differences": 777,
+      "ignored_layout_differences": 13,
+      "ignored_unmapped_insertions": 122,
+      "ignored_alignment_differences": 0,
+      "alignment_coverage_incomplete": 0,
+      "tolerated_duxbury_cells": 10,
+      "joined_physical_page_breaks": 0,
+      "duxbury_normalized_spans": 5,
+      "source_passages_total": 481,
+      "source_passages_aligned": 301,
+      "math_spans_total": 358,
+      "math_spans_evaluated": 195,
+      "capitalization_opportunities_total": 87,
+      "capitalization_opportunities_evaluated": 86,
+      "unresolved_math_spans": 163,
+      "unresolved_source_passages": 180,
+      "unresolved_capitalization_opportunities": 1,
+      "unmatched_switch_markers": 0,
+      "errors": 5,
+      "reviews": 308,
+      "excluded": 4
+    },
+    "errors": [
+      {
+        "issue_id": "VAL-ERR-0001",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_RULE_001",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "10 Contractions",
+        "source_page": "113-140 (PDF pp. 141-168)",
+        "source_page_number": 1,
+        "braille_page": 1,
+        "actual_page_number": 1,
+        "block_id": 2,
+        "span": {
+          "expected_start": 2,
+          "expected_end": 3,
+          "actual_start": 2,
+          "actual_end": 3
+        },
+        "source_text": "Chapter 1",
+        "actual_braille": [
+          3
+        ],
+        "expected_braille": [
+          1
+        ],
+        "explanation": "The differing cells belong to contracted literary text.",
+        "review_reason": "",
+        "structural_subtype": "text",
+        "rule_ids_considered": [
+          "UEB_RULE_001"
+        ],
+        "bbox": null,
+        "actual_cell_start": 2,
+        "actual_cell_end": 3,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0223",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_RULE_001",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "10 Contractions",
+        "source_page": "113-140 (PDF pp. 141-168)",
+        "source_page_number": 7,
+        "braille_page": 7,
+        "actual_page_number": 7,
+        "block_id": 20,
+        "span": {
+          "expected_start": 615,
+          "expected_end": 616,
+          "actual_start": 600,
+          "actual_end": 601
+        },
+        "source_text": "The notion of a function along with some special functions like identity function, constant",
+        "actual_braille": [
+          47
+        ],
+        "expected_braille": [
+          46
+        ],
+        "explanation": "The differing cells belong to contracted literary text.",
+        "review_reason": "",
+        "structural_subtype": "text",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8"
+        ],
+        "bbox": null,
+        "actual_cell_start": 600,
+        "actual_cell_end": 601,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0326",
+        "status": "ERROR",
+        "category": "NEMETH_ERROR",
+        "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+        "source_document": "Nemeth_2022.pdf",
+        "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+        "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+        "source_page_number": 9,
+        "braille_page": 9,
+        "actual_page_number": 9,
+        "block_id": 22,
+        "span": {
+          "expected_start": 892,
+          "expected_end": 893,
+          "actual_start": 886,
+          "actual_end": 887
+        },
+        "source_text": "one. Also, the element [[*ts*]]− 2[[*te*]] in the co-domain R is",
+        "actual_braille": [
+          44
+        ],
+        "expected_braille": [
+          36
+        ],
+        "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+        "review_reason": "",
+        "structural_subtype": "complete simple linear expression",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8",
+          "NEMETH_SIMPLE_LINEAR_001",
+          "BANA_SWITCH_003"
+        ],
+        "bbox": null,
+        "actual_cell_start": 886,
+        "actual_cell_end": 887,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0691",
+        "status": "ERROR",
+        "category": "NEMETH_ERROR",
+        "rule_id": "NEMETH_SIMPLE_LINEAR_001",
+        "source_document": "Nemeth_2022.pdf",
+        "source_rule": "3.3.1; 3.4.1; 6.3.1; 6.4.7; 20.1; 21.13",
+        "source_page": "3-3,3-11; 6-6,6-12; 20-1 to 20-4; 21-15",
+        "source_page_number": 15,
+        "braille_page": 15,
+        "actual_page_number": 15,
+        "block_id": 8,
+        "span": {
+          "expected_start": 372,
+          "expected_end": 373,
+          "actual_start": 367,
+          "actual_end": 368
+        },
+        "source_text": "[[*ts*]]f + g[[*te*]] is not one-one.",
+        "actual_braille": [
+          36
+        ],
+        "expected_braille": [
+          44
+        ],
+        "explanation": "Actual cells differ inside a fully recognized simple-math payload (NEMETH_SIMPLE_LINEAR_001).",
+        "review_reason": "",
+        "structural_subtype": "complete simple linear expression",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "NEMETH_SIMPLE_LINEAR_001",
+          "BANA_SWITCH_003"
+        ],
+        "bbox": null,
+        "actual_cell_start": 367,
+        "actual_cell_end": 368,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0776",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_8",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+        "source_page": "89-90 (PDF 117-118)",
+        "source_page_number": 17,
+        "braille_page": 17,
+        "actual_page_number": 17,
+        "block_id": 2,
+        "span": {
+          "expected_start": 0,
+          "expected_end": 1,
+          "actual_start": 0,
+          "actual_end": 1
+        },
+        "source_text": "Historical Note",
+        "actual_braille": [
+          48
+        ],
+        "expected_braille": [
+          32
+        ],
+        "explanation": "wrong capital indicator; UEB 8.1.1 and 8.3.1-3.",
+        "review_reason": "",
+        "structural_subtype": "wrong capital indicator",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8"
+        ],
+        "bbox": null,
+        "actual_cell_start": 0,
+        "actual_cell_end": 1,
+        "localized_actual_ranges": []
+      }
+    ]
+  },
+  "switching": {
+    "enter": 358,
+    "exit": 358,
+    "missing_inner_spaces": 0
+  },
+  "generator_changes": [
+    {
+      "page": 2,
+      "source": "a − b = 10",
+      "before": "⠁⠀⠤⠀⠃⠀⠨⠅⠀⠼⠂⠴",
+      "after": "⠁⠤⠃⠀⠨⠅⠀⠼⠂⠴",
+      "rule": "NEMETH_SIMPLE_LINEAR_001"
+    },
+    {
+      "page": 9,
+      "source": "y + 1",
+      "before": "⠽⠀⠬⠀⠼⠂",
+      "after": "⠽⠬⠂",
+      "rule": "NEMETH_SIMPLE_LINEAR_001"
+    },
+    {
+      "page": 9,
+      "source": "− 2",
+      "before": "⠤⠀⠼⠆",
+      "after": "⠤⠼⠆",
+      "rule": "NEMETH_SIMPLE_LINEAR_001"
+    },
+    {
+      "page": 15,
+      "source": "f + g",
+      "before": "⠋⠀⠬⠀⠛",
+      "after": "⠋⠬⠛",
+      "rule": "NEMETH_SIMPLE_LINEAR_001"
+    },
+    {
+      "page": 15,
+      "source": "f + g",
+      "before": "⠋⠀⠬⠀⠛",
+      "after": "⠋⠬⠛",
+      "rule": "NEMETH_SIMPLE_LINEAR_001"
+    }
+  ],
+  "focused_tests": {
+    "test_translation_tabs.py": "FileNotFoundError(2, 'No such file or directory')",
+    "test_prose_boundary_context.py": "FileNotFoundError(2, 'No such file or directory')",
+    "test_nemeth_boundary_spacing.py": "FileNotFoundError(2, 'No such file or directory')",
+    "test_boundary_verifier.py": "FileNotFoundError(2, 'No such file or directory')",
+    "test_letter_grouping.py": "FileNotFoundError(2, 'No such file or directory')"
+  }
+}

@@ -1,0 +1,38 @@
+         617968 function calls (571992 primitive calls) in 0.295 seconds
+
+   Ordered by: cumulative time
+   List reduced from 226 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.000    0.000    0.295    0.295 O:\braille_0.2\scripts\cpu_optimization_profile.py:168(<lambda>)
+     1830    0.001    0.000    0.127    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:381(get_object)
+     1528    0.003    0.000    0.126    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_reader.py:428(get_object)
+ 9392/628    0.013    0.000    0.113    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:1478(read_object)
+  639/621    0.009    0.000    0.109    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:552(read_from_stream)
+60931/24884    0.006    0.000    0.104    0.000 {built-in method builtins.len}
+      300    0.000    0.000    0.102    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_writer.py:590(add_page)
+      301    0.000    0.000    0.102    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_page.py:2247(__iter__)
+      300    0.004    0.000    0.102    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_writer.py:492(_add_page)
+      301    0.000    0.000    0.101    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_page.py:2172(__len__)
+      301    0.000    0.000    0.101    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_doc_common.py:332(get_num_pages)
+    301/1    0.005    0.000    0.101    0.101 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_doc_common.py:1135(_flatten)
+  636/300    0.002    0.000    0.085    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:287(clone)
+  636/300    0.005    0.000    0.082    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:311(_clone)
+        1    0.000    0.000    0.082    0.082 O:\braille_0.2\src\braille_app\visual_annotations.py:626(export_annotated_pdf)
+        1    0.000    0.000    0.081    0.081 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_writer.py:1352(write)
+        1    0.034    0.034    0.081    0.081 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_writer.py:1331(write_stream)
+  903/901    0.005    0.000    0.063    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:115(clone)
+     3384    0.007    0.000    0.037    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:893(read_from_stream)
+      904    0.007    0.000    0.037    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:240(read_from_stream)
+  640/622    0.004    0.000    0.035    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:504(write_to_stream)
+    28862    0.007    0.000    0.032    0.000 {built-in method builtins.isinstance}
+        1    0.001    0.001    0.032    0.032 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_writer.py:1479(_write_pdf_structure)
+    19617    0.013    0.000    0.025    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\typing.py:1904(__instancecheck__)
+     3384    0.002    0.000    0.023    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:826(write_to_stream)
+     6621    0.012    0.000    0.021    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\_utils.py:245(read_until_regex)
+     3384    0.014    0.000    0.021    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:835(renumber)
+      302    0.001    0.000    0.018    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_data_structures.py:1011(write_to_stream)
+     3384    0.011    0.000    0.017    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:873(unnumber)
+     3237    0.004    0.000    0.016    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\site-packages\pypdf\generic\_base.py:585(read_from_stream)
+
+

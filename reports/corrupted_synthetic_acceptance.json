@@ -1,0 +1,93 @@
+{
+  "status": "PASS",
+  "injected": 20,
+  "detected": 20,
+  "missed": 0,
+  "false_positives": 0,
+  "exact_localization": 20,
+  "wrong_page_highlights": 0,
+  "duplicates": 0,
+  "supported_skipped_alignment": 0,
+  "detection_rate": 1.0,
+  "localization_rate": 1.0,
+  "rows": [
+    {
+      "test": 1,
+      "injected": 4,
+      "detected": 4,
+      "missed": 0,
+      "false_positives": 0,
+      "exact_localization": 4,
+      "wrong_page_highlights": 0,
+      "duplicates": 0,
+      "supported_skipped_alignment": 0,
+      "annotated_pdf": "O:\\braille_0.2\\stress_test\\Test_1\\corrupted\\Synthetic_Test_01_corrupted_annotated.pdf",
+      "error_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "test": 2,
+      "injected": 4,
+      "detected": 4,
+      "missed": 0,
+      "false_positives": 0,
+      "exact_localization": 4,
+      "wrong_page_highlights": 0,
+      "duplicates": 0,
+      "supported_skipped_alignment": 0,
+      "annotated_pdf": "O:\\braille_0.2\\stress_test\\Test_2\\corrupted\\Synthetic_Test_02_corrupted_annotated.pdf",
+      "error_pages": [
+        1
+      ]
+    },
+    {
+      "test": 3,
+      "injected": 4,
+      "detected": 4,
+      "missed": 0,
+      "false_positives": 0,
+      "exact_localization": 4,
+      "wrong_page_highlights": 0,
+      "duplicates": 0,
+      "supported_skipped_alignment": 0,
+      "annotated_pdf": "O:\\braille_0.2\\stress_test\\Test_3\\corrupted\\Synthetic_Test_03_corrupted_annotated.pdf",
+      "error_pages": [
+        1,
+        2
+      ]
+    },
+    {
+      "test": 4,
+      "injected": 4,
+      "detected": 4,
+      "missed": 0,
+      "false_positives": 0,
+      "exact_localization": 4,
+      "wrong_page_highlights": 0,
+      "duplicates": 0,
+      "supported_skipped_alignment": 0,
+      "annotated_pdf": "O:\\braille_0.2\\stress_test\\Test_4\\corrupted\\Synthetic_Test_04_corrupted_annotated.pdf",
+      "error_pages": [
+        1
+      ]
+    },
+    {
+      "test": 5,
+      "injected": 4,
+      "detected": 4,
+      "missed": 0,
+      "false_positives": 0,
+      "exact_localization": 4,
+      "wrong_page_highlights": 0,
+      "duplicates": 0,
+      "supported_skipped_alignment": 0,
+      "annotated_pdf": "O:\\braille_0.2\\stress_test\\Test_5\\corrupted\\Synthetic_Test_05_corrupted_annotated.pdf",
+      "error_pages": [
+        1
+      ]
+    }
+  ],
+  "original_inputs_unchanged": true
+}

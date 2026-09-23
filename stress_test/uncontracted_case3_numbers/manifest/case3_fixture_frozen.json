@@ -1,0 +1,42 @@
+{
+  "status": "PASS",
+  "verified_at_utc": "2026-09-23T10:05:11.056793+00:00",
+  "logical_actions": 500,
+  "family_counts": {
+    "boundaries": 25,
+    "uppercase_after_number": 40,
+    "letter_after_number_grade1": 50,
+    "numeric_punctuation": 30,
+    "repeated_numeric_context": 25,
+    "numeric_indicators": 70,
+    "digit_substitutions": 60,
+    "numeric_mode_transitions": 60,
+    "deletions": 50,
+    "insertions": 50,
+    "transpositions": 40
+  },
+  "operation_counts": {
+    "substitute": 203,
+    "transpose": 60,
+    "delete": 132,
+    "insert": 105
+  },
+  "net_cell_delta": -27,
+  "distinct_initial_physical_lines": 500,
+  "physical_pages": 25,
+  "pdf_matches_brf_physical_cells": true,
+  "manifest_replay_matches_corrupted_logical_stream": true,
+  "all_mutated_cells_match_manifest_locations": true,
+  "clean_logical_stream_matches_expected": true,
+  "hashes": {
+    "source_docx": "39466c3374a98af1fc3480f5a84e5b535cb72bf377e7f3eda6f1e2e8df8e3238",
+    "expected_metadata": "b59f8b597b9c14cc177b22cd129b702721185a7816d336b05b7211cf2e589257",
+    "coverage_manifest": "7217a2bb702136b805bbf11fba4326c683704c1a0b7fff093dba1441b59bc498",
+    "clean_pdf": "e7f7da9ed253506600b7e665865852f1a94165f8257981150d9e52c4478ce930",
+    "clean_brf": "577ab5ae5fbfd74f0b1fe2aee00214b42593af06616ec1d23585dda62984703d",
+    "corrupted_pdf": "3282b6bc10863e75a4fe86952cf761f80f93f79e4b692bc8b64760e71f8a0998",
+    "corrupted_brf": "819643c2ec190dae5fe0a7734e7eaa7e7faad71309f1bb6d0a6dfee8a9d3d69d",
+    "mutation_manifest": "e01483f574424c3d9c36827624ee65187ef79847865e718e5e653e4669ab5fb2",
+    "generator_integrity": "4890c6eaeeabb4330f1400dcb0a5a90a0d82d120e5239ead75e5ab499aead6f0"
+  }
+}

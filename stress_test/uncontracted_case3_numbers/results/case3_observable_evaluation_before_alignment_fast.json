@@ -1,0 +1,5348 @@
+{
+  "mutations": 500,
+  "findings": 128,
+  "reviews": 0,
+  "duplicate_issue_ids": 0,
+  "runtime_seconds": 24.9008,
+  "statistics": {
+    "pages": 1,
+    "expected_cells": 22125,
+    "matching_cells": 3857,
+    "cell_accuracy": 0.1743276836158192,
+    "raw_differences": 128,
+    "ignored_layout_differences": 0,
+    "ignored_unmapped_insertions": 0,
+    "ignored_alignment_differences": 0,
+    "alignment_coverage_incomplete": 0,
+    "tolerated_duxbury_cells": 0,
+    "joined_physical_page_breaks": 0,
+    "duxbury_normalized_spans": 0,
+    "source_passages_total": 90,
+    "source_passages_aligned": 2,
+    "math_spans_total": 0,
+    "math_spans_evaluated": 0,
+    "capitalization_opportunities_total": 362,
+    "capitalization_opportunities_evaluated": 65,
+    "unresolved_math_spans": 0,
+    "unresolved_source_passages": 88,
+    "unresolved_capitalization_opportunities": 297,
+    "unmatched_switch_markers": 0,
+    "errors": 128,
+    "reviews": 0,
+    "excluded": 0
+  },
+  "outcomes": [
+    {
+      "mutation_id": "C3-0466",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0458",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0003",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        96,
+        96
+      ],
+      "finding_span": [
+        96,
+        96
+      ],
+      "target_geometry": [
+        [
+          1,
+          281.73,
+          292.277,
+          86.946,
+          100.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          1,
+          281.73,
+          292.277,
+          86.946,
+          100.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0419",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0004",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        132,
+        132
+      ],
+      "finding_span": [
+        132,
+        132
+      ],
+      "target_geometry": [
+        [
+          1,
+          292.277,
+          302.825,
+          113.946,
+          127.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          1,
+          292.277,
+          302.825,
+          113.946,
+          127.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0426",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0005",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        181,
+        181
+      ],
+      "finding_span": [
+        181,
+        181
+      ],
+      "target_geometry": [
+        [
+          1,
+          63.096,
+          73.644,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          1,
+          63.096,
+          73.644,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0219",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0006",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        188,
+        189
+      ],
+      "finding_span": [
+        188,
+        189
+      ],
+      "target_geometry": [
+        [
+          1,
+          146.043,
+          156.591,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          1,
+          146.043,
+          156.591,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0271",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0185",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0141",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0070",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0059",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0300",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0106",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0461",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0109",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0196",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0498",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0088",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0020",
+      "source_span_exact": true,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        704,
+        705
+      ],
+      "finding_span": [
+        704,
+        705
+      ],
+      "target_geometry": [
+        [
+          1,
+          156.591,
+          167.139,
+          545.946,
+          559.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          73.644,
+          84.191,
+          518.946,
+          532.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0484",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0324",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0027",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        827,
+        828
+      ],
+      "finding_span": [
+        829,
+        830
+      ],
+      "target_geometry": [
+        [
+          1,
+          290.842,
+          301.39,
+          626.946,
+          640.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          186.799,
+          197.347,
+          599.946,
+          613.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0104",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0028",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        856,
+        857
+      ],
+      "finding_span": [
+        858,
+        859
+      ],
+      "target_geometry": [
+        [
+          1,
+          227.555,
+          238.103,
+          653.946,
+          667.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          93.304,
+          103.852,
+          626.946,
+          640.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0360",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0029",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        897,
+        898
+      ],
+      "finding_span": [
+        901,
+        902
+      ],
+      "target_geometry": [
+        [
+          1,
+          333.033,
+          343.581,
+          680.946,
+          694.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          177.687,
+          188.234,
+          653.946,
+          667.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0029",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0348",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0241",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0382",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0112",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0173",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0476",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0235",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0407",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0362",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0052",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0307",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0363",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0391",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0194",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0229",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0044",
+      "source_span_exact": true,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        1643,
+        1644
+      ],
+      "finding_span": [
+        1643,
+        1644
+      ],
+      "target_geometry": [
+        [
+          2,
+          124.947,
+          135.495,
+          572.946,
+          586.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          124.947,
+          135.495,
+          410.946,
+          424.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0414",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0488",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0429",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0275",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0252",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0117",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0263",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0083",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0369",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0424",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0072",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        2201,
+        2201
+      ],
+      "finding_span": [
+        2205,
+        2205
+      ],
+      "target_geometry": [
+        [
+          3,
+          52.548,
+          63.096,
+          302.946,
+          316.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          52.548,
+          63.096,
+          140.946,
+          154.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0412",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0228",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0405",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0299",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0092",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0259",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0107",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0371",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0411",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0279",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0323",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0114",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0366",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0031",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0278",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0035",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0450",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0103",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0253",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0137",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0486",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0016",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0331",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0329",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0007",
+      "family": "boundaries",
+      "subtype": "paragraph edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0368",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0251",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0204",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0340",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0013",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0361",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0192",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0319",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0144",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0130",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0430",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0087",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0081",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0301",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0472",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0493",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0447",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0265",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0474",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0286",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0358",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0152",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0155",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0350",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0121",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0485",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0071",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0044",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0077",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0051",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0149",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0364",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0393",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0480",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0203",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0046",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0446",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0495",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0312",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0477",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0444",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0270",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0118",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0198",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0043",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0236",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0490",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0108",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0500",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0381",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0481",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0211",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0417",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0120",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0432",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0193",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0015",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0055",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0287",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0126",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0483",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0199",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0202",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0053",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0367",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0176",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0258",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0448",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0441",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0225",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0177",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0089",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        6322,
+        6323
+      ],
+      "finding_span": [
+        6326,
+        6327
+      ],
+      "target_geometry": [
+        [
+          7,
+          333.033,
+          343.581,
+          653.946,
+          667.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          415.98,
+          426.528,
+          572.946,
+          586.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0017",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0064",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0025",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0116",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0459",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0457",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0357",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0103",
+      "source_span_exact": false,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        6634,
+        6635
+      ],
+      "finding_span": [
+        6638,
+        6639
+      ],
+      "target_geometry": [
+        [
+          8,
+          197.347,
+          207.895,
+          221.946,
+          235.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          22,
+          84.191,
+          94.739,
+          275.946,
+          289.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0039",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0359",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0254",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "DETECTED_BUT_MISLOCALIZED",
+      "issue_id": "VAL-ERR-0106",
+      "source_span_exact": true,
+      "physical_exact": false,
+      "boxes_exact": false,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        6770,
+        6771
+      ],
+      "finding_span": [
+        6770,
+        6771
+      ],
+      "target_geometry": [
+        [
+          8,
+          52.548,
+          63.096,
+          329.946,
+          343.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          52.548,
+          63.096,
+          302.946,
+          316.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0347",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0227",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0167",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0230",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0266",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0410",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0283",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0125",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0330",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0370",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0063",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0003",
+      "family": "boundaries",
+      "subtype": "page edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0166",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0415",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0400",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0334",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0248",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0011",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0341",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0207",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0437",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0123",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0321",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0187",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0276",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0257",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0244",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0157",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0066",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0099",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0262",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0421",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0372",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0313",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0209",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0200",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0377",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0146",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0246",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0027",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0274",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0439",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0420",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0353",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0425",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0394",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0172",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0038",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0294",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0464",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0001",
+      "family": "boundaries",
+      "subtype": "page edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0342",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0128",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0239",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0040",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0095",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0243",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0206",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0288",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0356",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0339",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0467",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0093",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0475",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0006",
+      "family": "boundaries",
+      "subtype": "paragraph edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0261",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0311",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0380",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0009",
+      "family": "boundaries",
+      "subtype": "paragraph edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0386",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0440",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0134",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0005",
+      "family": "boundaries",
+      "subtype": "page edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0075",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0491",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0057",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0465",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0175",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0151",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0306",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0023",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0058",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0182",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0153",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0314",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0383",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0315",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0318",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0115",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0028",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0418",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0110",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0147",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0296",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0284",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0291",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0487",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0041",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0492",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0338",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0499",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0226",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0186",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0221",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0017",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11333,
+        11334
+      ],
+      "finding_span": [
+        484,
+        485
+      ],
+      "target_geometry": [
+        [
+          13,
+          42.0,
+          52.548,
+          356.946,
+          370.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          42.0,
+          52.548,
+          356.946,
+          370.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0316",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0018",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11357,
+        11358
+      ],
+      "finding_span": [
+        508,
+        509
+      ],
+      "target_geometry": [
+        [
+          13,
+          280.294,
+          290.842,
+          356.946,
+          370.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          280.294,
+          290.842,
+          356.946,
+          370.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0065",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0019",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11491,
+        11492
+      ],
+      "finding_span": [
+        642,
+        643
+      ],
+      "target_geometry": [
+        [
+          13,
+          146.043,
+          156.591,
+          464.946,
+          478.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          146.043,
+          156.591,
+          464.946,
+          478.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0100",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0195",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0021",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11568,
+        11569
+      ],
+      "finding_span": [
+        719,
+        720
+      ],
+      "target_geometry": [
+        [
+          13,
+          227.555,
+          238.103,
+          518.946,
+          532.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          227.555,
+          238.103,
+          518.946,
+          532.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0237",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0022",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11592,
+        11593
+      ],
+      "finding_span": [
+        743,
+        744
+      ],
+      "target_geometry": [
+        [
+          13,
+          61.66,
+          72.208,
+          545.946,
+          559.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          61.66,
+          72.208,
+          545.946,
+          559.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0269",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0025",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11650,
+        11651
+      ],
+      "finding_span": [
+        801,
+        802
+      ],
+      "target_geometry": [
+        [
+          13,
+          292.277,
+          302.825,
+          572.946,
+          586.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          292.277,
+          302.825,
+          572.946,
+          586.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0423",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0026",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11667,
+        11667
+      ],
+      "finding_span": [
+        818,
+        818
+      ],
+      "target_geometry": [
+        [
+          13,
+          63.096,
+          73.644,
+          599.946,
+          613.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          63.096,
+          73.644,
+          599.946,
+          613.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0148",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0267",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0032",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0030",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11801,
+        11802
+      ],
+      "finding_span": [
+        952,
+        953
+      ],
+      "target_geometry": [
+        [
+          13,
+          372.354,
+          382.901,
+          680.946,
+          694.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          13,
+          372.354,
+          382.901,
+          680.946,
+          694.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0344",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0436",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0032",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11947,
+        11947
+      ],
+      "finding_span": [
+        1098,
+        1098
+      ],
+      "target_geometry": [
+        [
+          14,
+          330.162,
+          340.71,
+          113.946,
+          127.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          330.162,
+          340.71,
+          113.946,
+          127.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0374",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0036",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        11982,
+        11983
+      ],
+      "finding_span": [
+        1295,
+        1296
+      ],
+      "target_geometry": [
+        [
+          14,
+          309.066,
+          319.614,
+          140.946,
+          154.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          309.066,
+          319.614,
+          140.946,
+          154.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0427",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0037",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        12000,
+        12000
+      ],
+      "finding_span": [
+        1313,
+        1313
+      ],
+      "target_geometry": [
+        [
+          14,
+          103.852,
+          114.399,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          103.852,
+          114.399,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0045",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0224",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0268",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0041",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        12195,
+        12196
+      ],
+      "finding_span": [
+        1508,
+        1509
+      ],
+      "target_geometry": [
+        [
+          14,
+          268.311,
+          278.858,
+          302.946,
+          316.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          268.311,
+          278.858,
+          302.946,
+          316.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0373",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0233",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0131",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0045",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        12370,
+        12371
+      ],
+      "finding_span": [
+        1682,
+        1683
+      ],
+      "target_geometry": [
+        [
+          14,
+          124.947,
+          135.495,
+          437.946,
+          451.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          124.947,
+          135.495,
+          437.946,
+          451.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0159",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0046",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        12407,
+        12408
+      ],
+      "finding_span": [
+        1719,
+        1720
+      ],
+      "target_geometry": [
+        [
+          14,
+          124.947,
+          135.495,
+          464.946,
+          478.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          14,
+          124.947,
+          135.495,
+          464.946,
+          478.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0084",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0018",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0463",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0397",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0250",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0398",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0401",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0322",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0468",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0143",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0138",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0022",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0076",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0072",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0469",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0255",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0127",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0191",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0302",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0352",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0234",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0240",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0332",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0069",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0309",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0327",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0008",
+      "family": "boundaries",
+      "subtype": "paragraph edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0249",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0111",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0124",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0392",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0355",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0471",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0303",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0460",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0479",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0285",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0290",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0413",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0154",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0178",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0232",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0033",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0012",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0289",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0293",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0165",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0113",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0449",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0129",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0049",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0047",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0399",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0422",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0434",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0308",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0119",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0096",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0435",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0091",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0101",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0408",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0158",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0218",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0305",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0231",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0085",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0073",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0277",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0385",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0310",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0212",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0496",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0387",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0384",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0451",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0454",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0097",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0375",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0478",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0409",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0404",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0396",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0213",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0132",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0205",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0343",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0021",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0188",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0489",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0433",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0160",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0002",
+      "family": "boundaries",
+      "subtype": "page edge numeric mutation",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0067",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16369,
+        16370
+      ],
+      "finding_span": [
+        2023,
+        2024
+      ],
+      "target_geometry": [
+        [
+          18,
+          94.739,
+          105.287,
+          680.946,
+          694.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          18,
+          94.739,
+          105.287,
+          680.946,
+          694.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0024",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0068",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16476,
+        16477
+      ],
+      "finding_span": [
+        2130,
+        2131
+      ],
+      "target_geometry": [
+        [
+          19,
+          423.657,
+          434.205,
+          59.946,
+          73.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          423.657,
+          434.205,
+          59.946,
+          73.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0098",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0069",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16510,
+        16511
+      ],
+      "finding_span": [
+        2164,
+        2165
+      ],
+      "target_geometry": [
+        [
+          19,
+          360.37,
+          370.918,
+          86.946,
+          100.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          360.37,
+          370.918,
+          86.946,
+          100.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0482",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0208",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0455",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0074",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16588,
+        16588
+      ],
+      "finding_span": [
+        5909,
+        5909
+      ],
+      "target_geometry": [
+        [
+          19,
+          84.191,
+          94.739,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          84.191,
+          94.739,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0333",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0075",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16645,
+        16646
+      ],
+      "finding_span": [
+        5966,
+        5967
+      ],
+      "target_geometry": [
+        [
+          19,
+          268.311,
+          278.858,
+          194.946,
+          208.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          268.311,
+          278.858,
+          194.946,
+          208.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0082",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0076",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16744,
+        16745
+      ],
+      "finding_span": [
+        6065,
+        6066
+      ],
+      "target_geometry": [
+        [
+          19,
+          146.043,
+          156.591,
+          275.946,
+          289.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          146.043,
+          156.591,
+          275.946,
+          289.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0379",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0078",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0078",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        16806,
+        16807
+      ],
+      "finding_span": [
+        6127,
+        6128
+      ],
+      "target_geometry": [
+        [
+          19,
+          414.545,
+          425.093,
+          302.946,
+          316.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          414.545,
+          425.093,
+          302.946,
+          316.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0298",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0345",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0215",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0295",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0086",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        17063,
+        17064
+      ],
+      "finding_span": [
+        6223,
+        6224
+      ],
+      "target_geometry": [
+        [
+          19,
+          126.383,
+          136.931,
+          518.946,
+          532.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          126.383,
+          136.931,
+          518.946,
+          532.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0280",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0406",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0320",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0090",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        17199,
+        17199
+      ],
+      "finding_span": [
+        6359,
+        6359
+      ],
+      "target_geometry": [
+        [
+          19,
+          342.146,
+          352.693,
+          599.946,
+          613.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          342.146,
+          352.693,
+          599.946,
+          613.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0079",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0091",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        17216,
+        17217
+      ],
+      "finding_span": [
+        6376,
+        6377
+      ],
+      "target_geometry": [
+        [
+          19,
+          186.799,
+          197.347,
+          626.946,
+          640.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          186.799,
+          197.347,
+          626.946,
+          640.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0376",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0092",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        17270,
+        17271
+      ],
+      "finding_span": [
+        6430,
+        6431
+      ],
+      "target_geometry": [
+        [
+          19,
+          384.337,
+          394.885,
+          653.946,
+          667.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          19,
+          384.337,
+          394.885,
+          653.946,
+          667.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0452",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0174",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0438",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0335",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0292",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0030",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0014",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0304",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0150",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0389",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0402",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0180",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0170",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0162",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0272",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0037",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0189",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0169",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0210",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0245",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0317",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0135",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0133",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0056",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0183",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0080",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0325",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0442",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0337",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0388",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0336",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0136",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0281",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0445",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0181",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0090",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0470",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0094",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0378",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0260",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0171",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0497",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0264",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0068",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0216",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0019",
+      "family": "uppercase_after_number",
+      "subtype": "grade 1 and capitalization order",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0416",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0094",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        19120,
+        19120
+      ],
+      "finding_span": [
+        6530,
+        6530
+      ],
+      "target_geometry": [
+        [
+          22,
+          403.997,
+          414.545,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          22,
+          403.997,
+          414.545,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0214",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0142",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0074",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0026",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0161",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0102",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0326",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition insertion",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0273",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0222",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0494",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0145",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0086",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0020",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0223",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0004",
+      "family": "boundaries",
+      "subtype": "page edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0395",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0220",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0168",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0354",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0247",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0431",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0197",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0061",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0048",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0365",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0428",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0346",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0067",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0105",
+      "family": "boundaries",
+      "subtype": "line edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0062",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0164",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0390",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0282",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0190",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0328",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0034",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0238",
+      "family": "numeric_indicators",
+      "subtype": "extra",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0050",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0140",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0453",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0179",
+      "family": "numeric_indicators",
+      "subtype": "wrong",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0139",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0184",
+      "family": "numeric_indicators",
+      "subtype": "repeated",
+      "operation": "insert",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0036",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0089",
+      "family": "letter_after_number_grade1",
+      "subtype": "missing grade 1 indicator",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0105",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21048,
+        21049
+      ],
+      "finding_span": [
+        6703,
+        6704
+      ],
+      "target_geometry": [
+        [
+          24,
+          114.399,
+          124.947,
+          248.946,
+          262.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          114.399,
+          124.947,
+          248.946,
+          262.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0256",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0443",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0107",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21164,
+        21164
+      ],
+      "finding_span": [
+        6819,
+        6819
+      ],
+      "target_geometry": [
+        [
+          24,
+          240.974,
+          251.521,
+          329.946,
+          343.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          240.974,
+          251.521,
+          329.946,
+          343.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0349",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition deletion",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0108",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21275,
+        21276
+      ],
+      "finding_span": [
+        6930,
+        6931
+      ],
+      "target_geometry": [
+        [
+          24,
+          42.0,
+          52.548,
+          437.946,
+          451.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          42.0,
+          52.548,
+          437.946,
+          451.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0403",
+      "family": "deletions",
+      "subtype": "cell deletion",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0351",
+      "family": "numeric_mode_transitions",
+      "subtype": "transition substitution",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0122",
+      "family": "numeric_punctuation",
+      "subtype": "numeric comma/period substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0112",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21452,
+        21453
+      ],
+      "finding_span": [
+        10615,
+        10616
+      ],
+      "target_geometry": [
+        [
+          24,
+          372.354,
+          382.901,
+          545.946,
+          559.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          372.354,
+          382.901,
+          545.946,
+          559.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0462",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0242",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0115",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21526,
+        21527
+      ],
+      "finding_span": [
+        10689,
+        10690
+      ],
+      "target_geometry": [
+        [
+          24,
+          402.562,
+          413.109,
+          599.946,
+          613.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          402.562,
+          413.109,
+          599.946,
+          613.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0201",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0116",
+      "source_span_exact": false,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21533,
+        21534
+      ],
+      "finding_span": [
+        10696,
+        10697
+      ],
+      "target_geometry": [
+        [
+          24,
+          72.208,
+          82.756,
+          626.946,
+          640.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          24,
+          72.208,
+          82.756,
+          626.946,
+          640.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0042",
+      "family": "uppercase_after_number",
+      "subtype": "capitalization indicator loss",
+      "operation": "delete",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0010",
+      "family": "boundaries",
+      "subtype": "paragraph edge numeric mutation",
+      "operation": "substitute",
+      "state": "MISSED"
+    },
+    {
+      "mutation_id": "C3-0297",
+      "family": "digit_substitutions",
+      "subtype": "digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0120",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21695,
+        21696
+      ],
+      "finding_span": [
+        21695,
+        21696
+      ],
+      "target_geometry": [
+        [
+          25,
+          207.895,
+          218.442,
+          59.946,
+          73.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          207.895,
+          218.442,
+          59.946,
+          73.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0217",
+      "family": "numeric_indicators",
+      "subtype": "missing",
+      "operation": "delete",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0121",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21739,
+        21740
+      ],
+      "finding_span": [
+        21739,
+        21740
+      ],
+      "target_geometry": [
+        [
+          25,
+          301.39,
+          311.938,
+          86.946,
+          100.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          301.39,
+          311.938,
+          86.946,
+          100.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0054",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0122",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21785,
+        21786
+      ],
+      "finding_span": [
+        21785,
+        21786
+      ],
+      "target_geometry": [
+        [
+          25,
+          393.449,
+          403.997,
+          113.946,
+          127.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          393.449,
+          403.997,
+          113.946,
+          127.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0060",
+      "family": "letter_after_number_grade1",
+      "subtype": "wrong grade 1 indicator",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0123",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21830,
+        21831
+      ],
+      "finding_span": [
+        21830,
+        21831
+      ],
+      "target_geometry": [
+        [
+          25,
+          84.191,
+          94.739,
+          167.946,
+          181.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          84.191,
+          94.739,
+          167.946,
+          181.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0156",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0124",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21880,
+        21881
+      ],
+      "finding_span": [
+        21880,
+        21881
+      ],
+      "target_geometry": [
+        [
+          25,
+          292.277,
+          302.825,
+          194.946,
+          208.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          292.277,
+          302.825,
+          194.946,
+          208.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0163",
+      "family": "repeated_numeric_context",
+      "subtype": "repeated-value digit substitution",
+      "operation": "substitute",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0125",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21912,
+        21913
+      ],
+      "finding_span": [
+        21912,
+        21913
+      ],
+      "target_geometry": [
+        [
+          25,
+          218.442,
+          228.99,
+          221.946,
+          235.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          218.442,
+          228.99,
+          221.946,
+          235.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0456",
+      "family": "insertions",
+      "subtype": "extra cell",
+      "operation": "insert",
+      "state": "CORRECTLY_DETECTED_AND_LOCALIZED",
+      "issue_id": "VAL-ERR-0126",
+      "source_span_exact": true,
+      "physical_exact": true,
+      "boxes_exact": true,
+      "target_cells": 1,
+      "provenance_cells": 1,
+      "expected_span": [
+        21993,
+        21993
+      ],
+      "finding_span": [
+        21993,
+        21993
+      ],
+      "target_geometry": [
+        [
+          25,
+          269.746,
+          280.294,
+          275.946,
+          289.946
+        ]
+      ],
+      "finding_geometry": [
+        [
+          25,
+          269.746,
+          280.294,
+          275.946,
+          289.946
+        ]
+      ]
+    },
+    {
+      "mutation_id": "C3-0473",
+      "family": "transpositions",
+      "subtype": "adjacent order swap",
+      "operation": "transpose",
+      "state": "MISSED"
+    }
+  ],
+  "states": {
+    "MISSED": 448,
+    "CORRECTLY_DETECTED_AND_LOCALIZED": 43,
+    "DETECTED_BUT_MISLOCALIZED": 9
+  },
+  "by_family": {
+    "boundaries": {
+      "MISSED": 23,
+      "DETECTED_BUT_MISLOCALIZED": 1,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 1
+    },
+    "deletions": {
+      "MISSED": 48,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 2
+    },
+    "digit_substitutions": {
+      "MISSED": 54,
+      "DETECTED_BUT_MISLOCALIZED": 1,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 5
+    },
+    "insertions": {
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 10,
+      "MISSED": 39,
+      "DETECTED_BUT_MISLOCALIZED": 1
+    },
+    "letter_after_number_grade1": {
+      "MISSED": 41,
+      "DETECTED_BUT_MISLOCALIZED": 1,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 8
+    },
+    "numeric_indicators": {
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 6,
+      "MISSED": 62,
+      "DETECTED_BUT_MISLOCALIZED": 2
+    },
+    "numeric_mode_transitions": {
+      "DETECTED_BUT_MISLOCALIZED": 3,
+      "MISSED": 53,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 4
+    },
+    "numeric_punctuation": {
+      "MISSED": 28,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 2
+    },
+    "repeated_numeric_context": {
+      "MISSED": 22,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 3
+    },
+    "transpositions": {
+      "MISSED": 40
+    },
+    "uppercase_after_number": {
+      "MISSED": 38,
+      "CORRECTLY_DETECTED_AND_LOCALIZED": 2
+    }
+  },
+  "correctly_detected_and_localized": 43,
+  "detected_but_mislocalized": 9,
+  "missed": 448,
+  "association_ambiguous": 0,
+  "unmatched_findings": 76,
+  "unmatched_issue_ids": [
+    "VAL-ERR-0001",
+    "VAL-ERR-0002",
+    "VAL-ERR-0007",
+    "VAL-ERR-0008",
+    "VAL-ERR-0009",
+    "VAL-ERR-0010",
+    "VAL-ERR-0011",
+    "VAL-ERR-0012",
+    "VAL-ERR-0013",
+    "VAL-ERR-0014",
+    "VAL-ERR-0015",
+    "VAL-ERR-0016",
+    "VAL-ERR-0023",
+    "VAL-ERR-0024",
+    "VAL-ERR-0031",
+    "VAL-ERR-0033",
+    "VAL-ERR-0034",
+    "VAL-ERR-0035",
+    "VAL-ERR-0038",
+    "VAL-ERR-0039",
+    "VAL-ERR-0040",
+    "VAL-ERR-0042",
+    "VAL-ERR-0043",
+    "VAL-ERR-0047",
+    "VAL-ERR-0048",
+    "VAL-ERR-0049",
+    "VAL-ERR-0050",
+    "VAL-ERR-0051",
+    "VAL-ERR-0052",
+    "VAL-ERR-0053",
+    "VAL-ERR-0054",
+    "VAL-ERR-0055",
+    "VAL-ERR-0056",
+    "VAL-ERR-0057",
+    "VAL-ERR-0058",
+    "VAL-ERR-0059",
+    "VAL-ERR-0060",
+    "VAL-ERR-0061",
+    "VAL-ERR-0062",
+    "VAL-ERR-0063",
+    "VAL-ERR-0064",
+    "VAL-ERR-0065",
+    "VAL-ERR-0066",
+    "VAL-ERR-0070",
+    "VAL-ERR-0071",
+    "VAL-ERR-0073",
+    "VAL-ERR-0077",
+    "VAL-ERR-0079",
+    "VAL-ERR-0080",
+    "VAL-ERR-0081",
+    "VAL-ERR-0082",
+    "VAL-ERR-0083",
+    "VAL-ERR-0084",
+    "VAL-ERR-0085",
+    "VAL-ERR-0087",
+    "VAL-ERR-0088",
+    "VAL-ERR-0093",
+    "VAL-ERR-0095",
+    "VAL-ERR-0096",
+    "VAL-ERR-0097",
+    "VAL-ERR-0098",
+    "VAL-ERR-0099",
+    "VAL-ERR-0100",
+    "VAL-ERR-0101",
+    "VAL-ERR-0102",
+    "VAL-ERR-0104",
+    "VAL-ERR-0109",
+    "VAL-ERR-0110",
+    "VAL-ERR-0111",
+    "VAL-ERR-0113",
+    "VAL-ERR-0114",
+    "VAL-ERR-0117",
+    "VAL-ERR-0118",
+    "VAL-ERR-0119",
+    "VAL-ERR-0127",
+    "VAL-ERR-0128"
+  ],
+  "physical": {
+    "required_target_cells": 560,
+    "target_cells_with_provenance": 531,
+    "required_boxes": 500,
+    "rendered_boxes": 624,
+    "off_target_boxes": 571,
+    "duplicate_boxes": 0,
+    "incorrect_page_boxes": 9
+  }
+}

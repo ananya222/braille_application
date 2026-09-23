@@ -1,0 +1,69 @@
+{
+  "status": "PASS",
+  "documents": [
+    {
+      "test": 1,
+      "injected": 67,
+      "detected": 67,
+      "missed": 0,
+      "false_positives": 0,
+      "exact": 67,
+      "per_rule": {
+        "CAPITALIZATION": 12,
+        "EQUALS": 12,
+        "MINUS": 11,
+        "NEGATIVE": 10,
+        "PLUS": 11,
+        "DIVIDE": 5,
+        "MULTIPLY": 6
+      },
+      "visual_audit_pdf": "O:\\braille_0.2\\stress_test\\Test_1\\corrupted\\Synthetic_Test_01_corrupted_stress_VISUAL_AUDIT.pdf"
+    },
+    {
+      "test": 2,
+      "injected": 68,
+      "detected": 68,
+      "missed": 0,
+      "false_positives": 0,
+      "exact": 68,
+      "per_rule": {
+        "DIVIDE": 14,
+        "MULTIPLY": 12,
+        "CAPITALIZATION": 10,
+        "EQUALS": 9,
+        "MINUS": 8,
+        "NEGATIVE": 6,
+        "PLUS": 9
+      },
+      "visual_audit_pdf": "O:\\braille_0.2\\stress_test\\Test_2\\corrupted\\Synthetic_Test_02_corrupted_stress_VISUAL_AUDIT.pdf"
+    },
+    {
+      "test": 4,
+      "injected": 50,
+      "detected": 50,
+      "missed": 0,
+      "false_positives": 0,
+      "exact": 50,
+      "per_rule": {
+        "DIVIDE": 10,
+        "CAPITALIZATION": 7,
+        "EQUALS": 6,
+        "MINUS": 6,
+        "NEGATIVE": 6,
+        "MULTIPLY": 9,
+        "PLUS": 6
+      },
+      "visual_audit_pdf": "O:\\braille_0.2\\stress_test\\Test_4\\corrupted\\Synthetic_Test_04_corrupted_stress_VISUAL_AUDIT.pdf"
+    }
+  ],
+  "total_injected": 185,
+  "combined_by_rule": {
+    "CAPITALIZATION": 29,
+    "EQUALS": 27,
+    "MINUS": 25,
+    "NEGATIVE": 22,
+    "PLUS": 26,
+    "DIVIDE": 29,
+    "MULTIPLY": 27
+  }
+}

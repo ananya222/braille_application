@@ -1,0 +1,48 @@
+# Production Nemeth probe/rule table.
+#
+# This is the isolated, documented rule subset validated during the
+# UEB/Nemeth experiment.  Unsupported symbols are surfaced for review rather
+# than silently assigned an invented production mapping.
+
+include nemethdefs.cti
+include en-chardefs.cti
+numsign 3456
+capsletter 6
+
+math \xf100 46-13
+math \xf101 346
+math \xf102 5-13
+math \xf103 46-2
+math \xf104 46-12356
+math \xf105 46-23456
+math \xf106 a-5-2-a
+math \xf107 457-23
+math \xf108 457-25
+math \xf109 4-15
+math \xf10a 1246-2356-2356-135
+math \xf10b 5-13-156
+math \xf10c 46-2-156
+math \xf10d 34-46-13
+math \xf10e 3-3-3
+# Rule 14 simple first-order script cells.  These are emitted directly so
+# Liblouis does not insert a baseline numeric sign after a script indicator.
+math \xf120 245
+math \xf121 2
+math \xf122 23
+math \xf123 25
+math \xf124 256
+math \xf125 26
+math \xf126 235
+math \xf127 2356
+math \xf128 236
+math \xf129 35
+math \xf130 45-356
+math \xf131 45-2
+math \xf134 45-256
+math \xf135 45-26
+math \xf136 45-235
+math \xf137 45-2356
+math \xf138 45-236
+math \xf139 45-35
+math \xf13a 45-1345
+math \xf13b 45-36-2

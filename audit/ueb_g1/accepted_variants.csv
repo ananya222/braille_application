@@ -1,0 +1,3 @@
+﻿source,feature,citation,canonical_output,permitted_alternative,evidence,status_if_seen,citation_required
+ALL,Capitalization,"8.4, 8.8",⠠⠠⠁⠇⠇,⠠⠁⠠⠇⠠⠇,Capitalised word mode is the canonical form.,PASS-VARIANT,YES
+word -- word,Hyphen/dash,7.2.6,⠺⠕⠗⠙⠀⠤⠤⠀⠺⠕⠗⠙,⠺⠕⠗⠙⠀⠠⠤⠀⠺⠕⠗⠙,Two adjacent print hyphens may remain two hyphens or be rendered as a dash.,PASS-VARIANT,YES

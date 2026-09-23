@@ -1,0 +1,1479 @@
+{
+  "summary": {
+    "cases": 26,
+    "strict_deletions": 20,
+    "insertion_equivalents": 5,
+    "deletion_equivalents": 1,
+    "unresolved": 0
+  },
+  "cases": [
+    {
+      "id": "DIV-0096",
+      "result": "insertion_equivalent",
+      "finding": "VAL-ERR-0096"
+    },
+    {
+      "id": "DIV-0117",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          119,
+          130
+        ],
+        "expected": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          32,
+          9,
+          1
+        ],
+        "actual": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          9,
+          1
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 119,
+            "expected_end": 127,
+            "actual_start": 123,
+            "actual_end": 131
+          },
+          {
+            "tag": "delete",
+            "expected_start": 127,
+            "expected_end": 128,
+            "actual_start": 131,
+            "actual_end": 131
+          },
+          {
+            "tag": "equal",
+            "expected_start": 128,
+            "expected_end": 130,
+            "actual_start": 131,
+            "actual_end": 133
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0127",
+      "proof": null
+    },
+    {
+      "id": "DIV-0181",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          354,
+          381
+        ],
+        "expected": [
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "actual": [
+          17,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "insert",
+            "expected_start": 354,
+            "expected_end": 354,
+            "actual_start": 357,
+            "actual_end": 358
+          },
+          {
+            "tag": "equal",
+            "expected_start": 354,
+            "expected_end": 367,
+            "actual_start": 358,
+            "actual_end": 371
+          },
+          {
+            "tag": "delete",
+            "expected_start": 367,
+            "expected_end": 368,
+            "actual_start": 371,
+            "actual_end": 371
+          },
+          {
+            "tag": "equal",
+            "expected_start": 368,
+            "expected_end": 381,
+            "actual_start": 371,
+            "actual_end": 384
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0179",
+      "proof": null
+    },
+    {
+      "id": "DIV-0188",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          49,
+          54
+        ],
+        "expected": [
+          32,
+          32,
+          1,
+          3,
+          9
+        ],
+        "actual": [
+          32,
+          1,
+          3,
+          9
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 49,
+            "expected_end": 50,
+            "actual_start": 52,
+            "actual_end": 53
+          },
+          {
+            "tag": "delete",
+            "expected_start": 50,
+            "expected_end": 51,
+            "actual_start": 53,
+            "actual_end": 53
+          },
+          {
+            "tag": "equal",
+            "expected_start": 51,
+            "expected_end": 54,
+            "actual_start": 53,
+            "actual_end": 56
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0195",
+      "proof": null
+    },
+    {
+      "id": "DIV-0268",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          27,
+          42
+        ],
+        "expected": [
+          3,
+          23,
+          1,
+          10,
+          7,
+          7,
+          17,
+          0,
+          32,
+          3,
+          23,
+          1,
+          10,
+          7,
+          7
+        ],
+        "actual": [
+          3,
+          23,
+          1,
+          10,
+          7,
+          17,
+          0,
+          32,
+          3,
+          23,
+          1,
+          10,
+          7,
+          7
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 27,
+            "expected_end": 32,
+            "actual_start": 33,
+            "actual_end": 38
+          },
+          {
+            "tag": "delete",
+            "expected_start": 32,
+            "expected_end": 33,
+            "actual_start": 38,
+            "actual_end": 38
+          },
+          {
+            "tag": "equal",
+            "expected_start": 33,
+            "expected_end": 42,
+            "actual_start": 38,
+            "actual_end": 47
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0266",
+      "proof": null
+    },
+    {
+      "id": "DIV-0296",
+      "result": "insertion_equivalent",
+      "finding": "VAL-ERR-0296"
+    },
+    {
+      "id": "DIV-0317",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          119,
+          130
+        ],
+        "expected": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          32,
+          9,
+          1
+        ],
+        "actual": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          9,
+          1
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 119,
+            "expected_end": 127,
+            "actual_start": 123,
+            "actual_end": 131
+          },
+          {
+            "tag": "delete",
+            "expected_start": 127,
+            "expected_end": 128,
+            "actual_start": 131,
+            "actual_end": 131
+          },
+          {
+            "tag": "equal",
+            "expected_start": 128,
+            "expected_end": 130,
+            "actual_start": 131,
+            "actual_end": 133
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0327",
+      "proof": null
+    },
+    {
+      "id": "DIV-0381",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          354,
+          381
+        ],
+        "expected": [
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "actual": [
+          17,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "insert",
+            "expected_start": 354,
+            "expected_end": 354,
+            "actual_start": 357,
+            "actual_end": 358
+          },
+          {
+            "tag": "equal",
+            "expected_start": 354,
+            "expected_end": 367,
+            "actual_start": 358,
+            "actual_end": 371
+          },
+          {
+            "tag": "delete",
+            "expected_start": 367,
+            "expected_end": 368,
+            "actual_start": 371,
+            "actual_end": 371
+          },
+          {
+            "tag": "equal",
+            "expected_start": 368,
+            "expected_end": 381,
+            "actual_start": 371,
+            "actual_end": 384
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0379",
+      "proof": null
+    },
+    {
+      "id": "DIV-0388",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          49,
+          54
+        ],
+        "expected": [
+          32,
+          32,
+          1,
+          3,
+          9
+        ],
+        "actual": [
+          32,
+          1,
+          3,
+          9
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 49,
+            "expected_end": 50,
+            "actual_start": 52,
+            "actual_end": 53
+          },
+          {
+            "tag": "delete",
+            "expected_start": 50,
+            "expected_end": 51,
+            "actual_start": 53,
+            "actual_end": 53
+          },
+          {
+            "tag": "equal",
+            "expected_start": 51,
+            "expected_end": 54,
+            "actual_start": 53,
+            "actual_end": 56
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0395",
+      "proof": null
+    },
+    {
+      "id": "DIV-0500",
+      "result": "insertion_equivalent",
+      "finding": "VAL-ERR-0500"
+    },
+    {
+      "id": "DIV-0521",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          119,
+          130
+        ],
+        "expected": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          32,
+          9,
+          1
+        ],
+        "actual": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          9,
+          1
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 119,
+            "expected_end": 127,
+            "actual_start": 123,
+            "actual_end": 131
+          },
+          {
+            "tag": "delete",
+            "expected_start": 127,
+            "expected_end": 128,
+            "actual_start": 131,
+            "actual_end": 131
+          },
+          {
+            "tag": "equal",
+            "expected_start": 128,
+            "expected_end": 130,
+            "actual_start": 131,
+            "actual_end": 133
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0531",
+      "proof": null
+    },
+    {
+      "id": "DIV-0585",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          354,
+          381
+        ],
+        "expected": [
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "actual": [
+          17,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "insert",
+            "expected_start": 354,
+            "expected_end": 354,
+            "actual_start": 357,
+            "actual_end": 358
+          },
+          {
+            "tag": "equal",
+            "expected_start": 354,
+            "expected_end": 367,
+            "actual_start": 358,
+            "actual_end": 371
+          },
+          {
+            "tag": "delete",
+            "expected_start": 367,
+            "expected_end": 368,
+            "actual_start": 371,
+            "actual_end": 371
+          },
+          {
+            "tag": "equal",
+            "expected_start": 368,
+            "expected_end": 381,
+            "actual_start": 371,
+            "actual_end": 384
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0583",
+      "proof": null
+    },
+    {
+      "id": "DIV-0592",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          49,
+          54
+        ],
+        "expected": [
+          32,
+          32,
+          1,
+          3,
+          9
+        ],
+        "actual": [
+          32,
+          1,
+          3,
+          9
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 49,
+            "expected_end": 50,
+            "actual_start": 52,
+            "actual_end": 53
+          },
+          {
+            "tag": "delete",
+            "expected_start": 50,
+            "expected_end": 51,
+            "actual_start": 53,
+            "actual_end": 53
+          },
+          {
+            "tag": "equal",
+            "expected_start": 51,
+            "expected_end": 54,
+            "actual_start": 53,
+            "actual_end": 56
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0599",
+      "proof": null
+    },
+    {
+      "id": "DIV-0700",
+      "result": "insertion_equivalent",
+      "finding": "VAL-ERR-0700"
+    },
+    {
+      "id": "DIV-0720",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          118,
+          130
+        ],
+        "expected": [
+          1,
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          32,
+          9,
+          1
+        ],
+        "actual": [
+          1,
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          9,
+          1
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 118,
+            "expected_end": 127,
+            "actual_start": 123,
+            "actual_end": 132
+          },
+          {
+            "tag": "delete",
+            "expected_start": 127,
+            "expected_end": 128,
+            "actual_start": 132,
+            "actual_end": 132
+          },
+          {
+            "tag": "equal",
+            "expected_start": 128,
+            "expected_end": 130,
+            "actual_start": 132,
+            "actual_end": 134
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0730",
+      "proof": null
+    },
+    {
+      "id": "DIV-0791",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          49,
+          54
+        ],
+        "expected": [
+          32,
+          32,
+          1,
+          3,
+          9
+        ],
+        "actual": [
+          32,
+          1,
+          3,
+          9
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 49,
+            "expected_end": 50,
+            "actual_start": 51,
+            "actual_end": 52
+          },
+          {
+            "tag": "delete",
+            "expected_start": 50,
+            "expected_end": 51,
+            "actual_start": 52,
+            "actual_end": 52
+          },
+          {
+            "tag": "equal",
+            "expected_start": 51,
+            "expected_end": 54,
+            "actual_start": 52,
+            "actual_end": 55
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0798",
+      "proof": null
+    },
+    {
+      "id": "DIV-0901",
+      "result": "insertion_equivalent",
+      "finding": "VAL-ERR-0901"
+    },
+    {
+      "id": "DIV-0921",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          119,
+          130
+        ],
+        "expected": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          32,
+          9,
+          1
+        ],
+        "actual": [
+          29,
+          0,
+          32,
+          9,
+          1,
+          29,
+          0,
+          32,
+          9,
+          1
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 119,
+            "expected_end": 127,
+            "actual_start": 123,
+            "actual_end": 131
+          },
+          {
+            "tag": "delete",
+            "expected_start": 127,
+            "expected_end": 128,
+            "actual_start": 131,
+            "actual_end": 131
+          },
+          {
+            "tag": "equal",
+            "expected_start": 128,
+            "expected_end": 130,
+            "actual_start": 131,
+            "actual_end": 133
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0931",
+      "proof": null
+    },
+    {
+      "id": "DIV-0985",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          354,
+          381
+        ],
+        "expected": [
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "actual": [
+          17,
+          17,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          15,
+          17,
+          23,
+          0,
+          32,
+          32,
+          3,
+          21,
+          21,
+          5,
+          5,
+          17,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "insert",
+            "expected_start": 354,
+            "expected_end": 354,
+            "actual_start": 357,
+            "actual_end": 358
+          },
+          {
+            "tag": "equal",
+            "expected_start": 354,
+            "expected_end": 367,
+            "actual_start": 358,
+            "actual_end": 371
+          },
+          {
+            "tag": "delete",
+            "expected_start": 367,
+            "expected_end": 368,
+            "actual_start": 371,
+            "actual_end": 371
+          },
+          {
+            "tag": "equal",
+            "expected_start": 368,
+            "expected_end": 381,
+            "actual_start": 371,
+            "actual_end": 384
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0983",
+      "proof": null
+    },
+    {
+      "id": "DIV-0992",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          49,
+          54
+        ],
+        "expected": [
+          32,
+          32,
+          1,
+          3,
+          9
+        ],
+        "actual": [
+          32,
+          1,
+          3,
+          9
+        ],
+        "opcodes": [
+          {
+            "tag": "equal",
+            "expected_start": 49,
+            "expected_end": 50,
+            "actual_start": 52,
+            "actual_end": 53
+          },
+          {
+            "tag": "delete",
+            "expected_start": 50,
+            "expected_end": 51,
+            "actual_start": 53,
+            "actual_end": 53
+          },
+          {
+            "tag": "equal",
+            "expected_start": 51,
+            "expected_end": 54,
+            "actual_start": 53,
+            "actual_end": 56
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0999",
+      "proof": null
+    },
+    {
+      "id": "DIV-0083",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          0,
+          10
+        ],
+        "expected": [
+          32,
+          32,
+          32,
+          29,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "actual": [
+          32,
+          32,
+          53,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "delete",
+            "expected_start": 0,
+            "expected_end": 1,
+            "actual_start": 2,
+            "actual_end": 2
+          },
+          {
+            "tag": "equal",
+            "expected_start": 1,
+            "expected_end": 3,
+            "actual_start": 2,
+            "actual_end": 4
+          },
+          {
+            "tag": "replace",
+            "expected_start": 3,
+            "expected_end": 4,
+            "actual_start": 4,
+            "actual_end": 5
+          },
+          {
+            "tag": "equal",
+            "expected_start": 4,
+            "expected_end": 10,
+            "actual_start": 5,
+            "actual_end": 11
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0082",
+      "proof": null
+    },
+    {
+      "id": "DIV-0280",
+      "result": "deletion_equivalent",
+      "trace": {
+        "window": [
+          153,
+          175
+        ],
+        "expected": [
+          23,
+          1,
+          10,
+          7,
+          7,
+          17,
+          0,
+          3,
+          23,
+          1,
+          10,
+          7,
+          7,
+          17,
+          0,
+          32,
+          32,
+          3,
+          23,
+          1,
+          10,
+          7
+        ],
+        "actual": [
+          53,
+          23,
+          1,
+          10,
+          7,
+          7,
+          17,
+          0,
+          3,
+          23,
+          1,
+          10,
+          7,
+          17,
+          0,
+          32,
+          32,
+          3,
+          23,
+          1,
+          10,
+          7
+        ],
+        "opcodes": [
+          {
+            "tag": "insert",
+            "expected_start": 153,
+            "expected_end": 153,
+            "actual_start": 158,
+            "actual_end": 159
+          },
+          {
+            "tag": "equal",
+            "expected_start": 153,
+            "expected_end": 165,
+            "actual_start": 159,
+            "actual_end": 171
+          },
+          {
+            "tag": "delete",
+            "expected_start": 165,
+            "expected_end": 166,
+            "actual_start": 171,
+            "actual_end": 171
+          },
+          {
+            "tag": "equal",
+            "expected_start": 166,
+            "expected_end": 175,
+            "actual_start": 171,
+            "actual_end": 180
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0278",
+      "proof": {
+        "expected_run": [
+          164,
+          166
+        ],
+        "actual_run_pdf_indices": [
+          174
+        ],
+        "allowed_anchor_pdf_indices": [
+          174,
+          175
+        ],
+        "chosen_anchor_pdf_index": 175,
+        "mask": 7,
+        "same_block": [
+          151,
+          194
+        ]
+      }
+    },
+    {
+      "id": "DIV-0283",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          0,
+          10
+        ],
+        "expected": [
+          32,
+          32,
+          32,
+          29,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "actual": [
+          32,
+          32,
+          53,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "delete",
+            "expected_start": 0,
+            "expected_end": 1,
+            "actual_start": 2,
+            "actual_end": 2
+          },
+          {
+            "tag": "equal",
+            "expected_start": 1,
+            "expected_end": 3,
+            "actual_start": 2,
+            "actual_end": 4
+          },
+          {
+            "tag": "replace",
+            "expected_start": 3,
+            "expected_end": 4,
+            "actual_start": 4,
+            "actual_end": 5
+          },
+          {
+            "tag": "equal",
+            "expected_start": 4,
+            "expected_end": 10,
+            "actual_start": 5,
+            "actual_end": 11
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0282",
+      "proof": null
+    },
+    {
+      "id": "DIV-0487",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          0,
+          10
+        ],
+        "expected": [
+          32,
+          32,
+          32,
+          29,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "actual": [
+          32,
+          32,
+          53,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "delete",
+            "expected_start": 0,
+            "expected_end": 1,
+            "actual_start": 2,
+            "actual_end": 2
+          },
+          {
+            "tag": "equal",
+            "expected_start": 1,
+            "expected_end": 3,
+            "actual_start": 2,
+            "actual_end": 4
+          },
+          {
+            "tag": "replace",
+            "expected_start": 3,
+            "expected_end": 4,
+            "actual_start": 4,
+            "actual_end": 5
+          },
+          {
+            "tag": "equal",
+            "expected_start": 4,
+            "expected_end": 10,
+            "actual_start": 5,
+            "actual_end": 11
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0486",
+      "proof": null
+    },
+    {
+      "id": "DIV-0687",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          0,
+          10
+        ],
+        "expected": [
+          32,
+          32,
+          32,
+          29,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "actual": [
+          32,
+          32,
+          53,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "delete",
+            "expected_start": 0,
+            "expected_end": 1,
+            "actual_start": 2,
+            "actual_end": 2
+          },
+          {
+            "tag": "equal",
+            "expected_start": 1,
+            "expected_end": 3,
+            "actual_start": 2,
+            "actual_end": 4
+          },
+          {
+            "tag": "replace",
+            "expected_start": 3,
+            "expected_end": 4,
+            "actual_start": 4,
+            "actual_end": 5
+          },
+          {
+            "tag": "equal",
+            "expected_start": 4,
+            "expected_end": 10,
+            "actual_start": 5,
+            "actual_end": 11
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0686",
+      "proof": null
+    },
+    {
+      "id": "DIV-0888",
+      "result": "strict_deletion",
+      "trace": {
+        "window": [
+          0,
+          10
+        ],
+        "expected": [
+          32,
+          32,
+          32,
+          29,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "actual": [
+          32,
+          32,
+          53,
+          1,
+          14,
+          1,
+          0,
+          37,
+          17
+        ],
+        "opcodes": [
+          {
+            "tag": "delete",
+            "expected_start": 0,
+            "expected_end": 1,
+            "actual_start": 2,
+            "actual_end": 2
+          },
+          {
+            "tag": "equal",
+            "expected_start": 1,
+            "expected_end": 3,
+            "actual_start": 2,
+            "actual_end": 4
+          },
+          {
+            "tag": "replace",
+            "expected_start": 3,
+            "expected_end": 4,
+            "actual_start": 4,
+            "actual_end": 5
+          },
+          {
+            "tag": "equal",
+            "expected_start": 4,
+            "expected_end": 10,
+            "actual_start": 5,
+            "actual_end": 11
+          }
+        ]
+      },
+      "finding": "VAL-ERR-0887",
+      "proof": null
+    }
+  ]
+}

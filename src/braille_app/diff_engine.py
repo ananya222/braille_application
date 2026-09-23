@@ -167,17 +167,6 @@ class DiffEngine:
                 if len(mismatches) == 1 and mismatches[0] == (expected, actual):
                     return True
 
-        # Duxbury places a capital-passage terminator before a closing curly
-        # brace in some UEB output, while liblouis places it after the brace.
-        # The enclosed cells are otherwise identical, so this is a structural
-        # representation variant rather than a content error.
-        expected_brf = self._to_ascii_braille(expected)
-        actual_brf = self._to_ascii_braille(actual)
-        expected_match = re.fullmatch(r"_<(.+)_>,'", expected_brf)
-        actual_match = re.fullmatch(r"_<(.+),'_>", actual_brf)
-        if expected_match and actual_match and expected_match.group(1) == actual_match.group(1):
-            return True
-
         try:
             from braille_app.corrections_loader import UEBCorrectionsManager
             manager = UEBCorrectionsManager()

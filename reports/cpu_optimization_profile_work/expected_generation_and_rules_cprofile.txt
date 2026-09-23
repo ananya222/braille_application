@@ -1,0 +1,38 @@
+         7272758 function calls (7243000 primitive calls) in 4.545 seconds
+
+   Ordered by: cumulative time
+   List reduced from 509 to 30 due to restriction <30>
+
+   ncalls  tottime  percall  cumtime  percall filename:lineno(function)
+      2/1    0.001    0.001    4.730    4.730 O:\braille_0.2\scripts\cpu_optimization_profile.py:142(<lambda>)
+        1    0.003    0.003    4.479    4.479 O:\braille_0.2\src\braille_app\translation\expected_document.py:175(generate_expected_braille)
+        1    0.000    0.000    3.689    3.689 O:\braille_0.2\src\braille_app\rules\rule_engine.py:112(verify_document)
+      101    0.001    0.000    3.689    0.037 O:\braille_0.2\src\braille_app\rules\rule_engine.py:113(<genexpr>)
+     2400    0.007    0.000    3.687    0.002 O:\braille_0.2\src\braille_app\rules\rule_engine.py:114(<genexpr>)
+     2300    0.057    0.000    3.680    0.002 O:\braille_0.2\src\braille_app\rules\rule_engine.py:24(verify_block)
+     2300    0.032    0.000    3.045    0.001 O:\braille_0.2\src\braille_app\rules\basic_capitalization.py:26(inspect_block)
+     3580    0.055    0.000    1.895    0.001 O:\braille_0.2\src\braille_app\translation\mixed_translator.py:60(translate_marked_text)
+     4860    0.411    0.000    1.887    0.000 O:\braille_0.2\src\braille_app\rules\basic_capitalization.py:74(_inspect_prose)
+     8060    0.024    0.000    1.226    0.000 O:\braille_0.2\src\braille_app\translation\liblouis_translator.py:62(translate_prose_with_positions)
+     8060    0.945    0.000    1.158    0.000 O:\braille_0.2\vendor\liblouis-bindings\louis\__init__.py:336(translate)
+     2300    0.011    0.000    0.998    0.000 O:\braille_0.2\src\braille_app\translation\expected_document.py:132(_translate_group)
+     2560    0.058    0.000    0.799    0.000 O:\braille_0.2\src\braille_app\translation\prose_boundary_context.py:27(contextualize_prose)
+     6140    0.011    0.000    0.701    0.000 O:\braille_0.2\scripts\cpu_optimization_profile.py:106(prose)
+     6140    0.012    0.000    0.675    0.000 O:\braille_0.2\src\braille_app\translation\liblouis_translator.py:57(translate_prose)
+     6140    0.453    0.000    0.631    0.000 O:\braille_0.2\vendor\liblouis-bindings\louis\__init__.py:397(translateString)
+    17760    0.366    0.000    0.592    0.000 O:\braille_0.2\src\braille_app\translation\braille_cells.py:105(unicode_to_cells)
+73281/43941    0.097    0.000    0.364    0.000 {built-in method builtins.any}
+     3720    0.106    0.000    0.275    0.000 O:\braille_0.2\src\braille_app\translation\math_translator.py:166(translate_math)
+    42600    0.246    0.000    0.262    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\ctypes\__init__.py:49(create_string_buffer)
+     7440    0.009    0.000    0.253    0.000 O:\braille_0.2\src\braille_app\translation\simple_math.py:104(expected)
+  1689660    0.188    0.000    0.188    0.000 {method 'start' of 're.Match' objects}
+     1280    0.013    0.000    0.164    0.000 O:\braille_0.2\src\braille_app\rules\nemeth_rules.py:45(verify_math_block)
+     7440    0.070    0.000    0.154    0.000 O:\braille_0.2\src\braille_app\translation\simple_math.py:41(parse)
+    14200    0.010    0.000    0.150    0.000 O:\braille_0.2\vendor\liblouis-bindings\louis\__init__.py:159(_createEncodedBuf)
+    19841    0.081    0.000    0.146    0.000 C:\Users\minec\.cache\codex-runtimes\codex-primary-runtime\dependencies\python\Lib\dataclasses.py:1540(replace)
+  1691468    0.145    0.000    0.145    0.000 {built-in method builtins.ord}
+  1149066    0.140    0.000    0.140    0.000 {method 'append' of 'list' objects}
+     2300    0.012    0.000    0.130    0.000 O:\braille_0.2\src\braille_app\rules\ueb_rules.py:19(verify_ueb_block)
+     7440    0.042    0.000    0.091    0.000 O:\braille_0.2\src\braille_app\translation\simple_math.py:81(render)
+
+

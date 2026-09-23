@@ -1,0 +1,14 @@
+﻿family,classification,implementation_evidence,assessment,v1_note
+Alphabet,A,en-ueb-chardefs.uti; Section 4.1,Direct a-z/A-Z mappings and capital prefix exist; execution confirms.,No contractions in g1.
+Ordinary uncontracted words,A,en-ueb-g1.ctb,Table declares grade 1/contraction:no and execution produces letter-by-letter output.,Still verify context features.
+Punctuation,C,en-ueb-chardefs.uti; engine punctuation rules,Most cells exist and execute; punctuation indicators depend on position/standing-alone rules.,Do not treat direct symbol harness as 2024 proof.
+Quotes/apostrophes,B,en-ueb-chardefs.uti lines 421-423,Curly/double/inner mappings and mid-word apostrophe match exist; possessive/ASCII context is incomplete or heuristic.,Highest-risk verification layer.
+Numeric mode,B,en-ueb-g1.ctb lines 51-79; engine numericmode,"Digits, dot/comma, numeric mode and NBSP probe exist; ordinary print-space semantics and 2024 policy need wrapper verification.",Highest-risk verification layer.
+Capitalization,B,en-ueb-g1.ctb lines 81-86; engine caps opcodes,Capital letter/word/passage opcodes exist and execute; boundary/choice behavior needs standards verification.,Highest-risk verification layer.
+Grade 1 indicators,B,en-ueb-g1.ctb nocontractsign/nonumsign; engine modes,Numeric interactions are present; pure uncontracted output policy and optional indicator acceptance are not represented by one canonical output.,Validator acceptance-set logic required.
+Common symbols,A,en-ueb-chardefs.uti,"Requested @, %, #, ©, ®, ™, currency, degree, §, ¶, bullet cells exist.",Validate context and numeric adjacency.
+Brackets,A,en-ueb-chardefs.uti,"Round, square and curly bracket cells exist.",Multiline brackets excluded.
+Spacing,B,en-ueb-chardefs.uti; spaces.uti; engine,"Ordinary, NBSP, thin and zero-width mappings exist; numeric-space meaning is context-sensitive.",Extraction normalization layer required.
+Typeforms,C,en-ueb-g1.ctb lines 88-164; typeform engine opcodes,"Italic, bold, underline word/passage/symbol definitions exist and API accepts typeform arrays.",Requires structured typeform input and UEB placement checks.
+Math/Nemeth/chemistry/music,D,en-ueb-math.ctb and specialist tables,"Some math-like symbols are included mechanically, but V1 explicitly excludes specialist semantics.",Fail closed; do not infer support from presence.
+Backward translation,E,en-ueb-g1_backward.yaml; engine,Backtranslation exists but is not a unique source reconstruction for curly/ASCII quote distinctions.,Use only as diagnostic evidence.

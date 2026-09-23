@@ -1,0 +1,264 @@
+{
+  "clean": {
+    "statistics": {
+      "pages": 1,
+      "expected_cells": 99,
+      "matching_cells": 99,
+      "cell_accuracy": 1.0,
+      "raw_differences": 0,
+      "ignored_layout_differences": 0,
+      "ignored_unmapped_insertions": 0,
+      "ignored_alignment_differences": 0,
+      "alignment_coverage_incomplete": 0,
+      "tolerated_duxbury_cells": 0,
+      "joined_physical_page_breaks": 0,
+      "duxbury_normalized_spans": 0,
+      "source_passages_total": 6,
+      "source_passages_aligned": 6,
+      "math_spans_total": 1,
+      "math_spans_evaluated": 1,
+      "capitalization_opportunities_total": 8,
+      "capitalization_opportunities_evaluated": 8,
+      "unresolved_math_spans": 0,
+      "unresolved_source_passages": 0,
+      "unresolved_capitalization_opportunities": 0,
+      "unmatched_switch_markers": 0,
+      "errors": 0,
+      "reviews": 0,
+      "excluded": 0
+    },
+    "errors": [],
+    "visual": [],
+    "unmatched": 0,
+    "offsets": 0
+  },
+  "corrupted": {
+    "statistics": {
+      "pages": 1,
+      "expected_cells": 99,
+      "matching_cells": 97,
+      "cell_accuracy": 0.9797979797979798,
+      "raw_differences": 3,
+      "ignored_layout_differences": 0,
+      "ignored_unmapped_insertions": 0,
+      "ignored_alignment_differences": 0,
+      "alignment_coverage_incomplete": 0,
+      "tolerated_duxbury_cells": 0,
+      "joined_physical_page_breaks": 0,
+      "duxbury_normalized_spans": 0,
+      "source_passages_total": 6,
+      "source_passages_aligned": 4,
+      "math_spans_total": 1,
+      "math_spans_evaluated": 1,
+      "capitalization_opportunities_total": 8,
+      "capitalization_opportunities_evaluated": 8,
+      "unresolved_math_spans": 0,
+      "unresolved_source_passages": 2,
+      "unresolved_capitalization_opportunities": 0,
+      "unmatched_switch_markers": 0,
+      "errors": 3,
+      "reviews": 0,
+      "excluded": 0
+    },
+    "errors": [
+      {
+        "issue_id": "VAL-ERR-0001",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_8",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+        "source_page": "89-90 (PDF 117-118)",
+        "source_page_number": 1,
+        "braille_page": 1,
+        "actual_page_number": 1,
+        "block_id": 0,
+        "span": {
+          "expected_start": 0,
+          "expected_end": 1,
+          "actual_start": 0,
+          "actual_end": 1
+        },
+        "source_text": "Historical Note",
+        "actual_braille": [],
+        "expected_braille": [
+          32
+        ],
+        "explanation": "missing capital indicator; anchor is the following letter/contraction; UEB 8.1.1 and 8.3.1-3.",
+        "review_reason": "",
+        "structural_subtype": "missing capital indicator; anchor is the following letter/contraction",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8"
+        ],
+        "bbox": null,
+        "actual_cell_start": 0,
+        "actual_cell_end": 1,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0002",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_8",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+        "source_page": "89-90 (PDF 117-118)",
+        "source_page_number": 1,
+        "braille_page": 1,
+        "actual_page_number": 1,
+        "block_id": 1,
+        "span": {
+          "expected_start": 17,
+          "expected_end": 18,
+          "actual_start": 16,
+          "actual_end": 17
+        },
+        "source_text": "Chapter One",
+        "actual_braille": [
+          48
+        ],
+        "expected_braille": [
+          32
+        ],
+        "explanation": "wrong capital indicator; UEB 8.1.1 and 8.3.1-3.",
+        "review_reason": "",
+        "structural_subtype": "wrong capital indicator",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8"
+        ],
+        "bbox": null,
+        "actual_cell_start": 16,
+        "actual_cell_end": 17,
+        "localized_actual_ranges": []
+      },
+      {
+        "issue_id": "VAL-ERR-0003",
+        "status": "ERROR",
+        "category": "UEB_ERROR",
+        "rule_id": "UEB_8",
+        "source_document": "Rules-of-Unified-English-Braille-2024.pdf",
+        "source_rule": "8.1.1; 8.2.1; 8.3.1-3",
+        "source_page": "89-90 (PDF 117-118)",
+        "source_page_number": 1,
+        "braille_page": 1,
+        "actual_page_number": 1,
+        "block_id": 2,
+        "span": {
+          "expected_start": 28,
+          "expected_end": 28,
+          "actual_start": 27,
+          "actual_end": 28
+        },
+        "source_text": "historical note",
+        "actual_braille": [
+          32
+        ],
+        "expected_braille": [],
+        "explanation": "unnecessary capital indicator; UEB 8.1.1 and 8.3.1-3.",
+        "review_reason": "",
+        "structural_subtype": "unnecessary capital indicator",
+        "rule_ids_considered": [
+          "UEB_RULE_001",
+          "UEB_8"
+        ],
+        "bbox": null,
+        "actual_cell_start": 27,
+        "actual_cell_end": 28,
+        "localized_actual_ranges": []
+      }
+    ],
+    "visual": [
+      {
+        "issue_id": 1,
+        "page": 1,
+        "type": "replacement",
+        "expected": "⠠",
+        "actual": "",
+        "context": "Historical Note",
+        "confidence": "high_confidence",
+        "boxes": [
+          {
+            "page": 1,
+            "x0": 48.0,
+            "top": 49.36718719999999,
+            "x1": 60.054688,
+            "bottom": 65.36718719999999
+          }
+        ],
+        "exact_boxes": [],
+        "localization": "exact",
+        "marker": null,
+        "markers": [],
+        "marker_style": "none",
+        "group_id": null,
+        "parent_diff_id": null,
+        "structural_lineage_id": null,
+        "presentation_role": "",
+        "child_issue_ids": [],
+        "child_count": 0
+      },
+      {
+        "issue_id": 2,
+        "page": 1,
+        "type": "replacement",
+        "expected": "⠠",
+        "actual": "⠰",
+        "context": "Chapter One",
+        "confidence": "high_confidence",
+        "boxes": [
+          {
+            "page": 1,
+            "x0": 48.0,
+            "top": 91.36718719999999,
+            "x1": 60.054688,
+            "bottom": 107.36718719999999
+          }
+        ],
+        "exact_boxes": [],
+        "localization": "exact",
+        "marker": null,
+        "markers": [],
+        "marker_style": "none",
+        "group_id": null,
+        "parent_diff_id": null,
+        "structural_lineage_id": null,
+        "presentation_role": "",
+        "child_issue_ids": [],
+        "child_count": 0
+      },
+      {
+        "issue_id": 3,
+        "page": 1,
+        "type": "replacement",
+        "expected": "",
+        "actual": "⠠",
+        "context": "historical note",
+        "confidence": "high_confidence",
+        "boxes": [
+          {
+            "page": 1,
+            "x0": 48.0,
+            "top": 133.3671872,
+            "x1": 60.054688,
+            "bottom": 149.3671872
+          }
+        ],
+        "exact_boxes": [],
+        "localization": "exact",
+        "marker": null,
+        "markers": [],
+        "marker_style": "none",
+        "group_id": null,
+        "parent_diff_id": null,
+        "structural_lineage_id": null,
+        "presentation_role": "",
+        "child_issue_ids": [],
+        "child_count": 0
+      }
+    ],
+    "unmatched": 0,
+    "offsets": 0
+  }
+}

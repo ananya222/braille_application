@@ -1,0 +1,75 @@
+{
+  "profile": "uncontracted_case2_capitalization",
+  "injected": 1000,
+  "detected": 731,
+  "reviews": 0,
+  "missed": 269,
+  "false_positives": 0,
+  "duplicates": 0,
+  "exact_physical_localization": null,
+  "correct_blue_boxes": null,
+  "validator_statistics": {
+    "pages": 50,
+    "expected_cells": 10591,
+    "matching_cells": 7723,
+    "cell_accuracy": 0.7292040411670286,
+    "raw_differences": 789,
+    "ignored_layout_differences": 0,
+    "ignored_unmapped_insertions": 47,
+    "ignored_alignment_differences": 0,
+    "alignment_coverage_incomplete": 0,
+    "tolerated_duxbury_cells": 0,
+    "joined_physical_page_breaks": 0,
+    "duxbury_normalized_spans": 0,
+    "source_passages_total": 275,
+    "source_passages_aligned": 9,
+    "math_spans_total": 0,
+    "math_spans_evaluated": 0,
+    "capitalization_opportunities_total": 350,
+    "capitalization_opportunities_evaluated": 205,
+    "unresolved_math_spans": 0,
+    "unresolved_source_passages": 266,
+    "unresolved_capitalization_opportunities": 145,
+    "unmatched_switch_markers": 0,
+    "errors": 731,
+    "reviews": 0,
+    "excluded": 0
+  },
+  "corrupted_pdf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.pdf",
+    "sha256": "1b46d403bd3f3b6ebf1e690f333aa5ca0dcfd197b20efd1763b94e664ff101aa"
+  },
+  "corrupted_brf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000.brf",
+    "sha256": "f0134885a0fbd230147a296a42b2f446642208a9c9e2ab3e10e47b7053013846"
+  },
+  "annotated_pdf": {
+    "path": "O:\\braille_0.2\\stress_test\\final_case1_case2_alphabet_capitalization\\corrupted\\final_case1_case2_corrupted_1000_annotated.pdf",
+    "sha256": "d11d3864f8dc323addfaa0f30550f9f63ee1ad54a5c50489d7eb7520f0353b28"
+  },
+  "runtime_seconds": 9.551108600000589,
+  "mutation_breakdown": {
+    "substitution": 1000
+  },
+  "subtype_breakdown": {
+    "adjacent_transposition": 50,
+    "all_cap_word": 25,
+    "boundary": 50,
+    "capitalized_word": 25,
+    "combined": 55,
+    "fallback_alphabet_all_cap_word": 25,
+    "fallback_alphabet_capitalized_word": 25,
+    "fallback_alphabet_combined": 45,
+    "fallback_alphabet_internal_capital": 20,
+    "internal_capital": 30,
+    "letter_deletion": 100,
+    "letter_insertion": 100,
+    "letter_substitution": 200,
+    "long_word": 50,
+    "repeated_letter": 50,
+    "repeated_word": 50,
+    "short_word": 50,
+    "similar_word": 50
+  },
+  "visual_count": 731
+}

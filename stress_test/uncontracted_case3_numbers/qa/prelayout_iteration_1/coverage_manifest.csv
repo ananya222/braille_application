@@ -1,0 +1,11 @@
+feature,UEB_2024_rule,examples,source_blocks,status
+numeric indicator and digits,6.1.1; 6.2.1,"0, 1-9, multi-digit and repeated digits",,covered
+decimal comma and period,6.2.1,"3,500; 8.93; .7; ,7; 8,93",3 4 5 8 10 11 13 14 15 17 19 20,covered
+mode termination,6.3.1,9-10; ordinary spaces; following words,,covered
+full stop before number,6.4.1,No. 4,,covered
+grade 1 after number,6.5.2; 6.5.4,3b; 4.b; 3-D; 4-m; 20-yr,3 4 5 7 8 10 11 13 14 15 17 19,covered
+capitalization after number,5.8.1; 6.5.2; 6.5.4,3B; 4.B; 3-D; 6-CD,3 4 5 7 8 10 11 13 14 15 17 19,covered
+numeric spaces,6.6.1,4 500 000; date 1947 08 31; time 16 00; ISBN; phone,4 6 12 13 18 21 23 29 30 35 39 41,covered
+ordinary word near numeric hyphen,6.5.4,20yr; 3-dimensional; 4-bed; 6-can,4 7 11 14 19 21 26 28 33 36 40 43,covered
+repeated numeric context,6.1.1-6.6.1,Repeated 8.93 and grouped-number contexts,,covered
+line and page layout,6.1.1; 6.3.1,Numbers adjacent to natural line and page transitions,,covered

@@ -1,0 +1,194 @@
+{
+  "status": "PASS",
+  "cases": 29,
+  "rows": [
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": false,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": false,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": false,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": true,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": true,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22124 + 9 = 5",
+      "spacing": true,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": false,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": false,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": false,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": true,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": true,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u221212 + 20 = 8",
+      "spacing": true,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": false,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": false,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": false,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": true,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": true,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22127",
+      "spacing": true,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": false,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": false,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": false,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": true,
+      "mode": "clean",
+      "errors": 0,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": true,
+      "mode": "plus_with_indicator",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "source": "\u22123 + 3 = 0",
+      "spacing": true,
+      "mode": "reconverted_plus",
+      "errors": 1,
+      "pass": true
+    },
+    {
+      "guard": "unchanged_minus_missing_indicator",
+      "pass": true
+    },
+    {
+      "guard": "wrong_operand",
+      "pass": true
+    },
+    {
+      "guard": "relation_restart_missing",
+      "pass": true
+    },
+    {
+      "guard": "different_sign",
+      "pass": true
+    },
+    {
+      "guard": "post_equals_negative",
+      "pass": true
+    }
+  ]
+}

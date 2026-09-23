@@ -1,0 +1,39 @@
+{
+  "status": "PASS",
+  "executable_sha256": "f84a68ee088523429168cb08e20b072a4ee14751143822dfb1015b95a88a9014",
+  "injected": 20,
+  "detected": 20,
+  "localized": 20,
+  "rows": [
+    {
+      "test": 1,
+      "detected": 4,
+      "localized": 4,
+      "pass": true
+    },
+    {
+      "test": 2,
+      "detected": 4,
+      "localized": 4,
+      "pass": true
+    },
+    {
+      "test": 3,
+      "detected": 4,
+      "localized": 4,
+      "pass": true
+    },
+    {
+      "test": 4,
+      "detected": 4,
+      "localized": 4,
+      "pass": true
+    },
+    {
+      "test": 5,
+      "detected": 4,
+      "localized": 4,
+      "pass": true
+    }
+  ]
+}
